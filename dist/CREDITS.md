@@ -249,3 +249,9 @@ Sprites conservés ; vignettes extraites des planches Idle.
 - Police Pixelify Sans : https://github.com/google/fonts/tree/main/ofl/pixelifysans (SIL Open Font License).
 - Les Pokémon ne figurant pas dans le pack local chargent leurs animations depuis SpriteCollab à la demande. Les crédits complets de chaque Pokémon se trouvent à https://github.com/PMDCollab/SpriteCollab/tree/master/sprite (dossier du numéro Pokédex sur quatre chiffres, fichier credits.txt).
 - Terrain, coffres, effets et interface : créés pour La Tour Infernale en s’inspirant de la direction visuelle de PokéSurvivor. Aucun code, musique ou texture propre à PokéSurvivor n’a été copié.
+
+## Mise à jour Les Gardiens de Cendre
+- Données de jeu embarquées : CSV du dépôt officiel https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv ; voir data/SOURCES.md.
+- Les variantes shiny chargent leurs planches depuis le sous-dossier de variante chromatique de PMD SpriteCollab ; les crédits restent disponibles dans les fichiers credits.txt de ces sous-dossiers.
+- Décors de la tour, terres de cendre, projectiles, interfaces et effets d’invocation : créés pour La Tour Infernale. Les raretés et effets des objets sont propres au jeu.
+- Sons synthétisés dans le navigateur pour ce jeu. Aucune musique de PokéSurvivor n’est utilisée.

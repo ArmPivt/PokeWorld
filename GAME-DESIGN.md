@@ -1,12 +1,13 @@
-# La Tour Infernale
+# La Tour Infernale Les Gardiens de Cendre
 
-Survie : un seul Pokemon selectionne par joueur. Deplacement libre, attaques automatiques, vagues et ameliorations. Les tickets regionaux sont gagnes en jouant.
+Identité : tour de pierre sombre, braises, cuivre, ruines et runes en pixel art.
 
-Tour : chaque joueur prepare son equipe de six Pokemon. Un Pokemon actif par joueur, cinq en reserve. Combat au tour par tour, changements, types, attaques et KO. Le boss est en haut avec sa barre de vie et ne cible qu un seul Pokemon actif par attaque.
+Survie : un Pokémon et quatre attaques sélectionnables, boucle à pas fixe, caméra adaptée à l’écran, coffres et équipements. Les tickets gagnés sont universels.
 
-Starter : choix entre les starters des neuf generations.
+Tour : une équipe de six par joueur, un actif, cinq réservistes. Jusqu’à quatre joueurs. Le boss ne cible qu’un seul Pokémon par attaque.
 
-Gacha : neuf bannieres separees, une par generation, tickets regionaux. Collection et progression sauvegardees.
+Invocations : neuf portails régionaux. Un ticket universel par invocation. Raretés : commun 65 %, rare 25 %, épique 8 %, légendaire 2 %. Shiny indépendant à 1 %. Collection distincte des variantes, historique, taux individuels et animation de révélation.
 
-Cooperation : salons entre amis, jusqu a quatre joueurs.
+Tous les modes occupent la totalité de la fenêtre ; demande de plein écran natif au lancement si le navigateur l’autorise.
 
+Sauvegarde : locale, avec migration sans perte des tickets régionaux précédents. Données Pokémon embarquées pour fiabiliser le démarrage des combats.
