@@ -1,3 +1,6 @@
 qa-*.png
 qa-results.json
 *.tar.gz
+node_modules/
+.env
+.env.*

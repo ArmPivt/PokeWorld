@@ -255,3 +255,11 @@ Sprites conservés ; vignettes extraites des planches Idle.
 - Les variantes shiny chargent leurs planches depuis le sous-dossier de variante chromatique de PMD SpriteCollab ; les crédits restent disponibles dans les fichiers credits.txt de ces sous-dossiers.
 - Décors de la tour, terres de cendre, projectiles, interfaces et effets d’invocation : créés pour La Tour Infernale. Les raretés et effets des objets sont propres au jeu.
 - Sons synthétisés dans le navigateur pour ce jeu. Aucune musique de PokéSurvivor n’est utilisée.
+
+## PokéWorld
+
+Icônes locales supplémentaires : premières images Idle extraites des planches PMD SpriteCollab pour chaque espèce du catalogue compatible, y compris les variantes shiny vérifiées. Les crédits par espèce et variante sont disponibles dans le dossier correspondant du dépôt https://github.com/PMDCollab/SpriteCollab/tree/master/sprite . Aucun sprite Pokémon frontal PokéAPI n’est utilisé dans le catalogue PokéWorld.
+
+Nouveau hub, village, interface du Centre Pokémon et identité graphique : créés pour PokéWorld. Données de talents, attaques et évolutions : CSV officiels du projet PokéAPI.
+
+Crédits détaillés des nouvelles icônes : [par espèce et variante](data/sprite-credits.json), [noms et contacts des artistes](data/sprite-artists.txt). Sources PMD SpriteCollab, licence CC BY-NC 4.0. Les icônes sont des extractions du premier cadre Idle, sans modification des couleurs.

@@ -1,15 +1,9 @@
-# La Tour Infernale Les Gardiens de Cendre
+# PokéWorld
 
-Identité : tour de pierre sombre, braises, cuivre, ruines et runes en pixel art.
+Hub de mini-jeux avec une collection et une progression communes. Identité visuelle : village pixel art, tons ciel, crème, menthe et pastel.
 
-Survie : un Pokémon et quatre attaques sélectionnables, boucle à pas fixe, caméra adaptée à l’écran, coffres et équipements. Les tickets gagnés sont universels.
+Tour Infernale : dresseurs IA. L’Antre : boss coopératifs. Survie : action et coffres. Pokéclick : clicker actif uniquement lorsqu’il est ouvert et visible. Combats : duels entre amis et file mondiale. Portails : ×1 et ×10, tickets universels et shinys.
 
-Tour : une équipe de six par joueur, un actif, cinq réservistes. Jusqu’à quatre joueurs. Le boss ne cible qu’un seul Pokémon par attaque.
+Centre Pokémon : niveaux, XP, bonbons, EV, IV, natures, talents disponibles, attaques offensives et évolutions par niveau compatibles avec les sprites. Catalogue limité aux animations PMD disponibles.
 
-Invocations : neuf portails régionaux. Un ticket universel par invocation. Raretés : commun 65 %, rare 25 %, épique 8 %, légendaire 2 %. Shiny indépendant à 1 %. Collection distincte des variantes, historique, taux individuels et animation de révélation.
-
-Tous les modes occupent la totalité de la fenêtre ; demande de plein écran natif au lancement si le navigateur l’autorise.
-
-Sauvegarde : locale, avec migration sans perte des tickets régionaux précédents. Données Pokémon embarquées pour fiabiliser le démarrage des combats.
-
-Zone d’AFK : clicker Pokémon à Poké Ball centrale, huit installations automatiques, améliorations, succès, événement doré, échanges de tickets et renaissance. Calcul des gains hors ligne plafonné à huit heures. Ce mode possède son économie et ne réinitialise pas la progression de la tour.
+Site privé. Progression locale exportable. Connexions amicales via PeerJS/WebRTC.
