@@ -1,1 +1,17 @@
-{"name":"pokeworld","version":"0.4.0","private":true,"description":"PokéWorld — mini-jeux Pokémon en pixel art","scripts":{"dev":"node preview.cjs","test":"node pokeworld-check.cjs","test:browser":"node pokeworld-browser-check.cjs","test:network":"node pvp-network-check.cjs"},"engines":{"node":">=22"}}
+{
+  "name": "pokeworld",
+  "version": "0.5.0",
+  "private": true,
+  "description": "PokéWorld — mini-jeux Pokémon en pixel art",
+  "scripts": {
+    "dev": "node preview.cjs",
+    "test": "node pokeworld-check.cjs",
+    "test:browser": "node pokeworld-browser-check.cjs",
+    "test:network": "node pvp-network-check.cjs",
+    "test:effects": "node effects-browser-check.cjs",
+    "test:raid": "node raid-network-check.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -263,3 +263,10 @@ Icônes locales supplémentaires : premières images Idle extraites des planches
 Nouveau hub, village, interface du Centre Pokémon et identité graphique : créés pour PokéWorld. Données de talents, attaques et évolutions : CSV officiels du projet PokéAPI.
 
 Crédits détaillés des nouvelles icônes : [par espèce et variante](data/sprite-credits.json), [noms et contacts des artistes](data/sprite-artists.txt). Sources PMD SpriteCollab, licence CC BY-NC 4.0. Les icônes sont des extractions du premier cadre Idle, sans modification des couleurs.
+
+
+## Dresseurs, objets et effets de combat
+
+Les sprites de dresseurs sont distribués par [Pokémon Showdown](https://play.pokemonshowdown.com/sprites/trainers/), sans modification de leurs pixels. Voir [les crédits des dresseurs](assets/trainers/CREDITS.md). Les icônes d’objets proviennent de [PokeAPI/sprites](https://github.com/PokeAPI/sprites), voir [les crédits des objets](assets/materials/CREDITS.md). Pokémon et ses personnages sont © Nintendo / Creatures / GAME FREAK / The Pokémon Company.
+
+Les effets Canvas de PokéWorld sont implémentés dans `js/attack-fx.mjs` et ne chargent pas le moteur Showdown. Référence visuelle consultée : [définitions des animations Showdown](https://github.com/smogon/pokemon-showdown-client/blob/master/play.pokemonshowdown.com/src/battle-animations-moves.ts), par Guangcong Luo et contributeurs (en-tête CC0-1.0 ; moteur de replay sous MIT).
