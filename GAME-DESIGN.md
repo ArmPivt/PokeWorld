@@ -9,3 +9,5 @@ Centre Pokémon : niveaux, XP, bonbons, EV, IV, natures, talents disponibles, at
 Site privé. Progression locale exportable. Connexions amicales via PeerJS/WebRTC.
 
 La survie reste sombre et les coffres sont espacés. Les statistiques utilisent de la poussière d’étoiles ; les aromates, pilules/patchs Talent, écailles cœur et capsules sont des butins de survie. Les IV ne sont maximisés par capsule qu’au niveau 100. Les capacités offensives sont débloquées par niveau. Profil personnalisable, introduction des dresseurs et sorties de Poké Balls. Effets natifs par familles et identifiants de capacité, dont sphère verte, laser blanc et vague.
+
+Conquête : stratégie territoriale sur neuf cartes originales inspirées des régions. Onze factions, jusqu’à quatre humains et neuf teams au total. Pokédollars et Poké Balls de campagne, repaires, usines/convois Magnéti, ports/cargos, Lokhlass, Léviator, bastions Ronflex, sanctuaires/légendaires et stations Gardevoir. Trois puissances d’assaut, pactes/dons/embargos/trahison, IA, sauvegarde solo et récompenses communes. Détails dans CONQUEST.md.

@@ -1,6 +1,7 @@
 import {profile,level,stats,NATURES,STAT_NAMES,candy,trainEV,trainIV,setNature} from './training.mjs';
 import * as Art from './art.mjs';
 export function worldHome(g){return `<section class="world-hero"><canvas id="world-art" width="960" height="360"></canvas><div class="world-hero-copy"><span class="eyebrow">UNE COLLECTION · MILLE AVENTURES</span><h1>Poké<span>World</span></h1><p>Retrouve tes Pokémon, retrouve tes amis.<br>Choisis ton prochain mini-jeu.</p><div><button class="primary" data-act="route" data-page="collection">Mes Pokémon →</button><button data-act="route" data-page="friends">Jouer avec mes amis</button></div><small>${g.state.roster.length} Pokémon · ${g.state.candies} bonbons · Tour étage ${g.state.floor}</small></div></section><div class="section-title world-section"><div><span class="eyebrow">À TOI DE JOUER</span><h2>Explore PokéWorld</h2></div><span>Une équipe partagée entre tous tes jeux</span></div><div class="world-games">${[
+ ['conquest','⚑','Conquête','Dirige ta team, bâtis un empire et appelle ton légendaire sur les régions Pokémon.','STRATÉGIE TERRITORIALE','382','conquest-card'],
  ['tower','♜','La Tour Infernale','Affronte des dresseurs IA. Gagne chaque étage avec ton équipe de six.','DRESSEURS IA','4','tower-card'],
  ['den','◈','L’Antre','Défie des boss Pokémon, seul ou en raid avec jusqu’à quatre amis.','BOSS & COOPÉRATION','94','den-card'],
  ['survival','✦','Survie','Esquive les vagues, change d’attaque, ouvre des coffres et gagne de l’expérience.','ACTION & EXPLORATION','7','survival-card'],

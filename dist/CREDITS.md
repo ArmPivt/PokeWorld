@@ -270,3 +270,8 @@ Crédits détaillés des nouvelles icônes : [par espèce et variante](data/spri
 Les sprites de dresseurs sont distribués par [Pokémon Showdown](https://play.pokemonshowdown.com/sprites/trainers/), sans modification de leurs pixels. Voir [les crédits des dresseurs](assets/trainers/CREDITS.md). Les icônes d’objets proviennent de [PokeAPI/sprites](https://github.com/PokeAPI/sprites), voir [les crédits des objets](assets/materials/CREDITS.md). Pokémon et ses personnages sont © Nintendo / Creatures / GAME FREAK / The Pokémon Company.
 
 Les effets Canvas de PokéWorld sont implémentés dans `js/attack-fx.mjs` et ne chargent pas le moteur Showdown. Référence visuelle consultée : [définitions des animations Showdown](https://github.com/smogon/pokemon-showdown-client/blob/master/play.pokemonshowdown.com/src/battle-animations-moves.ts), par Guangcong Luo et contributeurs (en-tête CC0-1.0 ; moteur de replay sous MIT).
+
+
+## Conquête
+
+Conquête adapte des concepts de stratégie territoriale présents dans [OpenFront.io](https://openfront.io/) et son [dépôt officiel](https://github.com/openfrontio/OpenFrontIO). Le moteur, les règles équilibrées pour ce mini-jeu, les bâtiments et les dessins de carte sont propres à PokéWorld ; aucun code ou asset OpenFront n’est embarqué. Les neuf géographies sont des cartes originales simplifiées inspirées des régions Pokémon, pas des reproductions officielles : voir [sources et crédits des cartes](assets/conquest/CREDITS.md). Les unités utilisent le catalogue PMD déjà crédité.

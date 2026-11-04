@@ -12,8 +12,15 @@ Node.js 22 ou plus récent suffit : `node preview.cjs`, puis http://127.0.0.1:41
 - `node raid-network-check.cjs` : raid coopératif réel, profils et équipes synchronisés.
 - `node pvp-network-check.cjs` : deux sessions de navigateur et véritables connexions WebRTC, duel six contre six et file mondiale. Nécessite Internet et l’accès au service PeerJS.
 
+## Conquête
+
+Nouveau mode de stratégie territoriale : neuf régions redessinées, onze factions et leurs légendaires, constructions, production de Poké Balls, convois, flottes, diplomatie et assauts. Solo ou salon jusqu’à quatre amis, neuf teams au total. Les ressources de guerre sont séparées de la collection ; les campagnes terminées accordent des récompenses. Voir [les règles et la correspondance complète des mécaniques](CONQUEST.md).
+
+Tests : `node conquest-check.cjs`, `node conquest-logistics-check.cjs`, `node conquest-browser-check.cjs`, `node conquest-network-check.cjs`.
+
 ## Mini-jeux
 
+- Conquête : place ton QG, développe ta team et contrôle 80 % de la région. Cartes de Kanto à Paldea, économie, commerce, navigation, diplomatie et légendaires.
 - Tour Infernale : dresseurs IA, équipes de plusieurs Pokémon, changements après K.O., étages croissants. L’IA choisit ses attaques en fonction des types.
 - L’Antre : boss géants, solo ou coopération à quatre. Chaque joueur apporte jusqu’à six Pokémon. Une seule cible du boss par attaque.
 - Survie : un Pokémon, quatre attaques sélectionnables, exploration, coffres et équipements. Les récompenses donnent de l’XP et des bonbons.
