@@ -37,3 +37,9 @@ Objets : commun 55 %, rare 28 %, épique 14 %, légendaire 3 %. Un objet par Pok
 ## Ressources
 
 Voir `dist/CREDITS.md` et les fichiers de licence. La direction artistique de cette version est propre à La Tour Infernale : pierre sombre, braises, cuivre, ruines et runes. Le pack de sprites PMD est conservé. Les animations des Pokémon non intégrés localement chargent à la demande, avec un sprite statique comme repli.
+
+## Invocations multiples
+
+Le portail propose ×1 pour un ticket ou ×10 pour dix tickets universels. Chaque tirage garde les taux affichés, sans garantie supplémentaire. Le lot complet est sauvegardé avant la première animation. Chaque Pokémon arrive sous forme de silhouette noire tournante, puis se révèle sur un fond de la couleur de sa rareté. En ×10, le joueur peut avancer résultat par résultat ou afficher directement le récapitulatif.
+
+`node multi-check.cjs` vérifie le débit unique, les dix résultats, les doublons, les animations, les tickets insuffisants, le rendu mobile et la persistance après rechargement.
