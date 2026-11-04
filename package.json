@@ -1,6 +1,6 @@
 {
   "name": "pokeworld",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "private": true,
   "description": "PokéWorld — mini-jeux Pokémon en pixel art",
   "scripts": {
@@ -14,7 +14,9 @@
     "test:conquest-logistics": "node conquest-logistics-check.cjs",
     "test:conquest-browser": "node conquest-browser-check.cjs",
     "test:conquest-network": "node conquest-network-check.cjs",
-    "test:conquest-controls": "node conquest-controls-check.cjs"
+    "test:conquest-controls": "node conquest-controls-check.cjs",
+    "test:conquest-waves": "node conquest-wave-check.cjs",
+    "test:conquest-waves-browser": "node conquest-wave-browser-check.cjs"
   },
   "engines": {
     "node": ">=22"

@@ -6,21 +6,29 @@ Mini-jeu de stratégie territoriale en temps réel ajouté à PokéWorld. Il ada
 
 Neuf cartes stratégiques originales redessinées : Kanto, Johto, Hoenn, Sinnoh, Unys, Kalos, Alola, Galar et Paldea. Les côtes, îles, reliefs et 116 lieux français servent de repères. Elles sont volontairement schématiques et ne reproduisent pas exactement les cartes officielles. Données et sources : `dist/assets/conquest/`.
 
-| Faction | Légendaire d’assaut |
-| --- | --- |
-| Team Rocket | Mewtwo |
-| Team Aqua | Kyogre |
-| Team Magma | Groudon |
-| Team Galaxie | Giratina |
-| Team Plasma | Kyurem |
-| Team Flare | Yveltal |
-| Fondation Æther | Necrozma |
-| Macro Cosmos | Éthernatos |
-| Team Skull | Lunala |
-| Team Yell | Zacian |
-| Team Star | Koraidon |
+| Faction | Légendaire d’assaut | Atout automatique |
+| --- | --- | --- |
+| Team Rocket | Mewtwo | Commerce avec les alliés : +35 % de revenus |
+| Team Aqua | Kyogre | Commerce maritime : +40 % de revenus |
+| Team Magma | Groudon | Conquête : +20 % de vitesse et −15 % de coût en Poké Balls |
+| Team Galaxie | Giratina | Recharge des légendaires : −20 % |
+| Team Plasma | Kyurem | Résistance des terres : +20 % |
+| Team Flare | Yveltal | Revenus passifs : +20 % |
+| Fondation Æther | Necrozma | Recharge des interceptions Gardevoir : −25 % |
+| Macro Cosmos | Éthernatos | Production des usines : +30 % |
+| Team Skull | Lunala | Vitesse des transports et patrouilles : +25 % |
+| Team Yell | Zacian | Recrutement naturel et repaires : +20 % |
+| Team Star | Koraidon | Durée de construction et d’amélioration : −25 % |
 
 Les trois dernières associations sont des réinterprétations pour ce mini-jeu. Les onze légendaires et tous les Pokémon affichés possèdent les sprites PMD compatibles avec le catalogue du jeu. Les factions prêtent leurs unités pour la campagne ; elles ne sont pas ajoutées à la collection permanente.
+
+## Vagues et emblèmes
+
+Un clic choisit le propriétaire ciblé, sans diriger une colonne vers le pointeur. Toutes les cases de la frontière partagée sur la masse terrestre ciblée entrent dans une file de progression. Les couches avancent avec un décalage déterministe, le relief et une préférence pour combler les creux : le contour forme une vague irrégulière. Chaque case doit rester adjacente à son territoire ; les îles exigent toujours un débarquement. Une même cible peut être renforcée, rappelée, ou arrêtée faute de force. Les priorités de vague sont sauvegardées et synchronisées par l’hôte.
+
+Le rendu colore progressivement les cases réellement capturées et souligne la frontière active, sans escouade dessinée en pointe ni ligne depuis le QG. Les animations réduites désactivent les fondus et pulsations. Un emblème vectoriel est placé au cœur de chaque territoire continu d’au moins 16 cases ; les îles assez grandes reçoivent leur propre marque.
+
+Les atouts sont des règles propres à PokéWorld, actifs aussi pour les IA. Les bonus commerciaux sont appliqués au bénéficiaire lors de l’arrivée du convoi, sous réserve de l’absence d’embargo et, pour Rocket, d’un pacte encore actif. Chaque team voit son atout avant de jouer et peut le consulter via son emblème pendant la campagne. Les valeurs sont centralisées dans `conquest-data.mjs`.
 
 ## Correspondance des mécaniques
 
@@ -75,12 +83,16 @@ Les boutons sont conservés pendant les mises à jour ; seuls leurs textes, éta
 
 ## Modules et vérification
 
-`conquest-controls.mjs` contient l’interface contextuelle, les gestes et les retours de clic. `conquest-data.mjs` contient les factions et règles affichées. `conquest-model.mjs` gère le terrain et la simulation sans DOM. `conquest-render.mjs` dessine la carte et les unités ; `conquest-network.mjs` gère les salons ; `conquest.mjs` intègre les commandes, sauvegardes, récompenses et écrans.
+`conquest-wave.mjs` conserve le front et ses priorités d’arrivée ; `conquest-emblems.mjs` partage les dessins vectoriels et le placement intérieur des emblèmes. `conquest-controls.mjs` contient l’interface contextuelle, les gestes et les retours de clic. `conquest-data.mjs` contient les factions et règles affichées. `conquest-model.mjs` gère le terrain et la simulation sans DOM. `conquest-render.mjs` dessine la carte et les unités ; `conquest-network.mjs` gère les salons ; `conquest.mjs` intègre les commandes, sauvegardes, récompenses et écrans.
 
 - `node conquest-check.cjs` : neuf cartes, factions, économie, frontières, constructions, diplomatie, trajets maritimes, débarquements, légendaires, interceptions, IA et sauvegardes.
 - `node conquest-logistics-check.cjs` : revenus effectifs des convois et cargos, rails persistants, embargo, niveaux de sanctuaire, frappe multiple et victoire au temps.
 - `node conquest-controls-check.cjs` : invariance de vitesse à 20 Hz, renforcement de fronts et reprise des fronts actifs.
 - `node conquest-browser-check.cjs` : commandes réelles dans Edge, clic droit isolé, clics maintenus pendant les ticks, constructions/améliorations, attaque et transport automatiques, visée légendaire, sauvegarde/reprise et gestes tactiles réels.
+- `node conquest-wave-check.cjs` : forme large dans quatre directions, indépendance du point cliqué, continuité, reprise déterministe, les onze atouts, revenus effectifs des échanges, embargo et emblèmes des îles.
+- `node conquest-wave-browser-check.cjs` : sélection des atouts, emblèmes vectoriels, fondus de capture réels, affichage mobile, aide et reprise d’une vague sauvegardée.
 - `node conquest-network-check.cjs` : deux contextes de navigateur indépendants reliés réellement en WebRTC, commandes d’invité, territoires synchronisés, pause de l’hôte et reprise IA.
 
 Références primaires consultées : [dépôt officiel OpenFront](https://github.com/openfrontio/OpenFrontIO), [terminologie/aide française](https://github.com/openfrontio/OpenFrontIO/blob/main/resources/lang/fr.json), [moteur](https://github.com/openfrontio/OpenFrontIO/tree/main/packages/engine/src/execution). Les valeurs et variantes exactes d’OpenFront évoluent ; Conquête applique les règles décrites ci-dessus.
+
+Le principe du front actif a été étudié dans [AttackExecution officiel](https://github.com/openfrontio/OpenFrontIO/blob/main/packages/engine/src/execution/AttackExecution.ts). PokéWorld utilise une implémentation originale et ses propres valeurs de progression.

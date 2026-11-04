@@ -68,3 +68,5 @@ Les sauvegardes restent sur le navigateur et peuvent être exportées depuis les
 ## Modules
 
 `main.mjs` orchestre l’application. `world-ui.mjs` contient le hub ; `pokemon-lab.mjs` le Centre Pokémon, `resources.mjs` les objets, `player-profile.mjs` les profils et `battle-presentation.mjs` les entrées en combat. `training.mjs` gère la progression, `duel.mjs` les duels et la file, `duel-model.mjs` la résolution joueur contre joueur, `battle.mjs` la tour et l’Antre. Les modules de survie, invocations et Pokéclick conservent leur économie et partagent la collection.
+
+Conquête : vagues organiques sur toute la frontière, emblèmes propres aux onze teams sur leurs territoires et atouts automatiques distincts (commerce, conquête, défense, industrie ou soutien). L’emblème du HUD ouvre la fiche d’atout. Voir les valeurs et tests dans [CONQUEST.md](CONQUEST.md).

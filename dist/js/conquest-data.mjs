@@ -1,4 +1,84 @@
 export const WIDTH=160,HEIGHT=104,STEP=.25,MAX_PLAYERS=9;
+const FACTION_PERKS={
+ "rocket": {
+  "name": "Réseau clandestin",
+  "desc": "+35 % de revenus sur tes échanges commerciaux avec une team alliée.",
+  "bonuses": {
+   "alliedTrade": 1.35
+  }
+ },
+ "aqua": {
+  "name": "Maîtres des océans",
+  "desc": "+40 % de revenus sur ton commerce maritime.",
+  "bonuses": {
+   "seaTrade": 1.4
+  }
+ },
+ "magma": {
+  "name": "Expansion continentale",
+  "desc": "Conquête terrestre 20 % plus rapide et 15 % moins coûteuse en Poké Balls.",
+  "bonuses": {
+   "conquestSpeed": 1.2,
+   "conquestCost": 0.85
+  }
+ },
+ "galactic": {
+  "name": "Distorsion spatiale",
+  "desc": "Temps de recharge de tes légendaires réduit de 20 % après un assaut.",
+  "bonuses": {
+   "legendCooldown": 0.8
+  }
+ },
+ "plasma": {
+  "name": "Rempart royal",
+  "desc": "+20 % de résistance pour toutes tes terres face aux conquêtes ennemies.",
+  "bonuses": {
+   "defense": 1.2
+  }
+ },
+ "flare": {
+  "name": "Fortune écarlate",
+  "desc": "+20 % de Pokédollars générés chaque seconde par ton territoire et tes bâtiments.",
+  "bonuses": {
+   "income": 1.2
+  }
+ },
+ "aether": {
+  "name": "Protection lumineuse",
+  "desc": "Temps de recharge des interceptions de tes stations Gardevoir réduit de 25 %.",
+  "bonuses": {
+   "shieldCooldown": 0.75
+  }
+ },
+ "cosmos": {
+  "name": "Énergie industrielle",
+  "desc": "+30 % de production de Poké Balls pour tes usines.",
+  "bonuses": {
+   "factory": 1.3
+  }
+ },
+ "skull": {
+  "name": "Flotte de pillards",
+  "desc": "Tes transports Lokhlass et tes patrouilles Léviator naviguent 25 % plus vite.",
+  "bonuses": {
+   "navalSpeed": 1.25
+  }
+ },
+ "yell": {
+  "name": "Clameur des supporters",
+  "desc": "+20 % de recrutement naturel et dans les repaires, avant le ralentissement lié à ta réserve.",
+  "bonuses": {
+   "recruit": 1.2
+  }
+ },
+ "star": {
+  "name": "Union des escouades",
+  "desc": "Temps de construction et d’amélioration de tous tes bâtiments réduit de 25 %.",
+  "bonuses": {
+   "buildTime": 0.75
+  }
+ }
+};
 export const FACTIONS=[
  {id:'rocket',name:'Team Rocket',mark:'R',color:'#df6370',legend:150,legendName:'Mewtwo',type:'psychic',unit:24,motto:'Le monde est notre terrain de chasse.'},
  {id:'aqua',name:'Team Aqua',mark:'A',color:'#4bb7df',legend:382,legendName:'Kyogre',type:'water',unit:319,motto:'Que les océans reprennent leurs droits.'},
@@ -11,7 +91,7 @@ export const FACTIONS=[
  {id:'skull',name:'Team Skull',mark:'S',color:'#bd9acb',legend:792,legendName:'Lunala',type:'ghost',unit:768,motto:'Même la nuit porte notre drapeau.',alternate:true},
  {id:'yell',name:'Team Yell',mark:'Y',color:'#da9ebe',legend:888,legendName:'Zacian',type:'fairy',unit:862,motto:'Fais entendre les couleurs de ton camp.',alternate:true},
  {id:'star',name:'Team Star',mark:'★',color:'#d5ae67',legend:1007,legendName:'Koraidon',type:'dragon',unit:966,motto:'Ensemble, décrochons les étoiles.',alternate:true}
-];
+].map(f=>({...f,perk:FACTION_PERKS[f.id]}));
 export const BUILDINGS=[
  {id:'city',name:'Repaire',icon:'⌂',cost:360,time:4,desc:'Augmente de 650 la réserve de Poké Balls et accélère le recrutement.',color:'#d3c7a4',sprite:143},
  {id:'factory',name:'Usine de Poké Balls',icon:'▥',cost:480,time:5,desc:'+18 de production de base/s. Convois Magnéti entre tes bâtiments.',color:'#dba58a',sprite:81},
