@@ -11,3 +11,5 @@ Invocations : neuf portails régionaux. Un ticket universel par invocation. Rare
 Tous les modes occupent la totalité de la fenêtre ; demande de plein écran natif au lancement si le navigateur l’autorise.
 
 Sauvegarde : locale, avec migration sans perte des tickets régionaux précédents. Données Pokémon embarquées pour fiabiliser le démarrage des combats.
+
+Zone d’AFK : clicker Pokémon à Poké Ball centrale, huit installations automatiques, améliorations, succès, événement doré, échanges de tickets et renaissance. Calcul des gains hors ligne plafonné à huit heures. Ce mode possède son économie et ne réinitialise pas la progression de la tour.

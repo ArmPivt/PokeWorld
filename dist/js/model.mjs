@@ -1,3 +1,4 @@
+import {normalizeAfk} from './afk-model.mjs';
 export const REGIONS=['Kanto','Johto','Hoenn','Sinnoh','Unys','Kalos','Alola','Galar','Paldea'];
 export const STARTERS=[[1,4,7],[152,155,158],[252,255,258],[387,390,393],[495,498,501],[650,653,656],[722,725,728],[810,813,816],[906,909,912]];
 export const RATES=[{key:'common',name:'Commun',rate:65,color:'#a6b1bf'},{key:'rare',name:'Rare',rate:25,color:'#69bbff'},{key:'epic',name:'Épique',rate:8,color:'#bd91ff'},{key:'legendary',name:'Légendaire',rate:2,color:'#f7c566'}];
@@ -28,7 +29,7 @@ export function migrate(raw){
  if(starter&&!roster.includes(String(starter)))roster.unshift(String(starter));
  const team=[...new Set((Array.isArray(raw?.team)?raw.team:[]).map(String).filter(k=>roster.includes(k)))].slice(0,6);
  const tickets=Array.isArray(raw?.tickets)?raw.tickets.reduce((s,v)=>s+n(v),0):raw?.tickets===undefined?27:n(raw.tickets);
- return {version:3,starter,roster,team:team.length?team:roster.slice(0,1),survivor:roster.includes(String(raw?.survivor))?String(raw.survivor):roster[0]||null,tickets,coins:n(raw?.coins),floor:Math.max(1,n(raw?.floor)),kills:n(raw?.kills),runs:n(raw?.runs),inventory:Array.isArray(raw?.inventory)?raw.inventory.filter(i=>i&&typeof i.uid==='string'&&ITEMS.some(d=>d.key===i.key)):[],equipment:raw?.equipment&&typeof raw.equipment==='object'?{...raw.equipment}:{},history:Array.isArray(raw?.history)?raw.history.slice(0,30):[],settings:{sound:raw?.settings?.sound??false,reducedMotion:raw?.settings?.reducedMotion??false}};
+ return {version:3,afk:normalizeAfk(raw?.afk),starter,roster,team:team.length?team:roster.slice(0,1),survivor:roster.includes(String(raw?.survivor))?String(raw.survivor):roster[0]||null,tickets,coins:n(raw?.coins),floor:Math.max(1,n(raw?.floor)),kills:n(raw?.kills),runs:n(raw?.runs),inventory:Array.isArray(raw?.inventory)?raw.inventory.filter(i=>i&&typeof i.uid==='string'&&ITEMS.some(d=>d.key===i.key)):[],equipment:raw?.equipment&&typeof raw.equipment==='object'?{...raw.equipment}:{},history:Array.isArray(raw?.history)?raw.history.slice(0,30):[],settings:{sound:raw?.settings?.sound??false,reducedMotion:raw?.settings?.reducedMotion??false}};
 }
 export function selectRarity(random=Math.random){const v=random()*100;let acc=0;return RATES.find(r=>(acc+=r.rate)>v)?.key||'legendary'}
 export function summonRoll(dex,gen,random=Math.random){const rarity=selectRarity(random),pool=Object.values(dex).filter(p=>p.gen===gen&&p.rarity===rarity);if(!pool.length)throw Error('Portail sans Pokémon pour cette rareté');const pokemon=pool[Math.min(pool.length-1,Math.floor(random()*pool.length))];return{key:keyOf(pokemon.id,random()<SHINY_RATE),id:pokemon.id,rarity,gen,at:Date.now()}}

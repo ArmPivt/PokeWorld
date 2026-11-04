@@ -43,3 +43,13 @@ Voir `dist/CREDITS.md` et les fichiers de licence. La direction artistique de ce
 Le portail propose ×1 pour un ticket ou ×10 pour dix tickets universels. Chaque tirage garde les taux affichés, sans garantie supplémentaire. Le lot complet est sauvegardé avant la première animation. Chaque Pokémon arrive sous forme de silhouette noire tournante, puis se révèle sur un fond de la couleur de sa rareté. En ×10, le joueur peut avancer résultat par résultat ou afficher directement le récapitulatif.
 
 `node multi-check.cjs` vérifie le débit unique, les dix résultats, les doublons, les animations, les tickets insuffisants, le rendu mobile et la persistance après rechargement.
+
+## Zone d’AFK
+
+Accessible depuis le menu, le clicker Pokémon s’ouvre en plein écran. Cliquer la grande Poké Ball génère de l’énergie. Huit installations à coût croissant (+15 % par unité) produisent automatiquement, y compris pendant les autres modes. Achat par lots de 1, 10 ou 100, améliorations de clic et de production, onze succès (+1 % de production chacun), Poké Ball dorée et renaissance (+5 % par étoile).
+
+Le retour hors ligne crédite au maximum huit heures de production selon le dernier état sauvegardé. Aucun serveur ni processus ne tourne réellement quand le jeu est fermé : le gain est calculé au retour, une seule fois. Sauvegarde toutes les cinq secondes, après les achats et à la sortie. Les clics sont sauvegardés au plus tard après une seconde.
+
+Le comptoir échange l’énergie contre un ticket universel (5 000 au départ, +5 % à chaque échange) ou 100 fragments pour 1 000 énergies. La renaissance ne remet à zéro que l’énergie, les installations et les améliorations AFK ; la collection, la tour, les tickets, les fragments, les objets et les succès sont conservés.
+
+Modules : `dist/js/afk-model.mjs` pour les règles pures et `dist/js/afk.mjs` pour l’interface et les animations. `node afk-check.cjs` vérifie l’économie et `node afk-browser-check.cjs` teste le parcours dans le navigateur, dont les gains hors ligne, la renaissance et l’absence de chevauchements sur mobile.
