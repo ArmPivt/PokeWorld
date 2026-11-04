@@ -275,3 +275,5 @@ Les effets Canvas de PokéWorld sont implémentés dans `js/attack-fx.mjs` et ne
 ## Conquête
 
 Conquête adapte des concepts de stratégie territoriale présents dans [OpenFront.io](https://openfront.io/) et son [dépôt officiel](https://github.com/openfrontio/OpenFrontIO). Le moteur, les règles équilibrées pour ce mini-jeu, les bâtiments et les dessins de carte sont propres à PokéWorld ; aucun code ou asset OpenFront n’est embarqué. Les neuf géographies sont des cartes originales simplifiées inspirées des régions Pokémon, pas des reproductions officielles : voir [sources et crédits des cartes](assets/conquest/CREDITS.md). Les unités utilisent le catalogue PMD déjà crédité.
+
+L’ergonomie contextuelle de Conquête est inspirée des commandes documentées dans les sources officielles OpenFront : [InputHandler](https://github.com/openfrontio/OpenFrontIO/blob/main/src/client/InputHandler.ts), [ClientGameRunner](https://github.com/openfrontio/OpenFrontIO/blob/main/src/client/ClientGameRunner.ts) et [menu radial](https://github.com/openfrontio/OpenFrontIO/tree/main/src/client/hud/layers). L’implémentation de PokéWorld est originale.

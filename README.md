@@ -14,9 +14,11 @@ Node.js 22 ou plus récent suffit : `node preview.cjs`, puis http://127.0.0.1:41
 
 ## Conquête
 
+Interface simplifiée : clic gauche pour attaquer ou débarquer, clic droit/appui long pour les actions, roue de construction locale et carte plein écran. Les boutons restent stables pendant les ticks ; confirmations d’ordres immédiates et fronts à 20 Hz.
+
 Nouveau mode de stratégie territoriale : neuf régions redessinées, onze factions et leurs légendaires, constructions, production de Poké Balls, convois, flottes, diplomatie et assauts. Solo ou salon jusqu’à quatre amis, neuf teams au total. Les ressources de guerre sont séparées de la collection ; les campagnes terminées accordent des récompenses. Voir [les règles et la correspondance complète des mécaniques](CONQUEST.md).
 
-Tests : `node conquest-check.cjs`, `node conquest-logistics-check.cjs`, `node conquest-browser-check.cjs`, `node conquest-network-check.cjs`.
+Tests : `node conquest-controls-check.cjs`, `node conquest-check.cjs`, `node conquest-logistics-check.cjs`, `node conquest-browser-check.cjs`, `node conquest-network-check.cjs`.
 
 ## Mini-jeux
 
