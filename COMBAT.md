@@ -16,13 +16,13 @@ Le moteur partagé `combat-core.mjs` résout les duels, les équipes IA de la To
 | Terrain | Piège de Roc, couches de Picots/Pics Toxik, Toile Gluante, Protection et Mur Lumière. |
 | Météo | Pluie/soleil modifient Feu/Eau ; sable/neige ont une variante simplifiée de dégâts résiduels. Durée limitée. |
 | Attaques particulières | Coups multiples, charge et recharge, pivots, expulsion, dégâts fixes, Riposte/Voile Miroir, Effort, Cognobidon et Malédiction. |
-| Continuité | Remplacement automatique après KO, y compris plusieurs KO successifs sur pièges ; Lutte quand les PP sont épuisés. |
+| Continuité | Après un K.O., chaque joueur choisit lui-même un réserviste. Le choix ne consomme aucun tour ni PP adverse ; si les pièges mettent ce remplaçant K.O., un nouveau choix est demandé. Seuls les dresseurs IA changent automatiquement. Lutte quand les PP sont épuisés. |
 
 Le boss de l’Antre choisit une seule cible par action, y compris lorsque l’attaque possède une zone dans les jeux officiels. Les soins collectifs pris en charge soignent les partenaires actifs ; Vampigraine rend les PV au dresseur qui l’a posée. Les PP, effets, statuts et événements sont résolus par l’hôte puis transmis aux autres joueurs.
 
 Le bouton **État du combat** montre les paliers, le statut, le talent et les effets des quatre capacités. Les badges PV montrent les statuts majeurs ; les conditions de terrain sont visibles près des commandes. Les effets de soin/boost/affliction ont leurs propres messages et animations.
 
-Il s’agit d’un moteur compact propre à PokéWorld, pas d’un simulateur complet d’une génération officielle : il n’inclut notamment pas toutes les interactions exceptionnelles de talents, les Méga-Évolutions, Dynamax, Téracristal ou les attaques de transformation/copie. Les effets génériques sont partagés ; certaines capacités à puissance variable utilisent une estimation adaptée. Les cas non implémentés ne sont pas proposés dans les nouveaux apprentissages. Les objets équipés existants conservent les bonus décrits par PokéWorld.
+Il s’agit d’un moteur compact propre à PokéWorld, pas d’un simulateur complet d’une génération officielle : il n’inclut notamment pas toutes les interactions exceptionnelles de talents, les Méga-Évolutions, Dynamax, Téracristal ou les attaques de transformation/copie. Les effets génériques sont partagés ; certaines capacités à puissance variable utilisent une estimation adaptée. Les cas non implémentés ne sont pas proposés dans les nouveaux apprentissages. Trois objets de types différents peuvent être équipés par Pokémon. Les bonus se cumulent, un exemplaire appartient à un seul Pokémon, et les offres réseau transmettent les trois types. Les anciennes sauvegardes à un objet sont migrées ; les exemplaires excédentaires restent dans le sac.
 
 ## IA et référence Hope
 
@@ -32,13 +32,15 @@ L’IA JavaScript de PokéWorld reprend des principes : comparer les actions lé
 
 ## Arène 2D
 
-Implémentation originale inspirée des [aperçus de Big Kid Nation](https://www.bigkidnation.com/) et de la [vidéo indiquée par le joueur](https://www.youtube.com/shorts/4nVHNVIhuUo). Ce mode est propre à PokéWorld.
+Implémentation originale inspirée des [aperçus de Big Kid Nation](https://www.bigkidnation.com/) et de la [bande-annonce longue indiquée par le joueur](https://www.youtube.com/watch?v=J_JhLHfqZXY), visionnée directement. Les mécanismes visibles repris sont le terrain plat vu du dessus, les caisses destructibles, le recul, les traces de glace et de cratères, les grandes attaques directionnelles et les collisions de rayons. Le trailer ne montre pas les commandes ou règles internes ; les contrôles et l’équilibrage sont propres à PokéWorld.
 
-- Solo contre IA ou duel réel par code ; file mondiale séparée de la file classique. Jusqu’à six Pokémon par équipe, niveau 50 en duel.
+- Solo contre IA ou match réel par code ; files mondiales distinctes du classique et séparées par format. Six Pokémon par équipe, niveau 50 en duel. Format Duel (un actif) ou Escouade (jusqu’à trois actifs par équipe, compagnons assistés par IA). Cliquer un compagnon prend son contrôle ; les doublons de Pokémon actifs sont empêchés.
+- Quatre décors en pixel art : prairie, terre battue, dalles anciennes et caverne. Caméra qui suit le combat, proportions différentes selon les espèces, vue Cinéma avec Tab.
 - Flèches, ZQSD ou WASD pour bouger ; souris pour viser ; 1–4 pour les capacités ; Espace pour esquiver ; R ou les portraits pour changer de Pokémon.
 - Mobile : joystick, quatre boutons, portraits et esquive. La visée suit automatiquement l’adversaire lorsque la souris n’est pas utilisée.
 - Deux charges d’esquive, récupération progressive ; PP consommés même si l’attaque manque et récupération indépendante des quatre capacités.
-- Projectiles, corps-à-corps, rayons, vagues larges et zones annoncées au sol. La position détermine la touche ; les piliers bloquent les projectiles et peuvent être détruits.
+- Projectiles, corps-à-corps, rayons, vagues larges et zones annoncées au sol. La position détermine la touche ; les caisses et rochers bloquent les projectiles et éclatent en débris. Les rayons opposés s’arrêtent au point de collision ; les orbes opposés se neutralisent.
+- Les impacts repoussent les Pokémon. Les attaques psy peuvent brièvement soulever leur cible. Les séismes produisent une onde expansive et un cratère. Les sillons de glace font glisser, l’eau ralentit les Pokémon terrestres, les traces brûlantes endommagent les ennemis et le feu évapore l’eau ou la glace.
 - Les limites de l’arène sont physiques. Types, statuts et variations de statistiques influencent le combat ; charge/recharge sont adaptées aux délais des attaques. Les effets persistants suivent une cadence de temps réel.
 - L’IA se place à portée, vise, strafe, évite les menaces et change de Pokémon selon la situation.
 - Fin après élimination d’une équipe ou 180 secondes ; le temps départage les équipes par leur proportion de PV restante.
@@ -57,6 +59,8 @@ La survie conserve ses commandes et son ambiance sombre. Les capacités de souti
 - PMD SpriteCollab : mêmes sprites et crédits que le catalogue existant.
 - Les effets Canvas sont écrits pour PokéWorld. Aucun code, effet, son ou média PokéSurvivor/Arena 2D n’a été copié.
 
-`prepare-combat.cjs` reconstruit les métadonnées et apprentissages ; son cache CSV est ignoré par Git. `combat-moves.mjs`, `combat-rules.mjs`, `combat-ai.mjs` et `combat-core.mjs` séparent les données, calculs, décisions et résolution. `arena-model.mjs` reste testable sans DOM ; `arena.mjs` gère commandes, rendu et réseau.
+`prepare-combat.cjs` reconstruit les métadonnées et apprentissages ; son cache CSV est ignoré par Git. `combat-moves.mjs`, `combat-rules.mjs`, `combat-ai.mjs` et `combat-core.mjs` séparent les données, calculs, décisions et résolution. `arena-model.mjs` reste testable sans DOM ; `arena.mjs` gère commandes et réseau, `arena-visual.mjs` les décors et effets. `equipment.mjs` centralise les trois emplacements et `replacement.mjs` la phase de remplacement.
 
-Contrôles : `combat-strategy-check.cjs`, `arena-check.cjs`, `combat-browser-check.cjs`, `arena-network-check.cjs`, plus les scénarios existants de duels, file mondiale, raids, effets, survie et progression. Les tests réseau utilisent deux contextes réels WebRTC ; le mobile utilise de vrais événements tactiles CDP.
+Les barres de PV suivent l’état de présentation et changent au point d’impact de l’animation, y compris en animations réduites. Le serveur peut déjà avoir résolu le tour sans révéler les dégâts dans l’interface. Les choix reçus durant la lecture des animations sont mis en attente.
+
+Contrôles : `revision-check.cjs`, `revision-browser-check.cjs`, `revision-network-check.cjs`, `combat-strategy-check.cjs`, `arena-check.cjs`, `combat-browser-check.cjs`, `arena-network-check.cjs`, plus les scénarios existants de duels, file mondiale, raids, effets, survie et progression. Les tests réseau utilisent deux contextes réels WebRTC ; le mobile utilise de vrais événements tactiles CDP.

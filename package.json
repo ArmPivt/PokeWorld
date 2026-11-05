@@ -1,6 +1,6 @@
 {
   "name": "pokeworld",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "private": true,
   "description": "PokéWorld — mini-jeux Pokémon en pixel art",
   "scripts": {
@@ -20,7 +20,10 @@
     "test:combat": "node combat-strategy-check.cjs",
     "test:arena": "node arena-check.cjs",
     "test:combat-browser": "node combat-browser-check.cjs",
-    "test:arena-network": "node arena-network-check.cjs"
+    "test:arena-network": "node arena-network-check.cjs",
+    "test:combat-revision": "node revision-check.cjs",
+    "test:combat-revision-browser": "node revision-browser-check.cjs",
+    "test:combat-revision-network": "node revision-network-check.cjs"
   },
   "engines": {
     "node": ">=22"

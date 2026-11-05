@@ -41,7 +41,7 @@ Chaque compagnon possède un niveau de 5 à 100 et son XP. Un bonbon apporte 100
 - Talents : une pilule pour passer entre les talents classiques de l’espèce, un patch pour accéder au talent caché ou en revenir. Aucune consommation si la sélection ne change pas.
 - Capacités : quatre emplacements offensifs. Les listes d’apprentissage de la version disponible la plus récente indiquent les niveaux de déblocage. Chaque emplacement modifié consomme une écaille cœur. Une capacité encore verrouillée est refusée aussi par les règles, pas seulement par le menu. Lutte sert de secours lorsque le Pokémon ne connaît pas encore quatre attaques.
 - IV : au niveau 100 uniquement, une capsule d’argent maximise un IV à 31 ; une capsule d’or maximise les six. Une statistique déjà maximale ne consomme pas de capsule.
-- Évolutions par niveau compatibles avec les sprites ; l’entraînement et l’objet tenu sont conservés.
+- Évolutions par niveau compatibles avec les sprites ; l’entraînement et les trois objets équipés sont conservés.
 
 Les effets communs de talents (Brasier, Torrent, Engrais, Essaim, Lévitation, absorptions, Adaptabilité, Technicien, Coloforce, Puissance Pure, Isograisse) sont gérés par le moteur ; toutes les mécaniques des jeux officiels ne sont pas reproduites.
 
@@ -73,4 +73,4 @@ Conquête : vagues organiques sur toute la frontière, emblèmes propres aux onz
 
 ## Combats stratégiques et Arène 2D
 
-Le choix Classique / Arène 2D est disponible dans Combats de dresseurs. Le moteur partagé des duels, de la Tour et de l’Antre inclut statuts, paliers, priorités, soins, météo, pièges et une IA tactique inspirée des principes étudiés dans Hope/PSDK. L’arène est jouable contre l’IA, par code ou via sa propre file mondiale, avec déplacements, visée, obstacles et esquives. Les effets de soutien sont aussi adaptés à la survie. Voir [COMBAT.md](COMBAT.md) pour les règles, commandes, limites et tests.
+Le choix Classique / Arène 2D est disponible dans Combats de dresseurs. Le moteur partagé des duels, de la Tour et de l’Antre inclut statuts, paliers, priorités, soins, météo, pièges et une IA tactique inspirée des principes étudiés dans Hope/PSDK. L’arène est jouable contre l’IA, par code ou via sa propre file mondiale, avec quatre terrains en pixel art, déplacements, visée, esquives, caisses destructibles, recul, rayons opposés et impacts persistants au sol. Le format Escouade permet trois actifs par équipe et la vue Cinéma masque l’interface. Après un K.O. classique, le joueur choisit son remplaçant sans tour supplémentaire ; les PV baissent à l’impact visuel. Chaque Pokémon peut équiper trois objets différents dans son onglet Objets. Les effets de soutien sont aussi adaptés à la survie. Voir [COMBAT.md](COMBAT.md) pour les règles, commandes, limites et tests.
