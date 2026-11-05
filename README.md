@@ -32,7 +32,7 @@ Tests : `node conquest-controls-check.cjs`, `node conquest-check.cjs`, `node con
 
 ## Centre Pokémon
 
-La fiche affiche un sprite animé à gauche et cinq onglets à droite : statistiques, capacités, nature/talent, niveau/évolution, IV/capsules. Sur mobile, le portrait est placé au-dessus des onglets défilants.
+La fiche affiche un sprite animé à gauche et six onglets à droite : statistiques, capacités, nature/talent, niveau/évolution, IV/capsules. Sur mobile, le portrait est placé au-dessus des onglets défilants.
 
 Chaque compagnon possède un niveau de 5 à 100 et son XP. Un bonbon apporte 100 XP ; les mini-jeux donnent aussi de l’expérience. La monnaie existante est conservée sous le nom **poussière d’étoiles** (clé de sauvegarde historique coins).
 
@@ -78,3 +78,19 @@ Le choix Classique / Arène 2D est disponible dans Combats de dresseurs. Le mote
 La version 0.10 lisse Pokémon, projectiles et caméra entre les pas de simulation, y compris chez les invités réseau. Les animations d’attaque utilisent des atlas pixel art locaux réutilisés, des traînées et des impacts synchronisés ; les poses PMD gardent la même échelle et la même ancre. La survie affiche désormais ses véritables projectiles de collision et ses rayons progressifs. Tests ciblés : `npm run test:animation`, `npm run test:animation-browser`, `npm run test:animation-network`.
 
 Version 0.11 : arènes classiques avec gradins, tribunes, maçonnerie, bannières, entrées de dresseurs et terrain marqué ; onze musiques chiptune originales avec fondu entre les modes, volume indépendant et raccourci M. Les 87 Pokémon de rareté légendaire disposant de sprites validés ont un scénario de première rencontre (94 scénarios définis, dont sept désactivés avec leurs espèces) ; Rayquaza possède une scène en quatre plans avec le Pilier Céleste, Groudon et Kyogre. Les doublons ne relancent pas la scène ; les interruptions restent récupérables et les rencontres peuvent être revues depuis la fiche du Pokémon. Voir CINEMATICS.md.
+
+## Version 0.12 — Collection et progression
+
+Les pages Collection, Survie et Équipe partagent les filtres génération, rareté, obtention, variante chromatique, type, recherche et tri (numéro, nom, niveau, somme des IV). Pagination de 36 cartes, critères conservés par page ; les espèces non obtenues restent non sélectionnables.
+
+Les six IV d’une invocation sont indépendants et uniformes entre 0 et 31. Chaque doublon conserve le maximum statistique par statistique de sa variante ; les valeurs entraînées par capsules sont aussi conservées. Les doublons normaux donnent 25 / 75 / 200 / 600 poussières selon leur rareté. Chaque chromatique est conservé dans un compteur d’exemplaires par variante et n’est jamais converti ; ces exemplaires partagent leur profil entraîné. La première obtention d’une variante porte la mention Nouveau.
+
+Un cadeau de migration de 1 000 tickets est ajouté une fois aux sauvegardes existantes de version 8 ou antérieure ayant un starter, puis mémorisé dans claimedGifts. Les nouvelles sauvegardes de version 9 gardent leur économie initiale. La sauvegarde existante n’est pas remplacée.
+
+Boutique : dix lots déterministes par jour (quatre CT, trois objets d’évolution, deux matériaux, un équipement), renouvelés à minuit Europe/Paris. Chaque lot est achetable une fois pour des poussières. Les achats sont persistants et protégés contre une double consommation simultanée entre onglets par Web Locks. Cette économie reste locale au navigateur, sans validation serveur ni protection contre l’édition de sauvegarde ou de l’horloge. CT à usage unique au premier apprentissage compatible (union des compatibilités officielles disponibles) ; rééquiper une capacité connue utilise une écaille cœur.
+
+Évolutions : 440 règles entre 418 espèces de départ disposant de sprites compatibles. Les évolutions par niveau sont proposées automatiquement après un gain de niveau, hors combat, avec animation annulable. Les embranchements demandent un choix. Les fiches permettent aussi de faire évoluer un ancien compagnon déjà au niveau requis. Objets, jour/nuit de Paris, capacités connues, présence d’un partenaire et relation attaque/défense sont vérifiés. Échanges remplacés par Câble Liaison ; amitié par Grelot Zen ; conditions inhabituelles par Pierre d’évolution avec niveau requis affiché. Les formes régionales non présentes dans le catalogue ne sont pas ajoutées. L’XP, les IV, EV, nature, capacités connues, statut de talent caché et équipements sont conservés ; un résultat déjà possédé fusionne ses meilleurs IV sans dupliquer les objets.
+
+Les trois emplacements d’objets ouvrent une grille avec icône, effets et quantités, permettant un remplacement direct sans perdre l’ancien objet. Les quatre capacités ouvrent une liste avec type, catégorie, effets, puissance, précision, PP, niveau requis, coût et recharge réelle en Arène 2D. Terrain agrandi à 1 440 × 900, six obstacles et caméra dézoomée ; les contrôles et collisions utilisent les nouvelles dimensions.
+
+Reconstruction : node prepare-progression-v15.cjs (révision PokéAPI épinglée dans le cache). Tests : npm run test:progression et npm run test:progression-browser.

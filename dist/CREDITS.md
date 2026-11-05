@@ -291,3 +291,7 @@ Le mode Arène 2D s’inspire des [aperçus du créateur Big Kid Nation](https:/
 Les arènes classiques et les scènes cinématiques sont des créations Canvas locales, écrites pour PokéWorld. Elles utilisent les mêmes sprites PMD et conservent leurs crédits ci-dessus. Les 94 scénarios sont des adaptations originales de l’univers Pokémon ; aucun extrait de film, de jeu ou de vidéo n’est intégré.
 
 Les onze compositions chiptune et leurs enregistrements PCM sont originaux : générateur `compose-music.cjs`, catalogue `assets/music/tracks.json`, notice `assets/music/LICENSE.txt`. Aucune bande originale Pokémon n’a été copiée.
+
+## Boutique et progression (v0.12)
+
+Évolutions, espèces et compatibilités CT : [CSV officiels PokéAPI](https://github.com/PokeAPI/pokeapi/tree/6ea97b5641faa12e090866e8144ae8f57764fc64/data/v2/csv), révision épinglée dans data/progression.json ; [documentation](https://pokeapi.co/docs/v2#evolution-section). Icônes d’objets : [PokeAPI/sprites](https://github.com/PokeAPI/sprites/tree/master/sprites/items) ; provenance et empreintes dans assets/shop/sources.json. Les disques CT et la Pierre d’évolution générique en SVG sont des créations pixel art locales PokéWorld. Les adaptations des conditions d’évolution et l’économie quotidienne sont propres au jeu.
