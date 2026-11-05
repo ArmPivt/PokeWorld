@@ -12,7 +12,11 @@ L’accueil, les combats, la survie, l’Antre, les invocations, Pokéclick, Con
 
 `legendary-stories.mjs` définit explicitement 94 scénarios de rareté légendaire, fabuleux compris. Les 87 espèces actuellement disponibles utilisent leur scénario ; les sept espèces écartées par le catalogue de sprites restent indisponibles et ne sont pas proposées. Chaque scénario comprend : titre, lieu, présage, arrivée, effet, palette et thème musical. Les décors communs sont réutilisés avec des détails et signatures propres au scénario. Les films sont des scènes 2D animées en temps réel, pas des vidéos préenregistrées.
 
-Rayquaza possède une séquence particulière de 16 secondes : plan du Pilier Céleste en mer, affrontement de Groudon et Kyogre, lumière verte et descente depuis les nuages, puis apparition sur le sanctuaire. Les autres rencontres durent 12 secondes et disposent de leur lieu et symbole : cuve de Mewtwo, anneaux du temps de Dialga, faille de Palkia, monde inversé de Giratina, arc-en-ciel de Ho-Oh, etc. Les animations réduites raccourcissent la lecture à six secondes et retirent les grands mouvements de caméra et la pluie.
+La version 0.13 remplace la révélation en quatre phases par des films de six plans, de 19 à 23 secondes. Chaque espèce possède une direction explicite dans legendary-direction.mjs : objet narratif dessiné, entrée, transformation du décor, pouvoir, sortie, axe de caméra et durées. Le moteur partage des outils de dessin ; les objets, trajectoires et événements des 94 films sont distincts. Il n’y a pas de vidéo externe ni de modèle générique de remplacement.
+
+Rayquaza a une scène de 21,5 secondes : confrontation dans la baie, Pilier Céleste, gros plan au travers des nuages, descente dans le faisceau vert, rugissement et retrait de Groudon/Kyogre, puis ciel apaisé. Mewtwo brise sa cuve, les Regis se construisent à partir de fragments, Giratina inverse le décor, Arceus gravit son escalier lumineux. Les variantes shiny suivent la même direction avec leurs propres sprites. Les animations réduites condensent les plans en six secondes et coupent tremblements, pluie et grands panoramiques ; les déplacements d’entrée nécessaires à la narration sont conservés.
+
+Une première évolution vers une espèce légendaire encore inconnue déclenche aussi son film et enregistre la rencontre en attente avant sa lecture. Cela permet aux évolutions de Cosmog, Type:0, Meltan et autres lignées concernées de conserver leur apparition malgré leur retrait des portails.
 
 Le tirage complet est sauvegardé **avant** toute animation. Une seule première rencontre est réservée par espèce, même si la même espèce apparaît plusieurs fois dans un ×10 ou sous deux variantes. Le sprite révélé conserve sa variante shiny. Les Pokémon déjà possédés dans une ancienne sauvegarde ne déclenchent pas automatiquement une nouvelle première obtention.
 
@@ -21,7 +25,7 @@ Après la silhouette d’un nouveau légendaire, la cinématique se joue puis re
 ## Vérifications
 
 - `cinema-check.cjs` : couverture des 94 espèces, titres uniques, réservation par espèce, doublons/shiny dans une multi, migration et reprise ; en-têtes et durée des onze WAV, signal non silencieux et absence de saturation.
-- `cinema-browser-check.cjs` : lecture audio réelle, volume et muet persistants, stade desktop/mobile, quatre plans de Rayquaza, retour naturel à l’obtention, doublons, shiny, rechargement, mode réduit, ×10 et relecture depuis la collection.
+- `cinema-browser-check.cjs` : lecture audio réelle, volume et muet persistants, stade desktop/mobile, plans de Rayquaza, retour naturel à l’obtention, doublons, shiny, rechargement, mode réduit, ×10 et relecture depuis la collection.
 - Les scénarios existants de combats stratégiques, remplacements après K.O., effets, raids et duels restent applicables.
 
 ## Références visuelles et narratives
@@ -31,3 +35,5 @@ Après la silhouette d’un nouveau légendaire, la cinématique se joue puis re
 - Sprites PMD : ressources existantes et crédits conservés dans `dist/CREDITS.md`.
 
 Les scènes sont des adaptations originales pour PokéWorld. Les règles d’accès du site restent inchangées.
+
+La vidéo de référence [Pokémon Emerald — The Rayquaza Cutscene, EleMira](https://www.youtube.com/watch?v=f98GeQIKJBQ) a été consultée dans le navigateur aux plans de confrontation, gros plan et descente. Aucun extrait ni son de cette vidéo n’est intégré. Tests complémentaires : legendary-films-check.cjs et legendary-films-browser-check.cjs (87 films jouables, 522 plans, galerie de douze légendaires, retour d’obtention, shiny, écran mobile).

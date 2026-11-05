@@ -295,3 +295,7 @@ Les onze compositions chiptune et leurs enregistrements PCM sont originaux : gé
 ## Boutique et progression (v0.12)
 
 Évolutions, espèces et compatibilités CT : [CSV officiels PokéAPI](https://github.com/PokeAPI/pokeapi/tree/6ea97b5641faa12e090866e8144ae8f57764fc64/data/v2/csv), révision épinglée dans data/progression.json ; [documentation](https://pokeapi.co/docs/v2#evolution-section). Icônes d’objets : [PokeAPI/sprites](https://github.com/PokeAPI/sprites/tree/master/sprites/items) ; provenance et empreintes dans assets/shop/sources.json. Les disques CT et la Pierre d’évolution générique en SVG sont des créations pixel art locales PokéWorld. Les adaptations des conditions d’évolution et l’économie quotidienne sont propres au jeu.
+
+## Films légendaires (v0.13)
+
+Référence de mise en scène consultée : [Pokémon Emerald — The Rayquaza Cutscene, EleMira](https://www.youtube.com/watch?v=f98GeQIKJBQ), plans de confrontation, gros plan dans les nuages et descente. Les films de PokéWorld sont des animations Canvas originales, avec directions et objets dessinés séparément pour chaque espèce. Aucun extrait, musique ou asset extrait de la vidéo n’est distribué. Les sprites PMD restent ceux crédités ci-dessus.

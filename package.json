@@ -1,6 +1,6 @@
 {
   "name": "pokeworld",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "private": true,
   "description": "PokéWorld — mini-jeux Pokémon en pixel art",
   "scripts": {
@@ -30,7 +30,9 @@
     "test:cinema": "node cinema-check.cjs",
     "test:cinema-browser": "node cinema-browser-check.cjs",
     "test:progression": "node progression-check.cjs",
-    "test:progression-browser": "node progression-browser-check.cjs"
+    "test:progression-browser": "node progression-browser-check.cjs",
+    "test:legendary-films": "node legendary-films-check.cjs",
+    "test:legendary-films-browser": "node legendary-films-browser-check.cjs"
   },
   "engines": {
     "node": ">=22"

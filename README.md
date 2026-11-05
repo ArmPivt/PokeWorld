@@ -94,3 +94,13 @@ Boutique : dix lots déterministes par jour (quatre CT, trois objets d’évolut
 Les trois emplacements d’objets ouvrent une grille avec icône, effets et quantités, permettant un remplacement direct sans perdre l’ancien objet. Les quatre capacités ouvrent une liste avec type, catégorie, effets, puissance, précision, PP, niveau requis, coût et recharge réelle en Arène 2D. Terrain agrandi à 1 440 × 900, six obstacles et caméra dézoomée ; les contrôles et collisions utilisent les nouvelles dimensions.
 
 Reconstruction : node prepare-progression-v15.cjs (révision PokéAPI épinglée dans le cache). Tests : npm run test:progression et npm run test:progression-browser.
+
+## Version 0.13 — Apparitions et premières formes
+
+Les portails n’invoquent que les 510 premières formes disponibles et les espèces sans pré-évolution. La génération correspond à celle de la première forme : Pichu appartient ainsi à Johto et Pikachu ne tombe plus dans Kanto. Les Pokémon déjà possédés restent inchangés. La rareté de base est conservée, avec potentiel épique dès la première forme pour les lignées non légendaires dont le total maximal des statistiques de base atteint 600 (ex. Draby, Terhal, Griknot) ; les lignées légendaires restent légendaires. Les quatre taux 65/25/8/2 restent valides dans chaque génération et les taux individuels utilisent exactement le catalogue des tirages. prepare-summon.cjs reconstruit ce catalogue à partir de progression.json, dont la révision PokéAPI est épinglée.
+
+Chaque légendaire a un film de six plans dirigés séparément (94 définis, 87 espèces avec sprites jouables), avec objet narratif, entrée, action sur le décor, pouvoir et caméra. Rayquaza possède une séquence de 21,5 secondes inspirée de la référence Émeraude : confrontation, tour, nuages, descente, rugissement et apaisement. Les films restent récupérables après interruption et rejouables depuis la fiche ; ils se jouent aussi lors d’une première évolution vers un légendaire. Voir CINEMATICS.md.
+
+En Arène 2D, cliquer une capacité ou presser 1–4 lance automatiquement l’attaque vers l’ennemi vivant le plus proche. L’hôte choisit la cible au moment de traiter la commande, pour les deux joueurs. Le projectile garde sa trajectoire et sa portée : il est esquivable et les obstacles continuent de le bloquer. La souris n’est plus nécessaire pour viser.
+
+Tests ciblés : npm run test:legendary-films, npm run test:legendary-films-browser, npm run test:cinema-browser, npm run test:animation-network.
