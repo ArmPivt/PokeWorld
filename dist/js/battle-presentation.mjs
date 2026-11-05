@@ -28,8 +28,8 @@ export async function playBattle(before,events,final,serial){
 }
 export function drawBattle(time){
  const c=this.ctx,w=this.canvas.width,h=this.canvas.height,p=this.positions(),reduced=this.g.state.settings.reducedMotion;
- drawBattleScene(c,w,h,this.data.kind==='den'?'cavern':this.data.kind==='tower'&&this.data.floor%3===0?'moon':'garden',time,{weather:this.visual.field?.weather,reducedMotion:reduced});
- for(const pid of['boss',...this.visual.teams.map(t=>t.pid)]){const a=p[pid];c.fillStyle='#181c28';c.beginPath();c.ellipse(a.x,a.y+(pid==='boss'&&this.data.kind==='den'?28:12),pid==='boss'?(this.data.kind==='den'?65:25):22,pid==='boss'&&this.data.kind==='den'?20:9,0,0,7);c.fill();c.strokeStyle=pid==='boss'?'#886047':'#8f876d';c.lineWidth=1;c.stroke()}
+ drawBattleScene(c,w,h,this.data.kind==='den'?'cavern':this.data.kind==='tower'&&this.data.floor%3===0?'moon':'garden',time,{weather:this.visual.field?.weather,reducedMotion:reduced,positions:p,playerAvatar:this.g.state.player.avatar,enemyAvatar:this.data.trainerAvatar});
+ for(const pid of['boss',...this.visual.teams.map(t=>t.pid)]){const a=p[pid];c.fillStyle='#10232f66';c.beginPath();c.ellipse(a.x,a.y+(pid==='boss'&&this.data.kind==='den'?28:12),pid==='boss'?(this.data.kind==='den'?50:21):18,pid==='boss'&&this.data.kind==='den'?14:6,0,0,7);c.fill();c.strokeStyle=pid==='boss'?'#886047':'#8f876d';c.lineWidth=1;c.stroke()}
  const fx=this.fx,elapsed=fx?(time-fx.start)/(fx.timeScale||1):0,intro=this.intro,elapsedIntro=intro?time-intro.start:0;
  const fromFor=pid=>({x:p[pid].x+(pid==='boss'?w*.2:-w*.18),y:p[pid].y+(pid==='boss'?-40:55)});
  const actor=(pid,mon,size,dir)=>{const point={...p[pid]};let kind='Idle',factor=1,release=null;

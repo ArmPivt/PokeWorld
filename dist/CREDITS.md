@@ -285,3 +285,9 @@ Fronts de conquête : principe visuel étudié dans [AttackExecution d’OpenFro
 Métadonnées et apprentissages : [PokeAPI/data/v2/csv](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv), voir `data/SOURCES.md`. L’IA JavaScript est une implémentation originale ; les principes de sélection par score du moteur PokémonSDK employé par le projet local Pokémon Hope ont été étudiés sans reprise de son code.
 
 Le mode Arène 2D s’inspire des [aperçus du créateur Big Kid Nation](https://www.bigkidnation.com/) et de la [vidéo de référence](https://www.youtube.com/shorts/4nVHNVIhuUo). Aucun média ou code de ce projet n’est embarqué. Décors, particules et effets directionnels : Canvas natif PokéWorld ; sprites PMD SpriteCollab déjà crédités. Aucun code, animation, son ou média PokéSurvivor n’a été copié.
+
+## Décors, rencontres et musique PokéWorld
+
+Les arènes classiques et les scènes cinématiques sont des créations Canvas locales, écrites pour PokéWorld. Elles utilisent les mêmes sprites PMD et conservent leurs crédits ci-dessus. Les 94 scénarios sont des adaptations originales de l’univers Pokémon ; aucun extrait de film, de jeu ou de vidéo n’est intégré.
+
+Les onze compositions chiptune et leurs enregistrements PCM sont originaux : générateur `compose-music.cjs`, catalogue `assets/music/tracks.json`, notice `assets/music/LICENSE.txt`. Aucune bande originale Pokémon n’a été copiée.
