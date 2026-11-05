@@ -4,3 +4,5 @@ qa-results.json
 node_modules/
 .env
 .env.*
+
+.combat-csv/

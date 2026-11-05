@@ -279,3 +279,9 @@ Conquête adapte des concepts de stratégie territoriale présents dans [OpenFro
 L’ergonomie contextuelle de Conquête est inspirée des commandes documentées dans les sources officielles OpenFront : [InputHandler](https://github.com/openfrontio/OpenFrontIO/blob/main/src/client/InputHandler.ts), [ClientGameRunner](https://github.com/openfrontio/OpenFrontIO/blob/main/src/client/ClientGameRunner.ts) et [menu radial](https://github.com/openfrontio/OpenFrontIO/tree/main/src/client/hud/layers). L’implémentation de PokéWorld est originale.
 
 Fronts de conquête : principe visuel étudié dans [AttackExecution d’OpenFront](https://github.com/openfrontio/OpenFrontIO/blob/main/packages/engine/src/execution/AttackExecution.ts), réimplémenté pour PokéWorld sans code embarqué. Les onze emblèmes sont des dessins vectoriels simplifiés réalisés pour l’interface, inspirés des teams Pokémon ; ils ne sont pas des fichiers de logos officiels. Référence visuelle : [présentation des teams par Pokémon](https://www.pokemon.com/us/news/from-worst-to-best-each-pokemon-villainous-team-ranked). Les atouts et leur équilibrage sont propres à PokéWorld.
+
+## Combats stratégiques et Arène 2D
+
+Métadonnées et apprentissages : [PokeAPI/data/v2/csv](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv), voir `data/SOURCES.md`. L’IA JavaScript est une implémentation originale ; les principes de sélection par score du moteur PokémonSDK employé par le projet local Pokémon Hope ont été étudiés sans reprise de son code.
+
+Le mode Arène 2D s’inspire des [aperçus du créateur Big Kid Nation](https://www.bigkidnation.com/) et de la [vidéo de référence](https://www.youtube.com/shorts/4nVHNVIhuUo). Aucun média ou code de ce projet n’est embarqué. Décors, particules et effets directionnels : Canvas natif PokéWorld ; sprites PMD SpriteCollab déjà crédités. Aucun code, animation, son ou média PokéSurvivor n’a été copié.

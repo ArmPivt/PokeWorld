@@ -70,3 +70,7 @@ Les sauvegardes restent sur le navigateur et peuvent être exportées depuis les
 `main.mjs` orchestre l’application. `world-ui.mjs` contient le hub ; `pokemon-lab.mjs` le Centre Pokémon, `resources.mjs` les objets, `player-profile.mjs` les profils et `battle-presentation.mjs` les entrées en combat. `training.mjs` gère la progression, `duel.mjs` les duels et la file, `duel-model.mjs` la résolution joueur contre joueur, `battle.mjs` la tour et l’Antre. Les modules de survie, invocations et Pokéclick conservent leur économie et partagent la collection.
 
 Conquête : vagues organiques sur toute la frontière, emblèmes propres aux onze teams sur leurs territoires et atouts automatiques distincts (commerce, conquête, défense, industrie ou soutien). L’emblème du HUD ouvre la fiche d’atout. Voir les valeurs et tests dans [CONQUEST.md](CONQUEST.md).
+
+## Combats stratégiques et Arène 2D
+
+Le choix Classique / Arène 2D est disponible dans Combats de dresseurs. Le moteur partagé des duels, de la Tour et de l’Antre inclut statuts, paliers, priorités, soins, météo, pièges et une IA tactique inspirée des principes étudiés dans Hope/PSDK. L’arène est jouable contre l’IA, par code ou via sa propre file mondiale, avec déplacements, visée, obstacles et esquives. Les effets de soutien sont aussi adaptés à la survie. Voir [COMBAT.md](COMBAT.md) pour les règles, commandes, limites et tests.

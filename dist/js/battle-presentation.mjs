@@ -1,3 +1,4 @@
+import {drawBattleScene,drawCondition} from './battle-scene.mjs';
 import * as Art from './art.mjs';
 import {drawAttack,attackStyle,drawRelease} from './attack-fx.mjs';
 import {trainerSrc} from './player-profile.mjs';
@@ -18,17 +19,17 @@ export async function playBattle(before,events,final,serial){
    this.fx={kind:'release',pid,key,start:performance.now()/1000,duration:reduced?.2:.95};await this.sleep(reduced?200:950);this.fx=null;this.updateHud();continue;
   }
   if(event.kind==='ko'){this.caption(`${this.g.poke(event.key).name} est K.O. !`);await this.sleep(reduced?50:180);continue}
+  if(event.kind!=='attack'){this.caption(event.text||'Le terrain change.');const t=event.pid==='boss'?this.visual.boss:this.visual.teams.find(t=>t.pid===event.pid)?.mons.find(m=>m.key===event.key);if(t){if(Number.isFinite(event.hp))t.hp=event.hp;if(event.status!==undefined)t.status=event.status;if(event.stages)t.stages=event.stages}if(event.weather){this.visual.field||={};this.visual.field.weather=event.weather}this.fx={kind:'support',pid:event.pid,type:event.kind==='heal'?'grass':event.kind==='boost'?'psychic':'poison',start:performance.now()/1000};this.updateHud();await this.sleep(reduced?65:330);this.fx=null;continue}
   this.fx={...event,start:performance.now()/1000};this.caption(`${this.g.poke(event.sourceKey).name} utilise ${event.move} !`);this.g.audio.attack(event.type);
   const duration=attackStyle(event).duration;await this.sleep(reduced?150:duration*.7*1000);if(!this.active||session!==this.session)return;
-  const target=event.target==='boss'?this.visual.boss:this.visual.teams.find(t=>t.pid===event.target)?.mons.find(m=>m.key===event.targetKey);if(target)target.hp=event.hp;this.updateHud();await this.sleep(reduced?90:duration*.3*1000+100);
+  const target=event.target==='boss'?this.visual.boss:this.visual.teams.find(t=>t.pid===event.target)?.mons.find(m=>m.key===event.targetKey);if(target)target.hp=event.hp;if(event.text)this.caption(event.text);this.updateHud();await this.sleep(reduced?90:duration*.3*1000+100);
  }
  if(!this.active||session!==this.session)return;this.fx=null;final.teams=final.teams.filter(t=>!this.departed.has(t.pid));this.data=structuredClone(final);this.visual=structuredClone(final);this.busy=false;this.updateHud();if(final.over)this.finishResult();else this.caption('À toi de jouer. Choisis une capacité ou un Pokémon.');
 }
 export function drawBattle(time){
  const c=this.ctx,w=this.canvas.width,h=this.canvas.height,p=this.positions(),reduced=this.g.state.settings.reducedMotion;
- c.fillStyle='#121824';c.fillRect(0,0,w,h);Art.terrain(c,200,200,w,h,time);c.fillStyle='#0b101c99';c.fillRect(0,0,w,h);
- for(const x of[w*.12,w*.88]){c.fillStyle='#575057';c.fillRect(x-9,50,18,h*.61);c.fillStyle='#292c39';c.fillRect(x+3,50,6,h*.61);c.fillStyle='#8e6f62';c.fillRect(x-12,50,24,7);Art.flame(c,x,h*.38,12,reduced?0:time+x)}
- for(const pid of['boss',...this.visual.teams.map(t=>t.pid)]){const a=p[pid];c.fillStyle='#181c28';c.beginPath();c.ellipse(a.x,a.y+(pid==='boss'?28:19),pid==='boss'?65:29,pid==='boss'?21:11,0,0,7);c.fill();c.strokeStyle=pid==='boss'?'#886047':'#8f876d';c.lineWidth=1;c.stroke()}
+ drawBattleScene(c,w,h,this.data.kind==='den'?'cavern':this.data.kind==='tower'&&this.data.floor%3===0?'moon':'garden',time,{weather:this.visual.field?.weather,reducedMotion:reduced});
+ for(const pid of['boss',...this.visual.teams.map(t=>t.pid)]){const a=p[pid];c.fillStyle='#181c28';c.beginPath();c.ellipse(a.x,a.y+(pid==='boss'&&this.data.kind==='den'?28:12),pid==='boss'?(this.data.kind==='den'?65:25):22,pid==='boss'&&this.data.kind==='den'?20:9,0,0,7);c.fill();c.strokeStyle=pid==='boss'?'#886047':'#8f876d';c.lineWidth=1;c.stroke()}
  const fx=this.fx,elapsed=fx?time-fx.start:0,intro=this.intro,elapsedIntro=intro?time-intro.start:0;
  const fromFor=pid=>({x:p[pid].x+(pid==='boss'?w*.2:-w*.18),y:p[pid].y+(pid==='boss'?-40:55)});
  const actor=(pid,mon,size,dir)=>{const point={...p[pid]};let kind='Idle',factor=1,release=null;
@@ -36,9 +37,10 @@ export function drawBattle(time){
   if(fx?.kind==='release'&&fx.pid===pid){release=elapsed/fx.duration;factor=clamp((release-.48)/.32)}
   if(release!==null&&release>=0&&release<=1)drawRelease(c,fromFor(pid),point,release,{reducedMotion:reduced});
   if(fx?.kind==='attack'){const duration=attackStyle(fx).duration;if(fx.source===pid&&elapsed<duration*.65){kind='Attack';if(!reduced){const target=p[fx.target];if(target){point.x+=(target.x-point.x)*Math.sin(clamp(elapsed/(duration*.65))*Math.PI)*.04;point.y+=(target.y-point.y)*Math.sin(clamp(elapsed/(duration*.65))*Math.PI)*.04}}}if(fx.target===pid&&elapsed>duration*.65&&elapsed<duration){kind='Hurt';c.globalAlpha=reduced?1:Math.floor(elapsed*18)%2?.55:1}}
-  if(factor>0&&mon.hp>0)Art.drawMon(c,mon.key,point.x,point.y,size*factor,kind,dir,time);c.globalAlpha=1;
+  if(factor>0&&mon.hp>0){const bob=reduced?0:Math.sin(time*2+pid.length)*1.1;Art.drawMon(c,mon.key,point.x,point.y+bob,size*factor,kind,dir,time);drawCondition(c,mon,point.x,point.y,size,time,reduced)}c.globalAlpha=1;
  };
  actor('boss',this.visual.boss,p.bossSize,0);for(const t of this.visual.teams)actor(t.pid,t.mons[t.active],p.allySize,4);
  if(fx?.kind==='attack'&&p[fx.source]&&p[fx.target]){drawAttack(c,fx,p[fx.source],p[fx.target],elapsed,{reducedMotion:reduced});const duration=attackStyle(fx).duration;if(elapsed>duration*.67&&elapsed<duration+.1)Art.hitEffect(c,{x:p[fx.target].x,y:p[fx.target].y,life:Math.max(.01,duration+.1-elapsed),max:duration*.43,type:fx.type,n:fx.amount,text:fx.amount?'−'+fx.amount:fx.text},0,0)}
+ if(fx?.kind==='support'&&p[fx.pid])drawAttack(c,{slug:'support-aura',type:fx.type,special:true},p[fx.pid],p[fx.pid],elapsed,{reducedMotion:reduced,scale:.55});
  const shade=c.createLinearGradient(0,0,0,h);shade.addColorStop(0,'#0b101a66');shade.addColorStop(.5,'#0b101a00');shade.addColorStop(1,'#0b101a99');c.fillStyle=shade;c.fillRect(0,0,w,h);
 }
