@@ -1,3 +1,4 @@
+import {drawStyledAttack} from './styled-attack.mjs';
 import {COLORS} from './art.mjs';
 const TAU=Math.PI*2,clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
 const hash=n=>{const v=Math.sin(n*127.1+311.7)*43758.5453;return v-Math.floor(v)};
@@ -32,7 +33,7 @@ function line(c,points,color,width){c.strokeStyle=color;c.lineWidth=width;c.line
 function star(c,x,y,r,color){c.fillStyle=color;c.beginPath();for(let i=0;i<8;i++){const a=i*Math.PI/4;c.lineTo(x+Math.cos(a)*r*(i%2?.3:1),y+Math.sin(a)*r*(i%2?.3:1))}c.closePath();c.fill()}
 function shards(c,x,y,t,style,count=15,radius=44){for(let i=0;i<count;i++){const a=i*2.399,r=(.25+hash(i)*.75)*radius*t,s=(1-t)*4+1;const px=x+Math.cos(a)*r,py=y+Math.sin(a)*r;c.fillStyle=i%2?style.light:style.color;c.fillRect(Math.round(px),Math.round(py),s,s)}}
 export function drawAttack(c,move,from,to,elapsed,{reducedMotion=false,scale=1}={}){
- const st=attackStyle(move),t=elapsed/st.duration;if(t<0||t>1)return;const dx=to.x-from.x,dy=to.y-from.y,length=Math.hypot(dx,dy)||1,angle=Math.atan2(dy,dx),travel=clamp((t-.16)/.53),envelope=Math.sin(clamp(t)*Math.PI),impact=clamp((t-.62)/.38),particles=reducedMotion?5:15;
+ const st=attackStyle(move);if(drawStyledAttack(c,move,st,from,to,elapsed,{reducedMotion,scale}))return;const t=elapsed/st.duration;if(t<0||t>1)return;const dx=to.x-from.x,dy=to.y-from.y,length=Math.hypot(dx,dy)||1,angle=Math.atan2(dy,dx),travel=clamp((t-.16)/.53),envelope=Math.sin(clamp(t)*Math.PI),impact=clamp((t-.62)/.38),particles=reducedMotion?5:15;
  if(['heal','shield','aura'].includes(st.kind)){c.save();const center=st.kind==='heal'||st.kind==='shield'?from:to;c.globalAlpha=Math.sin(t*Math.PI);c.strokeStyle=st.kind==='heal'?'#b3f4bd':st.light;c.fillStyle=st.kind==='heal'?'#c9ffcc':st.color;c.lineWidth=2;for(let i=0;i<3;i++){c.beginPath();c.ellipse(center.x,center.y-8,14+i*8+Math.sin(t*Math.PI)*8,(st.kind==='shield'?26:9)+i*5,0,0,TAU);c.stroke()}for(let i=0;i<8;i++){const a=i*2.399+t*2,r=24+i%3*7,x=center.x+Math.cos(a)*r,y=center.y+Math.sin(a)*r-t*15;c.fillRect(x-1,y-4,2,8);c.fillRect(x-4,y-1,8,2)}c.restore();return}
  c.save();c.globalAlpha=clamp(Math.min(t*9,(1-t)*7));c.translate(from.x,from.y);c.rotate(angle);c.scale(scale,scale);const len=length/scale;
  // A charged origin precedes every projectile; shapes remain in logical pixel coordinates.
