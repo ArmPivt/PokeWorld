@@ -207,5 +207,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Île et fresque de Mew avec trois scientifiques ; rencontre et prélèvement lumineux d’ADN ; quatre scientifiques et masse violette difforme animée dans l’incubateur ; cinq Métamorph normaux et un véritable sprite chromatique bleu sur fond noir ; explosion sonore à 25,3 s avant le retour dans le laboratoire détruit ; clignotements noirs, flash violet à 34 s, révélation et cri de Mewtwo à 35 s. Musique électronique originale dans l’ambiance du thème fourni ; 960 images et audio décodés, cri et explosion vérifiés."
+  },
+  "151": {
+    "id": 151,
+    "shiny": false,
+    "src": "assets/cinematics/151-appearance-v1.mp4",
+    "poster": "assets/cinematics/151-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "L’Ombre de la jungle",
+    "fps": 24,
+    "frameCount": 768,
+    "sha256": "8f8348bd387724d62e9cdf7707b24ae68e40e92e762193c30eb4a566cc00217f",
+    "sourceFile": "cinematics/production/mew-v1/151-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Les six premières secondes de Mewtwo sont conservées, image par image et audio source identique : île, scientifiques et fresque de Mew. Aucun prélèvement d’ADN. Une silhouette noire animée traverse le sol de la jungle, bondit dans la canopée et rejoint une clairière ; Mew rose ne se révèle qu’à la fin. Feuillage au premier plan, trajectoires continues, nouvelle musique originale et véritable cri de Mew à 25,3 s. 768 images décodées, audio sans saturation et corrélation du cri vérifiés."
   }
 }

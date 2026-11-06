@@ -1,0 +1,221 @@
+{
+  "duration": 32,
+  "cuts": [
+    0,
+    6,
+    12,
+    18,
+    24
+  ],
+  "cryAt": 25.3,
+  "revealAt": 24.35,
+  "paths": {
+    "floor": [
+      [
+        -32,
+        172
+      ],
+      [
+        76,
+        153
+      ],
+      [
+        171,
+        186
+      ],
+      [
+        284,
+        151
+      ],
+      [
+        350,
+        174
+      ],
+      [
+        251,
+        184
+      ],
+      [
+        379,
+        141
+      ],
+      [
+        520,
+        134
+      ]
+    ],
+    "canopy": [
+      [
+        8,
+        176
+      ],
+      [
+        99,
+        143
+      ],
+      [
+        183,
+        117
+      ],
+      [
+        278,
+        104
+      ],
+      [
+        378,
+        87
+      ],
+      [
+        293,
+        85
+      ],
+      [
+        386,
+        86
+      ],
+      [
+        510,
+        90
+      ]
+    ],
+    "approach": [
+      [
+        46,
+        216
+      ],
+      [
+        119,
+        193
+      ],
+      [
+        202,
+        174
+      ],
+      [
+        310,
+        165
+      ],
+      [
+        331,
+        150
+      ],
+      [
+        274,
+        157
+      ],
+      [
+        243,
+        164
+      ]
+    ]
+  },
+  "species": 151,
+  "fps": 24,
+  "frames": 768,
+  "width": 960,
+  "height": 540,
+  "visualChecks": {
+    "island": {
+      "time": 4,
+      "state": {
+        "time": 4,
+        "shot": 1,
+        "species": 151,
+        "shadow": null,
+        "shadowOnly": false,
+        "mewVisible": false,
+        "revealed": null,
+        "dnaCollection": false,
+        "cryAt": 25.3,
+        "revealAt": 24.35
+      },
+      "mean": 126.09832818930042
+    },
+    "floor": {
+      "time": 8,
+      "state": {
+        "time": 8,
+        "shot": 2,
+        "species": 151,
+        "shadow": {
+          "x": 209.07407407407405,
+          "y": 177.2222222222222,
+          "dir": 6
+        },
+        "shadowOnly": true,
+        "mewVisible": false,
+        "revealed": null,
+        "dnaCollection": false,
+        "cryAt": 25.3,
+        "revealAt": 24.35
+      },
+      "mean": 91.48821244855966
+    },
+    "canopy": {
+      "time": 14,
+      "state": {
+        "time": 14,
+        "shot": 3,
+        "species": 151,
+        "shadow": {
+          "x": 213.66666666666663,
+          "y": 111.85185185185185,
+          "dir": 6
+        },
+        "shadowOnly": true,
+        "mewVisible": false,
+        "revealed": null,
+        "dnaCollection": false,
+        "cryAt": 25.3,
+        "revealAt": 24.35
+      },
+      "mean": 113.81458333333333
+    },
+    "approach": {
+      "time": 21,
+      "state": {
+        "time": 21,
+        "shot": 4,
+        "species": 151,
+        "shadow": {
+          "x": 310,
+          "y": 165,
+          "dir": 0
+        },
+        "shadowOnly": true,
+        "mewVisible": false,
+        "revealed": null,
+        "dnaCollection": false,
+        "cryAt": 25.3,
+        "revealAt": 24.35
+      },
+      "mean": 105.59106995884774
+    },
+    "reveal": {
+      "time": 28,
+      "state": {
+        "time": 28,
+        "shot": 5,
+        "species": 151,
+        "shadow": null,
+        "shadowOnly": false,
+        "mewVisible": true,
+        "revealed": {
+          "x": 237.68170653733205,
+          "y": 195.93583934406297,
+          "scale": 3.9,
+          "colorAlpha": 1
+        },
+        "dnaCollection": false,
+        "cryAt": 25.3,
+        "revealAt": 24.35
+      },
+      "mean": 111.53385030864197
+    }
+  },
+  "motionChecks": {
+    "maxStep": 8.438666470102419,
+    "meanStep": 4.347487906145865,
+    "frames": 421
+  }
+}

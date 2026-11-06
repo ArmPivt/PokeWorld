@@ -109,6 +109,16 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Le Projet Origine"
+  },
+  "151": {
+    "src": "assets/cinematics/151-appearance-v1.mp4",
+    "poster": "assets/cinematics/151-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "L’Ombre de la jungle"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

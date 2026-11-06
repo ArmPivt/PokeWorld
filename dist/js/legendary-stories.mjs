@@ -5,7 +5,7 @@ const rows=[
  [145,'power','La foudre prend son envol','Centrale abandonnée','Les câbles débranchés se remettent à crépiter.','Un éclair illumine les ailes du maître de la foudre.','bolts'],
  [146,'volcano','Le vol des flammes','Mont Braise','Le volcan laisse échapper une gerbe d’étincelles.','Une silhouette de feu s’élève au-dessus du cratère.','embers'],
  [150,'lab','Au-delà de la création','Laboratoire oublié','Dans la cuve, une présence ouvre les yeux.','Le verre se fissure sous une puissance psychique immense.','psychic'],
- [151,'forest','L’origine insaisissable','Clairière secrète','Des empreintes minuscules apparaissent entre les feuilles.','Une lumière rose bondit de branche en branche.','orbits'],
+ [151,'forest','L’ombre de la jungle','Clairière secrète','Des scientifiques étudient une ancienne fresque sur une île.','Une ombre traverse la jungle et Mew se révèle dans une clairière.','orbits'],
  [243,'storm','Le rugissement de l’orage','Plateau des tempêtes','L’herbe se couche avant même que le vent ne souffle.','La foudre révèle un fauve aux crocs étincelants.','bolts'],
  [244,'volcano','Le pas du volcan','Terres volcaniques','Chaque pas fait vibrer la pierre encore chaude.','Un rugissement soulève une couronne de braises.','embers'],
  [245,'lake','Le vent du nord','Lac des brumes','Une eau trouble retrouve soudain sa transparence.','Deux rubans blancs traversent la surface sans la troubler.','ripples'],

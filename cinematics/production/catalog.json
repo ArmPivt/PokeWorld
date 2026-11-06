@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 11,
-  "planned": 161,
-  "blockedImages": 3,
-  "estimatedRemainingCredits": 4830,
+  "reviewed": 12,
+  "planned": 160,
+  "blockedImages": 2,
+  "estimatedRemainingCredits": 4800,
   "species": [
     {
       "id": 144,
@@ -177,7 +177,7 @@
       "id": 151,
       "name": "Mew",
       "generation": 1,
-      "title": "L’origine insaisissable",
+      "title": "L’ombre de la jungle",
       "location": "Clairière secrète",
       "setting": "A mossy hollow tree above a tiny moonlit forest pool",
       "action": "Mew tilts its head and curls the end of its long tail around itself",
@@ -186,7 +186,7 @@
         {
           "key": "151",
           "shiny": false,
-          "status": "image-blocked",
+          "status": "reviewed-media",
           "generationIssue": {
             "stage": "image",
             "code": "moderation_blocked",
@@ -196,7 +196,7 @@
           "identityReference": "dist/assets/pmd/151/icon.png",
           "sourceImage": "cinematics/production/species/151/151-frame-v1.png",
           "destination": "assets/cinematics/151-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Mew summoning appearance titled L’origine insaisissable. Setting: A mossy hollow tree above a tiny moonlit forest pool. Starting pose is calm and held, ready for this modest action: Mew tilts its head and curls the end of its long tail around itself. Environmental action to prepare: Two soft pink reflections circle the pool and fade between the leaves. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Mew summoning appearance titled L’ombre de la jungle. Setting: A mossy hollow tree above a tiny moonlit forest pool. Starting pose is calm and held, ready for this modest action: Mew tilts its head and curls the end of its long tail around itself. Environmental action to prepare: Two soft pink reflections circle the pool and fade between the leaves. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Mew tilts its head and curls the end of its long tail around itself. Two soft pink reflections circle the pool and fade between the leaves. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -208,7 +208,7 @@
           "identityReference": "dist/assets/pmd/151/icon-shiny.png",
           "sourceImage": "cinematics/production/species/151/151s-frame-v1.png",
           "destination": "assets/cinematics/151s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Mew summoning appearance titled L’origine insaisissable. Setting: A mossy hollow tree above a tiny moonlit forest pool. Starting pose is calm and held, ready for this modest action: Mew tilts its head and curls the end of its long tail around itself. Environmental action to prepare: Two soft pink reflections circle the pool and fade between the leaves. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Mew summoning appearance titled L’ombre de la jungle. Setting: A mossy hollow tree above a tiny moonlit forest pool. Starting pose is calm and held, ready for this modest action: Mew tilts its head and curls the end of its long tail around itself. Environmental action to prepare: Two soft pink reflections circle the pool and fade between the leaves. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Mew tilts its head and curls the end of its long tail around itself. Two soft pink reflections circle the pool and fade between the leaves. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]

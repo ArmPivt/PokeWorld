@@ -1,0 +1,16 @@
+{
+  "title": "L’Ombre de la jungle",
+  "duration": 32,
+  "notes": 175,
+  "music": "Original woodland cinematic score; same six-second introduction as Le Projet Origine, then new marimba/flute/pizzicato/harp/celesta music.",
+  "cues": {
+    "islandMural": 0,
+    "forestFloor": 6,
+    "canopy": 12,
+    "clearingApproach": 18,
+    "mewReveal": 24.35,
+    "mewCry": 25.3
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}
