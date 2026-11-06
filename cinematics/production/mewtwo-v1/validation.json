@@ -1,0 +1,182 @@
+{
+  "species": 150,
+  "shiny": false,
+  "duration": 40,
+  "frames": 960,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "4c2312200f4064aab29de1dcd8581595051fb8b549c28cfa6502c3597f4077bb",
+  "bytes": 10834671,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Le Projet Origine",
+  "cryAt": 35,
+  "cryDuration": 1.5957083333333333,
+  "cryCorrelation": 0.9867829247892171,
+  "decodedPeak": 0.7819361686706543,
+  "explosionAt": 25.3,
+  "preExplosionRMS": 3.2197469863604056e-06,
+  "explosionRMS": 0.23533019423484802,
+  "normalDittos": 5,
+  "shinyDitto": true,
+  "revealAt": 34,
+  "checks": "960 monotonic frames and full audio decode; no clipping; real Mewtwo cry correlation at 35s; explosion RMS above preceding silence; actual blue shiny sprite; black explosion interval and violet reveal verified.",
+  "visualChecks": {
+    "ditto": {
+      "time": 23,
+      "state": {
+        "time": 23,
+        "shot": 4,
+        "species": 150,
+        "liveMew": false,
+        "dnaCollected": false,
+        "blobInTank": false,
+        "shinyDittoVisible": true,
+        "normalDittoCount": 5,
+        "explosionAt": 25.3,
+        "ruinsVisible": false,
+        "mewtwoVisible": false,
+        "blackPulse": false,
+        "revealAt": 34,
+        "cryAt": 35
+      },
+      "mean": 19.700321502057612,
+      "bluePixels": 11100,
+      "center": [
+        3,
+        3,
+        4
+      ]
+    },
+    "explosionBlack": {
+      "time": 25.55,
+      "state": {
+        "time": 25.55,
+        "shot": 5,
+        "species": 150,
+        "liveMew": false,
+        "dnaCollected": false,
+        "blobInTank": false,
+        "shinyDittoVisible": false,
+        "normalDittoCount": 0,
+        "explosionAt": 25.3,
+        "ruinsVisible": false,
+        "mewtwoVisible": false,
+        "blackPulse": false,
+        "revealAt": 34,
+        "cryAt": 35
+      },
+      "mean": 0,
+      "bluePixels": 0,
+      "center": [
+        0,
+        0,
+        0
+      ]
+    },
+    "blinkBlack": {
+      "time": 32.2,
+      "state": {
+        "time": 32.2,
+        "shot": 7,
+        "species": 150,
+        "liveMew": false,
+        "dnaCollected": false,
+        "blobInTank": false,
+        "shinyDittoVisible": false,
+        "normalDittoCount": 0,
+        "explosionAt": 25.3,
+        "ruinsVisible": true,
+        "mewtwoVisible": false,
+        "blackPulse": true,
+        "revealAt": 34,
+        "cryAt": 35
+      },
+      "mean": 0,
+      "bluePixels": 0,
+      "center": [
+        0,
+        0,
+        0
+      ]
+    },
+    "labBetweenBlinks": {
+      "time": 32.5,
+      "state": {
+        "time": 32.5,
+        "shot": 7,
+        "species": 150,
+        "liveMew": false,
+        "dnaCollected": false,
+        "blobInTank": false,
+        "shinyDittoVisible": false,
+        "normalDittoCount": 0,
+        "explosionAt": 25.3,
+        "ruinsVisible": true,
+        "mewtwoVisible": false,
+        "blackPulse": false,
+        "revealAt": 34,
+        "cryAt": 35
+      },
+      "mean": 59.7309670781893,
+      "bluePixels": 103644,
+      "center": [
+        6,
+        20,
+        78
+      ]
+    },
+    "purpleFlash": {
+      "time": 34,
+      "state": {
+        "time": 34,
+        "shot": 8,
+        "species": 150,
+        "liveMew": false,
+        "dnaCollected": false,
+        "blobInTank": false,
+        "shinyDittoVisible": false,
+        "normalDittoCount": 0,
+        "explosionAt": 25.3,
+        "ruinsVisible": true,
+        "mewtwoVisible": false,
+        "blackPulse": false,
+        "revealAt": 34,
+        "cryAt": 35
+      },
+      "mean": 178,
+      "bluePixels": 518400,
+      "center": [
+        184,
+        113,
+        237
+      ]
+    },
+    "reveal": {
+      "time": 36,
+      "state": {
+        "time": 36,
+        "shot": 8,
+        "species": 150,
+        "liveMew": false,
+        "dnaCollected": false,
+        "blobInTank": false,
+        "shinyDittoVisible": false,
+        "normalDittoCount": 0,
+        "explosionAt": 25.3,
+        "ruinsVisible": true,
+        "mewtwoVisible": true,
+        "blackPulse": false,
+        "revealAt": 34,
+        "cryAt": 35
+      },
+      "mean": 69.92166409465021,
+      "bluePixels": 117964,
+      "center": [
+        255,
+        255,
+        255
+      ]
+    }
+  }
+}

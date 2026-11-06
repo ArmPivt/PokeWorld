@@ -11,7 +11,7 @@
     {
       "key": "150",
       "shiny": false,
-      "status": "image-blocked",
+      "status": "reviewed-media",
       "generationIssue": {
         "stage": "image",
         "code": "moderation_blocked",

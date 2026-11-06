@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 10,
-  "planned": 162,
-  "blockedImages": 4,
-  "estimatedRemainingCredits": 4860,
+  "reviewed": 11,
+  "planned": 161,
+  "blockedImages": 3,
+  "estimatedRemainingCredits": 4830,
   "species": [
     {
       "id": 144,
@@ -146,7 +146,7 @@
         {
           "key": "150",
           "shiny": false,
-          "status": "image-blocked",
+          "status": "reviewed-media",
           "generationIssue": {
             "stage": "image",
             "code": "moderation_blocked",

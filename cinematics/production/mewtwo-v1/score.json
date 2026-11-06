@@ -1,0 +1,23 @@
+{
+  "title": "Le Projet Origine",
+  "duration": 40,
+  "notes": 238,
+  "music": "Original electronic cinematic score, not a remix, transcription or sample of the reference.",
+  "reference": "https://www.youtube.com/watch?v=aD0YtmKrX20",
+  "referenceTitle": "Pokemon X and Y - Kanto Legendary Battle Theme (Mewtwo) from the Actual OST",
+  "cues": {
+    "islandMural": 0,
+    "mewEncounter": 6,
+    "dnaCollected": 10.4,
+    "incubator": 12,
+    "ditto": 19,
+    "shinyDitto": 21.9,
+    "explosionOnBlack": 25.3,
+    "ruins": 26,
+    "blackFlickers": 32,
+    "violetFlash": 34,
+    "mewtwoCry": 35
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}

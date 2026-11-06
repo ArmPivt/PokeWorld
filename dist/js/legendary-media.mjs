@@ -99,6 +99,16 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Les Ailes de l’Île du Sud"
+  },
+  "150": {
+    "src": "assets/cinematics/150-appearance-v1.mp4",
+    "poster": "assets/cinematics/150-appearance-v1-poster.png",
+    "duration": 40,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Projet Origine"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

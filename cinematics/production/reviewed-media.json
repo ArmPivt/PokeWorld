@@ -188,5 +188,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Obtention de Latios : Latias transporte Brice (garçon de la première capture). Nouvelles poses debout et assise, échelle constante à la montée, ancrage du bassin sur un point fixe du dos, un seul personnage visible pendant l’embarquement, le vol et la descente. 768 images décodées ; piste AAC inchangée ; 360 images source de la forêt et de la révélation identiques à la v1."
+  },
+  "150": {
+    "id": 150,
+    "shiny": false,
+    "src": "assets/cinematics/150-appearance-v1.mp4",
+    "poster": "assets/cinematics/150-appearance-v1-poster.png",
+    "duration": 40,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Projet Origine",
+    "fps": 24,
+    "frameCount": 960,
+    "sha256": "4c2312200f4064aab29de1dcd8581595051fb8b549c28cfa6502c3597f4077bb",
+    "sourceFile": "cinematics/production/mewtwo-v1/150-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Île et fresque de Mew avec trois scientifiques ; rencontre et prélèvement lumineux d’ADN ; quatre scientifiques et masse violette difforme animée dans l’incubateur ; cinq Métamorph normaux et un véritable sprite chromatique bleu sur fond noir ; explosion sonore à 25,3 s avant le retour dans le laboratoire détruit ; clignotements noirs, flash violet à 34 s, révélation et cri de Mewtwo à 35 s. Musique électronique originale dans l’ambiance du thème fourni ; 960 images et audio décodés, cri et explosion vérifiés."
   }
 }
