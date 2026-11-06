@@ -1,0 +1,21 @@
+{
+  "species": 385,
+  "shiny": false,
+  "duration": 27,
+  "frames": 648,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "ffd51557d4e48b494790c91ad19e9a80d910ff70728eb1162a8ee56e93ab7a3c",
+  "bytes": 3587441,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Mille vœux sous les étoiles",
+  "cryAt": 22,
+  "cryDuration": 0.7196458333333333,
+  "cryCorrelation": 0.9447050841067569,
+  "decodedPeak": 0.7805709838867188,
+  "counterFinishesAt": 1000,
+  "counter1000At": 3.72,
+  "flashAt": 20.2,
+  "checks": "648 monotonic frames, full H264/AAC decode, actual Jirachi cry correlation at reveal, no audio clipping."
+}

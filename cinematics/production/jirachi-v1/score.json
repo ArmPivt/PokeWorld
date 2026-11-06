@@ -1,0 +1,18 @@
+{
+  "title": "Mille vœux sous les étoiles",
+  "duration": 27,
+  "notes": 201,
+  "cues": {
+    "counter1000": 3.72,
+    "wish": 7.6,
+    "greatStar": 10.6,
+    "pursuit": 16.5,
+    "flash": 20.2,
+    "cry": 22
+  },
+  "music": "Original composition with harp, celesta, glockenspiel, flute, warm strings and choir. Not a remix or transcription of the official theme.",
+  "reference": "https://www.youtube.com/watch?v=i8mwels9lZ4",
+  "referenceTitle": "Jirachi's Theme — The Pokemon Themes",
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}

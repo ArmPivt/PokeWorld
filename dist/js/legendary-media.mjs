@@ -39,6 +39,16 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Le Code Delta"
+  },
+  "385": {
+    "src": "assets/cinematics/385-appearance-v1.mp4",
+    "poster": "assets/cinematics/385-appearance-v1-poster.png",
+    "duration": 27,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Mille vœux sous les étoiles"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

@@ -74,5 +74,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Laboratoire sans incubateur : grand écran d’analyse de la météorite et double hélice ADN animée sur le moniteur latéral. Météorite vers la Terre, lumière verte quittant la planète avec Rayquaza allongé, collision dans un plan sans planète. Impact à 14,8 s. Les 468 images source depuis 16,5 s sont identiques à la fin approuvée ; piste AAC conservée bit pour bit. 864 images et audio intégralement décodés."
+  },
+  "385": {
+    "id": 385,
+    "shiny": false,
+    "src": "assets/cinematics/385-appearance-v1.mp4",
+    "poster": "assets/cinematics/385-appearance-v1-poster.png",
+    "duration": 27,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Mille vœux sous les étoiles",
+    "fps": 24,
+    "frameCount": 648,
+    "sha256": "ffd51557d4e48b494790c91ad19e9a80d910ff70728eb1162a8ee56e93ab7a3c",
+    "sourceFile": "cinematics/production/jirachi-v1/385-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Compteur astronomique animé terminant à 1000 ; habitants faisant un vœu sous les étoiles filantes ; grande étoile et poursuite avec zoom ; flash blanc à 20,2 s et Jirachi animé. Musique originale Mille vœux sous les étoiles et cri à 22 s. Contrôle visuel des plans, compteur vérifié, 648 images et audio intégralement décodés."
   }
 }

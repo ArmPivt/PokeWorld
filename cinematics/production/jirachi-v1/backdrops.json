@@ -1,0 +1,20 @@
+{
+  "provider": "ImageGen intégré",
+  "assets": {
+    "counter": {
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-7065567e-b518-434c-99b6-92b0768b3ada.png",
+      "file": "counter.png",
+      "prompt": "Use case: illustration-story. Asset type: first background of a Pokémon-style pixel-art cinematic. Create a 16:9 wide night scene with an ancient astronomical COUNTER monument in a quiet hilltop observatory. A broad rectangular indigo stone and aged brass counter frame is the main subject, centered, decorated with small star-shaped ornaments and simple concentric astronomical rings. Its single EMPTY black-blue rectangular display interior spans x29%-71%, y41%-60%, perfectly front-facing, blank so four animated digits can be composited later. No numbers or writing anywhere. The counter should feel like it has counted a thousand years. Moonlit stone paving at the bottom, distant dark blue hills and a rich navy starry sky above. Soft cyan and pale gold accents, mysterious peaceful mood. Authentic SIMPLE Game Boy Advance 2D pixel art: logical 480x270, crisp chunky square pixels, stepped edges, large clean shapes, only 2-3 flat shades per material, no tiny textures, no blur, no 3D, no text, no UI, no logos. No people, no Pokémon, no shooting stars. Keep the entire monument comfortably in frame, readable centered display."
+    },
+    "watchers": {
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-353eb221-7404-4095-bb2c-b3e8f5e41ac4.png",
+      "file": "watchers.png",
+      "prompt": "Use case: illustration-story. Asset type: cinematic wide establishing shot, 16:9. Original warm magical night scene in SIMPLE Game Boy Advance-style 2D pixel art. Three small human stargazers standing together on a grassy hill in the bottom quarter of the frame: a young boy, a young woman, and an older man, original generic villagers, no recognizable branded characters. They look upward toward the sky with hands clasped at their chests, making a wish. Seen in rear three-quarter side profile, full figures visible, planted naturally on the grass. A tiny cozy village with a few amber windows far below on the left, layered dark blue hills on the horizon at y78%. The top 76% of the picture is a large CLEAR dark navy sky with sparse small square stars and a subtle indigo Milky Way band, room for animated shooting stars later. A few low pale blue cloud strips at the edges only. Palette navy, muted violet, teal grass and soft golden light. Strong quiet storytelling composition, clean silhouettes. Logical 480x270 canvas enlarged, large crisp square pixel clusters, stepped outlines, only 2-3 flat shades, no tiny photoreal textures, no gradients, no blur, no 3D, no text, no UI, no speech bubbles, no Pokémon, NO shooting star baked into the image."
+    },
+    "sky": {
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-cd943d63-98ba-4ab9-a7bd-ff29ce592c7f.png",
+      "file": "sky.png",
+      "prompt": "Use case: illustration-story. Asset type: empty night-sky background for a 16:9 pixel-art cinematic, matching simple Game Boy Advance pixel art. A vast dark navy and indigo starry sky, sparse tiny square stars and a broad very subtle stepped violet Milky Way band across upper left and middle. Small pale blue-violet stepped cloud banks along the bottom left and bottom right edges only, leave the entire center and upper right open and dark for an animated enormous shooting star. No land, no horizon, no people, no moon, no planet, no meteor, no shooting star, no Pokémon. Simple large flat shapes with 2-3 shades, crisp chunky square pixels, logical 480x270 enlarged, no smooth gradients, no blur, no 3D, no text, no UI, no logos. Gentle magical peaceful night, not outer space nebula."
+    }
+  }
+}

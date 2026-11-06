@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 4,
-  "planned": 168,
+  "reviewed": 5,
+  "planned": 167,
   "blockedImages": 4,
-  "estimatedRemainingCredits": 5040,
+  "estimatedRemainingCredits": 5010,
   "species": [
     {
       "id": 144,
@@ -730,7 +730,7 @@
         {
           "key": "385",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/385/icon.png",
