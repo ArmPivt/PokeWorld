@@ -1,0 +1,258 @@
+{
+  "name": "Électhor",
+  "title": "Le Cœur de la centrale",
+  "duration": 30,
+  "cuts": [
+    0,
+    6,
+    12,
+    18,
+    22
+  ],
+  "cryAt": 23.1,
+  "revealAt": 22.18,
+  "assets": [
+    "145-exterior",
+    "145-generator",
+    "145-roof"
+  ],
+  "color": "#ffec8b",
+  "species": 145,
+  "fps": 24,
+  "frames": 720,
+  "width": 960,
+  "height": 540,
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 145,
+        "shot": 1,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 59.952852366255144
+    },
+    {
+      "time": 3.6,
+      "state": {
+        "time": 3.6,
+        "species": 145,
+        "shot": 1,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 89.92881687242799
+    },
+    {
+      "time": 5.3,
+      "state": {
+        "time": 5.3,
+        "species": 145,
+        "shot": 1,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 59.86129115226338
+    },
+    {
+      "time": 6.8,
+      "state": {
+        "time": 6.8,
+        "species": 145,
+        "shot": 2,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 79.10276748971194
+    },
+    {
+      "time": 9,
+      "state": {
+        "time": 9,
+        "species": 145,
+        "shot": 2,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 80.0545987654321
+    },
+    {
+      "time": 11.4,
+      "state": {
+        "time": 11.4,
+        "species": 145,
+        "shot": 2,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 80.83529063786008
+    },
+    {
+      "time": 12.5,
+      "state": {
+        "time": 12.5,
+        "species": 145,
+        "shot": 3,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 74.67174125514403
+    },
+    {
+      "time": 14.5,
+      "state": {
+        "time": 14.5,
+        "species": 145,
+        "shot": 3,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 75.30414094650206
+    },
+    {
+      "time": 17.5,
+      "state": {
+        "time": 17.5,
+        "species": 145,
+        "shot": 3,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 85.2425
+    },
+    {
+      "time": 18.5,
+      "state": {
+        "time": 18.5,
+        "species": 145,
+        "shot": 4,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 56.058413065843624
+    },
+    {
+      "time": 20,
+      "state": {
+        "time": 20,
+        "species": 145,
+        "shot": 4,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 58.747204218106994
+    },
+    {
+      "time": 21.8,
+      "state": {
+        "time": 21.8,
+        "species": 145,
+        "shot": 4,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 92.81631430041152
+    },
+    {
+      "time": 22.3,
+      "state": {
+        "time": 22.3,
+        "species": 145,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 229.65221322903403,
+          "alpha": 0.14515200000000156
+        },
+        "birdVisible": true,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 170.08329475308642
+    },
+    {
+      "time": 23.1,
+      "state": {
+        "time": 23.1,
+        "species": 145,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 208.8696910076233,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 60.728137860082306
+    },
+    {
+      "time": 25,
+      "state": {
+        "time": 25,
+        "species": 145,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 198.57696587933845,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 59.98542181069959
+    },
+    {
+      "time": 28.5,
+      "state": {
+        "time": 28.5,
+        "species": 145,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 198.84775581760744,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 22.18,
+        "cryAt": 23.1
+      },
+      "mean": 62.486941872427984
+    }
+  ],
+  "bodyBounds": {
+    "left": 153.375,
+    "right": 326.625,
+    "top": 15.650578940097063,
+    "bottom": 199.3998963771584,
+    "frames": 118
+  }
+}

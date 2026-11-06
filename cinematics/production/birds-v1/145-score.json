@@ -1,0 +1,18 @@
+{
+  "species": 145,
+  "title": "Le Cœur de la centrale",
+  "duration": 30,
+  "notes": 178,
+  "music": "Original composition and original synthesized ambience; no official theme, recording, MIDI or melody reused.",
+  "cueTimes": [
+    0,
+    6,
+    12,
+    18,
+    22
+  ],
+  "cryAt": 23.1,
+  "revealAt": 22.18,
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}
