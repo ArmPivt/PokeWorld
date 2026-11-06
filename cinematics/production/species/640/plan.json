@@ -1,0 +1,36 @@
+{
+  "id": 640,
+  "name": "Viridium",
+  "generation": 5,
+  "title": "Le serment des feuilles",
+  "location": "Forêt du serment",
+  "setting": "A leaf-shaped green sword of light above a simple forest clearing",
+  "action": "Virizion lifts its head and gently turns one ear toward the viewer",
+  "environment": "Three broad leaves sweep past and a green line travels over the grass",
+  "variants": [
+    {
+      "key": "640",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/640/icon.png",
+      "sourceImage": "cinematics/production/species/640/640-frame-v1.png",
+      "destination": "assets/cinematics/640-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Viridium summoning appearance titled Le serment des feuilles. Setting: A leaf-shaped green sword of light above a simple forest clearing. Starting pose is calm and held, ready for this modest action: Virizion lifts its head and gently turns one ear toward the viewer. Environmental action to prepare: Three broad leaves sweep past and a green line travels over the grass. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Virizion lifts its head and gently turns one ear toward the viewer. Three broad leaves sweep past and a green line travels over the grass. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "640s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/640/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/640/640s-frame-v1.png",
+      "destination": "assets/cinematics/640s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Viridium summoning appearance titled Le serment des feuilles. Setting: A leaf-shaped green sword of light above a simple forest clearing. Starting pose is calm and held, ready for this modest action: Virizion lifts its head and gently turns one ear toward the viewer. Environmental action to prepare: Three broad leaves sweep past and a green line travels over the grass. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Virizion lifts its head and gently turns one ear toward the viewer. Three broad leaves sweep past and a green line travels over the grass. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

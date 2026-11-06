@@ -1,0 +1,36 @@
+{
+  "id": 245,
+  "name": "Suicune",
+  "generation": 2,
+  "title": "Le vent du nord",
+  "location": "Lac des brumes",
+  "setting": "A still spring surrounded by dark reeds and pale mist",
+  "action": "The blue beast softly lifts one paw over the water while its two ribbons sway",
+  "environment": "A single clean ripple clears a small patch of cloudy water",
+  "variants": [
+    {
+      "key": "245",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/245/icon.png",
+      "sourceImage": "cinematics/production/species/245/245-frame-v1.png",
+      "destination": "assets/cinematics/245-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Suicune summoning appearance titled Le vent du nord. Setting: A still spring surrounded by dark reeds and pale mist. Starting pose is calm and held, ready for this modest action: The blue beast softly lifts one paw over the water while its two ribbons sway. Environmental action to prepare: A single clean ripple clears a small patch of cloudy water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. The blue beast softly lifts one paw over the water while its two ribbons sway. A single clean ripple clears a small patch of cloudy water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "245s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/245/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/245/245s-frame-v1.png",
+      "destination": "assets/cinematics/245s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Suicune summoning appearance titled Le vent du nord. Setting: A still spring surrounded by dark reeds and pale mist. Starting pose is calm and held, ready for this modest action: The blue beast softly lifts one paw over the water while its two ribbons sway. Environmental action to prepare: A single clean ripple clears a small patch of cloudy water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. The blue beast softly lifts one paw over the water while its two ribbons sway. A single clean ripple clears a small patch of cloudy water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "PixVerse",
+  "model": "PixVerse V6",
+  "source": "02-simple-rayquaza-v1.png",
+  "prompt": "Simple retro 2D pixel art animation, fixed camera, one continuous shot. Rayquaza gently floats up then settles above the stone tower. Its jaw slowly closes and only the tip of its tail moves slightly. Preserve the existing S-shaped green body, small arms, fins, yellow rings and proportions throughout. Broad dark clouds drift slowly behind it. A few green sparks glow softly. Large crisp square pixels and a limited flat palette. Very restrained movement. No zoom, no cuts, no rotation, no stretching, no extra limbs, no realistic rendering, no text.",
+  "requested_settings": {
+    "duration_seconds": 5,
+    "resolution_label": "540P",
+    "audio": false,
+    "multishot": false,
+    "count": 1
+  },
+  "result_url": "https://app.pixverse.ai/video/433776039305851",
+  "seed": 603804196,
+  "free_credits_consumed": 30,
+  "remaining_credits_observed": 30,
+  "purchase_made": false,
+  "watermark_preserved": true,
+  "production_ready": false,
+  "assessment": "Promising simplified animation direction; shape remains coherent across sampled frames. Five-second pilot, not a complete cinematic."
+}

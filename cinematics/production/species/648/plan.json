@@ -1,0 +1,36 @@
+{
+  "id": 648,
+  "name": "Meloetta",
+  "generation": 5,
+  "title": "La mélodie retrouvée",
+  "location": "Scène des souvenirs",
+  "setting": "A small music box on a dark empty theatre stage",
+  "action": "Aria-form Meloetta sways its upper body gently and lifts one existing hand",
+  "environment": "Three soft colored music notes rise from the box under a single warm spotlight",
+  "variants": [
+    {
+      "key": "648",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/648/icon.png",
+      "sourceImage": "cinematics/production/species/648/648-frame-v1.png",
+      "destination": "assets/cinematics/648-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Meloetta summoning appearance titled La mélodie retrouvée. Setting: A small music box on a dark empty theatre stage. Starting pose is calm and held, ready for this modest action: Aria-form Meloetta sways its upper body gently and lifts one existing hand. Environmental action to prepare: Three soft colored music notes rise from the box under a single warm spotlight. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Aria-form Meloetta sways its upper body gently and lifts one existing hand. Three soft colored music notes rise from the box under a single warm spotlight. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "648s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/648/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/648/648s-frame-v1.png",
+      "destination": "assets/cinematics/648s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Meloetta summoning appearance titled La mélodie retrouvée. Setting: A small music box on a dark empty theatre stage. Starting pose is calm and held, ready for this modest action: Aria-form Meloetta sways its upper body gently and lifts one existing hand. Environmental action to prepare: Three soft colored music notes rise from the box under a single warm spotlight. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Aria-form Meloetta sways its upper body gently and lifts one existing hand. Three soft colored music notes rise from the box under a single warm spotlight. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

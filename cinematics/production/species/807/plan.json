@@ -1,0 +1,36 @@
+{
+  "id": 807,
+  "name": "Zeraora",
+  "generation": 7,
+  "title": "Le bond de l’éclair",
+  "location": "Plateau ionisé",
+  "setting": "An ionized rock ledge with three small golden claw sparks",
+  "action": "Zeraora bends its knees slightly and slowly flexes one existing clawed hand",
+  "environment": "A short yellow electric trace travels along the ledge then fades",
+  "variants": [
+    {
+      "key": "807",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/807/icon.png",
+      "sourceImage": "cinematics/production/species/807/807-frame-v1.png",
+      "destination": "assets/cinematics/807-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Zeraora summoning appearance titled Le bond de l’éclair. Setting: An ionized rock ledge with three small golden claw sparks. Starting pose is calm and held, ready for this modest action: Zeraora bends its knees slightly and slowly flexes one existing clawed hand. Environmental action to prepare: A short yellow electric trace travels along the ledge then fades. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Zeraora bends its knees slightly and slowly flexes one existing clawed hand. A short yellow electric trace travels along the ledge then fades. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "807s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/807/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/807/807s-frame-v1.png",
+      "destination": "assets/cinematics/807s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Zeraora summoning appearance titled Le bond de l’éclair. Setting: An ionized rock ledge with three small golden claw sparks. Starting pose is calm and held, ready for this modest action: Zeraora bends its knees slightly and slowly flexes one existing clawed hand. Environmental action to prepare: A short yellow electric trace travels along the ledge then fades. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Zeraora bends its knees slightly and slowly flexes one existing clawed hand. A short yellow electric trace travels along the ledge then fades. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

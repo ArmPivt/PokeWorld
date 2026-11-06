@@ -1,0 +1,36 @@
+{
+  "id": 791,
+  "name": "Solgaleo",
+  "generation": 7,
+  "title": "Le lion du soleil",
+  "location": "Autel du Soleil",
+  "setting": "A circular sun disc at the top of a wide stone altar",
+  "action": "Solgaleo slowly raises its head and plants one forepaw firmly",
+  "environment": "The sun disc brightens behind its mane and one warm band crosses the steps",
+  "variants": [
+    {
+      "key": "791",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/791/icon.png",
+      "sourceImage": "cinematics/production/species/791/791-frame-v1.png",
+      "destination": "assets/cinematics/791-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Solgaleo summoning appearance titled Le lion du soleil. Setting: A circular sun disc at the top of a wide stone altar. Starting pose is calm and held, ready for this modest action: Solgaleo slowly raises its head and plants one forepaw firmly. Environmental action to prepare: The sun disc brightens behind its mane and one warm band crosses the steps. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Solgaleo slowly raises its head and plants one forepaw firmly. The sun disc brightens behind its mane and one warm band crosses the steps. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "791s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/791/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/791/791s-frame-v1.png",
+      "destination": "assets/cinematics/791s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Solgaleo summoning appearance titled Le lion du soleil. Setting: A circular sun disc at the top of a wide stone altar. Starting pose is calm and held, ready for this modest action: Solgaleo slowly raises its head and plants one forepaw firmly. Environmental action to prepare: The sun disc brightens behind its mane and one warm band crosses the steps. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Solgaleo slowly raises its head and plants one forepaw firmly. The sun disc brightens behind its mane and one warm band crosses the steps. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

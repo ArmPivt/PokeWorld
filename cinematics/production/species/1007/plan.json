@@ -1,0 +1,24 @@
+{
+  "id": 1007,
+  "name": "Koraidon",
+  "generation": 9,
+  "title": "L’écho du monde ancien",
+  "location": "Jungle du cratère",
+  "setting": "A broad prehistoric root arch at the edge of a dense crater jungle",
+  "action": "Koraidon slowly raises its head and places one front claw down firmly",
+  "environment": "Two broad fern leaves part behind it and a short dust puff rises",
+  "variants": [
+    {
+      "key": "1007",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/1007/icon.png",
+      "sourceImage": "cinematics/production/species/1007/1007-frame-v1.png",
+      "destination": "assets/cinematics/1007-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Koraidon summoning appearance titled L’écho du monde ancien. Setting: A broad prehistoric root arch at the edge of a dense crater jungle. Starting pose is calm and held, ready for this modest action: Koraidon slowly raises its head and places one front claw down firmly. Environmental action to prepare: Two broad fern leaves part behind it and a short dust puff rises. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Koraidon slowly raises its head and places one front claw down firmly. Two broad fern leaves part behind it and a short dust puff rises. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

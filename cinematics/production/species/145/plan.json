@@ -1,0 +1,40 @@
+{
+  "id": 145,
+  "name": "Électhor",
+  "generation": 1,
+  "title": "La foudre prend son envol",
+  "location": "Centrale abandonnée",
+  "setting": "A dark abandoned power station with one broken copper conductor",
+  "action": "The yellow bird raises its pointed crest and flexes its wings slightly",
+  "environment": "Two short yellow arcs light the conductor and then fade",
+  "variants": [
+    {
+      "key": "145",
+      "shiny": false,
+      "status": "image-blocked",
+      "generationIssue": {
+        "stage": "image",
+        "code": "moderation_blocked",
+        "attempts": 1
+      },
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/145/icon.png",
+      "sourceImage": "cinematics/production/species/145/145-frame-v1.png",
+      "destination": "assets/cinematics/145-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Électhor summoning appearance titled La foudre prend son envol. Setting: A dark abandoned power station with one broken copper conductor. Starting pose is calm and held, ready for this modest action: The yellow bird raises its pointed crest and flexes its wings slightly. Environmental action to prepare: Two short yellow arcs light the conductor and then fade. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. The yellow bird raises its pointed crest and flexes its wings slightly. Two short yellow arcs light the conductor and then fade. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "145s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/145/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/145/145s-frame-v1.png",
+      "destination": "assets/cinematics/145s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Électhor summoning appearance titled La foudre prend son envol. Setting: A dark abandoned power station with one broken copper conductor. Starting pose is calm and held, ready for this modest action: The yellow bird raises its pointed crest and flexes its wings slightly. Environmental action to prepare: Two short yellow arcs light the conductor and then fade. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. The yellow bird raises its pointed crest and flexes its wings slightly. Two short yellow arcs light the conductor and then fade. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "species": 384,
+  "status": "storyboard-only-not-animated",
+  "style": "Detailed pixel art, Emerald-inspired",
+  "target": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "duration": 24,
+    "format": "webm VP9 / mp4 H264"
+  },
+  "shots": [
+    {
+      "id": "01-storm",
+      "duration": 4,
+      "action": "Ocean swells and rain move independently. Ground-level light alternates between the red land and blue sea. Slow track towards the conflict."
+    },
+    {
+      "id": "02-confrontation",
+      "duration": 4,
+      "action": "Groudon raises a claw and roars; Kyogre rises with a breaking wave. Actual character poses and water motion, not a zoom over a still."
+    },
+    {
+      "id": "03-eye",
+      "duration": 3,
+      "action": "Cloud layers uncover a close-up. Rayquaza opens his eye; emerald reflections travel over scales. A held moment before the reveal."
+    },
+    {
+      "id": "04-descent",
+      "duration": 5,
+      "action": "Rayquaza uncoils and flies through the opening. Articulated long body and fins, clouds pushed aside, moving light shaft."
+    },
+    {
+      "id": "05-roar",
+      "duration": 5,
+      "action": "Rayquaza opens his jaw and roars. Groudon recoils, Kyogre sinks, waves and rain are pushed outwards in a visible shockwave."
+    },
+    {
+      "id": "06-reveal",
+      "duration": 3,
+      "action": "The ocean settles, clouds part and the coiled dragon holds a majestic pose over the bay. Return directly to the reward UI."
+    }
+  ],
+  "qualityGate": [
+    "Animated bodies, jaws, fins, water and cloud layers",
+    "Custom poses rather than reused combat sprites",
+    "Pixel clusters remain coherent; no painted-to-realistic drift",
+    "No stretch, morphing anatomy, duplicate heads or disappearing fins",
+    "Six animated shots with causal transitions",
+    "Normal and shiny versions are separate media files",
+    "Reviewed full playback at desktop and mobile sizes"
+  ]
+}

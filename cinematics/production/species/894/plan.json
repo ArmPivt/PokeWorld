@@ -1,0 +1,36 @@
+{
+  "id": 894,
+  "name": "Regieleki",
+  "generation": 8,
+  "title": "La cage de la foudre",
+  "location": "Ruines du Choix",
+  "setting": "Two broad metal rings surrounding a small electric cage in an ancient ruin",
+  "action": "Regieleki gently compresses then settles back to its original proportions",
+  "environment": "Two short yellow arcs bridge the rings and its face lights pulse once",
+  "variants": [
+    {
+      "key": "894",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/894/icon.png",
+      "sourceImage": "cinematics/production/species/894/894-frame-v1.png",
+      "destination": "assets/cinematics/894-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Regieleki summoning appearance titled La cage de la foudre. Setting: Two broad metal rings surrounding a small electric cage in an ancient ruin. Starting pose is calm and held, ready for this modest action: Regieleki gently compresses then settles back to its original proportions. Environmental action to prepare: Two short yellow arcs bridge the rings and its face lights pulse once. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Regieleki gently compresses then settles back to its original proportions. Two short yellow arcs bridge the rings and its face lights pulse once. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "894s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/894/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/894/894s-frame-v1.png",
+      "destination": "assets/cinematics/894s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Regieleki summoning appearance titled La cage de la foudre. Setting: Two broad metal rings surrounding a small electric cage in an ancient ruin. Starting pose is calm and held, ready for this modest action: Regieleki gently compresses then settles back to its original proportions. Environmental action to prepare: Two short yellow arcs bridge the rings and its face lights pulse once. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Regieleki gently compresses then settles back to its original proportions. Two short yellow arcs bridge the rings and its face lights pulse once. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

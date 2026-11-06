@@ -1,0 +1,38 @@
+{
+  "384": {
+    "id": 384,
+    "shiny": false,
+    "src": "assets/cinematics/384-appearance-v1.mp4",
+    "poster": "assets/cinematics/384-appearance-v1-poster.png",
+    "duration": 5.041666666666667,
+    "width": 1024,
+    "height": 592,
+    "fps": 24.0,
+    "frameCount": 121,
+    "sha256": "8fc4efe0e8906e654fe4679c8477ff6fdee51d8a7c30f0412780da82aba2d848",
+    "provider": "PixVerse V6",
+    "sourceUrl": "https://app.pixverse.ai/video/433776039305851",
+    "reviewed": true,
+    "reviewNote": "Approved visual direction; coherent silhouette across full five-second clip; tail and jaw animate; watermark retained. Species identity verified: local dex and https://pokeapi.co/api/v2/pokemon-species/384/ both identify 384 as Rayquaza; Kyogre is 382.",
+    "reviewedOn": "2026-11-06",
+    "watermarkPreserved": true
+  },
+  "383": {
+    "id": 383,
+    "shiny": false,
+    "src": "assets/cinematics/383-appearance-v1.mp4",
+    "poster": "assets/cinematics/383-appearance-v1-poster.png",
+    "duration": 5.041666666666667,
+    "width": 1024,
+    "height": 592,
+    "fps": 24.0,
+    "frameCount": 121,
+    "sha256": "d990aaf3b24a309f2576cccf54a7d03da48e7d4a16215242521e0f70629abe30",
+    "provider": "PixVerse V6",
+    "sourceUrl": "https://app.pixverse.ai/video/433778759302265",
+    "reviewed": true,
+    "reviewNote": "Full five-second MP4 reviewed: eye opens, head and claw move, magma brightens, silhouette and armor remain coherent; original watermark retained. Species 383 is Groudon in the local dex.",
+    "reviewedOn": "2026-11-06",
+    "watermarkPreserved": true
+  }
+}

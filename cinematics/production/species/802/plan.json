@@ -1,0 +1,36 @@
+{
+  "id": 802,
+  "name": "Marshadow",
+  "generation": 7,
+  "title": "Un pas dans ton ombre",
+  "location": "Cour de minuit",
+  "setting": "A small stone courtyard containing one lamp and a broad midnight shadow",
+  "action": "Marshadow gently raises its head and brightens its two eyes",
+  "environment": "Its floor shadow stretches slightly and returns while one green flame flickers softly",
+  "variants": [
+    {
+      "key": "802",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/802/icon.png",
+      "sourceImage": "cinematics/production/species/802/802-frame-v1.png",
+      "destination": "assets/cinematics/802-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Marshadow summoning appearance titled Un pas dans ton ombre. Setting: A small stone courtyard containing one lamp and a broad midnight shadow. Starting pose is calm and held, ready for this modest action: Marshadow gently raises its head and brightens its two eyes. Environmental action to prepare: Its floor shadow stretches slightly and returns while one green flame flickers softly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Marshadow gently raises its head and brightens its two eyes. Its floor shadow stretches slightly and returns while one green flame flickers softly. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "802s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/802/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/802/802s-frame-v1.png",
+      "destination": "assets/cinematics/802s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Marshadow summoning appearance titled Un pas dans ton ombre. Setting: A small stone courtyard containing one lamp and a broad midnight shadow. Starting pose is calm and held, ready for this modest action: Marshadow gently raises its head and brightens its two eyes. Environmental action to prepare: Its floor shadow stretches slightly and returns while one green flame flickers softly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Marshadow gently raises its head and brightens its two eyes. Its floor shadow stretches slightly and returns while one green flame flickers softly. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

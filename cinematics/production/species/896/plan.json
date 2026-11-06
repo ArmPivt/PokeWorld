@@ -1,0 +1,24 @@
+{
+  "id": 896,
+  "name": "Blizzeval",
+  "generation": 8,
+  "title": "Les sabots du blizzard",
+  "location": "Pente Enneigée",
+  "setting": "A frozen carrot beside a low ice ridge on a snowy slope",
+  "action": "Glastrier gently stamps one forehoof and exhales a small pale puff",
+  "environment": "Two broad snowflakes fall and a short line of frost lights at its hoof",
+  "variants": [
+    {
+      "key": "896",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/896/icon.png",
+      "sourceImage": "cinematics/production/species/896/896-frame-v1.png",
+      "destination": "assets/cinematics/896-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Blizzeval summoning appearance titled Les sabots du blizzard. Setting: A frozen carrot beside a low ice ridge on a snowy slope. Starting pose is calm and held, ready for this modest action: Glastrier gently stamps one forehoof and exhales a small pale puff. Environmental action to prepare: Two broad snowflakes fall and a short line of frost lights at its hoof. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Glastrier gently stamps one forehoof and exhales a small pale puff. Two broad snowflakes fall and a short line of frost lights at its hoof. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

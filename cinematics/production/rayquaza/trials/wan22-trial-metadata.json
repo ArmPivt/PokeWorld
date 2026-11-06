@@ -1,0 +1,13 @@
+{
+  "video": "C:\\Users\\arman\\OneDrive\\Documents\\La tour Infernale\\cinematics\\production\\rayquaza\\trials\\wan22-motion-trial-v1.mp4",
+  "width": 512,
+  "height": 288,
+  "fps": 24.0,
+  "frames": 49,
+  "duration": 2.0416666666666665,
+  "bytes": 1137455,
+  "mean_adjacent_pixel_change": 24.322784423828125,
+  "mean_first_last_pixel_change": 68.95977020263672,
+  "production_ready": false,
+  "scope": "Two-second technical motion trial only; not a finished legendary cinematic."
+}

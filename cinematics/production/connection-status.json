@@ -1,0 +1,7 @@
+{
+  "installed": true,
+  "authenticationVerified": true,
+  "videoTaskSubmitted": false,
+  "blocker": "Connected Runway workspace is on the Free plan; no video models are available.",
+  "nextAction": "Video generation requires a paid Runway workspace. No purchase or video generation was performed."
+}

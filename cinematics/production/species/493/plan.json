@@ -1,0 +1,36 @@
+{
+  "id": 493,
+  "name": "Arceus",
+  "generation": 4,
+  "title": "Avant le premier matin",
+  "location": "Salle Originelle",
+  "setting": "A golden ring above three broad luminous steps in an empty dark cosmos",
+  "action": "Arceus slowly raises its head while keeping its body and ring perfectly formed",
+  "environment": "The three steps light upward and a restrained gold halo pulses once",
+  "variants": [
+    {
+      "key": "493",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/493/icon.png",
+      "sourceImage": "cinematics/production/species/493/493-frame-v1.png",
+      "destination": "assets/cinematics/493-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Arceus summoning appearance titled Avant le premier matin. Setting: A golden ring above three broad luminous steps in an empty dark cosmos. Starting pose is calm and held, ready for this modest action: Arceus slowly raises its head while keeping its body and ring perfectly formed. Environmental action to prepare: The three steps light upward and a restrained gold halo pulses once. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Arceus slowly raises its head while keeping its body and ring perfectly formed. The three steps light upward and a restrained gold halo pulses once. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "493s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/493/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/493/493s-frame-v1.png",
+      "destination": "assets/cinematics/493s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Arceus summoning appearance titled Avant le premier matin. Setting: A golden ring above three broad luminous steps in an empty dark cosmos. Starting pose is calm and held, ready for this modest action: Arceus slowly raises its head while keeping its body and ring perfectly formed. Environmental action to prepare: The three steps light upward and a restrained gold halo pulses once. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Arceus slowly raises its head while keeping its body and ring perfectly formed. The three steps light upward and a restrained gold halo pulses once. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

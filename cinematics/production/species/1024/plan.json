@@ -1,0 +1,36 @@
+{
+  "id": 1024,
+  "name": "Terapagos",
+  "generation": 9,
+  "title": "Le trésor sous le monde",
+  "location": "Profondeurs de la Zone Zéro",
+  "setting": "A low crystal shell pedestal in the dark depths of Area Zero",
+  "action": "Base-form Terapagos slowly opens its eyes and raises its head a little",
+  "environment": "Three large crystal facets brighten in blue cyan and violet around the pedestal",
+  "variants": [
+    {
+      "key": "1024",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/1024/icon.png",
+      "sourceImage": "cinematics/production/species/1024/1024-frame-v1.png",
+      "destination": "assets/cinematics/1024-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Terapagos summoning appearance titled Le trésor sous le monde. Setting: A low crystal shell pedestal in the dark depths of Area Zero. Starting pose is calm and held, ready for this modest action: Base-form Terapagos slowly opens its eyes and raises its head a little. Environmental action to prepare: Three large crystal facets brighten in blue cyan and violet around the pedestal. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Base-form Terapagos slowly opens its eyes and raises its head a little. Three large crystal facets brighten in blue cyan and violet around the pedestal. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "1024s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/1024/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/1024/1024s-frame-v1.png",
+      "destination": "assets/cinematics/1024s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Terapagos summoning appearance titled Le trésor sous le monde. Setting: A low crystal shell pedestal in the dark depths of Area Zero. Starting pose is calm and held, ready for this modest action: Base-form Terapagos slowly opens its eyes and raises its head a little. Environmental action to prepare: Three large crystal facets brighten in blue cyan and violet around the pedestal. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Base-form Terapagos slowly opens its eyes and raises its head a little. Three large crystal facets brighten in blue cyan and violet around the pedestal. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

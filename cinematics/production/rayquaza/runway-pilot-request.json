@@ -1,0 +1,30 @@
+{
+  "status": "ready-for-upload-connection-unavailable",
+  "openingFrame": "01-opening-v1.png",
+  "fullStoryboard": "storyboard-v1.png",
+  "note": "Compact 15-second pilot: combine establishing bay and confrontation into the first shot. Upload the opening image to Runway and pass the returned asset URL as firstSceneImage.url; a local file path is not a URL.",
+  "args": {
+    "mode": "custom",
+    "duration": 15,
+    "aspectRatio": "16:9",
+    "resolution": "720p",
+    "sound": true,
+    "shots": [
+      {
+        "prompt": "Detailed hand-drawn pixel art animated cinematic, Pokémon Emerald special-cutscene aesthetic. Coherent hard-edged pixel clusters and restricted palettes. Canonical Rayquaza, Groudon and Kyogre anatomy. Animated characters, weather and water in depth; no pan over a static illustration. No text, UI, subtitles, collage, watermark or realistic CGI. Wide shot of the stormy bay. Groudon raises his armored red claws on a rock island and roars at Kyogre. Kyogre heaves out of the turbulent ocean and sends a surging wave at the island. Track towards the pair; lightning and rain animate independently."
+      },
+      {
+        "prompt": "Detailed hand-drawn pixel art animated cinematic, Pokémon Emerald special-cutscene aesthetic. Coherent hard-edged pixel clusters and restricted palettes. Canonical Rayquaza, Groudon and Kyogre anatomy. Animated characters, weather and water in depth; no pan over a static illustration. No text, UI, subtitles, collage, watermark or realistic CGI. Cut into the storm clouds to an extreme close-up of Rayquaza's face. His closed golden eye slowly opens. Emerald light pulses across his green scales; moving cloud layers reveal his yellow ring markings and red-edged head fins."
+      },
+      {
+        "prompt": "Detailed hand-drawn pixel art animated cinematic, Pokémon Emerald special-cutscene aesthetic. Coherent hard-edged pixel clusters and restricted palettes. Canonical Rayquaza, Groudon and Kyogre anatomy. Animated characters, weather and water in depth; no pan over a static illustration. No text, UI, subtitles, collage, watermark or realistic CGI. Cut to an upward wide angle. The clouds part into a spiral opening and the full long serpentine body of Rayquaza uncoils, flies and descends through an emerald beam. His body segments articulate fluidly, fins move, clouds are pushed aside. Keep a single coherent dragon with the same anatomy."
+      },
+      {
+        "prompt": "Detailed hand-drawn pixel art animated cinematic, Pokémon Emerald special-cutscene aesthetic. Coherent hard-edged pixel clusters and restricted palettes. Canonical Rayquaza, Groudon and Kyogre anatomy. Animated characters, weather and water in depth; no pan over a static illustration. No text, UI, subtitles, collage, watermark or realistic CGI. Cut to a low angle between Groudon and Kyogre. Rayquaza towers above them, opens his jaw and roars. A visible circular air shockwave pushes rain and sea spray outwards. Groudon recoils and Kyogre sinks, with actual changes in their poses and motion."
+      },
+      {
+        "prompt": "Detailed hand-drawn pixel art animated cinematic, Pokémon Emerald special-cutscene aesthetic. Coherent hard-edged pixel clusters and restricted palettes. Canonical Rayquaza, Groudon and Kyogre anatomy. Animated characters, weather and water in depth; no pan over a static illustration. No text, UI, subtitles, collage, watermark or realistic CGI. Final wide hero shot. The bay calms, storm clouds move apart and warm sunbeams spill over the water. Rayquaza slowly coils in the clear air above the bay. Hold a majestic finished reveal of his green body, yellow rings, red fins and long head horns."
+      }
+    ]
+  }
+}

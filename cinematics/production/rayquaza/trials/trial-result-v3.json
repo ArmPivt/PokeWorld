@@ -1,0 +1,211 @@
+{
+  "prompt": [
+    0,
+    "130446a8-d29e-4e79-8d3d-c741dfbd112b",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "wan2.2_ti2v_5B_fp16.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+          "type": "wan",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "wan2.2_vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "pokeworld-rayquaza-simple.png"
+        }
+      },
+      "5": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "2",
+            0
+          ],
+          "text": "Simple retro 2D pixel art animation, fixed camera. Rayquaza, the green serpentine dragon, gently floats up then settles back above the stone tower. Its jaw slowly closes and the very tip of its tail moves slightly. The existing S-shaped body silhouette, small arms and fins keep their proportions. Broad dark clouds drift slowly behind it. A few green sparks pulse softly. Large crisp square pixels, flat limited colors, no fine texture. Calm restrained movement in a single continuous shot."
+        }
+      },
+      "6": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "2",
+            0
+          ],
+          "text": "3D, photorealistic, painting, smooth gradients, blur, zoom, camera movement, fast action, body rotation, stretching, morphing, extra limbs, extra head, growing fins, long neck, change of anatomy, flickering, text, subtitles, watermark"
+        }
+      },
+      "7": {
+        "class_type": "Wan22ImageToVideoLatent",
+        "inputs": {
+          "vae": [
+            "3",
+            0
+          ],
+          "start_image": [
+            "4",
+            0
+          ],
+          "width": 768,
+          "height": 448,
+          "length": 73,
+          "batch_size": 1
+        }
+      },
+      "8": {
+        "class_type": "ModelSamplingSD3",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "shift": 8.0
+        }
+      },
+      "9": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "8",
+            0
+          ],
+          "positive": [
+            "5",
+            0
+          ],
+          "negative": [
+            "6",
+            0
+          ],
+          "latent_image": [
+            "7",
+            0
+          ],
+          "seed": 3842026,
+          "steps": 20,
+          "cfg": 5.0,
+          "sampler_name": "uni_pc",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "10": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "9",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "11": {
+        "class_type": "CreateVideo",
+        "inputs": {
+          "images": [
+            "10",
+            0
+          ],
+          "fps": 24.0
+        }
+      },
+      "12": {
+        "class_type": "SaveVideo",
+        "inputs": {
+          "video": [
+            "11",
+            0
+          ],
+          "filename_prefix": "pokeworld/rayquaza-motion-trial-v3",
+          "format": "mp4",
+          "codec": {
+            "codec": "h264"
+          }
+        }
+      }
+    },
+    {
+      "client_id": "a0387ce6-688e-43bd-8790-915ef5177e95",
+      "create_time": 1793926903083
+    },
+    [
+      "12"
+    ]
+  ],
+  "outputs": {
+    "12": {
+      "images": [
+        {
+          "filename": "rayquaza-motion-trial-v3_00001_.mp4",
+          "subfolder": "pokeworld",
+          "type": "output",
+          "metadata": {
+            "kind": "video",
+            "width": 768,
+            "height": 448,
+            "duration": 3.0416666666666665,
+            "fps": 24.0,
+            "frame_count": 73
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "130446a8-d29e-4e79-8d3d-c741dfbd112b",
+          "timestamp": 1793926903085
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "130446a8-d29e-4e79-8d3d-c741dfbd112b",
+          "timestamp": 1793926903085
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "130446a8-d29e-4e79-8d3d-c741dfbd112b",
+          "timestamp": 1793927081699
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "12": {
+      "node_id": "12",
+      "display_node": "12",
+      "parent_node": null,
+      "real_node_id": "12"
+    }
+  }
+}

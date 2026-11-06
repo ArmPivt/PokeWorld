@@ -1,0 +1,13 @@
+{
+  "video": "C:\\Users\\arman\\OneDrive\\Documents\\La tour Infernale\\cinematics\\production\\rayquaza\\trials\\pixverse-v6-simple-v1-motion-trial.mp4",
+  "width": 1024,
+  "height": 592,
+  "fps": 24.0,
+  "frames": 121,
+  "duration": 5.041666666666667,
+  "bytes": 656406,
+  "mean_adjacent_pixel_change": 1.1364644765853882,
+  "mean_first_last_pixel_change": 5.68150520324707,
+  "production_ready": false,
+  "scope": "Short technical motion trial only; not a finished legendary cinematic."
+}

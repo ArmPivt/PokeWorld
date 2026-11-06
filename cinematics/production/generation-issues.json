@@ -1,0 +1,22 @@
+{
+  "144": {
+    "stage": "image",
+    "code": "moderation_blocked",
+    "attempts": 1
+  },
+  "145": {
+    "stage": "image",
+    "code": "moderation_blocked",
+    "attempts": 1
+  },
+  "150": {
+    "stage": "image",
+    "code": "moderation_blocked",
+    "attempts": 2
+  },
+  "151": {
+    "stage": "image",
+    "code": "moderation_blocked",
+    "attempts": 1
+  }
+}

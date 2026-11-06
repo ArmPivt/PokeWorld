@@ -1,0 +1,36 @@
+{
+  "id": 641,
+  "name": "Boréas",
+  "generation": 5,
+  "title": "Le messager des vents",
+  "location": "Plateau des nuages",
+  "setting": "A wind chime hanging over a broad cloud platform",
+  "action": "Incarnate Tornadus slowly shifts its existing arms and sways the end of its tail",
+  "environment": "One loose spiral of wind moves around the cloud and the chime swings once",
+  "variants": [
+    {
+      "key": "641",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/641/icon.png",
+      "sourceImage": "cinematics/production/species/641/641-frame-v1.png",
+      "destination": "assets/cinematics/641-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Boréas summoning appearance titled Le messager des vents. Setting: A wind chime hanging over a broad cloud platform. Starting pose is calm and held, ready for this modest action: Incarnate Tornadus slowly shifts its existing arms and sways the end of its tail. Environmental action to prepare: One loose spiral of wind moves around the cloud and the chime swings once. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Incarnate Tornadus slowly shifts its existing arms and sways the end of its tail. One loose spiral of wind moves around the cloud and the chime swings once. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "641s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/641/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/641/641s-frame-v1.png",
+      "destination": "assets/cinematics/641s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Boréas summoning appearance titled Le messager des vents. Setting: A wind chime hanging over a broad cloud platform. Starting pose is calm and held, ready for this modest action: Incarnate Tornadus slowly shifts its existing arms and sways the end of its tail. Environmental action to prepare: One loose spiral of wind moves around the cloud and the chime swings once. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Incarnate Tornadus slowly shifts its existing arms and sways the end of its tail. One loose spiral of wind moves around the cloud and the chime swings once. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

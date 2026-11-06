@@ -1,0 +1,36 @@
+{
+  "id": 809,
+  "name": "Melmetal",
+  "generation": 7,
+  "title": "Le métal prend vie",
+  "location": "Forge oubliée",
+  "setting": "A round forge core surrounded by three large unused nuts",
+  "action": "Melmetal slowly raises one heavy existing arm and steadies its body",
+  "environment": "A warm orange line lights the forge and two nearby nuts tilt slightly",
+  "variants": [
+    {
+      "key": "809",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/809/icon.png",
+      "sourceImage": "cinematics/production/species/809/809-frame-v1.png",
+      "destination": "assets/cinematics/809-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Melmetal summoning appearance titled Le métal prend vie. Setting: A round forge core surrounded by three large unused nuts. Starting pose is calm and held, ready for this modest action: Melmetal slowly raises one heavy existing arm and steadies its body. Environmental action to prepare: A warm orange line lights the forge and two nearby nuts tilt slightly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Melmetal slowly raises one heavy existing arm and steadies its body. A warm orange line lights the forge and two nearby nuts tilt slightly. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "809s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/809/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/809/809s-frame-v1.png",
+      "destination": "assets/cinematics/809s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Melmetal summoning appearance titled Le métal prend vie. Setting: A round forge core surrounded by three large unused nuts. Starting pose is calm and held, ready for this modest action: Melmetal slowly raises one heavy existing arm and steadies its body. Environmental action to prepare: A warm orange line lights the forge and two nearby nuts tilt slightly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Melmetal slowly raises one heavy existing arm and steadies its body. A warm orange line lights the forge and two nearby nuts tilt slightly. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

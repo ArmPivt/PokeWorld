@@ -1,0 +1,18 @@
+const {chromium}=require('C:/Users/arman/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),assert=require('node:assert/strict');
+(async()=>{
+ const b=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+ try{
+  const p=await b.newPage({viewport:{width:1440,height:900}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+  await p.goto('http://127.0.0.1:4173');await p.waitForFunction(()=>window.Game);await p.locator('[data-act="choose-starter"][data-key="4"]').click();
+  async function invokeRay(){await p.evaluate(async()=>{const g=Game;g.state.settings.reducedMotion=false;g.summoning.gen=3;g.route('gacha');const {summonPool}=await import('./js/summon-catalog.mjs'),pool=summonPool(g.dex,3,'legendary'),index=pool.findIndex(x=>x.id===384),random=Math.random,values=[.999,(index+.1)/pool.length,.8,.2,.3,.4,.5,.6,.7];if(index<0)throw Error('Rayquaza missing from portal');Math.random=()=>values.shift()??.5;g.summoning.invoke().finally(()=>Math.random=random)})}
+  await p.evaluate(()=>{Game.state.tickets=3;Game.state.legendaryStories={seen:[],pending:[]}});await invokeRay();
+  await p.waitForFunction(()=>Game.cinema.videoPlayer.state==='playing');assert.equal(await p.evaluate(()=>Game.state.tickets),2);assert.equal(await p.evaluate(()=>Game.state.roster.includes('384')),true);
+  const movie=await p.locator('.legendary-video video').evaluate(v=>({width:v.videoWidth,height:v.videoHeight,duration:v.duration,src:v.currentSrc}));assert(movie.src.endsWith('/assets/cinematics/384-appearance-v1.mp4'));assert(movie.width>=768&&movie.height>=400);assert(movie.duration>4&&movie.duration<7);
+  await p.locator('[data-act="legendary-pause"]').click();await p.locator('video').evaluate(v=>v.currentTime=1.2);await p.waitForTimeout(120);await p.screenshot({path:'qa-legendary-rayquaza-video.png'});
+  await p.setViewportSize({width:390,height:844});await p.waitForTimeout(120);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),true);await p.screenshot({path:'qa-legendary-rayquaza-video-mobile.png'});
+  await p.locator('[data-act="legendary-pause"]').click();await p.waitForFunction(()=>!Game.cinema.active&&!Game.summoning.busy,{timeout:15000});assert.equal(await p.locator('.invocation-result h2').innerText(),'Rayquaza');assert.equal(await p.evaluate(()=>Game.state.legendaryStories.seen.includes(384)),true);assert.equal(await p.evaluate(()=>Game.state.legendaryStories.pending.length),0);assert.equal(await p.evaluate(()=>Game.audio.music.holds.has('legendary-video')),false);
+  await p.locator('.primary[data-act="close-modal"]').click();await invokeRay();await p.waitForFunction(()=>!Game.summoning.busy);assert.equal(await p.evaluate(()=>Game.state.tickets),1);assert.equal(await p.evaluate(()=>Game.cinema.active),false);await p.locator('.primary[data-act="close-modal"]').click();
+  await p.evaluate(()=>Game.lab.open('384'));await p.locator('[data-act="legendary-replay"]').click();await p.waitForFunction(()=>Game.cinema.videoPlayer.state==='playing');await p.locator('[data-act="legendary-skip"]').click();await p.waitForFunction(()=>!!document.querySelector('.pokemon-detail-sheet'));assert.equal(await p.evaluate(()=>Game.state.tickets),1);assert.deepEqual(errors,[]);
+  console.log('PASS: actual Rayquaza MP4 decoded in the first-obtainment flow; reward committed before playback, desktop/mobile layout, native ending returns to reward, duplicate suppression and collection replay preserve tickets.');
+ }finally{await b.close()}
+})().catch(e=>{console.error(e);process.exit(1)});

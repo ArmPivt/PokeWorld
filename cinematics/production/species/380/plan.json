@@ -1,0 +1,36 @@
+{
+  "id": 380,
+  "name": "Latias",
+  "generation": 3,
+  "title": "L’éclat rouge de l’île",
+  "location": "Île du Sud",
+  "setting": "A red feather on a stone ledge overlooking a calm tropical island",
+  "action": "Latias makes a small hovering dip and tilts its head curiously",
+  "environment": "A red reflection glides across the still water beneath it",
+  "variants": [
+    {
+      "key": "380",
+      "shiny": false,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/380/icon.png",
+      "sourceImage": "cinematics/production/species/380/380-frame-v1.png",
+      "destination": "assets/cinematics/380-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Latias summoning appearance titled L’éclat rouge de l’île. Setting: A red feather on a stone ledge overlooking a calm tropical island. Starting pose is calm and held, ready for this modest action: Latias makes a small hovering dip and tilts its head curiously. Environmental action to prepare: A red reflection glides across the still water beneath it. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Latias makes a small hovering dip and tilts its head curiously. A red reflection glides across the still water beneath it. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    },
+    {
+      "key": "380s",
+      "shiny": true,
+      "status": "planned",
+      "generationIssue": null,
+      "sourceImageReady": false,
+      "identityReference": "dist/assets/pmd/380/icon-shiny.png",
+      "sourceImage": "cinematics/production/species/380/380s-frame-v1.png",
+      "destination": "assets/cinematics/380s-appearance-v1.mp4",
+      "imagePrompt": "Create the first frame of an original Latias summoning appearance titled L’éclat rouge de l’île. Setting: A red feather on a stone ledge overlooking a calm tropical island. Starting pose is calm and held, ready for this modest action: Latias makes a small hovering dip and tilts its head curiously. Environmental action to prepare: A red reflection glides across the still water beneath it. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+      "animationPrompt": "Simple retro 2D pixel art. Latias makes a small hovering dip and tilts its head curiously. A red reflection glides across the still water beneath it. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
+    }
+  ]
+}

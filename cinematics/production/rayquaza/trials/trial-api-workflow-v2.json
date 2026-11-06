@@ -1,0 +1,140 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "wan2.2_ti2v_5B_fp16.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "wan2.2_vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "pokeworld-rayquaza-opening.png"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "A detailed hand-animated pixel art cinematic. The red armored Groudon on the left raises its head, opens its jaw and breathes heavily while turning toward the blue Kyogre in the ocean on the right. Kyogre moves its broad fins, rises out of the water and sends a curling wave onto the rocks. Ocean waves break and foam, rain streams diagonally, storm clouds travel and lightning briefly illuminates the distant stone tower. The camera remains mostly steady with a very gentle forward track. Pixel clusters and the original character anatomy remain consistent. A living animated scene with moving creatures and water, not a still picture, not a slideshow."
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "static, still image, frozen, slideshow, camera zoom only, realistic, 3d rendering, smooth painting, text, subtitles, watermark, extra characters, duplicate animals, malformed bodies, extra heads, melting anatomy, flickering colors, loss of pixel art, blur, morphing"
+    }
+  },
+  "7": {
+    "class_type": "Wan22ImageToVideoLatent",
+    "inputs": {
+      "vae": [
+        "3",
+        0
+      ],
+      "start_image": [
+        "4",
+        0
+      ],
+      "width": 768,
+      "height": 448,
+      "length": 49,
+      "batch_size": 1
+    }
+  },
+  "8": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "shift": 8
+    }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "8",
+        0
+      ],
+      "positive": [
+        "5",
+        0
+      ],
+      "negative": [
+        "6",
+        0
+      ],
+      "latent_image": [
+        "7",
+        0
+      ],
+      "seed": 3842026,
+      "steps": 20,
+      "cfg": 5,
+      "sampler_name": "uni_pc",
+      "scheduler": "simple",
+      "denoise": 1
+    }
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "9",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "fps": 24
+    }
+  },
+  "12": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "11",
+        0
+      ],
+      "filename_prefix": "pokeworld/rayquaza-motion-trial-v2",
+      "format": "mp4",
+      "codec": {
+        "codec": "h264"
+      }
+    }
+  }
+}
