@@ -1,0 +1,256 @@
+{
+  "species": 144,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "c539d94c7f8c3db5b097aa8e7f8003005f9d45ef5c34e9cdf732020c2fd3e17b",
+  "bytes": 8921013,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Le Souffle des Îles Écume",
+  "cryAt": 22.3,
+  "cryDuration": 1.3453958333333333,
+  "cryCorrelation": 0.9587908036846936,
+  "decodedPeak": 0.7691389918327332,
+  "revealAt": 21.3,
+  "checks": "Complete video and stereo audio decode; increasing timestamps; no clipping; actual species cry correlated at the reveal; five narrative shots; complete bird framing across all final wing poses.",
+  "bodyBounds": {
+    "left": 131.325,
+    "right": 348.675,
+    "top": 44.27777068146614,
+    "bottom": 220.2900349437075,
+    "frames": 142
+  },
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 144,
+        "shot": 1,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 94.04131172839506
+    },
+    {
+      "time": 3.8,
+      "state": {
+        "time": 3.8,
+        "species": 144,
+        "shot": 1,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 95.41696502057613
+    },
+    {
+      "time": 5.6,
+      "state": {
+        "time": 5.6,
+        "species": 144,
+        "shot": 2,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 120.0910519547325
+    },
+    {
+      "time": 8.3,
+      "state": {
+        "time": 8.3,
+        "species": 144,
+        "shot": 2,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 122.49492283950617
+    },
+    {
+      "time": 10.3,
+      "state": {
+        "time": 10.3,
+        "species": 144,
+        "shot": 2,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 123.24739711934157
+    },
+    {
+      "time": 11.6,
+      "state": {
+        "time": 11.6,
+        "species": 144,
+        "shot": 3,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 109.57052211934156
+    },
+    {
+      "time": 14,
+      "state": {
+        "time": 14,
+        "species": 144,
+        "shot": 3,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 111.66976080246914
+    },
+    {
+      "time": 16.5,
+      "state": {
+        "time": 16.5,
+        "species": 144,
+        "shot": 3,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 113.70137860082305
+    },
+    {
+      "time": 17.5,
+      "state": {
+        "time": 17.5,
+        "species": 144,
+        "shot": 4,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 114.11316615226337
+    },
+    {
+      "time": 19,
+      "state": {
+        "time": 19,
+        "species": 144,
+        "shot": 4,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 117.18587448559671
+    },
+    {
+      "time": 20.6,
+      "state": {
+        "time": 20.6,
+        "species": 144,
+        "shot": 4,
+        "bird": null,
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 160.84035751028807
+    },
+    {
+      "time": 21.3,
+      "state": {
+        "time": 21.3,
+        "species": 144,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 218.8985728878511,
+          "alpha": 4.339762141352569e-30
+        },
+        "birdVisible": false,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 198.8229989711934
+    },
+    {
+      "time": 22.3,
+      "state": {
+        "time": 22.3,
+        "species": 144,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 193.94544381987976,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 110.61837705761317
+    },
+    {
+      "time": 24,
+      "state": {
+        "time": 24,
+        "species": 144,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 175.89862891480473,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 110.28276234567902
+    },
+    {
+      "time": 26,
+      "state": {
+        "time": 26,
+        "species": 144,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 176.84969775907638,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 110.84354938271605
+    },
+    {
+      "time": 28.5,
+      "state": {
+        "time": 28.5,
+        "species": 144,
+        "shot": 5,
+        "bird": {
+          "x": 240,
+          "y": 178.98728220226553,
+          "alpha": 1
+        },
+        "birdVisible": true,
+        "revealAt": 21.3,
+        "cryAt": 22.3
+      },
+      "mean": 110.80746399176955
+    }
+  ]
+}

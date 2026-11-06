@@ -1,0 +1,50 @@
+{
+  "provider": "ImageGen intégré",
+  "assets": [
+    {
+      "key": "144-coast",
+      "prompt": "Use case: illustration-story. Asset type: opening cinematic pixel-art background for PokéWorld, 16:9. Scene: a wide establishing shot of two rugged offshore islands in a cold dark turquoise sea at dusk. Their rocky cliffs are glazed with blue ice and snow; the right island has a small mysterious icy cave entrance at water level. A narrow stream of pale mist connects the islands. Moody navy ocean in foreground, strong readable shapes, distant blue-gray clouds and pale winter moon behind them. No storm lightning. Keep the foreground water and central sky open for animated effects. Detailed crisp 16-bit Pokémon Emerald-style pixel art, square color clusters, stepped edges, layered depth, restrained blues with pale cyan glints. No creatures, no people, no text, no UI, no smooth painting, no blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-fbca1507-0308-40c9-b20c-1961fd850698.png"
+    },
+    {
+      "key": "144-tunnel",
+      "prompt": "Use case: illustration-story. Asset type: second cinematic pixel-art background for PokéWorld, 16:9. Scene: inside a twisting ice cavern under an offshore island, first-person cinematic view looking along a shallow frozen underground stream toward a small pale cyan opening in the distance at center. Huge blue crystalline stalactites and frozen pillars frame the view, glossy stepped ice ledges on the sides, dark navy floor with an icy path leading inward. Beautiful clear cyan reflections, mysterious soft cold light far ahead, darker foreground cave walls; a few large translucent ice crystals at the edges. The central path must be visibly empty for the camera to advance through. Detailed 16-bit Pokémon Emerald-style pixel art, sharp square pixels and stepped outlines, limited shades per material. No creatures, no people, no text, no interface, no photographic blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-4327f2d2-6fb9-4f4b-8810-7b5b4bb77780.png"
+    },
+    {
+      "key": "144-sanctuary",
+      "prompt": "Use case: illustration-story. Asset type: final legendary reveal pixel-art background for PokéWorld, 16:9. Scene: a magnificent secret frozen chamber at the end of the Seafoam caves. A vast deep blue ice cave with tall translucent cyan crystal columns and an opening high above admitting moonlight; a perfectly still icy pool across the foreground, a low natural ice dais in the center at x50%, ground y76%, empty above it for a flying ice bird to be animated separately. Broad clear open space across the center and upper middle, avoid stalactites in that empty focal area. Sparkling distant ice walls, geometric frost patterns around the dais, cold silver and cyan rim lighting, dark navy edges. Detailed crisp 16-bit Pokémon Emerald-style pixel art, square color clusters, stepped outlines, rich atmosphere without tiny noisy texture. No creatures or creature statues, no people, no text, no HUD, no blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-818a913a-1d84-41ce-aaad-f6ee3fe11a55.png"
+    },
+    {
+      "key": "145-exterior",
+      "prompt": "Use case: illustration-story. Asset type: opening cinematic pixel-art background for PokéWorld, 16:9. Scene: an abandoned retro power station by a river at night in a violent thunderstorm. Wide shot of a large worn brick industrial building with tall dark windows, insulators, overhead cables, transformer yard, and a tall metal lightning rod rising from its roof. Rain-dark ground and puddles, distant jagged mountains, huge purple and navy storm clouds. All windows and lamps initially DARK, no baked-in lightning bolts, no yellow flare: they will be animated later. Cinematic low-angle composition with room in the sky for moving thunder effects. Detailed 16-bit Pokémon Emerald-style pixel art, sharp square pixels, stepped outlines, strong navy/violet/steel palette. No creatures, no people, no text, no interface, no painted blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-777993fa-46ca-4fdd-a4d2-4c5f2208e323.png"
+    },
+    {
+      "key": "145-generator",
+      "prompt": "Use case: illustration-story. Asset type: second cinematic pixel-art background for PokéWorld, 16:9. Scene: the inside of an abandoned electrical power station, a huge symmetrical generator hall with a central circular turbine and copper coil array at x50%, thick cables running from side banks toward it, catwalks and pipes, a small control console in the lower-left foreground with dark screen and square status lights. Dusty industrial details, cold dark blue and violet ambient light, central turbine interior dark and empty for animated arcs and energy to be added separately. All machinery and indicator lamps are initially switched OFF. Keep a clear space around the central machine so its awakening is readable. Detailed crisp 16-bit Pokémon Emerald-style pixel art, square clusters and stepped outlines, restrained materials. No creatures, no people, no text, no HUD, no photographic blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-86afedeb-382f-4bd9-aed3-ac535d5a4d46.png"
+    },
+    {
+      "key": "145-roof",
+      "prompt": "Use case: illustration-story. Asset type: final lightning-bird reveal pixel-art background for PokéWorld, 16:9. Scene: on the broad rooftop of an old electrical power station at night in a raging thunderstorm, looking slightly upward toward swirling navy and violet thunderclouds. Low metal parapets, insulators and thick cables along left and right; a low central lightning-conductor platform at x50%, y82%, leaving a BIG EMPTY REGION across the central sky from y15% to75% for a large flying bird. The rod itself is short and below that empty region. Rain-dark rooftop reflects a little cool light, distant mountain silhouettes. No lightning bolts or yellow glow baked in: effects added in animation. Detailed 16-bit Pokémon Emerald-style pixel art, crisp square color clusters, stepped outlines and strong contrast. No creatures, no people, no text, no interface, no blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-d56ac69a-6c00-42a0-bff6-78b6ae548021.png"
+    },
+    {
+      "key": "146-mountain",
+      "prompt": "Use case: illustration-story. Asset type: opening fire-bird cinematic pixel-art background for PokéWorld, 16:9. Scene: a majestic volcanic mountain on a remote rocky island just BEFORE dawn. Wide cinematic view from a barren black basalt ridge toward the towering volcanic cone, a small dark crater at its summit, thin ash plume rising, faint orange lava veins on the slopes. Deep indigo sky above transitioning to muted amber along the horizon, a calm dark sea far below. Strong silhouette and layered ridges. Foreground open for an ember carried by wind, volcano centered in the distance. Detailed crisp 16-bit Pokémon Emerald-style pixel art, square pixels, stepped outlines, restrained indigo/rust/basalt colors, beautiful atmosphere. No creatures, no people, no text, no HUD, no painted blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-275172a7-bcd5-4989-875e-607c5a3b07df.png"
+    },
+    {
+      "key": "146-lava",
+      "prompt": "Use case: illustration-story. Asset type: second fire-bird cinematic pixel-art background for PokéWorld, 16:9. Scene: deep inside an active volcanic vent, cinematic view along a glowing orange river of lava toward a dark narrow vertical chimney opening in the distant center. Jagged black basalt walls, broad cooled stepping ledges at both sides, lava falls, big dark rock shapes with orange rim light, hot red reflections on the cave roof. Clear winding lava route visible through the center; no characters, statues or egg. Dramatic depth, molten gold accents in a dark maroon and charcoal cave. Detailed crisp 16-bit Pokémon Emerald-style pixel art, square color clusters and stepped edges, clear readable lighting, no smooth gradients or painted blur. No text or interface.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-7c7c0d1d-0518-4e98-8d73-aabbf718b279.png"
+    },
+    {
+      "key": "146-crater",
+      "prompt": "Use case: illustration-story. Asset type: final fire-bird reveal cinematic pixel-art background for PokéWorld, 16:9. Scene: standing on the rim of a vast volcanic crater at sunrise. Low jagged basalt rim in lower quarter, glowing orange lava crater below its lip at center bottom, distant mountain ridges and ocean behind. The sky takes the upper three quarters, luminous amber sunrise near the horizon and muted violet higher clouds. Leave the entire central sky EMPTY for a large fiery bird and a rising flame vortex to be animated separately. The sun is small and offset to the far right, so it does not sit behind the central bird. Detailed crisp 16-bit Pokémon Emerald-style pixel art, warm gold/coral/lava palette contrasting dark rock, sharp square pixels, stepped edges, beautiful epic atmosphere. No creatures, no statues, no people, no text, no UI, no photographic blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-6596a378-4320-4566-b341-18453c9cfb9a.png"
+    }
+  ]
+}
