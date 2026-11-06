@@ -149,6 +149,16 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Les Ailes de l’aube"
+  },
+  "250": {
+    "src": "assets/cinematics/250-appearance-v1.mp4",
+    "poster": "assets/cinematics/250-appearance-v1-poster.png",
+    "duration": 44,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "La Promesse des deux tours"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

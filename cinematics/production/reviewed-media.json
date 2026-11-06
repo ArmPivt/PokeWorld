@@ -283,5 +283,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Une braise rejoint le Mont Braise avant l’aube. Descente dans les rivières de lave, pression du magma puis colonne de flammes dans le cratère. Sulfura s’élève au-dessus du volcan au lever du soleil. Cri à 25,1 s, musique orchestrale originale. Cinq plans, décodage intégral vidéo/audio, cadrage complet des ailes et corrélation du véritable cri vérifiés. Ancrage corporel stable dans toutes les poses."
+  },
+  "250": {
+    "id": 250,
+    "shiny": false,
+    "src": "assets/cinematics/250-appearance-v1.mp4",
+    "poster": "assets/cinematics/250-appearance-v1-poster.png",
+    "duration": 44,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "La Promesse des deux tours",
+    "fps": 24,
+    "frameCount": 1056,
+    "sha256": "47b7ec51849581e06efbdf9e91418a5cd1bdc8b903715f02828dc787ddb4de52",
+    "sourceFile": "cinematics/production/hooh-v1/250-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Incendie de la tour historique, extinction sous la pluie et ruines de la Tour Cendrée ; arc-en-ciel progressif après extinction totale, lumière sur les ruines ; cinq femmes en kimono avec quatre poses chacune dansent à la Tour Carillon, cloches lumineuses ; arrivée dorée dans les nuages, flash et descente de Ho-Oh. Véritable cri à 37,15 s. Musique rituelle originale inspirée de l’ambiance de la référence HeartGold, sans reprise du thème. 1 056 images et audio décodés ; ancrages des danseuses et cadrage complet des ailes vérifiés."
   }
 }

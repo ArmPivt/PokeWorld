@@ -1,0 +1,765 @@
+{
+  "duration": 44,
+  "cuts": [
+    0,
+    7,
+    13,
+    20,
+    29,
+    35
+  ],
+  "cryAt": 37.15,
+  "revealAt": 35.2,
+  "bellTimes": [
+    21.6,
+    24.1,
+    26.6,
+    28.2,
+    35.1,
+    39.2
+  ],
+  "women": [
+    {
+      "row": 0,
+      "x": 155,
+      "y": 216,
+      "h": 35
+    },
+    {
+      "row": 1,
+      "x": 240,
+      "y": 219,
+      "h": 36
+    },
+    {
+      "row": 2,
+      "x": 325,
+      "y": 216,
+      "h": 35
+    },
+    {
+      "row": 3,
+      "x": 105,
+      "y": 234,
+      "h": 39
+    },
+    {
+      "row": 4,
+      "x": 375,
+      "y": 234,
+      "h": 39
+    }
+  ],
+  "layout": {
+    "anchor": {
+      "x": 35.5,
+      "y": 63
+    },
+    "scale": 2.622950819672131,
+    "targetY": 168.75409836065572,
+    "bounds": {
+      "left": 149.5081967213115,
+      "right": 330.4918032786885,
+      "top": 14,
+      "bottom": 173.99999999999997
+    },
+    "frameBounds": [
+      [
+        8,
+        4,
+        63,
+        63
+      ],
+      [
+        1,
+        9,
+        70,
+        61
+      ],
+      [
+        12,
+        10,
+        59,
+        65
+      ],
+      [
+        12,
+        9,
+        59,
+        64
+      ],
+      [
+        1,
+        9,
+        70,
+        61
+      ]
+    ]
+  },
+  "species": 250,
+  "fps": 24,
+  "frames": 1056,
+  "width": 960,
+  "height": 540,
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 250,
+        "shot": 1,
+        "fireStrength": 0.7812349854227405,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 70.22632458847737
+    },
+    {
+      "time": 3.8,
+      "state": {
+        "time": 3.8,
+        "species": 250,
+        "shot": 1,
+        "fireStrength": 0.9756513119533528,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 71.48195730452674
+    },
+    {
+      "time": 6.5,
+      "state": {
+        "time": 6.5,
+        "species": 250,
+        "shot": 1,
+        "fireStrength": 1.1441690962099125,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 73.15224794238684
+    },
+    {
+      "time": 7.5,
+      "state": {
+        "time": 7.5,
+        "species": 250,
+        "shot": 2,
+        "fireStrength": 1.115164749710648,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 73.0626646090535
+    },
+    {
+      "time": 9,
+      "state": {
+        "time": 9,
+        "species": 250,
+        "shot": 2,
+        "fireStrength": 0.7174189814814814,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 71.61426954732511
+    },
+    {
+      "time": 10.5,
+      "state": {
+        "time": 10.5,
+        "species": 250,
+        "shot": 2,
+        "fireStrength": 0.20736852575231468,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 95.40656121399176
+    },
+    {
+      "time": 12.5,
+      "state": {
+        "time": 12.5,
+        "species": 250,
+        "shot": 2,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 104.96836419753086
+    },
+    {
+      "time": 13.5,
+      "state": {
+        "time": 13.5,
+        "species": 250,
+        "shot": 3,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 104.83639917695473
+    },
+    {
+      "time": 15,
+      "state": {
+        "time": 15,
+        "species": 250,
+        "shot": 3,
+        "fireStrength": 0,
+        "rainbowProgress": 0.1741867065429686,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 105.42838734567901
+    },
+    {
+      "time": 16.5,
+      "state": {
+        "time": 16.5,
+        "species": 250,
+        "shot": 3,
+        "fireStrength": 0,
+        "rainbowProgress": 0.8258132934570312,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 110.05252829218107
+    },
+    {
+      "time": 18.2,
+      "state": {
+        "time": 18.2,
+        "species": 250,
+        "shot": 3,
+        "fireStrength": 0,
+        "rainbowProgress": 1,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 119.09766203703704
+    },
+    {
+      "time": 19.5,
+      "state": {
+        "time": 19.5,
+        "species": 250,
+        "shot": 3,
+        "fireStrength": 0,
+        "rainbowProgress": 1,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 120.484966563786
+    },
+    {
+      "time": 20.5,
+      "state": {
+        "time": 20.5,
+        "species": 250,
+        "shot": 4,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 115.68691872427983
+    },
+    {
+      "time": 21.6,
+      "state": {
+        "time": 21.6,
+        "species": 250,
+        "shot": 4,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 116.21378600823046
+    },
+    {
+      "time": 23.2,
+      "state": {
+        "time": 23.2,
+        "species": 250,
+        "shot": 4,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          3,
+          0,
+          3,
+          0,
+          3
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 116.64088477366255
+    },
+    {
+      "time": 24.8,
+      "state": {
+        "time": 24.8,
+        "species": 250,
+        "shot": 4,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 120.4990072016461
+    },
+    {
+      "time": 26.4,
+      "state": {
+        "time": 26.4,
+        "species": 250,
+        "shot": 4,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 120.22650205761317
+    },
+    {
+      "time": 28.1,
+      "state": {
+        "time": 28.1,
+        "species": 250,
+        "shot": 4,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          3,
+          0,
+          3,
+          0,
+          3
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 116.48732253086419
+    },
+    {
+      "time": 29.8,
+      "state": {
+        "time": 29.8,
+        "species": 250,
+        "shot": 5,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 135.60948816872428
+    },
+    {
+      "time": 31.7,
+      "state": {
+        "time": 31.7,
+        "species": 250,
+        "shot": 5,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 136.60056069958847
+    },
+    {
+      "time": 33.5,
+      "state": {
+        "time": 33.5,
+        "species": 250,
+        "shot": 5,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 138.28255401234568
+    },
+    {
+      "time": 34.7,
+      "state": {
+        "time": 34.7,
+        "species": 250,
+        "shot": 5,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 192.12227880658438
+    },
+    {
+      "time": 35.4,
+      "state": {
+        "time": 35.4,
+        "species": 250,
+        "shot": 6,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "reveal": {
+          "bird": {
+            "x": 240.60031292820392,
+            "y": -7.633054906564744,
+            "scale": 2.622950819672131,
+            "frame": 2
+          },
+          "poses": [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "alpha": 0.22576240327719335
+        },
+        "hoohVisible": true,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 185.6068621399177
+    },
+    {
+      "time": 36.3,
+      "state": {
+        "time": 36.3,
+        "species": 250,
+        "shot": 6,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reveal": {
+          "bird": {
+            "x": 241.29992423629895,
+            "y": 110.06122815269421,
+            "scale": 2.622950819672131,
+            "frame": 2
+          },
+          "poses": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 112.10136059670782
+    },
+    {
+      "time": 37.2,
+      "state": {
+        "time": 37.2,
+        "species": 250,
+        "shot": 6,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "reveal": {
+          "bird": {
+            "x": 240.62506939948523,
+            "y": 168.02177289132524,
+            "scale": 2.622950819672131,
+            "frame": 3
+          },
+          "poses": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 110.73202932098765
+    },
+    {
+      "time": 39,
+      "state": {
+        "time": 39,
+        "species": 250,
+        "shot": 6,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "reveal": {
+          "bird": {
+            "x": 238.7049860085134,
+            "y": 169.39644571713592,
+            "scale": 2.622950819672131,
+            "frame": 4
+          },
+          "poses": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 110.47192901234568
+    },
+    {
+      "time": 41,
+      "state": {
+        "time": 41,
+        "species": 250,
+        "shot": 6,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "reveal": {
+          "bird": {
+            "x": 241.0317682230039,
+            "y": 167.84426126678412,
+            "scale": 2.622950819672131,
+            "frame": 1
+          },
+          "poses": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 110.54427983539095
+    },
+    {
+      "time": 42.8,
+      "state": {
+        "time": 42.8,
+        "species": 250,
+        "shot": 6,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reveal": {
+          "bird": {
+            "x": 240.08415246696683,
+            "y": 169.58523013345135,
+            "scale": 2.622950819672131,
+            "frame": 2
+          },
+          "poses": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 37.15,
+        "revealAt": 35.2
+      },
+      "mean": 110.72737397119342
+    }
+  ],
+  "danceChecks": {
+    "poses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "dancers": 5,
+    "standingHeights": [
+      35,
+      36,
+      39
+    ]
+  },
+  "bodyBounds": {
+    "left": 148.20911609564348,
+    "right": 331.7917929739862,
+    "top": 12.72491395693794,
+    "bottom": 175.2974767658198,
+    "frames": 142
+  }
+}

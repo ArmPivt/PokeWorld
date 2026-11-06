@@ -1,0 +1,27 @@
+{
+  "title": "La Promesse des deux tours",
+  "duration": 44,
+  "notes": 234,
+  "music": "Original ceremonial score with koto, shamisen, shakuhachi, taiko, woodblock, strings and choir; synthesized bronze bells and original ambience. No official melody, recording, sample or MIDI reused.",
+  "reference": "https://www.youtube.com/watch?v=ZRrflvE1DIU",
+  "referenceTitle": "Pokemon Heart Gold - Summoning Ho-Oh",
+  "cues": {
+    "towerFire": 0,
+    "rainExtinguishesFire": 7,
+    "rainbow": 14.15,
+    "kimonoDance": 20,
+    "bellTimes": [
+      21.6,
+      24.1,
+      26.6,
+      28.2,
+      35.1,
+      39.2
+    ],
+    "goldenArrival": 29,
+    "reveal": 35.2,
+    "hoohCry": 37.15
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}
