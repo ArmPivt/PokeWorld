@@ -31,8 +31,8 @@ export const LEGENDARY_MEDIA={
     "music": "Le Serment des Abysses"
   },
   "386": {
-    "src": "assets/cinematics/386-appearance-v1.mp4",
-    "poster": "assets/cinematics/386-appearance-v1-poster.png",
+    "src": "assets/cinematics/386-appearance-v2.mp4",
+    "poster": "assets/cinematics/386-appearance-v2-poster.png",
     "duration": 36,
     "width": 960,
     "height": 540,

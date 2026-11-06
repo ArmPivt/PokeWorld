@@ -4,7 +4,7 @@ const {chromium}=require('C:/Users/arman/.cache/codex-runtimes/codex-primary-run
  try{
   const p=await b.newPage({viewport:{width:1440,height:900}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:4173');await p.waitForFunction(()=>window.Game);await p.locator('[data-act="choose-starter"][data-key="4"]').click();
   await p.evaluate(()=>{Game.state.tickets=4;Game.state.settings.reducedMotion=false;Game.state.settings.music=true;Game.state.legendaryStories={seen:[],pending:[]}});
-  for(const [species,version,name,expectedDuration] of [[382,3,'Kyogre',26],[383,3,'Groudon',26],[386,1,'Deoxys',36]].filter(([id])=>!process.argv[2]||id===Number(process.argv[2]))){
+  for(const [species,version,name,expectedDuration] of [[382,3,'Kyogre',26],[383,3,'Groudon',26],[386,2,'Deoxys',36]].filter(([id])=>!process.argv[2]||id===Number(process.argv[2]))){
    const before=await p.evaluate(()=>Game.state.tickets);
    await p.evaluate(async id=>{const g=Game;g.summoning.gen=3;g.route('gacha');const {summonPool}=await import('./js/summon-catalog.mjs'),pool=summonPool(g.dex,3,'legendary'),index=pool.findIndex(x=>x.id===id),random=Math.random,values=[.999,(index+.1)/pool.length,.8,.2,.3,.4,.5,.6,.7];if(index<0)throw Error('Species missing');Math.random=()=>values.shift()??.5;g.summoning.invoke().finally(()=>Math.random=random)},species);
    await p.waitForFunction(()=>Game.cinema.videoPlayer.state==='playing');

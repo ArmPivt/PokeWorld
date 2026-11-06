@@ -1,0 +1,25 @@
+{
+  "species": 386,
+  "version": 2,
+  "duration": 36,
+  "frames": 864,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "7ec2c2f447d48b33fe0f380939f20a65140c6ce25e1a8bf0088cb7020a7a8a59",
+  "bytes": 5346517,
+  "audioStreamUnchanged": true,
+  "audioStreamSHA256": "7b5e150f2c4a6dcec2716d27dd8b71f7c6f944dbe5209375d91d3e1385764816",
+  "cryAt": 32,
+  "impactAt": 14.8,
+  "acceptedEndingUnchanged": true,
+  "acceptedEndingStartFrame": 396,
+  "acceptedEndingComparedFrames": 468,
+  "acceptedEndingRawRGBSHA256": "6ddb850a062e7b62e66dc0652d8530bb2e6a39471b53e7f79b8d9330d984e09a",
+  "checks": "All 864 frames decoded, monotonic timestamps; full audio decode; AAC packets unchanged; all 468 input frames from 16.5s onward pixel-identical to approved v1.",
+  "changes": [
+    "Laboratory control room: no incubator, main screen meteorite analysis, animated DNA on side monitor",
+    "Meteorite accelerates toward Earth; green light originates on Earth and reveals elongated Rayquaza",
+    "Planet-free wide collision shot; elongated Rayquaza strikes and shatters meteorite"
+  ]
+}

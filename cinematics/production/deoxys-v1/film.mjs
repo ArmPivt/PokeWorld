@@ -101,60 +101,109 @@ function meteor(x,y,size,angle,t,alpha=1){
 }
 function stars(t,amount=.8){for(let i=0;i<85;i++){const x=hash(i,36)*W,y=hash(i,37)*H;px(x,y,i%17?1:2,i%17?1:2,i%5?'#c8e3ff':'#c795ff',(.2+.5*Math.sin(t*.6+i)**2)*amount)}}
 function space(t,zoom=1){background('space.png',zoom);stars(t,.7)}
+const label=(text,x,y,color='#8ee7ed',size=5)=>{c.save();c.font=size+'px monospace';c.textBaseline='top';c.fillStyle=color;c.fillText(text,x,y);c.restore()};
 function laboratory(t){
- c.save();camera(1+ease(t/5.5)*.08,240,136);background('lab.png');
- // Animated readings and scanner establish active research around the sample.
- for(const [x,y,w,h] of [[43,83,80,34],[356,82,81,35],[65,145,24,15],[389,146,23,15]]){
-  for(let k=0;k<7;k++)px(x+k*w/8,y+h/2+Math.sin(k*1.7+t*4)*h*.3,4,2,k%3?'#63d7dc':'#bb8cf1',.68);
-  px(x,y+h-3,(t*24)%w,1,'#4a8eaf',.7);
- }
- const y=120+Math.sin(t*1.5)*2;ellipse(240,189,38,4,'#081d34',.5);meteor(240,y,82,Math.sin(t*.5)*.12,t);
- const scanY=82+((t*27)%95);beam(182,scanY,298,scanY,'water',t,.28,2);glow(240,scanY,35,'#58e3ed',.2);
- for(const x of [171,307]){px(x,88,1,89,'#72dce5',.2);px(x-2,scanY-2,5,4,'#c7ffff',.8)}
- if(t>3.5){const a=ease((t-3.5)/1.4);glow(240,31,25,'#cf5bf0',a*.6);glow(240,y,38,'#ab44e8',a*.5)}
+ c.save();camera(1+ease(t/5.5)*.045,240,130);background('lab-analysis-v2.png');
+ // Calibrated display interiors, in the 480 x 270 scene coordinates.
+ c.save();c.beginPath();c.rect(147,56,185,84);c.clip();px(147,56,185,84,'#0a1730');
+ label('ANALYSE METEORITE',153,60);px(151,69,177,1,'#2b6f8c');
+ for(let i=0;i<5;i++){px(152,77+i*12,79,1,'#1a3651',.7);px(155+i*17,73,1,59,'#1a3651',.7)}
+ meteor(191,104,48,Math.sin(t*.7)*.15,t,.9);
+ c.save();c.strokeStyle='#6ee6e1';c.globalAlpha=.6;c.lineWidth=1;c.beginPath();c.ellipse(191,104,32,24,-.3,0,Math.PI*2);c.stroke();c.restore();
+ px(235,74,1,59,'#31516f');
+ label('TRAJECTOIRE',243,75);ellipse(313,98,8,8,'#327fa1');ellipse(312,97,4,5,'#69b4b8');
+ for(let i=0;i<10;i++)px(246+i*6,86+i*1.2,2,1,'#b27ee9',.8);
+ const q=(t*.27)%1;px(mix(247,304,q),mix(86,98,q),3,3,'#f1b7fc');
+ label('VITESSE',243,112);px(271,113,50,3,'#1a3853');px(271,113,25+t*3.7,3,'#6adbd8');
+ label('ENERGIE',243,124);px(271,125,50,3,'#1a3853');px(271,125,15+t*5.7,3,t>3.8?'#e68ccc':'#829fec');
+ px(151,74+(t*17)%60,79,1,'#a1f6f2',.3);c.restore();
+ // The left wall screen analyses DNA rather than showing another asteroid.
+ c.save();c.beginPath();c.rect(42,80,78,39);c.clip();px(42,80,78,39,'#0b1830');label('ADN / SEQUENCE',46,83);
+ for(let y=0;y<25;y+=2){const a=y*.35+t*2,x1=81+Math.sin(a)*20,x2=81-Math.sin(a)*20;
+  if(y%4===0)px(Math.min(x1,x2),92+y,Math.abs(x1-x2),1,'#6e62ad',.8);
+  px(x1,92+y,3,2,'#69dedc');px(x2,92+y,3,2,'#c18ff3');
+ }c.restore();
+ c.save();c.beginPath();c.rect(359,80,79,39);c.clip();px(359,80,79,39,'#0b1830');label('SIGNAL COSMIQUE',363,83);
+ for(let k=0;k<70;k++)px(363+k,103+Math.sin(k*.19-t*3)*5+Math.sin(k*.6+t)*2,1,1,'#91cff3',.9);
+ for(let k=0;k<4;k++)px(365+k*17,114,10+Math.sin(t+k)*3,2,'#607bab');c.restore();
  c.restore();if(t<.35)fade(1-t/.35);if(t>5.15)fade(ease((t-5.15)/.35));
 }
+const rayNoses=new Map();
+function stretchedRay(x,y,scale,t,angle=0,alpha=1){
+ const indices=[5,6,7,8,7,6],index=indices[Math.floor(t*9)%indices.length],mode=sprites[384].Attack;
+ const at=mode.durations.slice(0,index).reduce((a,b)=>a+b,0)+mode.durations[index]/2;
+ const f=frameInfo(384,'Attack',6,at,true);
+ if(!rayNoses.has(index)){
+  const data=f.canvas.getContext('2d').getImageData(0,0,mode.w,mode.h).data;let min=mode.w;
+  for(let yy=0;yy<mode.h;yy++)for(let xx=0;xx<mode.w;xx++)if(data[(yy*mode.w+xx)*4+3]>32)min=Math.min(min,xx);
+  let yySum=0,n=0;for(let yy=0;yy<mode.h;yy++)for(let xx=min;xx<min+8;xx++)if(data[(yy*mode.w+xx)*4+3]>32){yySum+=yy;n++}
+  rayNoses.set(index,{x:min,y:yySum/n});
+ }
+ const nose=rayNoses.get(index);c.save();c.translate(x,y);c.rotate(angle);c.globalAlpha=alpha;
+ c.drawImage(f.canvas,-nose.x*scale,-nose.y*scale,mode.w*scale,mode.h*scale);c.restore();
+}
+function greenWake(x,y,t,angle,scale=1,alpha=1){
+ c.save();c.translate(x,y);c.rotate(angle);glow(8,0,22*scale,'#5dff9e',.32*alpha);
+ for(const side of [-1,1])for(let j=0;j<2;j++){
+  c.globalAlpha=(.6-j*.2)*alpha;c.strokeStyle=j?'#ccffc8':'#4cf2ab';c.lineWidth=(2-j*.8)*scale;c.beginPath();
+  c.moveTo(3,side*2);c.bezierCurveTo(35*scale,side*24*scale,90*scale,side*(12+Math.sin(t*7)*3)*scale,160*scale,side*10*scale);c.stroke();
+ }
+ for(let i=0;i<19;i++){const xx=20+(i*17+t*100)%170,yy=Math.sin(i*2+t*8)*14*scale;px(xx*scale,yy,7*scale,1,i%4?'#4fecaa':'#dcffd1',alpha*.55*(1-xx/200))}
+ c.restore();
+}
+function meteorFlight(x,y,size,t,angle=.42){
+ c.save();c.translate(x,y);c.rotate(angle);
+ for(let i=17;i>0;i--){const d=i*8;glow(-d,0,Math.max(2,size*.22*(1-i/21)),'#ae4be9',.07);px(-d,-2+Math.sin(t*17+i)*3,8,2,i%3?'#c975ed':'#ffe4ef',.5*(1-i/20))}
+ c.restore();meteor(x,y,size,t*.2,t);
+}
 function approach(t){
- const p=ease(t/5);space(t,1+p*.045);
- const x=mix(101,292,p),y=mix(57,125,p),size=mix(49,119,p);
- for(let i=18;i>0;i--){const k=i/18;glow(x-k*95,y-k*29,size*(.1+.12*(1-k)),'#9953ec',(1-k)*.09);px(x-k*86+Math.sin(i+t*4)*4,y-k*30,3,2,'#c480fd',(1-k)*.35)}
- meteor(x,y,size,t*.22,t);
- for(let i=0;i<20;i++){const lag=(hash(i,3)*100+t*15)%100;px(x-lag,y-lag*.34+(hash(i,4)-.5)*35,2,2,'#cf8bfa',(1-lag/100)*.45)}
+ space(t,1+ease(t/5)*.045);
+ if(t<2.9){
+  const p=clamp(t/2.9)**1.65,x=mix(40,276,p),y=mix(18,125,p);
+  for(let i=0;i<18;i++){const a=(hash(i,4)*550+t*(45+t*25))%550;px(a-40,hash(i,7)*270,7+t*3,1,'#c8caff',.24)}
+  meteorFlight(x,y,mix(46,102,p),t);
+ }else{
+  const age=t-2.9,p=clamp(age/2.1);
+  meteorFlight(mix(276,293,p),mix(125,132,p),102+p*5,t);
+  // Launch visibly originates on the Earth's surface, then flies into space.
+  const launch=clamp((age-.18)/1.7)**1.35,x=mix(397,326,launch),y=mix(223,148,launch),a=.81;
+  glow(397,223,12+age*9,'#5affae',Math.max(0,1-age/1.2)*.8);
+  if(age>.18){
+   const aLight=ease((age-.18)/.15)*(1-.45*ease((age-.8)/1.1));
+   glow(x,y,10,'#47ff9c',aLight*.8);glow(x,y,4,'#d7ffe3',aLight*.9);
+   c.save();c.strokeStyle='#78ffc0';c.globalAlpha=aLight*.65;c.lineWidth=2;c.beginPath();c.moveTo(397,223);c.lineTo(x,y);c.stroke();c.restore();
+   greenWake(x,y,age,a,.7,ease(age/.35));
+   stretchedRay(x,y,.64+launch*.16,age,a,ease((age-.55)/.5));
+   glow(x,y,8,'#abffd1',.23);
+  }
+ }
  if(t<.35)fade(1-t/.35);
 }
 const HIT=4.3;
-function rayPosition(t){if(t<1.5){const p=ease(t/1.5);return{x:mix(-80,40,p),y:mix(226,180,p)}}const p=clamp((t-1.5)/(HIT-1.5))**2.6;return{x:mix(40,205,p),y:mix(180,125,p)}}
-function chargeCone(x,y,t){
- glow(x,y,39,'#73ffac',.35);
- for(const side of [-1,1])for(let j=0;j<3;j++){
-  c.save();c.globalAlpha=.25-j*.055;c.strokeStyle=j%2?'#d6ffb0':'#50f9b4';c.lineWidth=3-j*.8;c.beginPath();c.moveTo(x+39,y-9);c.bezierCurveTo(x+6,y+side*(24+j*5),x-54,y+side*(19+j*7),x-126,y+side*9);c.stroke();c.restore();
- }
- for(let i=0;i<17;i++){const xx=x-16-i*7,yy=y+Math.sin(i*.8+t*11)*18;px(xx,yy,8,2,i%3?'#51efb4':'#d4ffaf',.5*(1-i/18))}
+function intercept(t){
+ background('deep-space-v2.png');stars(t+5,.6);
+ const p=clamp(t/HIT),mp=p**1.25;
+ const mx=mix(98,238,mp),my=mix(57,125,mp),size=mix(82,118,mp);
+ if(t<HIT)meteorFlight(mx,my,size,t,.45);
+ let x=mix(380,289,p**1.6),y=mix(219,125,p**1.25),angle=mix(.65,0,ease(p)),scale=mix(.76,1.38,ease(p));
+ if(t>=HIT){const q=clamp((t-HIT)/1.1);x=mix(289,-170,ease(q));y=mix(125,4,ease(q));angle=.26}
+ if(t<HIT+1.15){greenWake(x,y,t,angle,scale*.75);stretchedRay(x,y,scale,t,angle)}
+ if(t>=HIT){debris(t-HIT,238,125);collisionExplosion(t-HIT,238,125)}
 }
+function collisionExplosion(t,x,y){
+ if(t<0)return;const a=clamp(1-t/.9);
+ glow(x,y,22+t*90,'#d5ffcc',a);burst(x,y,t,'#c7ffd8',2.2);
+ for(let i=0;i<52;i++){const ang=i*2.399,speed=55+hash(i,3)*130;px(x+Math.cos(ang)*speed*t,y+Math.sin(ang)*speed*t,3,3,i%3?'#dfffe6':'#b18aff',Math.max(0,1-t/1.9)*.8)}
+ if(t<.42)fade(Math.sin(clamp(t/.42)*Math.PI)*.78,'#dcffe0');
+}
+
+
 function debris(t,x=300,y=125){
  if(t<0)return;const im=images.get('meteor.png'),[sx,sy,ex,ey]=meteorBounds,sw=(ex-sx)/3,sh=(ey-sy)/3;
  for(let i=0;i<9;i++){
   const a=i*Math.PI*2/9+.3,speed=35+hash(i,5)*55,xx=x+Math.cos(a)*speed*t,yy=y+Math.sin(a)*speed*t+t*t*3,size=22+hash(i,6)*24;
   c.save();c.globalAlpha=clamp(1-(t-2.2)/2.7);c.translate(xx,yy);c.rotate(a+t*(hash(i,8)-.5));c.drawImage(im,sx+i%3*sw,sy+Math.floor(i/3)*sh,sw,sh,-size/2,-size/2,size,size);c.restore();
  }
-}
-function explosion(t){
- if(t<0)return;const a=clamp(1-t/.9);
- glow(300,125,22+t*90,'#d5ffcc',a);burst(300,125,t,'#c7ffd8',2.2);
- for(let i=0;i<52;i++){const ang=i*2.399,speed=55+hash(i,3)*130;px(300+Math.cos(ang)*speed*t,125+Math.sin(ang)*speed*t,3,3,i%3?'#dfffe6':'#b18aff',Math.max(0,1-t/1.9)*.8)}
- if(t<.42)fade(Math.sin(clamp(t/.42)*Math.PI)*.78,'#dcffe0');
-}
-function intercept(t){
- space(t+5,1.045);
- if(t<HIT)meteor(300,125,119,t*.1,t);
- let p=rayPosition(t);
- if(t>HIT){const q=ease((t-HIT)/1.2);p={x:mix(205,660,q),y:mix(125,-35,q)}}
- if(t>.4&&t<5.7){
-  if(t>1.5)chargeCone(p.x,p.y,t);
-  const attack=t>HIT-.55&&t<HIT+.2;
-  entity(384,attack?'Attack':'Walk',2,p.x,p.y,1.45+ease(t/4.5)*.2,attack?(t-(HIT-.55))*.58:t*.8,{angle:-.14,oneShot:attack});
- }
- if(t>=HIT){debris(t-HIT);explosion(t-HIT)}
 }
 function triangle(x,y,size,red=0,alpha=1){
  const h=size*.866,front=`rgb(${Math.round(22+red*125)},${Math.round(30-red*19)},${Math.round(34-red*11)})`;
@@ -211,5 +260,5 @@ function render(time){
  if(t>35.5)fade(ease((t-35.5)/.5));out.imageSmoothingEnabled=false;out.clearRect(0,0,output.width,output.height);out.drawImage(stage,0,0,output.width,output.height);
  return {time:t,shot,cryAt:CRY,deoxysVisible:t>=31.3,triangle:t>=19&&t<27?trianglePosition(t-19):null};
 }
-const ready=(async()=>{sprites=await(await fetch('sprites.json')).json();meteorBounds=(await(await fetch('meteor-geometry.json')).json()).bounds;await Promise.all([...new Set(Object.values(sprites).flatMap(m=>Object.values(m).map(a=>a.src)))].map(load));await Promise.all(['lab.png','space.png','meteor.png'].map(load));document.querySelector('#status').hidden=true;render(0)})();
-window.deoxysFilm={ready,duration:DURATION,render,cuts:CUTS,cryAt:CRY,trianglePath:TRIANGLE_PATH};await ready;
+const ready=(async()=>{sprites=await(await fetch('sprites.json')).json();meteorBounds=(await(await fetch('meteor-geometry.json')).json()).bounds;await Promise.all([...new Set(Object.values(sprites).flatMap(m=>Object.values(m).map(a=>a.src)))].map(load));await Promise.all(['lab-analysis-v2.png','deep-space-v2.png','space.png','meteor.png'].map(load));document.querySelector('#status').hidden=true;render(0)})();
+window.deoxysFilm={ready,duration:DURATION,render,cuts:CUTS,launchAt:8.4,impactAt:14.8,cryAt:CRY,trianglePath:TRIANGLE_PATH};await ready;
