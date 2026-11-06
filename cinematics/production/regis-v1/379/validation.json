@@ -1,0 +1,21 @@
+{
+  "species": 379,
+  "shiny": false,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "9f1f8b8d8a76e1d8865bf18f607775404a1b05b024269526962055838a98e775",
+  "bytes": 2557864,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Le Souffle de l’Acier",
+  "cryAt": 22.2,
+  "cryDuration": 1.22025,
+  "cryCorrelation": 0.9801113223016693,
+  "decodedPeak": 0.7794641852378845,
+  "facePoints": 7,
+  "darkLitPixelFraction": 0.005802469135802469,
+  "revealAt": 21.5,
+  "checks": "672 monotonic video frames and full audio decoded; no clipping; real species cry correlation; exactly seven sprite-derived face points; dark room contains only face-light pixels."
+}

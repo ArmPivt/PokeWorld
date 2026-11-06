@@ -49,6 +49,36 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Mille vœux sous les étoiles"
+  },
+  "377": {
+    "src": "assets/cinematics/377-appearance-v1.mp4",
+    "poster": "assets/cinematics/377-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Sceau des Sables"
+  },
+  "378": {
+    "src": "assets/cinematics/378-appearance-v1.mp4",
+    "poster": "assets/cinematics/378-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "L’Attente du Glacier"
+  },
+  "379": {
+    "src": "assets/cinematics/379-appearance-v1.mp4",
+    "poster": "assets/cinematics/379-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Souffle de l’Acier"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

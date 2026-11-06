@@ -1,0 +1,18 @@
+{
+  "species": 377,
+  "title": "Le Sceau des Sables",
+  "duration": 28,
+  "notes": 61,
+  "music": "Original score, no official theme sample or transcription.",
+  "cues": {
+    "explore": 0,
+    "puzzle": 5,
+    "door": 12,
+    "enter": 15,
+    "faceLights": 18.25,
+    "reveal": 21.5,
+    "cry": 22.2
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}

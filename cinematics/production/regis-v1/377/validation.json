@@ -1,0 +1,21 @@
+{
+  "species": 377,
+  "shiny": false,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "2abe36ef0e06404fc21946511cc2fb9d93e2dd4beec6f7bf2d5d37515bf0192a",
+  "bytes": 2269087,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Le Sceau des Sables",
+  "cryAt": 22.2,
+  "cryDuration": 1.627,
+  "cryCorrelation": 0.9939153232113745,
+  "decodedPeak": 0.7801145315170288,
+  "facePoints": 7,
+  "darkLitPixelFraction": 0.005354938271604938,
+  "revealAt": 21.5,
+  "checks": "672 monotonic video frames and full audio decoded; no clipping; real species cry correlation; exactly seven sprite-derived face points; dark room contains only face-light pixels."
+}

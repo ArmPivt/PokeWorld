@@ -1,0 +1,21 @@
+{
+  "species": 378,
+  "shiny": false,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "03b964cb5a7af1dd861ff7a008de4789c44d0e6acca10af0ba76d97c27cecee1",
+  "bytes": 2155582,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "L’Attente du Glacier",
+  "cryAt": 22.2,
+  "cryDuration": 1.533125,
+  "cryCorrelation": 0.9827773262306858,
+  "decodedPeak": 0.7788606286048889,
+  "facePoints": 7,
+  "darkLitPixelFraction": 0.006057098765432099,
+  "revealAt": 21.5,
+  "checks": "672 monotonic video frames and full audio decoded; no clipping; real species cry correlation; exactly seven sprite-derived face points; dark room contains only face-light pixels."
+}
