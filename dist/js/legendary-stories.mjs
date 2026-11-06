@@ -1,9 +1,9 @@
 import {FILMS} from './legendary-direction.mjs';
 // Original first-encounter storyboards, one explicit entry for every legendary rarity.
 const rows=[
- [144,'ice','Les ailes du blizzard','Îles Écume','La mer se fige autour d’une île oubliée.','Deux ailes bleues emportent la neige dans le ciel.','snow'],
- [145,'power','La foudre prend son envol','Centrale abandonnée','Les câbles débranchés se remettent à crépiter.','Un éclair illumine les ailes du maître de la foudre.','bolts'],
- [146,'volcano','Le vol des flammes','Mont Braise','Le volcan laisse échapper une gerbe d’étincelles.','Une silhouette de feu s’élève au-dessus du cratère.','embers'],
+ [144,'ice','Le souffle des Îles Écume','Îles Écume','Une plume bleue guide le voyage vers une grotte glacée.','Le blizzard s’ouvre et Artikodin déploie ses ailes.','snow'],
+ [145,'power','Le cœur de la centrale','Centrale abandonnée','Les générateurs se réveillent dans la centrale déserte.','La foudre converge sur le toit et révèle Électhor.','bolts'],
+ [146,'volcano','Les ailes de l’aube','Mont Braise','Une braise remonte vers le cratère tandis que la lave gronde.','Sulfura surgit des flammes au lever du soleil.','embers'],
  [150,'lab','Au-delà de la création','Laboratoire oublié','Dans la cuve, une présence ouvre les yeux.','Le verre se fissure sous une puissance psychique immense.','psychic'],
  [151,'forest','L’ombre de la jungle','Clairière secrète','Des scientifiques étudient une ancienne fresque sur une île.','Une ombre traverse la jungle et Mew se révèle dans une clairière.','orbits'],
  [243,'storm','Le rugissement de l’orage','Plateau des tempêtes','L’herbe se couche avant même que le vent ne souffle.','La foudre révèle un fauve aux crocs étincelants.','bolts'],

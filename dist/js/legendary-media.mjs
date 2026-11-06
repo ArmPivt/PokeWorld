@@ -119,6 +119,36 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "L’Ombre de la jungle"
+  },
+  "144": {
+    "src": "assets/cinematics/144-appearance-v1.mp4",
+    "poster": "assets/cinematics/144-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Souffle des Îles Écume"
+  },
+  "145": {
+    "src": "assets/cinematics/145-appearance-v1.mp4",
+    "poster": "assets/cinematics/145-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Cœur de la centrale"
+  },
+  "146": {
+    "src": "assets/cinematics/146-appearance-v1.mp4",
+    "poster": "assets/cinematics/146-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Les Ailes de l’aube"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){
