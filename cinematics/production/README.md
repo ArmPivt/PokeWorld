@@ -19,3 +19,7 @@ Les essais détaillés de Wan 2.2 restent archivés dans rayquaza/trials pour ex
 ## Rayquaza — cinématique intégrée le 6 novembre 2026
 
 La version normale utilise désormais `assets/cinematics/384-appearance-v2.mp4` : cinq plans, 21,625 secondes, 960 × 540, avec la musique originale « Le Sillage Émeraude » et le cri synchronisé. Sources et partition dans `rayquaza/v3-retour-baie/` et `rayquaza/v4-musique-originale/`. L’ancien plan PixVerse n’est plus référencé par le jeu. Cette version concerne la première obtention et la relecture depuis la fiche du Pokémon ; la variante chromatique conserve sa propre direction.
+
+## Kyogre et Groudon — films narratifs intégrés le 6 novembre 2026
+
+Kyogre normal utilise `382-appearance-v1.mp4` et Groudon normal `383-appearance-v2.mp4` : 26 secondes et cinq plans chacun, avec musiques originales et cris synchronisés. Les sources communes, partitions et validations sont dans `primal-v1/`. L’ancien film de Groudon n’est plus référencé par le jeu. Les variantes chromatiques conservent des médias et une direction distincts.

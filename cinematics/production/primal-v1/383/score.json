@@ -1,0 +1,17 @@
+{
+  "title": "Le Cœur du Continent",
+  "notes": 197,
+  "duration": 26,
+  "source": "Composition originale ; aucun extrait audio, MIDI ou transcription du thème officiel fourni en référence.",
+  "reference": "https://www.youtube.com/watch?v=r2BWx32tXXo&t=52s",
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "cues": [
+    0,
+    3.8,
+    12,
+    15.4,
+    19
+  ],
+  "cryAt": 20.2
+}

@@ -1,0 +1,16 @@
+{
+  "species": 383,
+  "duration": 26,
+  "frames": 624,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "63147e48b8aabef6f84fcb3c1f01ac268477a0e46ae7449424fd9b7457916026",
+  "bytes": 5996818,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "cryAt": 20.2,
+  "cryDuration": 1.7834375,
+  "cryCorrelation": 0.9959827671931246,
+  "decodedPeak": 0.7719526290893555,
+  "checks": "Full H.264/AAC decode, 624 monotonic frames, actual cry correlation at reveal timestamp."
+}

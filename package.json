@@ -36,7 +36,8 @@
     "test:video-player": "node video-player-check.cjs",
     "prepare:legendary-production": "node prepare-legendary-production.mjs .",
     "test:legendary-media": "node legendary-media-check.cjs",
-    "test:legendary-media-browser": "node legendary-media-browser-check.cjs"
+    "test:legendary-media-browser": "node legendary-media-browser-check.cjs",
+    "test:primal-cinema": "node primal-browser-check.cjs"
   },
   "engines": {
     "node": ">=22"

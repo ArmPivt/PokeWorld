@@ -1,0 +1,16 @@
+{
+  "duration": 26,
+  "cuts": [
+    0,
+    3.8,
+    12,
+    15.4,
+    19
+  ],
+  "cryAt": 20.2,
+  "fps": 24,
+  "frames": 624,
+  "width": 960,
+  "height": 540,
+  "species": 383
+}
