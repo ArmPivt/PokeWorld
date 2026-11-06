@@ -287,20 +287,20 @@
   "250": {
     "id": 250,
     "shiny": false,
-    "src": "assets/cinematics/250-appearance-v1.mp4",
-    "poster": "assets/cinematics/250-appearance-v1-poster.png",
-    "duration": 44,
+    "src": "assets/cinematics/250-appearance-v2.mp4",
+    "poster": "assets/cinematics/250-appearance-v2-poster.png",
+    "duration": 30,
     "width": 960,
     "height": 540,
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
-    "music": "La Promesse des deux tours",
+    "music": "La Promesse des deux tours — montage court",
     "fps": 24,
-    "frameCount": 1056,
-    "sha256": "47b7ec51849581e06efbdf9e91418a5cd1bdc8b903715f02828dc787ddb4de52",
-    "sourceFile": "cinematics/production/hooh-v1/250-appearance-v1.mp4",
+    "frameCount": 720,
+    "sha256": "0909b42fdcbcaae55e8914177556d0615fb3efeb750aca40ec40c07b48859a83",
+    "sourceFile": "cinematics/production/hooh-v2/250-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-06",
-    "reviewNote": "Incendie de la tour historique, extinction sous la pluie et ruines de la Tour Cendrée ; arc-en-ciel progressif après extinction totale, lumière sur les ruines ; cinq femmes en kimono avec quatre poses chacune dansent à la Tour Carillon, cloches lumineuses ; arrivée dorée dans les nuages, flash et descente de Ho-Oh. Véritable cri à 37,15 s. Musique rituelle originale inspirée de l’ambiance de la référence HeartGold, sans reprise du thème. 1 056 images et audio décodés ; ancrages des danseuses et cadrage complet des ailes vérifiés."
+    "reviewNote": "Montage raccourci de 44 à 30 s : flammes 3,5 s, transition noire, tour détruite sous l’arc-en-ciel avec lumière dense et silhouettes noires de Raikou, Entei et Suicune, second noir puis danse de 5 s. Les 360 images de rendu et le master PCM des quinze dernières secondes sont identiques à la v1. Cri de Ho-Oh à 23,15 s ; 720 images et audio décodés, noirs silencieux et trois silhouettes vérifiés."
   }
 }

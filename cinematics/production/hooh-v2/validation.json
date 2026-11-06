@@ -1,0 +1,761 @@
+{
+  "species": 250,
+  "shiny": false,
+  "duration": 30,
+  "previousDuration": 44,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "0909b42fdcbcaae55e8914177556d0615fb3efeb750aca40ec40c07b48859a83",
+  "bytes": 10208596,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "La Promesse des deux tours — montage court",
+  "cryAt": 23.15,
+  "cryCorrelation": 0.9963567513289777,
+  "decodedPeak": 0.6844037771224976,
+  "blackTransitionRMS": [
+    0.0,
+    0.0
+  ],
+  "danceDuration": 5,
+  "beastIds": [
+    243,
+    244,
+    245
+  ],
+  "finalAudioPCMIdentical": true,
+  "identicalTailFrames": 360,
+  "revealAt": 21.2,
+  "checks": "720 monotonic frames and complete audio; two black transitions; real dark silhouettes of all three beasts; dense backlight; 5-second dance; preserved final fifteen seconds of audio and real Ho-Oh cry at 23.15s.",
+  "silhouetteChecks": {
+    "state": {
+      "time": 7.5,
+      "species": 250,
+      "shot": 3,
+      "blackTransition": false,
+      "fireStrength": 0,
+      "rainbowProgress": 1,
+      "lightStrength": 1,
+      "beastIds": [
+        243,
+        244,
+        245
+      ],
+      "beastOpacity": 1,
+      "dancers": 0,
+      "poses": [],
+      "reveal": null,
+      "hoohVisible": false,
+      "cryAt": 23.15,
+      "revealAt": 21.2
+    },
+    "regions": [
+      {
+        "id": 243,
+        "darkPixels": 8200
+      },
+      {
+        "id": 244,
+        "darkPixels": 9100
+      },
+      {
+        "id": 245,
+        "darkPixels": 8536
+      }
+    ]
+  },
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 250,
+        "shot": 1,
+        "blackTransition": false,
+        "fireStrength": 0.8080608,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 70.50593621399177
+    },
+    {
+      "time": 2.8,
+      "state": {
+        "time": 2.8,
+        "species": 250,
+        "shot": 1,
+        "blackTransition": false,
+        "fireStrength": 0.9858271999999999,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 71.66126800411523
+    },
+    {
+      "time": 3.35,
+      "state": {
+        "time": 3.35,
+        "species": 250,
+        "shot": 1,
+        "blackTransition": false,
+        "fireStrength": 1.0480696,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 28.278531378600825
+    },
+    {
+      "time": 3.75,
+      "state": {
+        "time": 3.75,
+        "species": 250,
+        "shot": 2,
+        "blackTransition": true,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 0
+    },
+    {
+      "time": 4.4,
+      "state": {
+        "time": 4.4,
+        "species": 250,
+        "shot": 3,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0.004324078288575361,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 104.96867541152264
+    },
+    {
+      "time": 5.3,
+      "state": {
+        "time": 5.3,
+        "species": 250,
+        "shot": 3,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0.3299954483386434,
+        "lightStrength": 0.2857724404640748,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 113.13905349794238
+    },
+    {
+      "time": 6.2,
+      "state": {
+        "time": 6.2,
+        "species": 250,
+        "shot": 3,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0.8215748748293128,
+        "lightStrength": 0.9617341746387138,
+        "beastIds": [
+          243,
+          244,
+          245
+        ],
+        "beastOpacity": 0.9831588529813382,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 120.09257458847736
+    },
+    {
+      "time": 7.3,
+      "state": {
+        "time": 7.3,
+        "species": 250,
+        "shot": 3,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 1,
+        "lightStrength": 1,
+        "beastIds": [
+          243,
+          244,
+          245
+        ],
+        "beastOpacity": 1,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 120.51707561728395
+    },
+    {
+      "time": 8.7,
+      "state": {
+        "time": 8.7,
+        "species": 250,
+        "shot": 3,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 1,
+        "lightStrength": 1,
+        "beastIds": [
+          243,
+          244,
+          245
+        ],
+        "beastOpacity": 1,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 120.69437242798354
+    },
+    {
+      "time": 9.35,
+      "state": {
+        "time": 9.35,
+        "species": 250,
+        "shot": 3,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 1,
+        "lightStrength": 1,
+        "beastIds": [
+          243,
+          244,
+          245
+        ],
+        "beastOpacity": 1,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 60.34981995884774
+    },
+    {
+      "time": 9.75,
+      "state": {
+        "time": 9.75,
+        "species": 250,
+        "shot": 4,
+        "blackTransition": true,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 0
+    },
+    {
+      "time": 10.4,
+      "state": {
+        "time": 10.4,
+        "species": 250,
+        "shot": 5,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 115.66406893004115
+    },
+    {
+      "time": 11.6,
+      "state": {
+        "time": 11.6,
+        "species": 250,
+        "shot": 5,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 116.21378600823046
+    },
+    {
+      "time": 12.8,
+      "state": {
+        "time": 12.8,
+        "species": 250,
+        "shot": 5,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 117.05335390946502
+    },
+    {
+      "time": 14.4,
+      "state": {
+        "time": 14.4,
+        "species": 250,
+        "shot": 5,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 120.6989994855967
+    },
+    {
+      "time": 15.8,
+      "state": {
+        "time": 15.8,
+        "species": 250,
+        "shot": 6,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 135.60948816872428
+    },
+    {
+      "time": 17.7,
+      "state": {
+        "time": 17.7,
+        "species": 250,
+        "shot": 6,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 136.60056069958847
+    },
+    {
+      "time": 19.5,
+      "state": {
+        "time": 19.5,
+        "species": 250,
+        "shot": 6,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 138.28255401234568
+    },
+    {
+      "time": 20.7,
+      "state": {
+        "time": 20.7,
+        "species": 250,
+        "shot": 6,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 0,
+        "poses": [],
+        "reveal": null,
+        "hoohVisible": false,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 192.12227880658438
+    },
+    {
+      "time": 21.4,
+      "state": {
+        "time": 21.4,
+        "species": 250,
+        "shot": 7,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "reveal": {
+          "bird": {
+            "x": 240.60031292820392,
+            "y": -7.633054906564744,
+            "scale": 2.622950819672131,
+            "frame": 2
+          },
+          "poses": [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "alpha": 0.22576240327719335
+        },
+        "hoohVisible": true,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 185.6068621399177
+    },
+    {
+      "time": 22.3,
+      "state": {
+        "time": 22.3,
+        "species": 250,
+        "shot": 7,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reveal": {
+          "bird": {
+            "x": 241.29992423629895,
+            "y": 110.0612281526947,
+            "scale": 2.622950819672131,
+            "frame": 2
+          },
+          "poses": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 112.10136059670782
+    },
+    {
+      "time": 23.2,
+      "state": {
+        "time": 23.2,
+        "species": 250,
+        "shot": 7,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "reveal": {
+          "bird": {
+            "x": 240.62506939948526,
+            "y": 168.02177289132524,
+            "scale": 2.622950819672131,
+            "frame": 3
+          },
+          "poses": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 110.73202932098765
+    },
+    {
+      "time": 25,
+      "state": {
+        "time": 25,
+        "species": 250,
+        "shot": 7,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "reveal": {
+          "bird": {
+            "x": 238.7049860085134,
+            "y": 169.39644571713592,
+            "scale": 2.622950819672131,
+            "frame": 4
+          },
+          "poses": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 110.47192901234568
+    },
+    {
+      "time": 27,
+      "state": {
+        "time": 27,
+        "species": 250,
+        "shot": 7,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "reveal": {
+          "bird": {
+            "x": 241.0317682230039,
+            "y": 167.84426126678412,
+            "scale": 2.622950819672131,
+            "frame": 1
+          },
+          "poses": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 110.54427983539095
+    },
+    {
+      "time": 28.8,
+      "state": {
+        "time": 28.8,
+        "species": 250,
+        "shot": 7,
+        "blackTransition": false,
+        "fireStrength": 0,
+        "rainbowProgress": 0,
+        "lightStrength": 0,
+        "beastIds": [],
+        "beastOpacity": 0,
+        "dancers": 5,
+        "poses": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reveal": {
+          "bird": {
+            "x": 240.08415246696683,
+            "y": 169.58523013345135,
+            "scale": 2.622950819672131,
+            "frame": 2
+          },
+          "poses": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "alpha": 1
+        },
+        "hoohVisible": true,
+        "cryAt": 23.15,
+        "revealAt": 21.2
+      },
+      "mean": 110.72737397119342
+    }
+  ]
+}

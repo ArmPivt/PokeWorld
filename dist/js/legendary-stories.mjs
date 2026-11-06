@@ -10,7 +10,7 @@ const rows=[
  [244,'volcano','Le pas du volcan','Terres volcaniques','Chaque pas fait vibrer la pierre encore chaude.','Un rugissement soulève une couronne de braises.','embers'],
  [245,'lake','Le vent du nord','Lac des brumes','Une eau trouble retrouve soudain sa transparence.','Deux rubans blancs traversent la surface sans la troubler.','ripples'],
  [249,'ocean','Le gardien des abysses','Fosse des Tourb’Îles','Au fond de l’océan, un courant se met à remonter.','D’immenses ailes blanches fendent le tourbillon.','whirlpool'],
- [250,'tower','La promesse des deux tours','Tour Carillon','Un arc-en-ciel illumine les ruines après l’incendie de la Tour Cendrée.','La danse des femmes en kimono et les cloches guident l’arrivée de Ho-Oh.','rainbow'],
+ [250,'tower','La promesse des deux tours','Tour Carillon','L’arc-en-ciel illumine les ruines et les ombres de Raikou, Entei et Suicune.','Une courte danse des femmes en kimono précède l’arrivée de Ho-Oh.','rainbow'],
  [251,'forest','Le temps d’une rencontre','Bois aux Chênes','Les feuilles tournent à l’envers autour du sanctuaire.','Une gardienne verte entrouvre un passage dans le temps.','leaves'],
  [377,'ruins','La mémoire des pierres','Ruines du désert','Les points gravés sur la porte se mettent à briller.','Les rochers se réunissent et un colosse s’éveille.','glyphs'],
  [378,'ice','Le secret du glacier','Grotte insulaire','Un battement sourd résonne sous la glace bleue.','Un corps cristallin se détache du glacier.','crystals'],

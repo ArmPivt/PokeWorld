@@ -1,0 +1,80 @@
+{
+  "duration": 30,
+  "previousDuration": 44,
+  "music": "La Promesse des deux tours — montage court",
+  "segments": [
+    {
+      "destination": [
+        0,
+        3.5
+      ],
+      "source": [
+        0,
+        3.5
+      ],
+      "fadeIn": 0,
+      "fadeOut": 0.35
+    },
+    {
+      "destination": [
+        4,
+        9.5
+      ],
+      "source": [
+        13,
+        18.5
+      ],
+      "fadeIn": 0.22,
+      "fadeOut": 0.3
+    },
+    {
+      "destination": [
+        10,
+        15
+      ],
+      "source": [
+        20,
+        25
+      ],
+      "fadeIn": 0.25,
+      "fadeOut": 0
+    },
+    {
+      "destination": [
+        15,
+        30
+      ],
+      "source": [
+        29,
+        44
+      ],
+      "fadeIn": 0,
+      "fadeOut": 0
+    }
+  ],
+  "silentBlackIntervals": [
+    [
+      3.5,
+      4
+    ],
+    [
+      9.5,
+      10
+    ]
+  ],
+  "danceDuration": 5,
+  "newLightChime": 5.65,
+  "finalAudioSource": [
+    29,
+    44
+  ],
+  "finalAudioDestination": [
+    15,
+    30
+  ],
+  "finalAudioPCMIdentical": true,
+  "cryAt": 23.15,
+  "revealAt": 21.2,
+  "musicSource": "../hooh-v1/hooh-soundtrack.wav",
+  "scoreSource": "../hooh-v1/la-promesse-des-deux-tours-score.wav"
+}
