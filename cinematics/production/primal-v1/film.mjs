@@ -105,26 +105,39 @@ function descent(t){
   for(let i=0;i<46;i++){const yy=(hash(i,8)*1000-t*22-scroll+1100)%1000-80,xx=hash(i,9)*W+Math.sin(t*1.3+i)*3;if(yy<H&&yy>0){const r=i%4?1:3;c.strokeStyle='#9adceb';c.globalAlpha=.3;c.strokeRect(Math.round(xx),Math.round(yy),r*2,r*2);c.globalAlpha=1}}
   fade(.16*p,'#000915');
  }else{
-  for(const f of [{id:218,x:64,y:169,scale:1.25,dir:2},{id:219,x:417,y:342,scale:1.35,dir:6},{id:218,x:85,y:483,scale:1.4,dir:2}]){const yy=f.y-scroll;if(yy>-55&&yy<H+55){glow(f.x,yy-15,24,'#fa682e',.35);mon(f.id,'Idle',f.dir,f.x,yy,f.scale,t)}}
+  for(const f of [{id:218,x:26,y:164.5,scale:1.25,dir:2},{id:219,x:417,y:342,scale:1.35,dir:6},{id:218,x:85,y:483,scale:1.4,dir:2}]){const yy=f.y-scroll;if(yy>-55&&yy<H+55){glow(f.x,yy-15,24,'#fa682e',.35);ellipse(f.x,yy,10*f.scale,1.4,'#30252d',.45);mon(f.id,'Idle',f.dir,f.x,yy,f.scale,t)}}
   for(let i=0;i<65;i++){const yy=(hash(i,6)*1050-t*(25+hash(i,3)*35)-scroll+1300)%1050-100,xx=hash(i,4)*W+Math.sin(t*2+i)*5;if(yy>0&&yy<H)px(xx,yy,i%4?1:2,3,i%3?'#f58a3d':'#ffd175',.45)}
   glow(240,270,200,'#ff5324',.2+.3*p);
  }
  if(t<.45)fade(1-t/.45);if(t>7.65)fade((t-7.65)/.55);
 }
-function eyes(power=1){
- const yy=water?145:61,positions=water?[207,273]:[225,252];
- for(const x of positions){glow(x,yy,8,colors[1],power*.8);px(x-4,yy,8,2,colors[1],power);px(x-2,yy,4,1,colors[2],power)}
+// Calibrated to the original 1672 × 941 paintings, inside their eye sockets.
+// Every point receives the same centered zoom as the background image.
+const EYE_SOCKETS={
+ 382:[[[708,484],[717,482],[727,488],[735,498],[739,510],[727,511],[718,505],[712,497]],[[955,482],[966,484],[961,497],[954,505],[944,511],[932,510],[938,498],[946,489]]],
+ 383:[[[769,180],[774,183],[781,197],[791,201],[777,200],[770,195]],[[873,181],[868,185],[863,196],[851,201],[866,200],[873,194]]]
+};
+function eyes(power=1,scale=1){
+ const im=images.get(water?'kyogreChamber.png':'groudonChamber.png');
+ const point=([x,y])=>[(x/im.width*W-W/2)*scale+W/2,(y/im.height*H-H/2)*scale+H/2];
+ for(const polygon of EYE_SOCKETS[species]){
+  const points=polygon.map(point),cx=points.reduce((a,p)=>a+p[0],0)/points.length,cy=points.reduce((a,p)=>a+p[1],0)/points.length;
+  glow(cx,cy,4,colors[1],power*.7);
+  c.save();c.globalAlpha=power;c.fillStyle=colors[0];c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(Math.round(x),Math.round(y)):c.moveTo(Math.round(x),Math.round(y)));c.closePath();c.fill();
+  c.fillStyle=colors[1];c.beginPath();points.forEach(([x,y],i)=>{const xx=cx+(x-cx)*.64,yy=cy+(y-cy)*.64;i?c.lineTo(Math.round(xx),Math.round(yy)):c.moveTo(Math.round(xx),Math.round(yy))});c.closePath();c.fill();c.restore();
+ }
 }
 function shrine(t){
- background(water?'kyogreChamber.png':'groudonChamber.png',1+ease(t/3.4)*.018);
- fade(.98,'#01030b');eyes(ease(t/.6)*(.78+.14*Math.sin(t*3)));
+ const scale=1+ease(t/3.4)*.018;
+ background(water?'kyogreChamber.png':'groudonChamber.png',scale);
+ fade(.98,'#01030b');eyes(ease(t/.6)*(.78+.14*Math.sin(t*3)),scale);
  if(t>2.5){const a=ease((t-2.5)/.9);glow(240,217,7,colors[1],a*.35);ellipse(240,217,4,4,colors[0],a*.25)}
  if(t<.35)fade(1-t/.35);
 }
 function awakening(t){
  const p=ease(t/3.6),charge=ease(t/1.8),y=217-ease((t-1.2)/1.6)*25;
  background(water?'kyogreChamber.png':'groudonChamber.png',1.018);
- fade(.98-p*.78,'#01030b');eyes(.95);
+ fade(.98-p*.78,'#01030b');eyes(.95,1.018);
  ellipse(240,222,25+charge*12,6,colors[0],.3*charge);glow(240,y,22+charge*36,colors[1],charge);
  ellipse(240,y,7+charge*4,8+charge*4,colors[0],.45+charge*.55);
  ellipse(239,y-2,5+charge*2,5+charge*2,colors[1],charge);px(237,y-6,3,3,colors[2],charge);
@@ -144,11 +157,11 @@ function sea(t){
  c.save();camera(1+ease(t/7)*.035,240,180);background('kyogreSurface.png',1.025);
  for(let i=0;i<11;i++){const x=(i*47+t*28)%530-25,y=147+i%4*20;px(x,y+Math.sin(t*4+i)*2,24+i%3*9,2,'#268ca8',.48)}
  const arrive=ease(t/1.15),roaring=t>1.2&&t<2.8;
- ellipse(240,236,93,9,'#03182c',.75);glow(240,229,78,'#2589e5',.4);
- mon(382,roaring?'Swell':'Idle',0,240,mix(264,236,arrive)+Math.sin(t*2)*2,3.5,roaring?(t-1.2)*.28:t*.85,{alpha:arrive,oneShot:roaring});
- // A foreground waterline places the whale at the surface rather than in midair.
- for(let x=-4;x<W+4;x+=4){const y=218+Math.sin(x*.046-t*4.2)*3+Math.sin(x*.09+t*3)*1.5;px(x,y,4,H-y,'#082447');if((x+Math.floor(t*18))%52<28)px(x,y,5,2,'#6bd8e6',.8)}
- for(let i=0;i<30;i++){const a=i*Math.PI/15,r=arrive*110+Math.sin(t*3)*8;px(240+Math.cos(a)*r,218+Math.sin(a)*r*.1,7,2,'#a4ecf6',.65)}
+ ellipse(240,234,89,7,'#03182c',.7);glow(240,229,78,'#2589e5',.4);
+ // Same three-quarter direction as Groudon; the full head clears the water.
+ mon(382,roaring?'Swell':'Idle',1,240,mix(263,234,arrive)+Math.sin(t*2)*1.5,3.15,roaring?(t-1.2)*.28:t*.85,{alpha:arrive,oneShot:roaring});
+ for(let x=-4;x<W+4;x+=4){const y=246+Math.sin(x*.046-t*4.2)*3+Math.sin(x*.09+t*3)*1.5;px(x,y,4,H-y,'#082447');if((x+Math.floor(t*18))%52<28)px(x,y,5,2,'#6bd8e6',.8)}
+ for(let i=0;i<30;i++){const a=i*Math.PI/15,r=arrive*107+Math.sin(t*3)*6;px(240+Math.cos(a)*r,233+Math.sin(a)*r*.075,7,2,'#a4ecf6',.65)}
  rain(t, .55);rain(t+.7,.22);bolt(111,t,.65,1);bolt(371,t,3.35,2);bolt(62,t,5.4,3);c.restore();
  if(t<.7)fade(1-ease(t/.7),colors[1]);
 }

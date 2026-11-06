@@ -43,3 +43,7 @@ Cris : https://github.com/PokeAPI/cries , fichiers `cries/pokemon/latest/382.ogg
 Python nécessite `av`, `numpy` et `Pillow`. Le script de capture utilise l'installation locale de Playwright et Edge ; adapter leurs chemins sur une autre machine. Les images temporaires ne sont pas archivées avec les sources.
 
 Chaque MP4 est entièrement décodé, ses 624 images et ses horodatages sont vérifiés, ainsi que la présence du cri à 20,2 s par corrélation après compression AAC. Résultats, empreintes SHA-256, posters et contacts de contrôle figurent dans les dossiers `382/` et `383/`.
+
+## Correction visuelle du 6 novembre 2026
+
+Les médias actifs sont maintenant `382/382-appearance-v2.mp4` et `383/383-appearance-v3.mp4`. Les contours des lueurs suivent les orbites peintes, avec les mêmes coordonnées et le même zoom que le décor. Kyogre est présenté de trois quarts et la vague ne masque plus sa tête. Le premier Limagma est placé sur la surface du rebord gauche. Les deux pistes sonores AAC sont recopiées bit pour bit depuis les films précédents. `encode_revision.py` reproduit cet export après `node render.cjs all`. Les contrôles et les images réellement décodées sont conservés dans les dossiers de chaque espèce.

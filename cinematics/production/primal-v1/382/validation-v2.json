@@ -1,0 +1,20 @@
+{
+  "species": 382,
+  "version": 2,
+  "duration": 26,
+  "frames": 624,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "b0d7a31816083096afdf4a140b3debe9f57f76b22439152c5a2bafeb8dbe4716",
+  "bytes": 5980916,
+  "audioStreamUnchanged": true,
+  "audioStreamSHA256": "33902ebf76a736beebd6b4fd5b7aa40344ca55649247227a7f8892177bbd78b3",
+  "cryAt": 20.2,
+  "changes": [
+    "Statue eye shapes calibrated in original image coordinates and transformed with camera zoom",
+    "Kyogre shown fully in three-quarter view above the foreground wave",
+    "First Slugma supported by the left rock shelf"
+  ],
+  "checks": "624 frames decoded; monotonic video timestamps; full audio decode; exact approved AAC packet hash preserved."
+}
