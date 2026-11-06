@@ -1,0 +1,41 @@
+{
+  "duration": 32,
+  "cuts": [
+    0,
+    5,
+    8,
+    14,
+    17,
+    25,
+    26
+  ],
+  "cryAt": 27,
+  "revealAt": 26,
+  "species": 380,
+  "fps": 24,
+  "frames": 768,
+  "width": 960,
+  "height": 540,
+  "whiteChecks": [
+    {
+      "time": 18,
+      "whiteFraction": 0,
+      "progress": 0.125
+    },
+    {
+      "time": 22,
+      "whiteFraction": 0,
+      "progress": 0.625
+    },
+    {
+      "time": 24.8,
+      "whiteFraction": 1,
+      "progress": 0.9750000000000001
+    },
+    {
+      "time": 25.5,
+      "whiteFraction": 1,
+      "progress": null
+    }
+  ]
+}

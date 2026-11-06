@@ -1,0 +1,44 @@
+{
+  "species": 381,
+  "shiny": false,
+  "duration": 32,
+  "frames": 768,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "1972828dc1c91813f96aeb2ba752d702feda1919181d864854c131fab6b913fe",
+  "bytes": 7828215,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Les Ailes de l’Île du Sud",
+  "cryAt": 27,
+  "cryDuration": 1.126375,
+  "cryCorrelation": 0.9960652977248102,
+  "decodedPeak": 0.77691650390625,
+  "guideSpecies": 381,
+  "revealedSpecies": 381,
+  "whiteHoldAt": 25.5,
+  "whiteChecks": [
+    {
+      "time": 18,
+      "whiteFraction": 0,
+      "progress": 0.125
+    },
+    {
+      "time": 22,
+      "whiteFraction": 0,
+      "progress": 0.625
+    },
+    {
+      "time": 24.8,
+      "whiteFraction": 1,
+      "progress": 0.9750000000000001
+    },
+    {
+      "time": 25.5,
+      "whiteFraction": 1,
+      "progress": null
+    }
+  ],
+  "revealAt": 26,
+  "checks": "768 monotonic video frames and full audio decoded; no clipping; real species cry correlation; matching guide/reveal Pokémon; full-white transition before the final reveal."
+}

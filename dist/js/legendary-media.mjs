@@ -79,6 +79,26 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Le Souffle de l’Acier"
+  },
+  "380": {
+    "src": "assets/cinematics/380-appearance-v1.mp4",
+    "poster": "assets/cinematics/380-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "La Promesse de l’Île du Sud"
+  },
+  "381": {
+    "src": "assets/cinematics/381-appearance-v1.mp4",
+    "poster": "assets/cinematics/381-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Les Ailes de l’Île du Sud"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

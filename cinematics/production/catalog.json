@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 8,
-  "planned": 164,
+  "reviewed": 10,
+  "planned": 162,
   "blockedImages": 4,
-  "estimatedRemainingCredits": 4920,
+  "estimatedRemainingCredits": 4860,
   "species": [
     {
       "id": 144,
@@ -550,7 +550,7 @@
         {
           "key": "380",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/380/icon.png",
@@ -586,7 +586,7 @@
         {
           "key": "381",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/381/icon.png",

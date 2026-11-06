@@ -150,5 +150,43 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Registeel : exploration en vue subjective à la lampe ; énigme adaptée de la référence ROSA ; porte animée et entrée dans le noir ; exactement sept points extraits des pixels du visage du sprite ; révélation de la grotte à 21,5 s, véritable cri à 22,2 s. Décodage intégral des 672 images et de l’audio, corrélation du cri et contrôle de l’obscurité."
+  },
+  "380": {
+    "id": 380,
+    "shiny": false,
+    "src": "assets/cinematics/380-appearance-v1.mp4",
+    "poster": "assets/cinematics/380-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "La Promesse de l’Île du Sud",
+    "fps": 24,
+    "frameCount": 768,
+    "sha256": "f54000dc7ebb1b5260bbf1b3c1f1a0c4bc16817f733475b0ee2da1d56841ea74",
+    "sourceFile": "cinematics/production/eon-v1/380-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Latias vient chercher le voyageur, qui monte sur son dos ; vol vers l’Île du Sud, débarquement et traversée de forêt en perspective jusqu’à la lumière. Blanc complet entre 25 et 26 s, révélation du même Latias dans la clairière aux cascades et cri à 27 s. 768 images et audio décodés, correspondance guide/révélation et transition blanche vérifiées."
+  },
+  "381": {
+    "id": 381,
+    "shiny": false,
+    "src": "assets/cinematics/381-appearance-v1.mp4",
+    "poster": "assets/cinematics/381-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Les Ailes de l’Île du Sud",
+    "fps": 24,
+    "frameCount": 768,
+    "sha256": "1972828dc1c91813f96aeb2ba752d702feda1919181d864854c131fab6b913fe",
+    "sourceFile": "cinematics/production/eon-v1/381-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Latios vient chercher le voyageur, qui monte sur son dos ; vol vers l’Île du Sud, débarquement et traversée de forêt en perspective jusqu’à la lumière. Blanc complet entre 25 et 26 s, révélation du même Latios dans la clairière aux cascades et cri à 27 s. 768 images et audio décodés, correspondance guide/révélation et transition blanche vérifiées."
   }
 }

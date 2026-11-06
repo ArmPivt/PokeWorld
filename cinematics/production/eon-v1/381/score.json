@@ -1,0 +1,19 @@
+{
+  "species": 381,
+  "title": "Les Ailes de l’Île du Sud",
+  "duration": 32,
+  "notes": 152,
+  "music": "Original score, no official theme sample or transcription.",
+  "cues": {
+    "arrival": 0,
+    "boarding": 5,
+    "flight": 8,
+    "landing": 14,
+    "forest": 17,
+    "white": 25,
+    "reveal": 26,
+    "cry": 27
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}
