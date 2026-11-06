@@ -1,0 +1,66 @@
+{
+  "title": "Le Sillage Émeraude",
+  "duration": 21.625,
+  "sampleRate": 48000,
+  "channels": 2,
+  "notes": 240,
+  "tracks": {
+    "0": {
+      "program": 48,
+      "instrument": "cordes"
+    },
+    "1": {
+      "program": 43,
+      "instrument": "contrebasses"
+    },
+    "2": {
+      "program": 60,
+      "instrument": "cors"
+    },
+    "3": {
+      "program": 52,
+      "instrument": "choeurs"
+    },
+    "4": {
+      "program": 46,
+      "instrument": "harpe"
+    },
+    "5": {
+      "program": 47,
+      "instrument": "timbales"
+    },
+    "6": {
+      "program": 61,
+      "instrument": "cuivres"
+    }
+  },
+  "composition": "Original score authored for this cinematic; no extracted melody, MIDI or samples from the YouTube reference.",
+  "soundfont": {
+    "name": "GeneralUser GS 2.0.3",
+    "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "source": "https://github.com/mrbumpy409/GeneralUser-GS",
+    "license": "GeneralUser-GS-LICENSE.txt"
+  },
+  "cues": [
+    {
+      "at": 0,
+      "action": "duel, ostinato mineur"
+    },
+    {
+      "at": 6,
+      "action": "accalmie du pilier"
+    },
+    {
+      "at": 8.6,
+      "action": "montée orchestrale"
+    },
+    {
+      "at": 16.52,
+      "action": "résolution majeure au flash"
+    },
+    {
+      "at": 16.85,
+      "action": "musique baissée sous le cri dans le mixage final"
+    }
+  ]
+}

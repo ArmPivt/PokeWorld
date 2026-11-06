@@ -1,0 +1,15 @@
+{
+  "file": "rayquaza-retour-baie-v2.mp4",
+  "bytes": 3583826,
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "decodedFrames": 519,
+  "duration": 21.625,
+  "audio": "AAC stereo 48 kHz, original Pok\u00e9World music, synthesized effects, Rayquaza cry from PokeAPI/cries",
+  "flashPeak": 16.52,
+  "cryAt": 16.85,
+  "cryDuration": 1.5018333333333334,
+  "audioPeak": 0.7200000286102295,
+  "verified": "full H.264 and AAC decode, monotonic video timestamps"
+}

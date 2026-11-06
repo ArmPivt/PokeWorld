@@ -1,0 +1,12 @@
+{
+  "file": "rayquaza-4-plans-v1.mp4",
+  "bytes": 3090873,
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "decodedFrames": 452,
+  "duration": 18.833333333333332,
+  "audio": "AAC stereo 48 kHz, original Pok\u00e9World music and synthesized effects",
+  "audioPeak": 0.7200000286102295,
+  "verified": "full H.264 and AAC decode, monotonic video timestamps"
+}

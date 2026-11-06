@@ -1,0 +1,15 @@
+{
+  "file": "rayquaza-musique-originale.mp4",
+  "bytes": 3671971,
+  "title": "Le Sillage Émeraude",
+  "duration": 21.625,
+  "videoFrames": 519,
+  "fps": 24,
+  "videoStreamUnchanged": true,
+  "originalVideoStreamSHA256": "ce74d739daa1c29a9a58c244c020b4974f1cb946cc6af19e67bb728265ceb3ff",
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "decodedPeak": 0.7778778672218323,
+  "cryAt": 16.85,
+  "cryCorrelation": 0.9923152231556678,
+  "checks": "Full video/audio decode; exact H.264 packet hash; cry correlation at original timestamp"
+}

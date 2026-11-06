@@ -15,3 +15,7 @@ La correspondance chromatique est stricte : une variante ne réutilise jamais la
 Vérification : test:legendary-media, test:video-player et test:legendary-media-browser couvrent les vrais fichiers, la séparation des variantes, le déclenchement dans le gacha, la fin native de lecture, la pause, la lecture réduite sur demande, les erreurs sans perte de rencontre, les doublons et le rejeu sans ticket supplémentaire. Les régressions cinéma couvrent aussi les tirages x10, les chromatiques et la reprise après rechargement.
 
 Les essais détaillés de Wan 2.2 restent archivés dans rayquaza/trials pour expliquer le choix du style simplifié. Ils ne sont pas enregistrés comme des vidéos achevées. Aucun changement de l'audience privée du site n'est demandé.
+
+## Rayquaza — cinématique intégrée le 6 novembre 2026
+
+La version normale utilise désormais `assets/cinematics/384-appearance-v2.mp4` : cinq plans, 21,625 secondes, 960 × 540, avec la musique originale « Le Sillage Émeraude » et le cri synchronisé. Sources et partition dans `rayquaza/v3-retour-baie/` et `rayquaza/v4-musique-originale/`. L’ancien plan PixVerse n’est plus référencé par le jeu. Cette version concerne la première obtention et la relecture depuis la fiche du Pokémon ; la variante chromatique conserve sa propre direction.
