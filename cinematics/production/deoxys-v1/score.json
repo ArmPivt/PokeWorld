@@ -1,0 +1,18 @@
+{
+  "title": "Le Code Delta",
+  "notes": 306,
+  "duration": 36,
+  "cues": {
+    "laboratory": 0,
+    "approach": 5.5,
+    "rayquaza": 10.5,
+    "impact": 14.8,
+    "triangle": 19,
+    "reveal": 31.3,
+    "cry": 32
+  },
+  "music": "Original retro electronic score, not an arrangement or transcription of the official theme.",
+  "reference": "https://www.youtube.com/watch?v=jPqWP_9vxbk",
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}

@@ -23,3 +23,7 @@ La version normale utilise désormais `assets/cinematics/384-appearance-v2.mp4` 
 ## Kyogre et Groudon — films narratifs intégrés le 6 novembre 2026
 
 Kyogre normal utilise `382-appearance-v1.mp4` et Groudon normal `383-appearance-v2.mp4` : 26 secondes et cinq plans chacun, avec musiques originales et cris synchronisés. Les sources communes, partitions et validations sont dans `primal-v1/`. L’ancien film de Groudon n’est plus référencé par le jeu. Les variantes chromatiques conservent des médias et une direction distincts.
+
+## Deoxys — film narratif intégré le 6 novembre 2026
+
+Deoxys normal utilise `386-appearance-v1.mp4` : six plans sur 36 secondes, laboratoire, approche de la météorite, attaque de Rayquaza, explosion, mouvements du triangle puis apparition avec son cri et la composition originale « Le Code Delta ». Sources, prompts, partition et validations dans `deoxys-v1/`.

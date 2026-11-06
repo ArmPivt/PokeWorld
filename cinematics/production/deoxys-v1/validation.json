@@ -1,0 +1,17 @@
+{
+  "species": 386,
+  "duration": 36,
+  "frames": 864,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "c850b7962bc5d612581f9612795422de5d16425a40b6be3486616d33b6fbdee1",
+  "bytes": 5643324,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "Le Code Delta",
+  "cryAt": 32,
+  "cryDuration": 1.0638125,
+  "cryCorrelation": 0.9919715018755016,
+  "decodedPeak": 0.7803128957748413,
+  "checks": "Full video/audio decode, 864 monotonic frames, actual Deoxys cry correlation at reveal timestamp."
+}

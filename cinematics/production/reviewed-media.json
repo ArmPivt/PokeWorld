@@ -55,5 +55,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Kyogre orienté de trois quarts vers la gauche, à l’opposé de Groudon. Tête dégagée de la vague. Yeux recalibrés sur les orbites, Limagma posé sur le rebord. 624 images décodées et piste AAC originale conservée bit pour bit."
+  },
+  "386": {
+    "id": 386,
+    "shiny": false,
+    "src": "assets/cinematics/386-appearance-v1.mp4",
+    "poster": "assets/cinematics/386-appearance-v1-poster.png",
+    "duration": 36,
+    "width": 960,
+    "height": 540,
+    "fps": 24,
+    "frameCount": 864,
+    "sha256": "c850b7962bc5d612581f9612795422de5d16425a40b6be3486616d33b6fbdee1",
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Code Delta",
+    "sourceFile": "cinematics/production/deoxys-v1/386-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-06",
+    "reviewNote": "Six plans : laboratoire, approche de la Terre, Rayquaza et explosion, débris, mouvements du triangle observés dans la référence, coloration rouge et apparition de Deoxys. Musique originale confirmée par l’utilisateur ; cri synchronisé à 32 s. Contrôle visuel des plans et décodage complet des 864 images et de l’audio."
   }
 }

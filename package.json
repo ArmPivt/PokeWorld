@@ -37,7 +37,8 @@
     "prepare:legendary-production": "node prepare-legendary-production.mjs .",
     "test:legendary-media": "node legendary-media-check.cjs",
     "test:legendary-media-browser": "node legendary-media-browser-check.cjs",
-    "test:primal-cinema": "node primal-browser-check.cjs"
+    "test:primal-cinema": "node primal-browser-check.cjs",
+    "test:deoxys-cinema": "node primal-browser-check.cjs 386"
   },
   "engines": {
     "node": ">=22"

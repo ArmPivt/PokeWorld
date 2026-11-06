@@ -29,6 +29,16 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Le Serment des Abysses"
+  },
+  "386": {
+    "src": "assets/cinematics/386-appearance-v1.mp4",
+    "poster": "assets/cinematics/386-appearance-v1-poster.png",
+    "duration": 36,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Code Delta"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){
