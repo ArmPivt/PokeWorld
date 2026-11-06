@@ -1,0 +1,48 @@
+{
+  "boy": {
+    "src": "boy-poses.png",
+    "referenceHeight": 805,
+    "standingHeight": 54,
+    "poses": {
+      "standing": {
+        "x": 297,
+        "y": 51,
+        "w": 366,
+        "h": 805,
+        "hipX": 183.0,
+        "hipY": 499.1
+      },
+      "seated": {
+        "x": 1117,
+        "y": 150,
+        "w": 348,
+        "h": 619,
+        "hipX": 174.0,
+        "hipY": 499.1
+      }
+    }
+  },
+  "girl": {
+    "src": "girl-poses.png",
+    "referenceHeight": 848,
+    "standingHeight": 54,
+    "poses": {
+      "standing": {
+        "x": 303,
+        "y": 25,
+        "w": 308,
+        "h": 848,
+        "hipX": 154.0,
+        "hipY": 525.76
+      },
+      "seated": {
+        "x": 1130,
+        "y": 154,
+        "w": 375,
+        "h": 628,
+        "hipX": 187.5,
+        "hipY": 525.76
+      }
+    }
+  }
+}

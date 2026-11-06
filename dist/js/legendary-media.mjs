@@ -81,8 +81,8 @@ export const LEGENDARY_MEDIA={
     "music": "Le Souffle de l’Acier"
   },
   "380": {
-    "src": "assets/cinematics/380-appearance-v1.mp4",
-    "poster": "assets/cinematics/380-appearance-v1-poster.png",
+    "src": "assets/cinematics/380-appearance-v2.mp4",
+    "poster": "assets/cinematics/380-appearance-v2-poster.png",
     "duration": 32,
     "width": 960,
     "height": 540,
@@ -91,8 +91,8 @@ export const LEGENDARY_MEDIA={
     "music": "La Promesse de l’Île du Sud"
   },
   "381": {
-    "src": "assets/cinematics/381-appearance-v1.mp4",
-    "poster": "assets/cinematics/381-appearance-v1-poster.png",
+    "src": "assets/cinematics/381-appearance-v2.mp4",
+    "poster": "assets/cinematics/381-appearance-v2-poster.png",
     "duration": 32,
     "width": 960,
     "height": 540,

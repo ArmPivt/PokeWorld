@@ -1,0 +1,207 @@
+{
+  "species": 380,
+  "version": 2,
+  "shiny": false,
+  "duration": 32,
+  "frames": 768,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "b1b52e22a411da1815cfd5c77bf96ec5cc1da55f310373e965891c7634132fef",
+  "bytes": 7805663,
+  "audioStreamUnchanged": true,
+  "audioStreamSHA256": "33a3c2d9f715288d6b8b267571c145f185a28fbe992794462ce3dbc58efbda41",
+  "music": "La Promesse de l’Île du Sud",
+  "cryAt": 27,
+  "guideSpecies": 381,
+  "character": "girl",
+  "acceptedEndingUnchanged": true,
+  "acceptedEndingStartFrame": 408,
+  "acceptedEndingComparedFrames": 360,
+  "acceptedEndingRawRGBSHA256": "77de4679495c445e85cb44ccf1082fc0c176d68baba46962edab4edaac917774",
+  "mountChecks": {
+    "maxBoardingStep": 6,
+    "maxAttachedError": 0,
+    "samples": [
+      {
+        "time": 5,
+        "phase": "approach",
+        "pose": "standing",
+        "hip": {
+          "x": 174,
+          "y": 221.48
+        },
+        "seat": {
+          "x": 268.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 5.25,
+        "phase": "approach",
+        "pose": "standing",
+        "hip": {
+          "x": 185.9533527696793,
+          "y": 221.87894192539514
+        },
+        "seat": {
+          "x": 259.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 5.5,
+        "phase": "approach",
+        "pose": "standing",
+        "hip": {
+          "x": 206.87172011661806,
+          "y": 221.96434049408944
+        },
+        "seat": {
+          "x": 244.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 5.75,
+        "phase": "climb",
+        "pose": "standing",
+        "hip": {
+          "x": 215.18956116051902,
+          "y": 220.92055752627434
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 6,
+        "phase": "climb",
+        "pose": "standing",
+        "hip": {
+          "x": 220.58343781892404,
+          "y": 205.39882485377788
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 6.25,
+        "phase": "climb",
+        "pose": "standing",
+        "hip": {
+          "x": 229.596209359965,
+          "y": 184.44384792369314
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 6.5,
+        "phase": "climb",
+        "pose": "seated",
+        "hip": {
+          "x": 237.05802595130484,
+          "y": 172.71540550900545
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 6.75,
+        "phase": "settle",
+        "pose": "seated",
+        "hip": {
+          "x": 238.64,
+          "y": 170.56
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 7,
+        "phase": "settle",
+        "pose": "seated",
+        "hip": {
+          "x": 238.64,
+          "y": 170.56
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 170.56
+        }
+      },
+      {
+        "time": 7.25,
+        "phase": "takeoff",
+        "pose": "seated",
+        "hip": {
+          "x": 238.64,
+          "y": 167.56
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 167.56
+        }
+      },
+      {
+        "time": 7.5,
+        "phase": "takeoff",
+        "pose": "seated",
+        "hip": {
+          "x": 238.64,
+          "y": 141.56
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 141.56
+        }
+      },
+      {
+        "time": 7.75,
+        "phase": "takeoff",
+        "pose": "seated",
+        "hip": {
+          "x": 238.64,
+          "y": 107.56
+        },
+        "seat": {
+          "x": 238.64,
+          "y": 107.56
+        }
+      }
+    ]
+  },
+  "whiteChecks": [
+    {
+      "time": 18,
+      "whiteFraction": 0,
+      "progress": 0.125
+    },
+    {
+      "time": 22,
+      "whiteFraction": 0,
+      "progress": 0.625
+    },
+    {
+      "time": 24.8,
+      "whiteFraction": 1,
+      "progress": 0.9750000000000001
+    },
+    {
+      "time": 25.5,
+      "whiteFraction": 1,
+      "progress": null
+    }
+  ],
+  "checks": "768 monotonic frames and full audio decoded; AAC packets match v1 exactly; all 360 raw forest/white/reveal frames from 17s onward pixel-identical; opposing guide; one correct rider throughout boarding, flight and dismount; pelvis anchored to creature back with zero attachment error."
+}
