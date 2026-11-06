@@ -158,8 +158,8 @@ function sea(t){
  for(let i=0;i<11;i++){const x=(i*47+t*28)%530-25,y=147+i%4*20;px(x,y+Math.sin(t*4+i)*2,24+i%3*9,2,'#268ca8',.48)}
  const arrive=ease(t/1.15),roaring=t>1.2&&t<2.8;
  ellipse(240,234,89,7,'#03182c',.7);glow(240,229,78,'#2589e5',.4);
- // Same three-quarter direction as Groudon; the full head clears the water.
- mon(382,roaring?'Swell':'Idle',1,240,mix(263,234,arrive)+Math.sin(t*2)*1.5,3.15,roaring?(t-1.2)*.28:t*.85,{alpha:arrive,oneShot:roaring});
+ // Left-facing three-quarter view, opposite Groudon; the head clears the water.
+ mon(382,roaring?'Swell':'Idle',7,240,mix(263,234,arrive)+Math.sin(t*2)*1.5,3.15,roaring?(t-1.2)*.28:t*.85,{alpha:arrive,oneShot:roaring});
  for(let x=-4;x<W+4;x+=4){const y=246+Math.sin(x*.046-t*4.2)*3+Math.sin(x*.09+t*3)*1.5;px(x,y,4,H-y,'#082447');if((x+Math.floor(t*18))%52<28)px(x,y,5,2,'#6bd8e6',.8)}
  for(let i=0;i<30;i++){const a=i*Math.PI/15,r=arrive*107+Math.sin(t*3)*6;px(240+Math.cos(a)*r,233+Math.sin(a)*r*.075,7,2,'#a4ecf6',.65)}
  rain(t, .55);rain(t+.7,.22);bolt(111,t,.65,1);bolt(371,t,3.35,2);bolt(62,t,5.4,3);c.restore();

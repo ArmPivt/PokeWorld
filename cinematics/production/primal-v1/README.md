@@ -47,3 +47,7 @@ Chaque MP4 est entièrement décodé, ses 624 images et ses horodatages sont vé
 ## Correction visuelle du 6 novembre 2026
 
 Les médias actifs sont maintenant `382/382-appearance-v2.mp4` et `383/383-appearance-v3.mp4`. Les contours des lueurs suivent les orbites peintes, avec les mêmes coordonnées et le même zoom que le décor. Kyogre est présenté de trois quarts et la vague ne masque plus sa tête. Le premier Limagma est placé sur la surface du rebord gauche. Les deux pistes sonores AAC sont recopiées bit pour bit depuis les films précédents. `encode_revision.py` reproduit cet export après `node render.cjs all`. Les contrôles et les images réellement décodées sont conservés dans les dossiers de chaque espèce.
+
+### Orientation finale de Kyogre
+
+La version active est `382/382-appearance-v3.mp4` : Kyogre regarde vers la gauche en vue de trois quarts, à l’opposé de Groudon qui regarde vers la droite. Sa tête reste dégagée de la vague. Les autres corrections et les pistes sonores sont conservées.

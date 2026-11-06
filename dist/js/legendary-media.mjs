@@ -21,8 +21,8 @@ export const LEGENDARY_MEDIA={
     "music": "Le Cœur du Continent"
   },
   "382": {
-    "src": "assets/cinematics/382-appearance-v2.mp4",
-    "poster": "assets/cinematics/382-appearance-v2-poster.png",
+    "src": "assets/cinematics/382-appearance-v3.mp4",
+    "poster": "assets/cinematics/382-appearance-v3-poster.png",
     "duration": 26,
     "width": 960,
     "height": 540,
