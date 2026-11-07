@@ -1,0 +1,484 @@
+{
+  "id": 245,
+  "duration": 30,
+  "cuts": [
+    0,
+    2.5,
+    7.5,
+    8,
+    13.5,
+    14,
+    20,
+    22
+  ],
+  "layout": {
+    "anchor": {
+      "x": 25,
+      "y": 33
+    },
+    "scale": 3.4838709677419355,
+    "width": 114.96774193548387,
+    "height": 108,
+    "bounds": {
+      "left": 180.7741935483871,
+      "right": 295.741935483871,
+      "top": 80,
+      "bottom": 188
+    }
+  },
+  "config": {
+    "name": "Suicune",
+    "plate": "lake.png",
+    "color": "#b5f6ff",
+    "ground": 188,
+    "title": "Le Miroir de la nuit"
+  },
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 245,
+        "shot": 1,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 60.160275205761316
+    },
+    {
+      "time": 3.9,
+      "state": {
+        "time": 3.9,
+        "species": 245,
+        "shot": 2,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0.074074074074074,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 60.258899176954735
+    },
+    {
+      "time": 4.65,
+      "state": {
+        "time": 4.65,
+        "species": 245,
+        "shot": 2,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0.6238425925925928,
+        "lugiaSilhouette": true,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 119.92616512345678
+    },
+    {
+      "time": 6.8,
+      "state": {
+        "time": 6.8,
+        "species": 245,
+        "shot": 2,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 1,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 48.29077674897119
+    },
+    {
+      "time": 7.75,
+      "state": {
+        "time": 7.75,
+        "species": 245,
+        "shot": 3,
+        "blackTransition": true,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 0
+    },
+    {
+      "time": 9,
+      "state": {
+        "time": 9,
+        "species": 245,
+        "shot": 4,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0.1784251251706873,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 108.19451646090535
+    },
+    {
+      "time": 11.2,
+      "state": {
+        "time": 11.2,
+        "species": 245,
+        "shot": 4,
+        "blackTransition": false,
+        "beastIds": [
+          243,
+          244,
+          245
+        ],
+        "rainbow": 1,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 120.48576388888888
+    },
+    {
+      "time": 12.7,
+      "state": {
+        "time": 12.7,
+        "species": 245,
+        "shot": 4,
+        "blackTransition": false,
+        "beastIds": [
+          243,
+          244,
+          245
+        ],
+        "rainbow": 1,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 120.69437242798354
+    },
+    {
+      "time": 13.75,
+      "state": {
+        "time": 13.75,
+        "species": 245,
+        "shot": 5,
+        "blackTransition": true,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": null,
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 0
+    },
+    {
+      "time": 14.6,
+      "state": {
+        "time": 14.6,
+        "species": 245,
+        "shot": 6,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": {
+          "heroAlpha": 0,
+          "shadowAlpha": 0,
+          "reflectionOnly": true,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 58.27582561728395
+    },
+    {
+      "time": 16.25,
+      "state": {
+        "time": 16.25,
+        "species": 245,
+        "shot": 6,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": {
+          "heroAlpha": 0,
+          "shadowAlpha": 0.990026460411154,
+          "reflectionOnly": true,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 58.4169341563786
+    },
+    {
+      "time": 17.4,
+      "state": {
+        "time": 17.4,
+        "species": 245,
+        "shot": 6,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": {
+          "heroAlpha": 0,
+          "shadowAlpha": 1,
+          "reflectionOnly": true,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 58.590516975308645
+    },
+    {
+      "time": 18.1,
+      "state": {
+        "time": 18.1,
+        "species": 245,
+        "shot": 6,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": {
+          "heroAlpha": 0,
+          "shadowAlpha": 1,
+          "reflectionOnly": true,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 58.530545267489714
+    },
+    {
+      "time": 19.6,
+      "state": {
+        "time": 19.6,
+        "species": 245,
+        "shot": 6,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": {
+          "heroAlpha": 0,
+          "shadowAlpha": 1,
+          "reflectionOnly": true,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 58.95915380658436
+    },
+    {
+      "time": 20.5,
+      "state": {
+        "time": 20.5,
+        "species": 245,
+        "shot": 7,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": false,
+        "personal": {
+          "heroAlpha": 0,
+          "shadowAlpha": 0.9803240740740742,
+          "reflectionOnly": true,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 59.96674897119342
+    },
+    {
+      "time": 21.4,
+      "state": {
+        "time": 21.4,
+        "species": 245,
+        "shot": 7,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": true,
+        "personal": {
+          "heroAlpha": 0.0553935860058299,
+          "shadowAlpha": 0.07407407407407529,
+          "reflectionOnly": false,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 102.22025977366255
+    },
+    {
+      "time": 22.5,
+      "state": {
+        "time": 22.5,
+        "species": 245,
+        "shot": 8,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": true,
+        "personal": {
+          "heroAlpha": 1,
+          "shadowAlpha": 0,
+          "reflectionOnly": false,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 64.18999485596707
+    },
+    {
+      "time": 23.2,
+      "state": {
+        "time": 23.2,
+        "species": 245,
+        "shot": 8,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": true,
+        "personal": {
+          "heroAlpha": 1,
+          "shadowAlpha": 0,
+          "reflectionOnly": false,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 64.66101594650206
+    },
+    {
+      "time": 24.5,
+      "state": {
+        "time": 24.5,
+        "species": 245,
+        "shot": 8,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": true,
+        "personal": {
+          "heroAlpha": 1,
+          "shadowAlpha": 0,
+          "reflectionOnly": false,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 64.17010802469136
+    },
+    {
+      "time": 27.2,
+      "state": {
+        "time": 27.2,
+        "species": 245,
+        "shot": 8,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": true,
+        "personal": {
+          "heroAlpha": 1,
+          "shadowAlpha": 0,
+          "reflectionOnly": false,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 64.83096193415638
+    },
+    {
+      "time": 28.5,
+      "state": {
+        "time": 28.5,
+        "species": 245,
+        "shot": 8,
+        "blackTransition": false,
+        "beastIds": [],
+        "rainbow": 0,
+        "stormStrength": 0,
+        "lugiaSilhouette": false,
+        "heroVisible": true,
+        "personal": {
+          "heroAlpha": 1,
+          "shadowAlpha": 0,
+          "reflectionOnly": false,
+          "feetY": 188
+        },
+        "cryAt": 23.1,
+        "revealAt": 21.25
+      },
+      "mean": 64.2413683127572
+    }
+  ]
+}

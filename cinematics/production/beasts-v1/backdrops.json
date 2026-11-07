@@ -1,0 +1,17 @@
+{
+  "provider": "Built-in ImageGen",
+  "assets": {
+    "lake": "exec-ca51987c-00bd-4c81-9614-bb6fee960c05.png",
+    "storm": "exec-0491c43d-e5da-4aef-a931-8b3d3711e066.png",
+    "volcano": "exec-bbe7ce09-9697-4a33-a6a7-3218dd37c2e7.png"
+  },
+  "prompts": [
+    "lake-prompt.txt",
+    "storm-prompt.txt",
+    "volcano-prompt.txt"
+  ],
+  "shared": [
+    "calm.png: ../lugia-v2/",
+    "ruins.png: ../hooh-v2/"
+  ]
+}

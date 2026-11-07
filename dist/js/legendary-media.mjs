@@ -169,6 +169,36 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "L’Appel des marées"
+  },
+  "243": {
+    "src": "assets/cinematics/243-appearance-v1.mp4",
+    "poster": "assets/cinematics/243-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Rugissement du tonnerre"
+  },
+  "244": {
+    "src": "assets/cinematics/244-appearance-v1.mp4",
+    "poster": "assets/cinematics/244-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Souffle du volcan"
+  },
+  "245": {
+    "src": "assets/cinematics/245-appearance-v1.mp4",
+    "poster": "assets/cinematics/245-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Miroir de la nuit"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

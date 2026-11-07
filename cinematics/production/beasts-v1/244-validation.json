@@ -1,0 +1,22 @@
+{
+  "species": 244,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 7020097,
+  "sha256": "8922422f6463d84b6896cabe297ec7c875c5150d009d0516b4f3e00c2510f31c",
+  "music": "Le Souffle du volcan",
+  "cryAt": 23.1,
+  "cryCorrelation": 0.9922899961436809,
+  "decodedPeak": 0.504639744758606,
+  "bodyBounds": {
+    "left": 189.48387096774195,
+    "right": 300.9677419354839,
+    "top": 122,
+    "bottom": 230
+  },
+  "checks": "720 monotonic decoded frames and complete unclipped stereo AAC; two silent black cuts; native cry; full body framing; no coloured individual before its personal reveal; common fire/storm/rainbow with three silhouettes."
+}

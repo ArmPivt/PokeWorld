@@ -1,0 +1,22 @@
+{
+  "species": 245,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 7307659,
+  "sha256": "1edd14ef9d06e461514b8ea0d865b16fe542a6762b0d2c8b9544e426cf7bcc63",
+  "music": "Le Miroir de la nuit",
+  "cryAt": 23.1,
+  "cryCorrelation": 0.9756668171782197,
+  "decodedPeak": 0.504639744758606,
+  "bodyBounds": {
+    "left": 180.7741935483871,
+    "right": 295.741935483871,
+    "top": 80,
+    "bottom": 188
+  },
+  "checks": "720 monotonic decoded frames and complete unclipped stereo AAC; two silent black cuts; native cry; full body framing; no coloured individual before its personal reveal; common fire/storm/rainbow with three silhouettes."
+}

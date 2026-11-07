@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 17,
-  "planned": 155,
+  "reviewed": 20,
+  "planned": 152,
   "blockedImages": 0,
-  "estimatedRemainingCredits": 4650,
+  "estimatedRemainingCredits": 4560,
   "species": [
     {
       "id": 144,
@@ -217,7 +217,7 @@
       "id": 243,
       "name": "Raikou",
       "generation": 2,
-      "title": "Le rugissement de l’orage",
+      "title": "Le Rugissement du tonnerre",
       "location": "Plateau des tempêtes",
       "setting": "A flat thunder rock on a windswept dark grassland",
       "action": "The saber-toothed beast lowers its head slightly and takes one firm paw step",
@@ -226,13 +226,13 @@
         {
           "key": "243",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": true,
           "identityReference": "dist/assets/pmd/243/icon.png",
           "sourceImage": "cinematics/production/species/243/243-frame-v1.png",
           "destination": "assets/cinematics/243-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Raikou summoning appearance titled Le rugissement de l’orage. Setting: A flat thunder rock on a windswept dark grassland. Starting pose is calm and held, ready for this modest action: The saber-toothed beast lowers its head slightly and takes one firm paw step. Environmental action to prepare: A brief golden bolt strikes the rock behind it and its purple mane ripples softly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Raikou summoning appearance titled Le Rugissement du tonnerre. Setting: A flat thunder rock on a windswept dark grassland. Starting pose is calm and held, ready for this modest action: The saber-toothed beast lowers its head slightly and takes one firm paw step. Environmental action to prepare: A brief golden bolt strikes the rock behind it and its purple mane ripples softly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. The saber-toothed beast lowers its head slightly and takes one firm paw step. A brief golden bolt strikes the rock behind it and its purple mane ripples softly. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -244,7 +244,7 @@
           "identityReference": "dist/assets/pmd/243/icon-shiny.png",
           "sourceImage": "cinematics/production/species/243/243s-frame-v1.png",
           "destination": "assets/cinematics/243s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Raikou summoning appearance titled Le rugissement de l’orage. Setting: A flat thunder rock on a windswept dark grassland. Starting pose is calm and held, ready for this modest action: The saber-toothed beast lowers its head slightly and takes one firm paw step. Environmental action to prepare: A brief golden bolt strikes the rock behind it and its purple mane ripples softly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Raikou summoning appearance titled Le Rugissement du tonnerre. Setting: A flat thunder rock on a windswept dark grassland. Starting pose is calm and held, ready for this modest action: The saber-toothed beast lowers its head slightly and takes one firm paw step. Environmental action to prepare: A brief golden bolt strikes the rock behind it and its purple mane ripples softly. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. The saber-toothed beast lowers its head slightly and takes one firm paw step. A brief golden bolt strikes the rock behind it and its purple mane ripples softly. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]
@@ -253,7 +253,7 @@
       "id": 244,
       "name": "Entei",
       "generation": 2,
-      "title": "Le pas du volcan",
+      "title": "Le Souffle du volcan",
       "location": "Terres volcaniques",
       "setting": "A cooled lava path at the foot of a volcanic ridge",
       "action": "The large beast gently exhales and lifts its head into a proud stance",
@@ -262,13 +262,13 @@
         {
           "key": "244",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": true,
           "identityReference": "dist/assets/pmd/244/icon.png",
           "sourceImage": "cinematics/production/species/244/244-frame-v1.png",
           "destination": "assets/cinematics/244-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Entei summoning appearance titled Le pas du volcan. Setting: A cooled lava path at the foot of a volcanic ridge. Starting pose is calm and held, ready for this modest action: The large beast gently exhales and lifts its head into a proud stance. Environmental action to prepare: Three orange embers rise and a red crack lights beneath its planted paw. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Entei summoning appearance titled Le Souffle du volcan. Setting: A cooled lava path at the foot of a volcanic ridge. Starting pose is calm and held, ready for this modest action: The large beast gently exhales and lifts its head into a proud stance. Environmental action to prepare: Three orange embers rise and a red crack lights beneath its planted paw. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. The large beast gently exhales and lifts its head into a proud stance. Three orange embers rise and a red crack lights beneath its planted paw. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -280,7 +280,7 @@
           "identityReference": "dist/assets/pmd/244/icon-shiny.png",
           "sourceImage": "cinematics/production/species/244/244s-frame-v1.png",
           "destination": "assets/cinematics/244s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Entei summoning appearance titled Le pas du volcan. Setting: A cooled lava path at the foot of a volcanic ridge. Starting pose is calm and held, ready for this modest action: The large beast gently exhales and lifts its head into a proud stance. Environmental action to prepare: Three orange embers rise and a red crack lights beneath its planted paw. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Entei summoning appearance titled Le Souffle du volcan. Setting: A cooled lava path at the foot of a volcanic ridge. Starting pose is calm and held, ready for this modest action: The large beast gently exhales and lifts its head into a proud stance. Environmental action to prepare: Three orange embers rise and a red crack lights beneath its planted paw. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. The large beast gently exhales and lifts its head into a proud stance. Three orange embers rise and a red crack lights beneath its planted paw. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]
@@ -289,7 +289,7 @@
       "id": 245,
       "name": "Suicune",
       "generation": 2,
-      "title": "Le vent du nord",
+      "title": "Le Miroir de la nuit",
       "location": "Lac des brumes",
       "setting": "A still spring surrounded by dark reeds and pale mist",
       "action": "The blue beast softly lifts one paw over the water while its two ribbons sway",
@@ -298,13 +298,13 @@
         {
           "key": "245",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/245/icon.png",
           "sourceImage": "cinematics/production/species/245/245-frame-v1.png",
           "destination": "assets/cinematics/245-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Suicune summoning appearance titled Le vent du nord. Setting: A still spring surrounded by dark reeds and pale mist. Starting pose is calm and held, ready for this modest action: The blue beast softly lifts one paw over the water while its two ribbons sway. Environmental action to prepare: A single clean ripple clears a small patch of cloudy water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Suicune summoning appearance titled Le Miroir de la nuit. Setting: A still spring surrounded by dark reeds and pale mist. Starting pose is calm and held, ready for this modest action: The blue beast softly lifts one paw over the water while its two ribbons sway. Environmental action to prepare: A single clean ripple clears a small patch of cloudy water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. The blue beast softly lifts one paw over the water while its two ribbons sway. A single clean ripple clears a small patch of cloudy water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -316,7 +316,7 @@
           "identityReference": "dist/assets/pmd/245/icon-shiny.png",
           "sourceImage": "cinematics/production/species/245/245s-frame-v1.png",
           "destination": "assets/cinematics/245s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Suicune summoning appearance titled Le vent du nord. Setting: A still spring surrounded by dark reeds and pale mist. Starting pose is calm and held, ready for this modest action: The blue beast softly lifts one paw over the water while its two ribbons sway. Environmental action to prepare: A single clean ripple clears a small patch of cloudy water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Suicune summoning appearance titled Le Miroir de la nuit. Setting: A still spring surrounded by dark reeds and pale mist. Starting pose is calm and held, ready for this modest action: The blue beast softly lifts one paw over the water while its two ribbons sway. Environmental action to prepare: A single clean ripple clears a small patch of cloudy water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. The blue beast softly lifts one paw over the water while its two ribbons sway. A single clean ripple clears a small patch of cloudy water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]

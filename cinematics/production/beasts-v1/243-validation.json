@@ -1,0 +1,22 @@
+{
+  "species": 243,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 7232967,
+  "sha256": "e44cc69d5572b9fab099887ddbd52296e4f51bddfb0eb56eb8f39fe59e9e9a5e",
+  "music": "Le Rugissement du tonnerre",
+  "cryAt": 23.1,
+  "cryCorrelation": 0.9897249486886791,
+  "decodedPeak": 0.504639744758606,
+  "bodyBounds": {
+    "left": 163.09090909090907,
+    "right": 294,
+    "top": 125.27272727272727,
+    "bottom": 233.27272727272728
+  },
+  "checks": "720 monotonic decoded frames and complete unclipped stereo AAC; two silent black cuts; native cry; full body framing; no coloured individual before its personal reveal; common fire/storm/rainbow with three silhouettes."
+}
