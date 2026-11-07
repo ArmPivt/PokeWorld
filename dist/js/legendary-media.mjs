@@ -159,6 +159,16 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "La Promesse des deux tours — montage court"
+  },
+  "249": {
+    "src": "assets/cinematics/249-appearance-v1.mp4",
+    "poster": "assets/cinematics/249-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "L’Appel des marées"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

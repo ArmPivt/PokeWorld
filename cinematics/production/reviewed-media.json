@@ -302,5 +302,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-06",
     "reviewNote": "Montage raccourci de 44 à 30 s : flammes 3,5 s, transition noire, tour détruite sous l’arc-en-ciel avec lumière dense et silhouettes noires de Raikou, Entei et Suicune, second noir puis danse de 5 s. Les 360 images de rendu et le master PCM des quinze dernières secondes sont identiques à la v1. Cri de Ho-Oh à 23,15 s ; 720 images et audio décodés, noirs silencieux et trois silhouettes vérifiés."
+  },
+  "249": {
+    "id": 249,
+    "shiny": false,
+    "src": "assets/cinematics/249-appearance-v1.mp4",
+    "poster": "assets/cinematics/249-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "L’Appel des marées",
+    "fps": 24,
+    "frameCount": 720,
+    "sha256": "5aa3aa3cbbbbed5b3f72a613283ecde74f86c9337209cb75d01285e1d0d22206",
+    "sourceFile": "cinematics/production/lugia-v1/249-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-07",
+    "reviewNote": "Tour en flammes sous un ciel calme ; Lugia arrive puis invoque l’orage à 3,6 s, avant la pluie et la baisse des flammes. Transition noire. Cérémonie des cinq femmes en kimono et Cloche Marée aux Tourb’Îles, plumes argentées, tourbillon et ouverture du rideau d’eau. Lugia traverse la cascade, se révèle au-dessus du bassin et pousse son vrai cri à 22,4 s. Musique rituelle aquatique originale inspirée de l’ambiance de la référence SoulSilver. 720 images et audio décodés ; météo après invocation, noir silencieux, cinq danseuses et cadrage des ailes vérifiés."
   }
 }

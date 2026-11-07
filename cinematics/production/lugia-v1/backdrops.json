@@ -1,0 +1,20 @@
+{
+  "provider": "ImageGen intégré",
+  "assets": [
+    {
+      "key": "calm",
+      "prompt": "Use case: lighting-weather. Edit target: this existing pixel-art pagoda scene from PokéWorld. Preserve the EXACT wooden tower, camera angle, stone foundation and steps, courtyard, walls, maple trees and crisp 16-bit pixel-art style. Change ONLY the weather and ambient lighting to a CALM NIGHT BEFORE THE STORM. Remove ALL diagonal rain streaks and ALL lightning bolts from every part of the picture, including the sky and foreground. Replace the violent purple storm clouds with a tranquil deep blue night sky, a few soft sparse blue clouds and tiny stars. Keep enough empty sky around the tower, especially upper right, for a separately animated Lugia to fly into. The warm orange glow inside the wooden tower can stay: active flames will be animated in code. Preserve square pixel clusters and stepped edges. No Pokémon or people added, no active flames added, no text or interface. The result must clearly show no rain, no thunder, no storm clouds.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-ab2b32e8-2943-4fb0-827c-8f9624c42f4c.png"
+    },
+    {
+      "key": "shrine",
+      "prompt": "Use case: illustration-story. Asset type: 16:9 cinematic pixel-art background for a Lugia summoning scene in PokéWorld. Scene: the deepest sacred chamber of the Whirl Islands, a huge blue and turquoise sea cave. Elevated cinematic view looking over a rectangular MOSSY STONE CEREMONIAL ISLAND in the foreground, with an empty broad stone floor across the lower quarter for five separately animated Kimono Girls. A tiny low stone pedestal sits at the center of this floor (x50%, y82%) holding one small silver bell, not an altar or statue. A dark circular pool fills the middle distance (center x50%, y52%), ringed by a semicircle of small upright basalt stones. Tall luminous crescent-shaped waterfalls cascade down the BACK and SIDE cave walls, enclosing the pool. Dark blue ceiling, a few turquoise stalagmites and silver water reflections, no sky visible. Leave the central air over the pool empty (x30-70%, y15-60%) for a large Lugia to appear later. The floor for the dancers must be level and continuous, not covered by water. Detailed crisp 16-bit Pokémon Emerald-style pixel art, stepped outlines, square color clusters, majestic and mysterious underwater shrine atmosphere, cold cyan and silver lighting. No people, no Pokémon, no creature statues, no text or interface, no smooth blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-ca413659-a1a9-455a-a6c6-c0926eec1a84.png"
+    },
+    {
+      "key": "waterfall",
+      "prompt": "Use case: illustration-story. Asset type: close-up cinematic pixel-art background for Lugia in PokéWorld, 16:9 landscape. Scene: closer view of the circular basin in the deepest sacred Whirl Islands cavern, facing a huge crescent waterfall. The central dark-blue circular water pool occupies the lower half. A low semicircle of dark round basalt stones follows its rear rim. Very tall waterfalls pour down the far LEFT and far RIGHT walls, framing a LARGE DARK CAVE OPENING in the center (x32-68%, y8-55%). Keep that central cave opening empty and black-blue, with no monster or silhouette: an animated central water curtain and Lugia will be composited there later. Water at the bottom glows turquoise with stepped white foam, mist along the side falls, dark navy rock ceiling high above. Symmetrical dramatic composition, clear open space across the middle for full wings. Detailed crisp 16-bit Pokémon Emerald-style pixel art, broad square color clusters, sharp stepped outlines, silver/cyan water contrasting deep blue basalt. No people, no creatures, no statues, no text, no HUD, no photographic blur.",
+      "source": "C:\\Users\\arman\\.codex\\generated_images\\01a1a5a9-d203-7bb2-b793-a90a30ac4b0b\\exec-dab42bec-6ce2-47ed-90d1-f52c7ed88c92.png"
+    }
+  ]
+}

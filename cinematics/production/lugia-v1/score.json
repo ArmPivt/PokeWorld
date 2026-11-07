@@ -1,0 +1,24 @@
+{
+  "title": "L’Appel des marées",
+  "duration": 30,
+  "notes": 171,
+  "music": "Original aquatic ceremonial score: koto, shamisen, shakuhachi, taiko, celesta, harp, strings and choir. Synthesized silver bells, water, fire and thunder. No official theme, recording, sample or MIDI reused.",
+  "reference": "https://www.youtube.com/shorts/gQQogOvgizc",
+  "referenceTitle": "How to reach Lugia in Pokemon SoulSilver",
+  "cues": {
+    "calmFire": 0,
+    "lugiaArrives": 2.5,
+    "stormCalled": 3.6,
+    "blackTransition": [
+      7.5,
+      8
+    ],
+    "kimonoRitual": 8,
+    "whirlpool": 13,
+    "waterfallEmergence": 17,
+    "mainReveal": 21,
+    "lugiaCry": 22.4
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}

@@ -1,0 +1,711 @@
+{
+  "species": 249,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "5aa3aa3cbbbbed5b3f72a613283ecde74f86c9337209cb75d01285e1d0d22206",
+  "bytes": 10154486,
+  "audio": "AAC stereo 48 kHz 192 kb/s",
+  "music": "L’Appel des marées",
+  "stormCalledAt": 3.6,
+  "cryAt": 22.4,
+  "cryDuration": 1.8147291666666667,
+  "cryCorrelation": 0.9957973744462372,
+  "decodedPeak": 0.7670285701751709,
+  "blackTransitionRMS": 0.0,
+  "revealAt": 18.25,
+  "checks": "720 monotonic frames and complete stereo audio decode; no clipping; calm opening until Lugia calls the storm; silent black transition; five Kimono Girls; whirlpool and waterfall emergence; actual Lugia cry at 22.4s; whole final wings in frame.",
+  "bodyBounds": {
+    "left": 106.2001781540728,
+    "right": 373.7999876907827,
+    "top": 11.600013710829018,
+    "bottom": 151.93153293409253,
+    "frames": 142
+  },
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 249,
+        "shot": 1,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.160275205761316
+    },
+    {
+      "time": 2.3,
+      "state": {
+        "time": 2.3,
+        "species": 249,
+        "shot": 1,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.78485339506173
+    },
+    {
+      "time": 2.9,
+      "state": {
+        "time": 2.9,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0,
+        "introLugiaVisible": true,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 61.20430812757202
+    },
+    {
+      "time": 3.3,
+      "state": {
+        "time": 3.3,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0,
+        "introLugiaVisible": true,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 62.241458333333334
+    },
+    {
+      "time": 3.9,
+      "state": {
+        "time": 3.9,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.074074074074074,
+        "introLugiaVisible": true,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 63.414524176954735
+    },
+    {
+      "time": 4.7,
+      "state": {
+        "time": 4.7,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.663923182441701,
+        "introLugiaVisible": true,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 70.38012088477366
+    },
+    {
+      "time": 5.6,
+      "state": {
+        "time": 5.6,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 1,
+        "introLugiaVisible": true,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 88.26328189300412
+    },
+    {
+      "time": 6.7,
+      "state": {
+        "time": 6.7,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 1,
+        "introLugiaVisible": true,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 67.51224279835391
+    },
+    {
+      "time": 7.35,
+      "state": {
+        "time": 7.35,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 1,
+        "introLugiaVisible": false,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 32.90322530864198
+    },
+    {
+      "time": 7.75,
+      "state": {
+        "time": 7.75,
+        "species": 249,
+        "shot": 3,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": true,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 0
+    },
+    {
+      "time": 8.5,
+      "state": {
+        "time": 8.5,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 101.30370113168725
+    },
+    {
+      "time": 9.2,
+      "state": {
+        "time": 9.2,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 101.79777777777778
+    },
+    {
+      "time": 10.7,
+      "state": {
+        "time": 10.7,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 102.6523816872428
+    },
+    {
+      "time": 12.3,
+      "state": {
+        "time": 12.3,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 103.58242283950618
+    },
+    {
+      "time": 13.6,
+      "state": {
+        "time": 13.6,
+        "species": 249,
+        "shot": 5,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 124.05500257201646
+    },
+    {
+      "time": 15.2,
+      "state": {
+        "time": 15.2,
+        "species": 249,
+        "shot": 5,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 130.18585133744855
+    },
+    {
+      "time": 16.6,
+      "state": {
+        "time": 16.6,
+        "species": 249,
+        "shot": 5,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 134.75365997942387
+    },
+    {
+      "time": 17.6,
+      "state": {
+        "time": 17.6,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 0,
+          "opening": 0.00432407828857545,
+          "scale": 0.7
+        },
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 132.73040637860083
+    },
+    {
+      "time": 18.4,
+      "state": {
+        "time": 18.4,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 0.21599999999999642,
+          "opening": 0.2765134274010006,
+          "scale": 0.7848856653873114
+        },
+        "reveal": null,
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 119.88064300411523
+    },
+    {
+      "time": 19.3,
+      "state": {
+        "time": 19.3,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 1,
+          "opening": 0.7742375967228041,
+          "scale": 1.744746650920767
+        },
+        "reveal": null,
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 106.24338220164609
+    },
+    {
+      "time": 20.4,
+      "state": {
+        "time": 20.4,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 1,
+          "opening": 1,
+          "scale": 3.1307288399084756
+        },
+        "reveal": null,
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 109.97866255144032
+    },
+    {
+      "time": 21.4,
+      "state": {
+        "time": 21.4,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 240.57713253905519,
+            "y": 151.3677191875276,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 160.19992798353908
+    },
+    {
+      "time": 22.4,
+      "state": {
+        "time": 22.4,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 241.2990011247478,
+            "y": 151.62968786473843,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.96175411522634
+    },
+    {
+      "time": 24,
+      "state": {
+        "time": 24,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 239.60539603347905,
+            "y": 149.1370151172501,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.44352109053499
+    },
+    {
+      "time": 26.5,
+      "state": {
+        "time": 26.5,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 240.05434326118848,
+            "y": 151.3505296396687,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.48027006172839
+    },
+    {
+      "time": 28.6,
+      "state": {
+        "time": 28.6,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 240.82225135786635,
+            "y": 149.978256194871,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.3255658436214
+    }
+  ]
+}
