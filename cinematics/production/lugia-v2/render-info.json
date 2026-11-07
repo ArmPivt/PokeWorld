@@ -1,0 +1,896 @@
+{
+  "duration": 30,
+  "cuts": [
+    0,
+    2.5,
+    7.5,
+    8,
+    13,
+    17,
+    21
+  ],
+  "stormAt": 3.6,
+  "cryAt": 22.4,
+  "revealAt": 18.25,
+  "women": [
+    {
+      "row": 0,
+      "x": 168,
+      "y": 230,
+      "h": 32
+    },
+    {
+      "row": 1,
+      "x": 240,
+      "y": 215,
+      "h": 31
+    },
+    {
+      "row": 2,
+      "x": 312,
+      "y": 230,
+      "h": 32
+    },
+    {
+      "row": 3,
+      "x": 136,
+      "y": 258,
+      "h": 35
+    },
+    {
+      "row": 4,
+      "x": 344,
+      "y": 258,
+      "h": 35
+    }
+  ],
+  "layout": {
+    "anchor": {
+      "x": 39.5,
+      "y": 50
+    },
+    "scale": 3.3544303797468356,
+    "targetY": 150.53164556962025,
+    "bounds": {
+      "left": 107.5,
+      "right": 372.5,
+      "top": 13,
+      "bottom": 150.53164556962025
+    },
+    "frameBounds": [
+      [
+        0,
+        9,
+        79,
+        50
+      ],
+      [
+        0,
+        9,
+        79,
+        50
+      ]
+    ]
+  },
+  "species": 249,
+  "fps": 24,
+  "frames": 720,
+  "width": 960,
+  "height": 540,
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 249,
+        "shot": 1,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.160275205761316
+    },
+    {
+      "time": 2.3,
+      "state": {
+        "time": 2.3,
+        "species": 249,
+        "shot": 1,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.78485339506173
+    },
+    {
+      "time": 2.9,
+      "state": {
+        "time": 2.9,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.73177726337448
+    },
+    {
+      "time": 3.3,
+      "state": {
+        "time": 3.3,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.85316100823045
+    },
+    {
+      "time": 3.9,
+      "state": {
+        "time": 3.9,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.074074074074074,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 60.258899176954735
+    },
+    {
+      "time": 4.55,
+      "state": {
+        "time": 4.55,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.5416237997256513,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 57.456069958847735
+    },
+    {
+      "time": 4.65,
+      "state": {
+        "time": 4.65,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.6238425925925928,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": true,
+        "lightningStrength": 0.9919813383875198,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 119.92616512345678
+    },
+    {
+      "time": 4.78,
+      "state": {
+        "time": 4.78,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.7258052126200276,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": true,
+        "lightningStrength": 0.48684345520618943,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 90.07514660493827
+    },
+    {
+      "time": 4.95,
+      "state": {
+        "time": 4.95,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 0.84375,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 55.17706532921811
+    },
+    {
+      "time": 5.6,
+      "state": {
+        "time": 5.6,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 1,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 52.168675411522635
+    },
+    {
+      "time": 6.7,
+      "state": {
+        "time": 6.7,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 1,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 48.297078189300414
+    },
+    {
+      "time": 7.35,
+      "state": {
+        "time": 7.35,
+        "species": 249,
+        "shot": 2,
+        "stormStrength": 1,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": true,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 23.54099022633745
+    },
+    {
+      "time": 7.75,
+      "state": {
+        "time": 7.75,
+        "species": 249,
+        "shot": 3,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": true,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 0
+    },
+    {
+      "time": 8.5,
+      "state": {
+        "time": 8.5,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 101.30370113168725
+    },
+    {
+      "time": 9.2,
+      "state": {
+        "time": 9.2,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 101.79777777777778
+    },
+    {
+      "time": 10.7,
+      "state": {
+        "time": 10.7,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 102.6523816872428
+    },
+    {
+      "time": 12.3,
+      "state": {
+        "time": 12.3,
+        "species": 249,
+        "shot": 4,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 103.58242283950618
+    },
+    {
+      "time": 13.6,
+      "state": {
+        "time": 13.6,
+        "species": 249,
+        "shot": 5,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 124.05500257201646
+    },
+    {
+      "time": 15.2,
+      "state": {
+        "time": 15.2,
+        "species": 249,
+        "shot": 5,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 130.18585133744855
+    },
+    {
+      "time": 16.6,
+      "state": {
+        "time": 16.6,
+        "species": 249,
+        "shot": 5,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": null,
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 134.75365997942387
+    },
+    {
+      "time": 17.6,
+      "state": {
+        "time": 17.6,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 0,
+          "opening": 0.00432407828857545,
+          "scale": 0.7
+        },
+        "reveal": null,
+        "finalLugiaVisible": false,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 132.73040637860083
+    },
+    {
+      "time": 18.4,
+      "state": {
+        "time": 18.4,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 0.21599999999999642,
+          "opening": 0.2765134274010006,
+          "scale": 0.7848856653873114
+        },
+        "reveal": null,
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 119.88064300411523
+    },
+    {
+      "time": 19.3,
+      "state": {
+        "time": 19.3,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 1,
+          "opening": 0.7742375967228041,
+          "scale": 1.744746650920767
+        },
+        "reveal": null,
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 106.24338220164609
+    },
+    {
+      "time": 20.4,
+      "state": {
+        "time": 20.4,
+        "species": 249,
+        "shot": 6,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 0,
+        "poses": [],
+        "emerge": {
+          "alpha": 1,
+          "opening": 1,
+          "scale": 3.1307288399084756
+        },
+        "reveal": null,
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 109.97866255144032
+    },
+    {
+      "time": 21.4,
+      "state": {
+        "time": 21.4,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 240.57713253905519,
+            "y": 151.3677191875276,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 160.19992798353908
+    },
+    {
+      "time": 22.4,
+      "state": {
+        "time": 22.4,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 241.2990011247478,
+            "y": 151.62968786473843,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.96175411522634
+    },
+    {
+      "time": 24,
+      "state": {
+        "time": 24,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 239.60539603347905,
+            "y": 149.1370151172501,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.44352109053499
+    },
+    {
+      "time": 26.5,
+      "state": {
+        "time": 26.5,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 240.05434326118848,
+            "y": 151.3505296396687,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.48027006172839
+    },
+    {
+      "time": 28.6,
+      "state": {
+        "time": 28.6,
+        "species": 249,
+        "shot": 7,
+        "stormStrength": 0,
+        "introLugiaVisible": false,
+        "introSilhouetteVisible": false,
+        "lightningStrength": 0,
+        "stormCalled": false,
+        "blackTransition": false,
+        "dancers": 5,
+        "poses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "emerge": null,
+        "reveal": {
+          "bird": {
+            "x": 240.82225135786635,
+            "y": 149.978256194871,
+            "scale": 3.3544303797468356
+          },
+          "poses": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "finalLugiaVisible": true,
+        "stormAt": 3.6,
+        "revealAt": 18.25,
+        "cryAt": 22.4
+      },
+      "mean": 108.3255658436214
+    }
+  ],
+  "silhouetteWindow": [
+    4.6,
+    4.92
+  ],
+  "silhouetteTint": "#080b18",
+  "bodyBounds": {
+    "left": 106.2001781540728,
+    "right": 373.7999876907827,
+    "top": 11.600013710829018,
+    "bottom": 151.93153293409253,
+    "frames": 142
+  }
+}

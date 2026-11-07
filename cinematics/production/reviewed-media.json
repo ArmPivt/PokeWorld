@@ -306,8 +306,8 @@
   "249": {
     "id": 249,
     "shiny": false,
-    "src": "assets/cinematics/249-appearance-v1.mp4",
-    "poster": "assets/cinematics/249-appearance-v1-poster.png",
+    "src": "assets/cinematics/249-appearance-v2.mp4",
+    "poster": "assets/cinematics/249-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
@@ -316,10 +316,10 @@
     "music": "L’Appel des marées",
     "fps": 24,
     "frameCount": 720,
-    "sha256": "5aa3aa3cbbbbed5b3f72a613283ecde74f86c9337209cb75d01285e1d0d22206",
-    "sourceFile": "cinematics/production/lugia-v1/249-appearance-v1.mp4",
+    "sha256": "bc7ebbf55d547d9cbd9476dee2f0c2514afb24ec05d0d3abc0cb6b3597f79133",
+    "sourceFile": "cinematics/production/lugia-v2/249-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-07",
-    "reviewNote": "Tour en flammes sous un ciel calme ; Lugia arrive puis invoque l’orage à 3,6 s, avant la pluie et la baisse des flammes. Transition noire. Cérémonie des cinq femmes en kimono et Cloche Marée aux Tourb’Îles, plumes argentées, tourbillon et ouverture du rideau d’eau. Lugia traverse la cascade, se révèle au-dessus du bassin et pousse son vrai cri à 22,4 s. Musique rituelle aquatique originale inspirée de l’ambiance de la référence SoulSilver. 720 images et audio décodés ; météo après invocation, noir silencieux, cinq danseuses et cadrage des ailes vérifiés."
+    "reviewNote": "Ouverture corrigée : aucun Lugia coloré visible pendant l’orage. Un seul éclair à 4,6 s révèle une silhouette noire pendant 0,32 s, puis elle disparaît. Les 540 images de rendu après 7,5 s et tous les paquets AAC sont conservés à l’identique : cérémonie, cascades, révélation, musique originale et cri à 22,4 s. Décodage des 720 images, fenêtre de silhouette, cinq danseuses, cadrage entier et audio vérifiés."
   }
 }

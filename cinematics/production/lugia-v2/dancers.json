@@ -1,0 +1,192 @@
+[
+  {
+    "src": "dancers.png",
+    "referenceHeight": 236,
+    "poses": [
+      {
+        "x": 112,
+        "y": 7,
+        "w": 92,
+        "h": 236,
+        "anchorX": 45.5,
+        "anchorY": 236
+      },
+      {
+        "x": 338,
+        "y": 12,
+        "w": 220,
+        "h": 231,
+        "anchorX": 134.5,
+        "anchorY": 231
+      },
+      {
+        "x": 691,
+        "y": 8,
+        "w": 213,
+        "h": 235,
+        "anchorX": 97.0,
+        "anchorY": 235
+      },
+      {
+        "x": 1060,
+        "y": 19,
+        "w": 92,
+        "h": 224,
+        "anchorX": 43.5,
+        "anchorY": 224
+      }
+    ]
+  },
+  {
+    "src": "dancers.png",
+    "referenceHeight": 236,
+    "poses": [
+      {
+        "x": 112,
+        "y": 259,
+        "w": 92,
+        "h": 236,
+        "anchorX": 45.5,
+        "anchorY": 236
+      },
+      {
+        "x": 338,
+        "y": 264,
+        "w": 220,
+        "h": 231,
+        "anchorX": 134.5,
+        "anchorY": 231
+      },
+      {
+        "x": 691,
+        "y": 258,
+        "w": 213,
+        "h": 236,
+        "anchorX": 97.0,
+        "anchorY": 237
+      },
+      {
+        "x": 1060,
+        "y": 272,
+        "w": 92,
+        "h": 222,
+        "anchorX": 43.5,
+        "anchorY": 223
+      }
+    ]
+  },
+  {
+    "src": "dancers.png",
+    "referenceHeight": 236,
+    "poses": [
+      {
+        "x": 112,
+        "y": 511,
+        "w": 92,
+        "h": 236,
+        "anchorX": 45.5,
+        "anchorY": 236
+      },
+      {
+        "x": 337,
+        "y": 517,
+        "w": 221,
+        "h": 230,
+        "anchorX": 135.5,
+        "anchorY": 230
+      },
+      {
+        "x": 691,
+        "y": 511,
+        "w": 213,
+        "h": 236,
+        "anchorX": 97.0,
+        "anchorY": 236
+      },
+      {
+        "x": 1060,
+        "y": 525,
+        "w": 92,
+        "h": 222,
+        "anchorX": 43.5,
+        "anchorY": 222
+      }
+    ]
+  },
+  {
+    "src": "dancers.png",
+    "referenceHeight": 235,
+    "poses": [
+      {
+        "x": 112,
+        "y": 763,
+        "w": 92,
+        "h": 235,
+        "anchorX": 45.5,
+        "anchorY": 235
+      },
+      {
+        "x": 337,
+        "y": 770,
+        "w": 221,
+        "h": 228,
+        "anchorX": 135.5,
+        "anchorY": 228
+      },
+      {
+        "x": 691,
+        "y": 763,
+        "w": 213,
+        "h": 235,
+        "anchorX": 97.0,
+        "anchorY": 235
+      },
+      {
+        "x": 1060,
+        "y": 778,
+        "w": 92,
+        "h": 220,
+        "anchorX": 43.5,
+        "anchorY": 220
+      }
+    ]
+  },
+  {
+    "src": "dancers.png",
+    "referenceHeight": 249,
+    "poses": [
+      {
+        "x": 112,
+        "y": 998,
+        "w": 92,
+        "h": 249,
+        "anchorX": 45.5,
+        "anchorY": 249
+      },
+      {
+        "x": 337,
+        "y": 998,
+        "w": 221,
+        "h": 249,
+        "anchorX": 135.5,
+        "anchorY": 249
+      },
+      {
+        "x": 691,
+        "y": 998,
+        "w": 213,
+        "h": 249,
+        "anchorX": 97.0,
+        "anchorY": 249
+      },
+      {
+        "x": 1060,
+        "y": 998,
+        "w": 92,
+        "h": 249,
+        "anchorX": 43.5,
+        "anchorY": 249
+      }
+    ]
+  }
+]

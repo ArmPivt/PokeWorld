@@ -161,8 +161,8 @@ export const LEGENDARY_MEDIA={
     "music": "La Promesse des deux tours — montage court"
   },
   "249": {
-    "src": "assets/cinematics/249-appearance-v1.mp4",
-    "poster": "assets/cinematics/249-appearance-v1-poster.png",
+    "src": "assets/cinematics/249-appearance-v2.mp4",
+    "poster": "assets/cinematics/249-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
