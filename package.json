@@ -43,7 +43,8 @@
     "test:ui-refresh-browser": "node ui-refresh-browser-check.cjs",
     "test:tower-refresh": "node tower-refresh-check.cjs",
     "test:tower-refresh-browser": "node tower-refresh-browser-check.cjs",
-    "test:den-menus": "node den-menus-check.cjs"
+    "test:den-menus": "node den-menus-check.cjs",
+    "test:sprite-audio": "node sprite-audio-check.cjs"
   },
   "engines": {
     "node": ">=22"

@@ -25,3 +25,5 @@ dialog.summon-dialog::backdrop{background:#07101f;backdrop-filter:none}
 @media(max-height:650px) and (min-width:701px){.summon-stage{padding-top:78px}.summon-orb{width:115px;height:115px;margin:28px auto}.summon-orb>span{font-size:70px}.summon-ceremony h2{margin:15px 0}.summon-dialog .reveal-mon{max-height:30dvh}.summon-dialog .rarity-reveal h2{font-size:38px}.summon-dialog .rarity-reveal p{margin:7px 0}.summon-reward-actions{margin-top:12px}}
 
 .summon-dialog:has(.invocation-result,.multi-summary) .summon-header>div:last-child{margin-right:48px}
+
+.portal-featured{object-fit:contain;padding:12px;box-sizing:border-box}

@@ -311,3 +311,8 @@ Une douzième composition originale, « Sous une pluie d’étoiles » (28 s, 12
 ## Menus des modes et Antre
 
 Sept compositions originales supplémentaires accompagnent les menus, produites par compose-menu-music.cjs ; catalogue dans assets/music/tracks.json. Entrée de grotte, torches et pierres de types : décor CSS original PokéWorld.
+
+
+## Mascotte Méga-Lucario et Antre Dynamax
+
+Méga-Lucario animé : [PMD SpriteCollab, forme 0448/0001](https://github.com/PMDCollab/SpriteCollab/tree/master/sprite/0448/0001), CC BY-NC 4.0 ; crédits locaux et provenance dans assets/pmd/448/mega. Décor Dynamax : création CSS originale inspirée de la [présentation officielle des Antres](https://swordshield.pokemon.com/en-us/gameplay/max-raid-battles/how-to-max-raid/). Aucun média de cette page n’est embarqué.
