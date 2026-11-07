@@ -1,0 +1,423 @@
+{
+  "duration": 30,
+  "cuts": [
+    0,
+    4,
+    8,
+    10.5,
+    13,
+    16,
+    21
+  ],
+  "layout": {
+    "anchor": {
+      "x": 11.5,
+      "y": 29
+    },
+    "scale": 4.3076923076923075,
+    "bounds": {
+      "left": 203.3846153846154,
+      "right": 276.61538461538464,
+      "top": 73,
+      "bottom": 185
+    }
+  },
+  "cryAt": 22.6,
+  "revealAt": 21.2,
+  "visualChecks": [
+    {
+      "time": 1.2,
+      "state": {
+        "time": 1.2,
+        "species": 251,
+        "shot": 1,
+        "season": null,
+        "gsBallVisible": true,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 68.89887860082304
+    },
+    {
+      "time": 3.2,
+      "state": {
+        "time": 3.2,
+        "species": 251,
+        "shot": 1,
+        "season": null,
+        "gsBallVisible": true,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 69.44302469135802
+    },
+    {
+      "time": 4.3,
+      "state": {
+        "time": 4.3,
+        "species": 251,
+        "shot": 2,
+        "season": null,
+        "gsBallVisible": true,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 71.00019547325103
+    },
+    {
+      "time": 5.5,
+      "state": {
+        "time": 5.5,
+        "species": 251,
+        "shot": 2,
+        "season": null,
+        "gsBallVisible": true,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 72.46880144032922
+    },
+    {
+      "time": 6.7,
+      "state": {
+        "time": 6.7,
+        "species": 251,
+        "shot": 2,
+        "season": null,
+        "gsBallVisible": true,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 74.7163554526749
+    },
+    {
+      "time": 7.5,
+      "state": {
+        "time": 7.5,
+        "species": 251,
+        "shot": 2,
+        "season": null,
+        "gsBallVisible": true,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 74.79373199588477
+    },
+    {
+      "time": 8.5,
+      "state": {
+        "time": 8.5,
+        "species": 251,
+        "shot": 3,
+        "season": "winter",
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 145.90927211934155
+    },
+    {
+      "time": 9.7,
+      "state": {
+        "time": 9.7,
+        "species": 251,
+        "shot": 3,
+        "season": "winter",
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 145.92333847736626
+    },
+    {
+      "time": 11.3,
+      "state": {
+        "time": 11.3,
+        "species": 251,
+        "shot": 4,
+        "season": "autumn",
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 84.90873456790123
+    },
+    {
+      "time": 12.4,
+      "state": {
+        "time": 12.4,
+        "species": 251,
+        "shot": 4,
+        "season": "autumn",
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 84.90889660493828
+    },
+    {
+      "time": 13.7,
+      "state": {
+        "time": 13.7,
+        "species": 251,
+        "shot": 5,
+        "season": "spring",
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 112.4125
+    },
+    {
+      "time": 15.2,
+      "state": {
+        "time": 15.2,
+        "species": 251,
+        "shot": 5,
+        "season": "spring",
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 113.86101851851852
+    },
+    {
+      "time": 16.6,
+      "state": {
+        "time": 16.6,
+        "species": 251,
+        "shot": 6,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 78.702137345679
+    },
+    {
+      "time": 17.8,
+      "state": {
+        "time": 17.8,
+        "species": 251,
+        "shot": 6,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": false,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 33.10064557613169
+    },
+    {
+      "time": 19.2,
+      "state": {
+        "time": 19.2,
+        "species": 251,
+        "shot": 6,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": true,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 34.32118827160494
+    },
+    {
+      "time": 20.2,
+      "state": {
+        "time": 20.2,
+        "species": 251,
+        "shot": 6,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": true,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 34.17587962962963
+    },
+    {
+      "time": 20.8,
+      "state": {
+        "time": 20.8,
+        "species": 251,
+        "shot": 6,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": true,
+        "celebiVisible": false,
+        "reveal": null,
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 164.1172968106996
+    },
+    {
+      "time": 21.4,
+      "state": {
+        "time": 21.4,
+        "species": 251,
+        "shot": 7,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": false,
+        "celebiVisible": true,
+        "reveal": {
+          "alpha": 0.15624999999999797,
+          "x": 242.981576255462,
+          "y": 186.9781540159144
+        },
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 161.2975128600823
+    },
+    {
+      "time": 22.6,
+      "state": {
+        "time": 22.6,
+        "species": 251,
+        "shot": 7,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": true,
+        "shadowVisible": false,
+        "celebiVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 246.87508021996334,
+          "y": 185.77585804898334
+        },
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 112.77974279835391
+    },
+    {
+      "time": 24.5,
+      "state": {
+        "time": 24.5,
+        "species": 251,
+        "shot": 7,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 235.44562404054383,
+          "y": 185.05044170145305
+        },
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 113.01516975308643
+    },
+    {
+      "time": 26.8,
+      "state": {
+        "time": 26.8,
+        "species": 251,
+        "shot": 7,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 240.67664465141993,
+          "y": 182.4512069505474
+        },
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 113.06324845679012
+    },
+    {
+      "time": 28.5,
+      "state": {
+        "time": 28.5,
+        "species": 251,
+        "shot": 7,
+        "season": null,
+        "gsBallVisible": false,
+        "portalVisible": false,
+        "shadowVisible": false,
+        "celebiVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 246.4582294716754,
+          "y": 187.41135327965486
+        },
+        "cryAt": 22.6,
+        "revealAt": 21.2
+      },
+      "mean": 112.67001286008231
+    }
+  ]
+}

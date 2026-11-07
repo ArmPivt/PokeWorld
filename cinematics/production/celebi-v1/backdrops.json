@@ -1,0 +1,23 @@
+{
+  "provider": "Built-in ImageGen",
+  "generation": [
+    "shrine",
+    "spring"
+  ],
+  "editsOfSpring": [
+    "winter",
+    "autumn"
+  ],
+  "images": {
+    "shrine": "exec-79da75a3-d1a0-475f-b86e-dd96633772e5.png",
+    "spring": "exec-ce5964f4-eddb-4134-8cb8-c2c931ec3e83.png",
+    "winter": "exec-2dc8e718-f38f-4f3c-95f3-aa8a65512bf7.png",
+    "autumn": "exec-cc6248a0-0275-4551-87d5-cc1ee2d72672.png"
+  },
+  "exactPrompts": [
+    "shrine-prompt.txt",
+    "spring-prompt.txt",
+    "winter-prompt.txt",
+    "autumn-prompt.txt"
+  ]
+}

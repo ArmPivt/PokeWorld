@@ -11,7 +11,7 @@ const rows=[
  [245,'lake','Le Miroir de la nuit','Lac des brumes','La tour, l’orage et l’arc-en-ciel annoncent le retour des trois gardiens.','Un reflet sombre traverse le lac nocturne, puis Suicune apparaît.','ripples'],
  [249,'ocean','L’appel des marées','Tourb’Îles','Un éclair révèle une ombre dans les cieux au-dessus de la tour en flammes.','La Cloche Marée et la danse des femmes en kimono le révèlent au cœur des cascades.','whirlpool'],
  [250,'tower','La promesse des deux tours','Tour Carillon','L’arc-en-ciel illumine les ruines et les ombres de Raikou, Entei et Suicune.','Une courte danse des femmes en kimono précède l’arrivée de Ho-Oh.','rainbow'],
- [251,'forest','Le temps d’une rencontre','Bois aux Chênes','Les feuilles tournent à l’envers autour du sanctuaire.','Une gardienne verte entrouvre un passage dans le temps.','leaves'],
+ [251,'forest','Le Souffle du temps','Bois aux Chênes','La GS Ball s’éveille au sanctuaire et les saisons remontent le temps.','Un passage de feuilles lumineuses s’ouvre, puis Celebi fait refleurir la clairière.','leaves'],
  [377,'ruins','La mémoire des pierres','Ruines du désert','Les points gravés sur la porte se mettent à briller.','Les rochers se réunissent et un colosse s’éveille.','glyphs'],
  [378,'ice','Le secret du glacier','Grotte insulaire','Un battement sourd résonne sous la glace bleue.','Un corps cristallin se détache du glacier.','crystals'],
  [379,'ruins','Le métal des âges','Tombeau antique','Un cercle métallique vibre sous la poussière.','Un gardien d’acier répond à l’appel des runes.','metal'],

@@ -1,0 +1,22 @@
+{
+  "species": 251,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 8746514,
+  "sha256": "373c78b94dd77a645185925b34bd0d95c1ac8cd86895c599effb2485014ca5d7",
+  "music": "Le Souffle du temps",
+  "cryAt": 22.6,
+  "cryCorrelation": 0.9893849891501718,
+  "decodedPeak": 0.4322887063026428,
+  "bodyBounds": {
+    "left": 203.3846153846154,
+    "right": 276.61538461538464,
+    "top": 73,
+    "bottom": 185
+  },
+  "checks": "720 monotonic frames and complete unclipped stereo AAC; GS Ball and Ilex Forest shrine; winter/autumn/spring continuity; leafy time portal; silhouette before the coloured reveal; native Celebi cry at 22.6 s; full body framing."
+}

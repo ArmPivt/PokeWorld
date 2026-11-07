@@ -378,5 +378,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-07",
     "reviewNote": "Début commun : tour en feu, orage de Lugia v2 et arc-en-ciel de Ho-Oh avec les trois silhouettes. Lac nocturne, reflet sombre inversé sous l’eau avant toute apparition colorée, puis Suicune se matérialise dans la lumière ; vrai cri et thème original de harpe, célesta et flûte. 720 images et audio stéréo décodés, deux noirs silencieux, corps entier, couleur après le mystère et vrai cri à 23,1 s vérifiés."
+  },
+  "251": {
+    "id": 251,
+    "shiny": false,
+    "src": "assets/cinematics/251-appearance-v1.mp4",
+    "poster": "assets/cinematics/251-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Souffle du temps",
+    "fps": 24,
+    "frameCount": 720,
+    "sha256": "373c78b94dd77a645185925b34bd0d95c1ac8cd86895c599effb2485014ca5d7",
+    "sourceFile": "cinematics/production/celebi-v1/251-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-07",
+    "reviewNote": "Scénario original après recherches : sanctuaire du Bois aux Chênes et GS Ball, clairière alignée en hiver/automne/printemps, passage temporel de feuilles lumineuses, silhouette puis Celebi coloré, floraison et cri à 22,6 s. Musique originale Le Souffle du temps. Sept plans et trois saisons, 720 images et audio stéréo décodés, cadrage des six poses et présence du cri vérifiés."
   }
 }
