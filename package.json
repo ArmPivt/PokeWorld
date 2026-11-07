@@ -48,7 +48,8 @@
     "test:cave-theme": "node cave-theme-check.cjs",
     "build": "node build-social.cjs",
     "test:social-profile": "node social-profile-check.cjs",
-    "test:social-api": "node social-api-check.cjs"
+    "test:social-api": "node social-api-check.cjs",
+    "test:favorite-picker": "node favorite-picker-check.cjs"
   },
   "engines": {
     "node": ">=22"
