@@ -64,5 +64,11 @@
     "bpm": 120,
     "duration": 24,
     "src": "assets/music/victory.wav"
+  },
+  "invocation": {
+    "title": "Sous une pluie d’étoiles",
+    "bpm": 120,
+    "duration": 28,
+    "src": "assets/music/invocation.wav"
   }
 }

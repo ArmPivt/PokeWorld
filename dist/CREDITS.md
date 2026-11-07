@@ -299,3 +299,10 @@ Les onze compositions chiptune et leurs enregistrements PCM sont originaux : gé
 ## Films légendaires (v0.13)
 
 Référence de mise en scène consultée : [Pokémon Emerald — The Rayquaza Cutscene, EleMira](https://www.youtube.com/watch?v=f98GeQIKJBQ), plans de confrontation, gros plan dans les nuages et descente. Les films de PokéWorld sont des animations Canvas originales, avec directions et objets dessinés séparément pour chaque espèce. Aucun extrait, musique ou asset extrait de la vidéo n’est distribué. Les sprites PMD restent ceux crédités ci-dessus.
+
+
+## Invocations plein écran et thèmes
+
+Décor pixel art, silhouette tournante, particules et présentation des raretés : créations Canvas/CSS originales PokéWorld. Référence visuelle : [Pokémon Champions - Shiny Pokémon Recruitment Animation, EagleOne_hl](https://www.youtube.com/watch?v=rp7KdOqaIxE). Aucun média de cette vidéo n’est intégré.
+
+Une douzième composition originale, « Sous une pluie d’étoiles » (28 s, 120 BPM), accompagne les invocations : celesta, harpe, flûte, cordes, chœur et taiko léger, rendus avec GeneralUser GS 2.0.3. Partition MIDI et générateur dans cinematics/production/summoning-v1 ; SoundFont et sa licence dans le dossier de production Rayquaza. Aucun thème officiel ni enregistrement tiers n’est repris.

@@ -38,7 +38,9 @@
     "test:legendary-media": "node legendary-media-check.cjs",
     "test:legendary-media-browser": "node legendary-media-browser-check.cjs",
     "test:primal-cinema": "node primal-browser-check.cjs",
-    "test:deoxys-cinema": "node primal-browser-check.cjs 386"
+    "test:deoxys-cinema": "node primal-browser-check.cjs 386",
+    "test:ui-refresh": "node ui-refresh-check.cjs",
+    "test:ui-refresh-browser": "node ui-refresh-browser-check.cjs"
   },
   "engines": {
     "node": ">=22"

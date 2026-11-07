@@ -1,1 +1,3 @@
 Compositions et enregistrements originaux créés pour PokéWorld. Aucun extrait de bande originale Pokémon ni enregistrement tiers. Générateur : compose-music.cjs.
+
+Sous une pluie d’étoiles (invocation.wav) : composition et enregistrement originaux. Générateur et partition MIDI : cinematics/production/summoning-v1. Instruments échantillonnés : GeneralUser GS 2.0.3, sous sa licence de SoundFont, conservée avec la banque dans cinematics/production/rayquaza/v4-musique-originale.
