@@ -1,0 +1,22 @@
+{
+  "species": 482,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 7967874,
+  "sha256": "7a3c3be3c4fb179452c3f6a4fbdaacb9ac0f28d25eae427296afebe74d21ed88",
+  "music": "La Force de la volonté",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9874947555197808,
+  "decodedPeak": 0.4253039062023163,
+  "bodyBounds": {
+    "left": 196.45833333333334,
+    "right": 283.5416666666667,
+    "top": 80,
+    "bottom": 190
+  },
+  "checks": "720 monotonic decoded frames and complete unclipped stereo AAC; three lakes, 42-link Red Chain and trio silhouettes; correct personal lake, knowledge/emotion/willpower sequence; shadow before colour; native cry at 22.7 s; whole body and tails in frame."
+}

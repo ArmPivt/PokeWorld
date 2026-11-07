@@ -1,0 +1,15 @@
+{
+  "provider": "Built-in ImageGen",
+  "images": {
+    "acuity": "exec-ce3b6a90-2e71-4ae5-9f22-f89c02833e3b.png",
+    "verity": "exec-2c5daa1f-406c-44fc-aa33-fb4ae58f295e.png",
+    "valor": "exec-d4cbc3fd-c4f0-4c4a-a660-d8b80af2fd73.png",
+    "pillar": "exec-b900049f-9f4d-4041-935d-6c9a9cb6a452.png"
+  },
+  "exactPrompts": [
+    "acuity-prompt.txt",
+    "verity-prompt.txt",
+    "valor-prompt.txt",
+    "pillar-prompt.txt"
+  ]
+}

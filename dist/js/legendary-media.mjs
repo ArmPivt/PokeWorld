@@ -209,6 +209,36 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "Le Souffle du temps"
+  },
+  "480": {
+    "src": "assets/cinematics/480-appearance-v1.mp4",
+    "poster": "assets/cinematics/480-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Les Liens du savoir"
+  },
+  "481": {
+    "src": "assets/cinematics/481-appearance-v1.mp4",
+    "poster": "assets/cinematics/481-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Reflet de l’émotion"
+  },
+  "482": {
+    "src": "assets/cinematics/482-appearance-v1.mp4",
+    "poster": "assets/cinematics/482-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "La Force de la volonté"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

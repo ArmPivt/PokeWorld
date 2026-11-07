@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 21,
-  "planned": 151,
+  "reviewed": 24,
+  "planned": 148,
   "blockedImages": 0,
-  "estimatedRemainingCredits": 4530,
+  "estimatedRemainingCredits": 4440,
   "species": [
     {
       "id": 144,
@@ -793,7 +793,7 @@
       "id": 480,
       "name": "Créhelf",
       "generation": 4,
-      "title": "La lumière du savoir",
+      "title": "Les Liens du savoir",
       "location": "Lac Savoir",
       "setting": "A small golden knowledge rune above a still blue lake",
       "action": "Uxie floats up a little and tips its closed-eyed head forward",
@@ -802,13 +802,13 @@
         {
           "key": "480",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/480/icon.png",
           "sourceImage": "cinematics/production/species/480/480-frame-v1.png",
           "destination": "assets/cinematics/480-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Créhelf summoning appearance titled La lumière du savoir. Setting: A small golden knowledge rune above a still blue lake. Starting pose is calm and held, ready for this modest action: Uxie floats up a little and tips its closed-eyed head forward. Environmental action to prepare: Three gold rune dots light on the water in a slow sequence. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Créhelf summoning appearance titled Les Liens du savoir. Setting: A small golden knowledge rune above a still blue lake. Starting pose is calm and held, ready for this modest action: Uxie floats up a little and tips its closed-eyed head forward. Environmental action to prepare: Three gold rune dots light on the water in a slow sequence. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Uxie floats up a little and tips its closed-eyed head forward. Three gold rune dots light on the water in a slow sequence. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -820,7 +820,7 @@
           "identityReference": "dist/assets/pmd/480/icon-shiny.png",
           "sourceImage": "cinematics/production/species/480/480s-frame-v1.png",
           "destination": "assets/cinematics/480s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Créhelf summoning appearance titled La lumière du savoir. Setting: A small golden knowledge rune above a still blue lake. Starting pose is calm and held, ready for this modest action: Uxie floats up a little and tips its closed-eyed head forward. Environmental action to prepare: Three gold rune dots light on the water in a slow sequence. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Créhelf summoning appearance titled Les Liens du savoir. Setting: A small golden knowledge rune above a still blue lake. Starting pose is calm and held, ready for this modest action: Uxie floats up a little and tips its closed-eyed head forward. Environmental action to prepare: Three gold rune dots light on the water in a slow sequence. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Uxie floats up a little and tips its closed-eyed head forward. Three gold rune dots light on the water in a slow sequence. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]
@@ -829,7 +829,7 @@
       "id": 481,
       "name": "Créfollet",
       "generation": 4,
-      "title": "Le reflet des émotions",
+      "title": "Le Reflet de l’émotion",
       "location": "Lac Vérité",
       "setting": "A pink gem above a quiet island in Lake Verity",
       "action": "Mesprit gently turns its head and lets its twin tails sway",
@@ -838,13 +838,13 @@
         {
           "key": "481",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/481/icon.png",
           "sourceImage": "cinematics/production/species/481/481-frame-v1.png",
           "destination": "assets/cinematics/481-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Créfollet summoning appearance titled Le reflet des émotions. Setting: A pink gem above a quiet island in Lake Verity. Starting pose is calm and held, ready for this modest action: Mesprit gently turns its head and lets its twin tails sway. Environmental action to prepare: Two pink heart-shaped reflections briefly brighten the lake. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Créfollet summoning appearance titled Le Reflet de l’émotion. Setting: A pink gem above a quiet island in Lake Verity. Starting pose is calm and held, ready for this modest action: Mesprit gently turns its head and lets its twin tails sway. Environmental action to prepare: Two pink heart-shaped reflections briefly brighten the lake. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Mesprit gently turns its head and lets its twin tails sway. Two pink heart-shaped reflections briefly brighten the lake. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -856,7 +856,7 @@
           "identityReference": "dist/assets/pmd/481/icon-shiny.png",
           "sourceImage": "cinematics/production/species/481/481s-frame-v1.png",
           "destination": "assets/cinematics/481s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Créfollet summoning appearance titled Le reflet des émotions. Setting: A pink gem above a quiet island in Lake Verity. Starting pose is calm and held, ready for this modest action: Mesprit gently turns its head and lets its twin tails sway. Environmental action to prepare: Two pink heart-shaped reflections briefly brighten the lake. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Créfollet summoning appearance titled Le Reflet de l’émotion. Setting: A pink gem above a quiet island in Lake Verity. Starting pose is calm and held, ready for this modest action: Mesprit gently turns its head and lets its twin tails sway. Environmental action to prepare: Two pink heart-shaped reflections briefly brighten the lake. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Mesprit gently turns its head and lets its twin tails sway. Two pink heart-shaped reflections briefly brighten the lake. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]
@@ -865,7 +865,7 @@
       "id": 482,
       "name": "Créfadet",
       "generation": 4,
-      "title": "L’élan de la volonté",
+      "title": "La Force de la volonté",
       "location": "Lac Courage",
       "setting": "A small blue will-flame beside the rocky edge of Lake Valor",
       "action": "Azelf lifts its head and holds its small arms in a determined pose",
@@ -874,13 +874,13 @@
         {
           "key": "482",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/assets/pmd/482/icon.png",
           "sourceImage": "cinematics/production/species/482/482-frame-v1.png",
           "destination": "assets/cinematics/482-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Créfadet summoning appearance titled L’élan de la volonté. Setting: A small blue will-flame beside the rocky edge of Lake Valor. Starting pose is calm and held, ready for this modest action: Azelf lifts its head and holds its small arms in a determined pose. Environmental action to prepare: The blue flame grows one size and casts a short reflection across the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Créfadet summoning appearance titled La Force de la volonté. Setting: A small blue will-flame beside the rocky edge of Lake Valor. Starting pose is calm and held, ready for this modest action: Azelf lifts its head and holds its small arms in a determined pose. Environmental action to prepare: The blue flame grows one size and casts a short reflection across the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Azelf lifts its head and holds its small arms in a determined pose. The blue flame grows one size and casts a short reflection across the water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -892,7 +892,7 @@
           "identityReference": "dist/assets/pmd/482/icon-shiny.png",
           "sourceImage": "cinematics/production/species/482/482s-frame-v1.png",
           "destination": "assets/cinematics/482s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Créfadet summoning appearance titled L’élan de la volonté. Setting: A small blue will-flame beside the rocky edge of Lake Valor. Starting pose is calm and held, ready for this modest action: Azelf lifts its head and holds its small arms in a determined pose. Environmental action to prepare: The blue flame grows one size and casts a short reflection across the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Créfadet summoning appearance titled La Force de la volonté. Setting: A small blue will-flame beside the rocky edge of Lake Valor. Starting pose is calm and held, ready for this modest action: Azelf lifts its head and holds its small arms in a determined pose. Environmental action to prepare: The blue flame grows one size and casts a short reflection across the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Azelf lifts its head and holds its small arms in a determined pose. The blue flame grows one size and casts a short reflection across the water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]

@@ -1,0 +1,22 @@
+{
+  "species": 481,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 6840288,
+  "sha256": "54d986e9f6b4192c12488d5577e3db69880462ec0bab8561ec47e16f84934b73",
+  "music": "Le Reflet de l’émotion",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9678294317909875,
+  "decodedPeak": 0.42541664838790894,
+  "bodyBounds": {
+    "left": 196.45833333333334,
+    "right": 283.5416666666667,
+    "top": 80,
+    "bottom": 190
+  },
+  "checks": "720 monotonic decoded frames and complete unclipped stereo AAC; three lakes, 42-link Red Chain and trio silhouettes; correct personal lake, knowledge/emotion/willpower sequence; shadow before colour; native cry at 22.7 s; whole body and tails in frame."
+}

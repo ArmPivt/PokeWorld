@@ -1,0 +1,22 @@
+{
+  "species": 480,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 7122403,
+  "sha256": "c69d9732e0eb3c1162b1cea05e78188bf20395baa82b54b88772285fa319d1c6",
+  "music": "Les Liens du savoir",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9619915823934055,
+  "decodedPeak": 0.4240453243255615,
+  "bodyBounds": {
+    "left": 196.45833333333334,
+    "right": 283.5416666666667,
+    "top": 80,
+    "bottom": 190
+  },
+  "checks": "720 monotonic decoded frames and complete unclipped stereo AAC; three lakes, 42-link Red Chain and trio silhouettes; correct personal lake, knowledge/emotion/willpower sequence; shadow before colour; native cry at 22.7 s; whole body and tails in frame."
+}
