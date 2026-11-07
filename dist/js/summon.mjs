@@ -21,7 +21,7 @@ export class Summoning {
  async invoke(count=1){
   const g=this.g;if(this.busy||!g.requireStarter())return;if(count!==1&&count!==10)return;if(g.state.tickets<count)return g.toast(`Il te faut ${count} ticket${count>1?'s':''} universel${count>1?'s':''}.`);
   this.busy=true;this.skipRequested=false;this.attemptedStories=new Set();this.stopAnimation();this.begin();
-  const results=Array.from({length:count},()=>summonRoll(g.dex,this.gen));reserveStories(g.state,results);for(const r of results)receiveSummon(g.state,r);g.state.tickets-=count;g.state.history=[...results.slice().reverse(),...g.state.history].slice(0,30);g.save();preload(results.map(r=>r.key));this.batch=results;
+  const results=Array.from({length:count},()=>summonRoll(g.dex,this.gen));reserveStories(g.state,results);for(const r of results)receiveSummon(g.state,r);g.state.tickets-=count;g.state.history=[...results.slice().reverse(),...g.state.history].slice(0,30);g.save();g.cinema.preload(results);preload(results.map(r=>r.key));this.batch=results;
   try{
    await this.ceremony(results);
    for(let i=0;i<results.length;i++){

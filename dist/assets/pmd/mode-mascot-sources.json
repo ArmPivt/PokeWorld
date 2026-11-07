@@ -1,0 +1,16 @@
+[
+  {
+    "species": 254,
+    "source": "https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/sprite/0254/Idle-Anim.png",
+    "sha256": "3b4a7ccdabbf3346c2e2864c73cb4d52f3780ddc71396bc23dc7c671e9bda4b9",
+    "license": "CC BY-NC 4.0, PMD SpriteCollab; artist credits in sprite folder",
+    "frames": 2
+  },
+  {
+    "species": 720,
+    "source": "https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/sprite/0720/Idle-Anim.png",
+    "sha256": "42c9a0efe765a9f3ec101f354ae93a89927e75b42e7e6238399acdbacf75d73c",
+    "license": "CC BY-NC 4.0, PMD SpriteCollab; artist credits in sprite folder",
+    "frames": 16
+  }
+]

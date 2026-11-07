@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{
+ const {migrate}=await import('./dist/js/model.mjs'),{normalizeTower,towerRewards,towerTrainer,canEnterTower,TOWER_FLOORS}=await import('./dist/js/tower-data.mjs'),{awardTowerVictory}=await import('./dist/js/tower-progression.mjs');
+ const dex=JSON.parse(fs.readFileSync('dist/data/dex.json','utf8')),s=migrate({starter:4,roster:['4'],team:['4'],tickets:10,coins:0,candies:0,floor:1});
+ assert.deepEqual(s.tower,{cleared:[],claimed:[]});assert.equal(canEnterTower(s,2),false);assert.equal(canEnterTower(s,1.5),false);assert.equal(awardTowerVictory(s,2),null);const r=awardTowerVictory(s,1);assert.deepEqual(r,towerRewards(1));assert.equal(s.floor,2);assert.equal(s.tickets,12);const snapshot=JSON.stringify(s);assert.equal(awardTowerVictory(s,1),null);assert.equal(JSON.stringify(s),snapshot);
+ const legacy=migrate({floor:8});assert.deepEqual(legacy.tower.claimed,[1,2,3,4,5,6,7]);assert.equal(awardTowerVictory(legacy,7),null);assert.equal(canEnterTower(legacy,9),false);assert.equal(normalizeTower({claimed:[NaN,99,-1]},1).claimed.length,0);
+ for(let floor=1;floor<=TOWER_FLOORS;floor++){const trainer=towerTrainer(floor,dex);assert(trainer.keys.length>0&&trainer.keys.length<=6);for(const key of trainer.keys)assert(dex[key]);assert(fs.existsSync('dist/assets/trainers/'+trainer.avatar+'.png'));}
+ const final=migrate({starter:4,roster:['4'],team:['4'],floor:50,tickets:0,candies:0,coins:0});assert.equal(towerTrainer(50,dex).final,true);assert.equal(towerTrainer(50,dex).keys.length,6);assert.deepEqual(awardTowerVictory(final,50),{tickets:20,candies:20,coins:1000,xp:1000});assert.equal(final.floor,51);assert.equal(awardTowerVictory(final,50),null);assert.equal(canEnterTower(final,51),false);assert.equal(migrate(final).tower.claimed.length,50);
+ const home=fs.readFileSync('dist/js/world-ui.mjs','utf8');for(const id of [382,6,487,254,25,448,720]){assert(fs.existsSync('dist/assets/pmd/'+id+'/icon.png'));assert(home.includes("'"+id+"'"));}
+ console.log('PASS: sealed future floors, legacy reward migration, first-clear only currencies and XP, replay and duplicate guards, 50 valid trainer teams and sprites, final duel and persistent completion, mode mascots.');
+})().catch(e=>{console.error(e);process.exit(1)});
