@@ -1,0 +1,26 @@
+{
+  "species": 482,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 7737378,
+  "sha256": "52363c2e5ce3a37242b02c50766423671a054ac6e5e01735ed7c7cb8aa11c8c3",
+  "music": "La Force de la volonté",
+  "cryAt": 22.7,
+  "audioPacketsSHA256": "0bfbf68c73a14a57983668d7c67791f74eb615f134d3005ff6f91cf5afc6d570",
+  "unchangedAACPackets": true,
+  "unchangedOpeningFrames": 384,
+  "caveInteriorAt": 16,
+  "revealAt": 21.2,
+  "decodedPeak": 0.4253039062023163,
+  "bodyBounds": {
+    "left": 196.45833333333334,
+    "right": 283.5416666666667,
+    "top": 80,
+    "bottom": 190
+  },
+  "checks": "720 monotonic frames and complete unclipped audio; first 384 raw frames preserved; music, effects and cry byte-identical AAC; personal enclosed cave from 16 s through the final reveal; all body poses and tails in frame."
+}

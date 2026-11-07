@@ -1,0 +1,26 @@
+{
+  "species": 480,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 6922556,
+  "sha256": "7a90007c50d161e4761b4139f9077efb82d983c888b130e0408621c501eeaf44",
+  "music": "Les Liens du savoir",
+  "cryAt": 22.7,
+  "audioPacketsSHA256": "0b2da02d661ce7ff8d284b88068fef48e9cd4069fcbe4b74027f593b9337c6b9",
+  "unchangedAACPackets": true,
+  "unchangedOpeningFrames": 384,
+  "caveInteriorAt": 16,
+  "revealAt": 21.2,
+  "decodedPeak": 0.4240453243255615,
+  "bodyBounds": {
+    "left": 196.45833333333334,
+    "right": 283.5416666666667,
+    "top": 80,
+    "bottom": 190
+  },
+  "checks": "720 monotonic frames and complete unclipped audio; first 384 raw frames preserved; music, effects and cry byte-identical AAC; personal enclosed cave from 16 s through the final reveal; all body poses and tails in frame."
+}

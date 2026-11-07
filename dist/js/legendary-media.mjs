@@ -211,8 +211,8 @@ export const LEGENDARY_MEDIA={
     "music": "Le Souffle du temps"
   },
   "480": {
-    "src": "assets/cinematics/480-appearance-v1.mp4",
-    "poster": "assets/cinematics/480-appearance-v1-poster.png",
+    "src": "assets/cinematics/480-appearance-v2.mp4",
+    "poster": "assets/cinematics/480-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
@@ -221,8 +221,8 @@ export const LEGENDARY_MEDIA={
     "music": "Les Liens du savoir"
   },
   "481": {
-    "src": "assets/cinematics/481-appearance-v1.mp4",
-    "poster": "assets/cinematics/481-appearance-v1-poster.png",
+    "src": "assets/cinematics/481-appearance-v2.mp4",
+    "poster": "assets/cinematics/481-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
@@ -231,8 +231,8 @@ export const LEGENDARY_MEDIA={
     "music": "Le Reflet de l’émotion"
   },
   "482": {
-    "src": "assets/cinematics/482-appearance-v1.mp4",
-    "poster": "assets/cinematics/482-appearance-v1-poster.png",
+    "src": "assets/cinematics/482-appearance-v2.mp4",
+    "poster": "assets/cinematics/482-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,

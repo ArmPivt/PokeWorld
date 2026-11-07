@@ -1,0 +1,434 @@
+{
+  "id": 482,
+  "duration": 30,
+  "cuts": [
+    0,
+    2,
+    4,
+    6,
+    11,
+    16,
+    21
+  ],
+  "layout": {
+    "anchor": {
+      "x": 15.5,
+      "y": 26
+    },
+    "scale": 4.583333333333333,
+    "bounds": {
+      "left": 196.45833333333334,
+      "right": 283.5416666666667,
+      "top": 80,
+      "bottom": 190
+    }
+  },
+  "config": {
+    "name": "Créfadet",
+    "lake": "Lac Courage",
+    "plate": "valor.png",
+    "cave": "valor-cave.png",
+    "color": "#b5efff",
+    "dark": "#14283e",
+    "title": "La Force de la volonté"
+  },
+  "visualChecks": [
+    {
+      "time": 1.1,
+      "state": {
+        "time": 1.1,
+        "species": 482,
+        "shot": 1,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 105.04817644032921
+    },
+    {
+      "time": 3.1,
+      "state": {
+        "time": 3.1,
+        "species": 482,
+        "shot": 2,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 116.90793981481481
+    },
+    {
+      "time": 5.1,
+      "state": {
+        "time": 5.1,
+        "species": 482,
+        "shot": 3,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 89.50710133744856
+    },
+    {
+      "time": 6.6,
+      "state": {
+        "time": 6.6,
+        "species": 482,
+        "shot": 4,
+        "chainLinks": 1,
+        "trioIds": [
+          480,
+          481,
+          482
+        ],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 124.2209079218107
+    },
+    {
+      "time": 7.8,
+      "state": {
+        "time": 7.8,
+        "species": 482,
+        "shot": 4,
+        "chainLinks": 27,
+        "trioIds": [
+          480,
+          481,
+          482
+        ],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 125.12369598765432
+    },
+    {
+      "time": 9.5,
+      "state": {
+        "time": 9.5,
+        "species": 482,
+        "shot": 4,
+        "chainLinks": 42,
+        "trioIds": [
+          480,
+          481,
+          482
+        ],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 126.75775205761317
+    },
+    {
+      "time": 10.5,
+      "state": {
+        "time": 10.5,
+        "species": 482,
+        "shot": 4,
+        "chainLinks": 42,
+        "trioIds": [
+          480,
+          481,
+          482
+        ],
+        "ownLake": null,
+        "location": null,
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 126.6102237654321
+    },
+    {
+      "time": 11.5,
+      "state": {
+        "time": 11.5,
+        "species": 482,
+        "shot": 5,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor.png",
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 89.64266203703704
+    },
+    {
+      "time": 13.7,
+      "state": {
+        "time": 13.7,
+        "species": 482,
+        "shot": 5,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor.png",
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 90.36499742798354
+    },
+    {
+      "time": 15.4,
+      "state": {
+        "time": 15.4,
+        "species": 482,
+        "shot": 5,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor.png",
+        "insideCave": false,
+        "shadowVisible": false,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 89.82983796296297
+    },
+    {
+      "time": 16.6,
+      "state": {
+        "time": 16.6,
+        "species": 482,
+        "shot": 6,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": true,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 47.500889917695474
+    },
+    {
+      "time": 18.1,
+      "state": {
+        "time": 18.1,
+        "species": 482,
+        "shot": 6,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": true,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 52.21156121399177
+    },
+    {
+      "time": 19.7,
+      "state": {
+        "time": 19.7,
+        "species": 482,
+        "shot": 6,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": true,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 52.224529320987656
+    },
+    {
+      "time": 20.8,
+      "state": {
+        "time": 20.8,
+        "species": 482,
+        "shot": 6,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": true,
+        "heroVisible": false,
+        "reveal": null,
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 137.92053755144033
+    },
+    {
+      "time": 21.5,
+      "state": {
+        "time": 21.5,
+        "species": 482,
+        "shot": 7,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": false,
+        "heroVisible": true,
+        "reveal": {
+          "alpha": 0.39358600583090386,
+          "x": 257.5856583668755,
+          "y": 184.3072791161377
+        },
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 90.7954603909465
+    },
+    {
+      "time": 22.8,
+      "state": {
+        "time": 22.8,
+        "species": 482,
+        "shot": 7,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": false,
+        "heroVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 244.58718977640905,
+          "y": 190.6465483741528
+        },
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 59.96678497942387
+    },
+    {
+      "time": 24.5,
+      "state": {
+        "time": 24.5,
+        "species": 482,
+        "shot": 7,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": false,
+        "heroVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 236.74687431467416,
+          "y": 188.4218334053192
+        },
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 59.9989146090535
+    },
+    {
+      "time": 26.7,
+      "state": {
+        "time": 26.7,
+        "species": 482,
+        "shot": 7,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": false,
+        "heroVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 239.9340753743324,
+          "y": 190.7502034409127
+        },
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 60.02153034979424
+    },
+    {
+      "time": 28.5,
+      "state": {
+        "time": 28.5,
+        "species": 482,
+        "shot": 7,
+        "chainLinks": 0,
+        "trioIds": [],
+        "ownLake": "Lac Courage",
+        "location": "valor-cave.png",
+        "insideCave": true,
+        "shadowVisible": false,
+        "heroVisible": true,
+        "reveal": {
+          "alpha": 1,
+          "x": 244.6130210511967,
+          "y": 188.65856770499892
+        },
+        "cryAt": 22.7,
+        "revealAt": 21.2
+      },
+      "mean": 59.965180041152266
+    }
+  ]
+}

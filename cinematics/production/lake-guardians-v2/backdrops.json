@@ -1,0 +1,21 @@
+{
+  "provider": "Built-in ImageGen",
+  "images": {
+    "acuity": "exec-ce3b6a90-2e71-4ae5-9f22-f89c02833e3b.png",
+    "verity": "exec-2c5daa1f-406c-44fc-aa33-fb4ae58f295e.png",
+    "valor": "exec-d4cbc3fd-c4f0-4c4a-a660-d8b80af2fd73.png",
+    "pillar": "exec-b900049f-9f4d-4041-935d-6c9a9cb6a452.png",
+    "acuity-cave": "exec-1038acdc-9ef4-4948-b76c-928b4f5d0cf7.png",
+    "verity-cave": "exec-912ea372-538e-4a0a-b779-59eaac13bb28.png",
+    "valor-cave": "exec-dff8365a-57eb-489b-a1f8-e9c21028dda6.png"
+  },
+  "exactPrompts": [
+    "acuity-prompt.txt",
+    "verity-prompt.txt",
+    "valor-prompt.txt",
+    "pillar-prompt.txt",
+    "acuity-cave-prompt.txt",
+    "verity-cave-prompt.txt",
+    "valor-cave-prompt.txt"
+  ]
+}

@@ -401,8 +401,8 @@
   "480": {
     "id": 480,
     "shiny": false,
-    "src": "assets/cinematics/480-appearance-v1.mp4",
-    "poster": "assets/cinematics/480-appearance-v1-poster.png",
+    "src": "assets/cinematics/480-appearance-v2.mp4",
+    "poster": "assets/cinematics/480-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
@@ -411,17 +411,17 @@
     "music": "Les Liens du savoir",
     "fps": 24,
     "frameCount": 720,
-    "sha256": "c69d9732e0eb3c1162b1cea05e78188bf20395baa82b54b88772285fa319d1c6",
-    "sourceFile": "cinematics/production/lake-guardians-v1/480-appearance-v1.mp4",
+    "sha256": "7a90007c50d161e4761b4139f9077efb82d983c888b130e0408621c501eeaf44",
+    "sourceFile": "cinematics/production/lake-guardians-v2/480-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-07",
-    "reviewNote": "Scénario original : lueurs des trois lacs, silhouettes et assemblage de la Chaîne Rouge à 42 maillons aux ruines de montagne ; onze secondes communes identiques. Lac Savoir enneigé, signes géométriques dorés et savoir ; yeux fermés natifs conservés. Révélation personnelle après 21,2 s et vrai cri à 22,7 s. 720 images et audio stéréo décodés, toutes les poses et queues dans le cadre, musique originale et présence du cri vérifiés."
+    "reviewNote": "Fin corrigée : ombre et révélation dans la grotte intérieure du gardien à partir de 16 s, sans retour au lac extérieur. Les 384 premières images de rendu et tous les paquets AAC de la musique, des effets et du cri sont conservés. Sept plans, intérieur fermé, bon décor individuel, 720 images décodées, audio sans saturation et cadrage de toutes les poses et queues vérifiés."
   },
   "481": {
     "id": 481,
     "shiny": false,
-    "src": "assets/cinematics/481-appearance-v1.mp4",
-    "poster": "assets/cinematics/481-appearance-v1-poster.png",
+    "src": "assets/cinematics/481-appearance-v2.mp4",
+    "poster": "assets/cinematics/481-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
@@ -430,17 +430,17 @@
     "music": "Le Reflet de l’émotion",
     "fps": 24,
     "frameCount": 720,
-    "sha256": "54d986e9f6b4192c12488d5577e3db69880462ec0bab8561ec47e16f84934b73",
-    "sourceFile": "cinematics/production/lake-guardians-v1/481-appearance-v1.mp4",
+    "sha256": "a05751b6e37221bba173cb4f3dc4bff9b9cfa677af8051bbd4af46b071afed2b",
+    "sourceFile": "cinematics/production/lake-guardians-v2/481-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-07",
-    "reviewNote": "Scénario original : lueurs des trois lacs, silhouettes et assemblage de la Chaîne Rouge à 42 maillons aux ruines de montagne ; onze secondes communes identiques. Lac Vérité au crépuscule, reflets roses et pulsations représentant l’émotion. Révélation personnelle après 21,2 s et vrai cri à 22,7 s. 720 images et audio stéréo décodés, toutes les poses et queues dans le cadre, musique originale et présence du cri vérifiés."
+    "reviewNote": "Fin corrigée : ombre et révélation dans la grotte intérieure du gardien à partir de 16 s, sans retour au lac extérieur. Les 384 premières images de rendu et tous les paquets AAC de la musique, des effets et du cri sont conservés. Sept plans, intérieur fermé, bon décor individuel, 720 images décodées, audio sans saturation et cadrage de toutes les poses et queues vérifiés."
   },
   "482": {
     "id": 482,
     "shiny": false,
-    "src": "assets/cinematics/482-appearance-v1.mp4",
-    "poster": "assets/cinematics/482-appearance-v1-poster.png",
+    "src": "assets/cinematics/482-appearance-v2.mp4",
+    "poster": "assets/cinematics/482-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
@@ -449,10 +449,10 @@
     "music": "La Force de la volonté",
     "fps": 24,
     "frameCount": 720,
-    "sha256": "7a3c3be3c4fb179452c3f6a4fbdaacb9ac0f28d25eae427296afebe74d21ed88",
-    "sourceFile": "cinematics/production/lake-guardians-v1/482-appearance-v1.mp4",
+    "sha256": "52363c2e5ce3a37242b02c50766423671a054ac6e5e01735ed7c7cb8aa11c8c3",
+    "sourceFile": "cinematics/production/lake-guardians-v2/482-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-07",
-    "reviewNote": "Scénario original : lueurs des trois lacs, silhouettes et assemblage de la Chaîne Rouge à 42 maillons aux ruines de montagne ; onze secondes communes identiques. Lac Courage dans le vent, courants et colonne de lumière bleue représentant la volonté. Révélation personnelle après 21,2 s et vrai cri à 22,7 s. 720 images et audio stéréo décodés, toutes les poses et queues dans le cadre, musique originale et présence du cri vérifiés."
+    "reviewNote": "Fin corrigée : ombre et révélation dans la grotte intérieure du gardien à partir de 16 s, sans retour au lac extérieur. Les 384 premières images de rendu et tous les paquets AAC de la musique, des effets et du cri sont conservés. Sept plans, intérieur fermé, bon décor individuel, 720 images décodées, audio sans saturation et cadrage de toutes les poses et queues vérifiés."
   }
 }

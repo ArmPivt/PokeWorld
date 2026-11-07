@@ -1,0 +1,26 @@
+{
+  "species": 481,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 6687124,
+  "sha256": "a05751b6e37221bba173cb4f3dc4bff9b9cfa677af8051bbd4af46b071afed2b",
+  "music": "Le Reflet de l’émotion",
+  "cryAt": 22.7,
+  "audioPacketsSHA256": "7660d820cae814b80b9823f98a0063c4592239b6d86e66679d7350f3ac6f003c",
+  "unchangedAACPackets": true,
+  "unchangedOpeningFrames": 384,
+  "caveInteriorAt": 16,
+  "revealAt": 21.2,
+  "decodedPeak": 0.42541664838790894,
+  "bodyBounds": {
+    "left": 196.45833333333334,
+    "right": 283.5416666666667,
+    "top": 80,
+    "bottom": 190
+  },
+  "checks": "720 monotonic frames and complete unclipped audio; first 384 raw frames preserved; music, effects and cry byte-identical AAC; personal enclosed cave from 16 s through the final reveal; all body poses and tails in frame."
+}
