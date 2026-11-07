@@ -7,3 +7,7 @@ node_modules/
 
 .combat-csv/
 .progression-csv/
+
+dist/server/
+dist/.openai/
+.preview-social.sqlite*

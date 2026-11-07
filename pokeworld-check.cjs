@@ -1,8 +1,8 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
 (async()=>{
- const T=await import('./dist/js/training.mjs'),M=await import('./dist/js/model.mjs'),R=await import('./dist/js/resources.mjs'),P=await import('./dist/js/player-profile.mjs'),FX=await import('./dist/js/attack-fx.mjs'),{duelRound}=await import('./dist/js/duel-model.mjs');
- const raw=JSON.parse(fs.readFileSync('dist/data/dex.json')),supported=JSON.parse(fs.readFileSync('dist/data/supported.json')),dex=Object.fromEntries(supported.map(p=>[p.id,{...raw[p.id],shiny:p.shiny}])),chart=JSON.parse(fs.readFileSync('dist/data/types.json'));
- assert.ok(!dex[558]);assert.ok(supported.every(p=>fs.existsSync('dist/assets/pmd/'+p.id+'/icon.png')));
+ const T=await import('./dist/client/js/training.mjs'),M=await import('./dist/client/js/model.mjs'),R=await import('./dist/client/js/resources.mjs'),P=await import('./dist/client/js/player-profile.mjs'),FX=await import('./dist/client/js/attack-fx.mjs'),{duelRound}=await import('./dist/client/js/duel-model.mjs');
+ const raw=JSON.parse(fs.readFileSync('dist/client/data/dex.json')),supported=JSON.parse(fs.readFileSync('dist/client/data/supported.json')),dex=Object.fromEntries(supported.map(p=>[p.id,{...raw[p.id],shiny:p.shiny}])),chart=JSON.parse(fs.readFileSync('dist/client/data/types.json'));
+ assert.ok(!dex[558]);assert.ok(supported.every(p=>fs.existsSync('dist/client/assets/pmd/'+p.id+'/icon.png')));
  const s=M.migrate({starter:4,owned:[4,7,19],coins:20000,candies:100,materials:{mint:2,abilityPill:2,abilityPatch:2,heartScale:8,silverCap:2,goldCap:1},player:{name:'Armand',avatar:'rosa'}}),p=T.profile(s,'4');assert.equal(T.level(p),5);assert.equal(s.player.avatar,'rosa');assert.equal(P.normalizePlayer({avatar:'../../x'}).avatar,'red-gen3');assert.equal(M.migrate({materials:{mint:-5}}).materials.mint,0);
  assert.ok(T.setEV(s,'4',1,252));assert.equal(s.coins,17480);const money=s.coins;assert.ok(T.setEV(s,'4',1,100));assert.equal(s.coins,money);assert.ok(!T.setEV(s,'4',1,253));assert.ok(!T.setEV(s,'4',1,NaN));assert.ok(T.setEV(s,'4',0,252));assert.ok(!T.setEV(s,'4',2,252));assert.ok(p.ev.reduce((a,b)=>a+b,0)<=510);
  assert.ok(T.setNature(s,'4','adamant'));assert.equal(s.materials.mint,1);assert.equal(s.coins,money-2520);assert.ok(!T.setNature(s,'4','adamant'));assert.equal(s.materials.mint,1);

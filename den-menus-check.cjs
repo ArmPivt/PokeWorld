@@ -1,6 +1,6 @@
 const {chromium}=require('C:/Users/arman/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
 (async()=>{
- const {migrate}=await import('./dist/js/model.mjs'),{awardDenVictory,denBoss,canEnterDen}=await import('./dist/js/den.mjs'),dex=JSON.parse(fs.readFileSync('dist/data/dex.json'));
+ const {migrate}=await import('./dist/client/js/model.mjs'),{awardDenVictory,denBoss,canEnterDen}=await import('./dist/client/js/den.mjs'),dex=JSON.parse(fs.readFileSync('dist/client/data/dex.json'));
  const s=migrate({starter:4,roster:['4'],team:['4'],denFloor:1});assert.equal(canEnterDen(s,2),false);assert(awardDenVictory(s,1));const snapshot=JSON.stringify(s);assert.equal(awardDenVictory(s,1),null);assert.equal(JSON.stringify(s),snapshot);assert.equal(awardDenVictory(migrate({denFloor:4}),3),null);assert.deepEqual(denBoss(dex,1).types,['ghost','poison']);
  const b=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});try{
  const p=await b.newPage({viewport:{width:1440,height:1000}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:4173');await p.waitForFunction(()=>window.Game);await p.locator('[data-act="choose-starter"][data-key="4"]').click();

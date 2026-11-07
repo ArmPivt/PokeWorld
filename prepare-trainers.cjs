@@ -8,7 +8,7 @@ const trainerIds = [
   'nate', 'rosa', 'acetrainer', 'acetrainerf',
 ];
 const sourceBase = 'https://play.pokemonshowdown.com/sprites/trainers/';
-const destination = path.join(__dirname, 'dist', 'assets', 'trainers');
+const destination = path.join(__dirname, 'dist/client', 'assets', 'trainers');
 const pngSignature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
 
 function inspectPng(bytes, id) {

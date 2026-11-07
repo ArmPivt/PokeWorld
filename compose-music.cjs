@@ -1,5 +1,5 @@
 // Original PokéWorld music, deterministic PCM synthesis. No external recordings.
-const fs=require('node:fs'),path=require('node:path');const OUT=path.join(__dirname,'dist/assets/music');fs.mkdirSync(OUT,{recursive:true});const SR=22050,TAU=Math.PI*2;
+const fs=require('node:fs'),path=require('node:path');const OUT=path.join(__dirname,'dist/client/assets/music');fs.mkdirSync(OUT,{recursive:true});const SR=22050,TAU=Math.PI*2;
 const themes={
  sanctuary:{title:'Les chemins de PokéWorld',bpm:96,root:60,chords:[0,5,3,7],scale:[0,2,4,7,9],melody:[0,2,3,4,3,2,1,2,0,1,2,3,2,1,0,-1],soft:true},
  battle:{title:'Sous les projecteurs',bpm:132,root:57,chords:[0,5,7,3],scale:[0,2,3,5,7,10],melody:[0,2,4,3,2,4,5,4,0,1,3,2,4,3,2,1]},

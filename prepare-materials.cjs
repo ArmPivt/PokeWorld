@@ -12,7 +12,7 @@ const materials = [
   { id: 'stardust', width: 30, height: 30 },
 ];
 const sourceBase = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/';
-const destination = path.join(__dirname, 'dist', 'assets', 'materials');
+const destination = path.join(__dirname, 'dist/client', 'assets', 'materials');
 const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
 
 function inspectPng(bytes, material) {

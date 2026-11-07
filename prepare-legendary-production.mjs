@@ -3,10 +3,10 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 const project=process.argv[2];
 if(!project)throw Error('Pass the project directory');
-const {LEGENDARY_STORIES:stories}=await import(pathToFileURL(path.join(project,'dist/js/legendary-stories.mjs')));
-const {LEGENDARY_MEDIA:media}=await import(pathToFileURL(path.join(project,'dist/js/legendary-media.mjs')));
-const dex=JSON.parse(fs.readFileSync(path.join(project,'dist/data/dex.json')));
-const supported=JSON.parse(fs.readFileSync(path.join(project,'dist/data/supported.json')));
+const {LEGENDARY_STORIES:stories}=await import(pathToFileURL(path.join(project,'dist/client/js/legendary-stories.mjs')));
+const {LEGENDARY_MEDIA:media}=await import(pathToFileURL(path.join(project,'dist/client/js/legendary-media.mjs')));
+const dex=JSON.parse(fs.readFileSync(path.join(project,'dist/client/data/dex.json')));
+const supported=JSON.parse(fs.readFileSync(path.join(project,'dist/client/data/supported.json')));
 const rows=`
 144|An icy arch above the frozen sea of the Seafoam Islands|The blue bird slowly lifts its wings halfway and tips its head toward the viewer|A few broad snowflakes drift and a thin line of ice advances across the pool
 145|A dark abandoned power station with one broken copper conductor|The yellow bird raises its pointed crest and flexes its wings slightly|Two short yellow arcs light the conductor and then fade
@@ -107,7 +107,7 @@ for(const entry of supported.filter(s=>stories[s.id])){
  if(!d)throw Error('Missing explicit direction for '+id);
  const variants=[];
  for(const shiny of [false,...entry.shiny?[true]:[]]){
-  const key=String(id)+(shiny?'s':''),icon=`dist/assets/pmd/${id}/${shiny?'icon-shiny':'icon'}.png`;
+  const key=String(id)+(shiny?'s':''),icon=`dist/client/assets/pmd/${id}/${shiny?'icon-shiny':'icon'}.png`;
   if(!fs.existsSync(path.join(project,icon)))throw Error('Missing identity reference '+icon);
   const ready=!!media[key]&&fs.existsSync(path.join(project,'dist',media[key].src));
   variants.push({key,shiny,status:ready?'reviewed-media':issues[key]?'image-blocked':'planned',generationIssue:issues[key]||null,sourceImageReady:fs.existsSync(path.join(project,`cinematics/production/species/${id}/${key}-frame-v1.png`)),identityReference:icon,sourceImage:`cinematics/production/species/${id}/${key}-frame-v1.png`,destination:media[key]?.src||`assets/cinematics/${key}-appearance-v1.mp4`,imagePrompt:`Create the first frame of an original ${p.name} summoning appearance titled ${s.title}. Setting: ${d.setting}. Starting pose is calm and held, ready for this modest action: ${d.action}. Environmental action to prepare: ${d.environment}. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. ${shiny?'Chromatic variant: match the shiny icon colors exactly; do not use the regular palette.':'Regular variant: match the regular icon colors exactly.'} ${style} ${constraints}`,animationPrompt:`Simple retro 2D pixel art. ${d.action}. ${d.environment}. ${constraints}`});
