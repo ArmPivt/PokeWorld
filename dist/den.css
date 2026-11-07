@@ -3,14 +3,6 @@
 
 .den-layout>*{min-width:0;max-width:100%}.den-entry-actions>*{min-width:0;max-width:100%}.den-rewards span{overflow-wrap:anywhere}
 
-/* Original pixel-styled Dynamax den: low rock crater, magenta energy, red sky. */
-.den-cave{background:#101925;height:355px}.den-cave-sky{background:radial-gradient(ellipse at 50% 10%,#8d365c88,transparent 60%),linear-gradient(#172338,#2b3442 65%,#374840)}
-.den-cave-mountain{inset:auto 7% 29px;height:112px;clip-path:polygon(0 72%,7% 72%,7% 45%,17% 45%,17% 27%,29% 27%,29% 13%,44% 13%,44% 8%,63% 8%,63% 20%,76% 20%,76% 33%,87% 33%,87% 53%,100% 53%,100% 100%,0 100%);background:repeating-linear-gradient(90deg,#6d686e 0 35px,#46474f 35px 40px,#878087 40px 80px);z-index:-2}
-.den-cave-mouth{left:27%;width:46%;height:87px;bottom:62px;clip-path:polygon(0 35%,10% 35%,10% 16%,29% 16%,29% 5%,73% 5%,73% 18%,90% 18%,90% 39%,100% 39%,100% 76%,85% 76%,85% 94%,19% 94%,19% 82%,0 82%);border:13px solid #8d727f;border-radius:50%;background:radial-gradient(ellipse,#ffbfde,#f3579a 18%,#7d1f56 48%,#171625 78%);box-shadow:inset 0 0 20px #ff76b1;overflow:visible;z-index:1}
-.den-cave-mouth img{position:absolute;width:100px;height:85px;object-fit:contain;left:50%;bottom:0;transform:translateX(-50%);image-rendering:pixelated;filter:drop-shadow(0 0 12px #ffc5df)}
-.den-cave-floor{height:45px;background:repeating-linear-gradient(90deg,#43594e 0 54px,#2d413d 54px 58px);border-color:#657164}.den-torch{display:none}
-.den-dynamax-beam{position:absolute;left:32%;width:36%;top:-20px;bottom:95px;background:linear-gradient(90deg,transparent,#f1478677 24%,#ff9fc2bb 47%,#ffe5efdd 50%,#f4539b88 54%,#f34a8066 75%,transparent);clip-path:polygon(0 0,100% 0,57% 100%,43% 100%);filter:drop-shadow(0 0 18px #ff6a9f);animation:den-energy 3s ease-in-out infinite;z-index:0;pointer-events:none}
-.den-dynamax-clouds{position:absolute;left:10%;right:10%;top:27px;height:63px;background:repeating-linear-gradient(110deg,transparent 0 25px,#ad466f66 25px 65px,transparent 65px 89px);clip-path:polygon(0 39%,13% 39%,13% 17%,35% 17%,35% 0,63% 0,63% 16%,84% 16%,84% 35%,100% 35%,100% 74%,83% 74%,83% 100%,42% 100%,42% 85%,14% 85%,14% 69%,0 69%)}
-.den-type-stones{z-index:4}.den-cave-label{z-index:4}.den-dynamax-beam:after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 38px,#ffc8e855 38px 40px)}@keyframes den-energy{50%{opacity:.6;filter:drop-shadow(0 0 26px #ff6a9f)}}.reduced-motion .den-dynamax-beam{animation:none}
 
-.den-cave:has(.den-cave-mouth img) .den-cave-mouth{clip-path:none;overflow:visible}
+.den-cave{height:350px;background:#171522}.den-cave>canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;image-rendering:pixelated}.den-cave-label,.den-type-stones{z-index:2}.den-type-stones>span{background:#211c30;border-color:#675676;color:#d9c3ef;box-shadow:0 4px #100e1b}.den-cave-label{color:#e8dcf4;text-shadow:0 2px #15101f}
+@media(max-width:850px){.den-cave{height:280px}}

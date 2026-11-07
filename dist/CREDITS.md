@@ -316,3 +316,6 @@ Sept compositions originales supplémentaires accompagnent les menus, produites 
 ## Mascotte Méga-Lucario et Antre Dynamax
 
 Méga-Lucario animé : [PMD SpriteCollab, forme 0448/0001](https://github.com/PMDCollab/SpriteCollab/tree/master/sprite/0448/0001), CC BY-NC 4.0 ; crédits locaux et provenance dans assets/pmd/448/mega. Décor Dynamax : création CSS originale inspirée de la [présentation officielle des Antres](https://swordshield.pokemon.com/en-us/gameplay/max-raid-battles/how-to-max-raid/). Aucun média de cette page n’est embarqué.
+
+
+Décor actuel de l’Antre : grotte rocheuse aux reflets violets, dessin Canvas original PokéWorld (js/den-cave.mjs). Les sprites PMD conservent les crédits et licences ci-dessus.

@@ -55,7 +55,8 @@ export class Summoning {
  }
  async reveal(result,index,count){
   const g=this.g;this.begin();this.attemptedStories||=new Set();this.color=g.rarity(result.rarity).color;this.sceneRank=this.rank(result.rarity);this.phase='arrival';
-  if(!this.skipRequested){
+  const firstEncounter=this.hasStory(result);
+  if(!this.skipRequested&&!firstEncounter){
    const image=loadImage(icon(result.key));if(!image.complete)await Promise.race([new Promise(resolve=>{image.addEventListener('load',resolve,{once:true});image.addEventListener('error',resolve,{once:true})}),this.wait(1000)]);
    if(!this.skipRequested){this.open(`<div class="invocation-sequence silhouette-sequence"><span class="eyebrow">${count>1?`RENCONTRE ${index+1} / ${count}`:'UNE SILHOUETTE SE DESSINE'}</span><div class="silhouette-halo"></div><div class="silhouette-frame"><canvas class="silhouette-mon" width="300" height="250" aria-label="Silhouette du Pokémon à découvrir"></canvas></div>${this.stars(result.rarity)}<h2>Qui répond à ton appel ?</h2>${isShiny(result.key)?'<p class="shiny-omen">✧ Une lumière chromatique scintille…</p>':'<p>Les hautes herbes frémissent…</p>'}</div>`,{index,count,skip:true});this.animateCanvas(g.modal.querySelector('.silhouette-mon'),result.key);await this.wait(g.state.settings.reducedMotion?50:1150)}
   }

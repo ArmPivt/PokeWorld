@@ -44,7 +44,8 @@
     "test:tower-refresh": "node tower-refresh-check.cjs",
     "test:tower-refresh-browser": "node tower-refresh-browser-check.cjs",
     "test:den-menus": "node den-menus-check.cjs",
-    "test:sprite-audio": "node sprite-audio-check.cjs"
+    "test:sprite-audio": "node sprite-audio-check.cjs",
+    "test:cave-theme": "node cave-theme-check.cjs"
   },
   "engines": {
     "node": ">=22"

@@ -1,4 +1,4 @@
-html[data-theme]{--pw-bg:#edf3f8;--pw-panel:#fff;--pw-raised:#f4f8fc;--pw-line:#d5dfeb;--pw-text:#263e58;--pw-muted:#657b91;--pw-accent:#347ca5;--pw-tint:#e4f0f6;--pw-ink:#fff;--pw-gold:#9d722e;--pw-shadow:#314b6412}
+html[data-theme]{--pw-bg:#edf3f8;--pw-panel:#fff;--pw-raised:#f4f8fc;--pw-line:#d5dfeb;--pw-text:#263e58;--pw-muted:#576d83;--pw-accent:#347ca5;--pw-tint:#e4f0f6;--pw-ink:#fff;--pw-gold:#9d722e;--pw-shadow:#314b6412}
 html[data-theme=night]{--pw-bg:#0c1423;--pw-panel:#17253b;--pw-raised:#1e3049;--pw-line:#354961;--pw-text:#eef4ff;--pw-muted:#a6b8cf;--pw-accent:#78d6df;--pw-tint:#1e414e;--pw-ink:#102330;--pw-gold:#f0c676;--pw-shadow:#02071245}
 html[data-theme=inferno]{--pw-bg:#1b1117;--pw-panel:#2b1c25;--pw-raised:#382732;--pw-line:#62434b;--pw-text:#fff0dd;--pw-muted:#c6aea6;--pw-accent:#efb477;--pw-tint:#53332d;--pw-ink:#2c1720;--pw-gold:#f3ce80;--pw-shadow:#0a030b55}
 html[data-theme=forest]{--pw-bg:#101e1b;--pw-panel:#1c3029;--pw-raised:#263d32;--pw-line:#415d4b;--pw-text:#eff5e5;--pw-muted:#adbfab;--pw-accent:#b5d995;--pw-tint:#354e36;--pw-ink:#172a20;--pw-gold:#e7cc7a;--pw-shadow:#030e0945}
@@ -62,3 +62,19 @@ html[data-theme] :is(button,a,input,select):focus-visible{outline:2px solid var(
 @media(max-width:650px){html[data-theme] .world-hero:after{background:linear-gradient(180deg,var(--pw-panel),color-mix(in srgb,var(--pw-panel) 65%,transparent) 62%,transparent)}.theme-options{gap:8px}.theme-option small{font-size:9px}html[data-theme] .variant-picker{max-width:260px;margin:10px auto}html[data-theme] .species-card>.mon-card{min-height:228px}.variant-picker button small{font-size:7px}}
 
 html[data-theme] .sidebar-settings{background:var(--pw-raised);border-color:var(--pw-line)}
+
+/* Theme every menu surface together with its foreground, including nested editors. */
+html[data-theme]{--bg:var(--pw-bg);--panel:var(--pw-panel);--text:var(--pw-text);--muted:var(--pw-muted);--border:var(--pw-line);--gold:var(--pw-gold)}
+html[data-theme] .ambient-grid{background:radial-gradient(ellipse at 90% 10%,color-mix(in srgb,var(--pw-accent) 9%,transparent),transparent 60%)}
+html[data-theme] main :is(.material-card,.player-preview,.trait-editor>div,.move-editor>label,.shop-card,.shop-banner,.combat-mode-choice>button,.combat-stage-list>span,.equipment-slots article,.arena-stage-options button,.lab-stats>div,.lab-evolution){background:var(--pw-panel)!important;border-color:var(--pw-line)!important;color:var(--pw-text)}
+html[data-theme] :is(main,.pokemon-dialog) :is(.visual-item,.visual-move,.move-slot,.trait-editor>div,.move-editor>label,.equipment-slots article,.ev-budget,.iv-grid>div,.level-lock){background:var(--pw-raised)!important;border-color:var(--pw-line)!important;color:var(--pw-text)!important}
+html[data-theme] :is(main,.pokemon-dialog) :is(.material-card,.player-preview,.shop-card,.shop-banner,.visual-item,.visual-move,.move-slot,.trait-editor,.move-editor,.equipment-slots,.combat-mode-choice) :is(h2,h3,h4,b,strong){color:var(--pw-text)!important}
+html[data-theme] :is(main,.pokemon-dialog) :is(.material-card,.player-preview,.shop-card,.shop-banner,.visual-item,.visual-move,.move-slot,.trait-editor,.move-editor,.equipment-slots,.combat-mode-choice) :is(p,small,label){color:var(--pw-muted)!important}
+html[data-theme] main .material-card>strong{color:var(--pw-gold)!important}
+html[data-theme] main .player-preview{background:linear-gradient(145deg,var(--pw-tint),var(--pw-raised))!important}
+html[data-theme] main .player-preview>.eyebrow{color:var(--pw-accent)!important}
+html[data-theme] :is(main,.pokemon-dialog) :is(.move-facts,.move-facts b,.move-effect,.slot-choice b){color:var(--pw-text)!important}
+html[data-theme] main .region-tabs button.selected,html[data-theme] main .avatar-picker button.selected,html[data-theme] main .arena-stage-options button.selected,html[data-theme] main .combat-mode-choice>button.selected{background:var(--pw-tint)!important;border-color:var(--pw-accent)!important;box-shadow:inset 0 -2px var(--pw-accent)}
+html[data-theme] main button:hover:not(:disabled),html[data-theme] .pokemon-dialog button:hover:not(:disabled){border-color:var(--pw-accent)}
+
+html[data-theme] main .player-preview>span:last-child{color:var(--pw-muted)!important}
