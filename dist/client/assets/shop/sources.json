@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "auspicious-armor",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/auspicious-armor.png",
+    "sha256": "69f32c331ed7e4688946a2d33c41f78e3812eb0b9be0d84fc53446335d3d2c21"
+  },
+  {
+    "slug": "black-augurite",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-augurite.png",
+    "sha256": "921bf9de8fdfd762a1f65180afdf49f6a780aa6e6784d1098115f86247a00f3a"
+  },
+  {
+    "slug": "cracked-pot",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cracked-pot.png",
+    "sha256": "59de86959b934af55f222dfcdd9b1cad02812a6ca199a18465aa270a4b583815"
+  },
+  {
+    "slug": "dawn-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dawn-stone.png",
+    "sha256": "7d234d687853296a6a4a185a9c27cc637d9da917c70df02770c815f455e6f211"
+  },
+  {
+    "slug": "deep-sea-scale",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png",
+    "sha256": "45548b19e82837db6bb3ee7290eb3e4709ce46d14adda31e1cb4ec4448c6dc8d"
+  },
+  {
+    "slug": "deep-sea-tooth",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png",
+    "sha256": "2e3de67d55b774ce8302280deb8a19b44715806806dd290363b55b56d4213374"
+  },
+  {
+    "slug": "dragon-scale",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png",
+    "sha256": "c799da7310254aea308a043252e0f008e9369062d49de4a5ace30f79e868c5e5"
+  },
+  {
+    "slug": "dubious-disc",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dubious-disc.png",
+    "sha256": "ebec32bdd0e33c68ee67659021c17ca191a485638df0cdcf942eb1de02c508e9"
+  },
+  {
+    "slug": "dusk-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-stone.png",
+    "sha256": "a61afc1d5fcf1bc25f70a3b496ce2efdc37ee77fc386d2cf14c7442763693637"
+  },
+  {
+    "slug": "electirizer",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electirizer.png",
+    "sha256": "6844f22b246baf79f76c43add7a0c340aa93f4842b5ec01b9c86dfb949a77d2b"
+  },
+  {
+    "slug": "fire-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png",
+    "sha256": "79b9f7aa7adf5f43465545cfb7b510789c90215b27680d91acaa0690c57f2507"
+  },
+  {
+    "slug": "ice-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png",
+    "sha256": "942109074edc6eb97d691f914a50694307366c6349bd96f186a037cad49782d0"
+  },
+  {
+    "slug": "kings-rock",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png",
+    "sha256": "b29da56002e1d397688ef36f0f3efcc290a6a852cf0ab10bbddfa8155f935bdf"
+  },
+  {
+    "slug": "leaf-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png",
+    "sha256": "f7987d279723736d568ada3cece6936d441c61f3ccec401a7e236020bacd7f5e"
+  },
+  {
+    "slug": "linking-cord",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/linking-cord.png",
+    "sha256": "273ed4c35cfe7bed0fcbe04c9c53ee97d445c95300bf3cb56fb7a414ba288b2c"
+  },
+  {
+    "slug": "magmarizer",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmarizer.png",
+    "sha256": "d676893cc4b679e5dd83b6ad5071030cf80323df7db3042c12d52a0984d02f41"
+  },
+  {
+    "slug": "malicious-armor",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/malicious-armor.png",
+    "sha256": "9d778734f91f4d9f634de3bdce4791c736c25e51a65ed09494c96b47273afeff"
+  },
+  {
+    "slug": "metal-alloy",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-alloy.png",
+    "sha256": "8b689610c16045c3a6bf2ff74e83226a5623a7e1ec81320cf51564ea72efdf49"
+  },
+  {
+    "slug": "metal-coat",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png",
+    "sha256": "1330f67b135121a15e27e17d3da64ae9065dfbda5ea85f4ad7bc5285c6aaa92c"
+  },
+  {
+    "slug": "moon-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png",
+    "sha256": "44757f9cc107f23cc6775c93edc5b0eea429f2e08c5e547ee325c699d77c2742"
+  },
+  {
+    "slug": "oval-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png",
+    "sha256": "8be8d081352b631a53f08f8b15990e1d585959586038d6993bd30129662e9d67"
+  },
+  {
+    "slug": "peat-block",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/peat-block.png",
+    "sha256": "c370bd25c112f2a70cd84a13c2c56163ff8af39feeda9b1e4a36ce388d0e86b3"
+  },
+  {
+    "slug": "prism-scale",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/prism-scale.png",
+    "sha256": "30a888f336fadfa8de6c2428d2da32e274c66307e3d7828957e422af67c5327f"
+  },
+  {
+    "slug": "protector",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protector.png",
+    "sha256": "5064bd927ff40b27454bee9b6827d4918e005ba80f0c58a39a2c4624154b0f83"
+  },
+  {
+    "slug": "razor-claw",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png",
+    "sha256": "1f3cbde2d227a8d5afec45ec629352072f9c4938174b99a24dd01277ab582d7e"
+  },
+  {
+    "slug": "razor-fang",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-fang.png",
+    "sha256": "a0bf2707c33ed5e936dabe1fad83fb9c08758de0e5f1385c65c0c005af7e5b14"
+  },
+  {
+    "slug": "reaper-cloth",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reaper-cloth.png",
+    "sha256": "04a58d75cd1ff0f0f4565fb5dd0b84a688882d59c3ab7a15a3612f7c06300763"
+  },
+  {
+    "slug": "scroll-of-darkness",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scroll-of-darkness.png",
+    "sha256": "1d1fc94f0771b7713247c7fe70a8abe8ef2d46354877fb7768031c06620a8422"
+  },
+  {
+    "slug": "shiny-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-stone.png",
+    "sha256": "5013cd61e7f9eb724b45fd3e4eb6bc28fd180a56a2f462eaecfb20da94cd9876"
+  },
+  {
+    "slug": "soothe-bell",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soothe-bell.png",
+    "sha256": "70eaf430f757325b4906f82d46d9baa25e34e3bc84a28cf00ab609a3bef9ad5b"
+  },
+  {
+    "slug": "strawberry-sweet",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/strawberry-sweet.png",
+    "sha256": "76d493adcf68bf584ba0800ad2f9cb71b38b57014e9822728d4d6a95c81d58cd"
+  },
+  {
+    "slug": "sun-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png",
+    "sha256": "3542840d250e42276ad079d6cf7a3950d5db7b67bb45df1a5182f6a28ff2fab4"
+  },
+  {
+    "slug": "sweet-apple",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sweet-apple.png",
+    "sha256": "6b9d46d20193eafb1719dcbe43c2450771f55ed1942bceeb1ea40416ee7c0e41"
+  },
+  {
+    "slug": "syrupy-apple",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/syrupy-apple.png",
+    "sha256": "378310acc45654e1316ade716dea2f378173f433f24dfbd5d231a630bf410897"
+  },
+  {
+    "slug": "tart-apple",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tart-apple.png",
+    "sha256": "be4f9c829b5a55b7b77c0f249dec86c8b450260ad11591b2793d0937ef9ce82a"
+  },
+  {
+    "slug": "thunder-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    "sha256": "74fa4c73cad9285a250f8f7e8e434409b3e89670adc6f30b419b709fce1bad10"
+  },
+  {
+    "slug": "unremarkable-teacup",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/unremarkable-teacup.png",
+    "sha256": "2d8e2ea9d1d76f04c4ca921262fa3bd37e046520758021b14300f355f624c340"
+  },
+  {
+    "slug": "up-grade",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/up-grade.png",
+    "sha256": "03bf246e7880dcc155b0f2fb1d896810537078a1589dee871dafb2962a21ec08"
+  },
+  {
+    "slug": "water-stone",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png",
+    "sha256": "a213ec2d62b816073a9a78bf659b436de8e196df3b14437b3d768f466b3e9616"
+  },
+  {
+    "slug": "whipped-dream",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/whipped-dream.png",
+    "sha256": "29cc7287f94eed433a82323646cd81355cf60acba3ef307ee24b220b76f79610"
+  }
+]

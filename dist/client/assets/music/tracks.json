@@ -1,0 +1,116 @@
+{
+  "sanctuary": {
+    "title": "Les chemins de PokéWorld",
+    "bpm": 96,
+    "duration": 30,
+    "src": "assets/music/sanctuary.wav"
+  },
+  "battle": {
+    "title": "Sous les projecteurs",
+    "bpm": 132,
+    "duration": 21.818181818181817,
+    "src": "assets/music/battle.wav"
+  },
+  "den": {
+    "title": "Le cœur de la tour",
+    "bpm": 94,
+    "duration": 30.638297872340427,
+    "src": "assets/music/den.wav"
+  },
+  "survival": {
+    "title": "Au-delà des cendres",
+    "bpm": 124,
+    "duration": 23.225806451612904,
+    "src": "assets/music/survival.wav"
+  },
+  "summon": {
+    "title": "Les étoiles répondent",
+    "bpm": 86,
+    "duration": 33.48837209302326,
+    "src": "assets/music/summon.wav"
+  },
+  "pokeclick": {
+    "title": "Une journée au refuge",
+    "bpm": 108,
+    "duration": 26.666666666666668,
+    "src": "assets/music/pokeclick.wav"
+  },
+  "conquest": {
+    "title": "Les frontières du monde",
+    "bpm": 116,
+    "duration": 24.827586206896555,
+    "src": "assets/music/conquest.wav"
+  },
+  "storm": {
+    "title": "L’appel du ciel ancien",
+    "bpm": 112,
+    "duration": 25.714285714285715,
+    "src": "assets/music/storm.wav"
+  },
+  "cosmic": {
+    "title": "Au commencement des astres",
+    "bpm": 78,
+    "duration": 36.92307692307693,
+    "src": "assets/music/cosmic.wav"
+  },
+  "forest": {
+    "title": "Le souffle des légendes",
+    "bpm": 90,
+    "duration": 32,
+    "src": "assets/music/forest.wav"
+  },
+  "victory": {
+    "title": "Une nouvelle alliance",
+    "bpm": 120,
+    "duration": 24,
+    "src": "assets/music/victory.wav"
+  },
+  "invocation": {
+    "title": "Sous une pluie d’étoiles",
+    "bpm": 120,
+    "duration": 28,
+    "src": "assets/music/invocation.wav"
+  },
+  "menu-tower": {
+    "title": "Les marches de braise",
+    "bpm": 108,
+    "duration": 26.666666666666668,
+    "src": "assets/music/menu-tower.wav"
+  },
+  "menu-den": {
+    "title": "Sous la pierre ancienne",
+    "bpm": 80,
+    "duration": 36,
+    "src": "assets/music/menu-den.wav"
+  },
+  "menu-survival": {
+    "title": "Le départ des éclaireurs",
+    "bpm": 116,
+    "duration": 24.827586206896555,
+    "src": "assets/music/menu-survival.wav"
+  },
+  "menu-pvp": {
+    "title": "Face à ton rival",
+    "bpm": 128,
+    "duration": 22.5,
+    "src": "assets/music/menu-pvp.wav"
+  },
+  "menu-gacha": {
+    "title": "Les anneaux de Hoopa",
+    "bpm": 88,
+    "duration": 32.72727272727273,
+    "src": "assets/music/menu-gacha.wav"
+  },
+  "menu-conquest": {
+    "title": "Le conseil des factions",
+    "bpm": 100,
+    "duration": 28.799999999999997,
+    "src": "assets/music/menu-conquest.wav"
+  },
+  "menu-pokeclick": {
+    "title": "Les petits métiers du camp",
+    "bpm": 112,
+    "duration": 25.714285714285715,
+    "src": "assets/music/menu-pokeclick.wav"
+  }
+}
