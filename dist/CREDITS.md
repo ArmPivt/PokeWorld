@@ -306,3 +306,8 @@ Référence de mise en scène consultée : [Pokémon Emerald — The Rayquaza Cu
 Décor pixel art, silhouette tournante, particules et présentation des raretés : créations Canvas/CSS originales PokéWorld. Référence visuelle : [Pokémon Champions - Shiny Pokémon Recruitment Animation, EagleOne_hl](https://www.youtube.com/watch?v=rp7KdOqaIxE). Aucun média de cette vidéo n’est intégré.
 
 Une douzième composition originale, « Sous une pluie d’étoiles » (28 s, 120 BPM), accompagne les invocations : celesta, harpe, flûte, cordes, chœur et taiko léger, rendus avec GeneralUser GS 2.0.3. Partition MIDI et générateur dans cinematics/production/summoning-v1 ; SoundFont et sa licence dans le dossier de production Rayquaza. Aucun thème officiel ni enregistrement tiers n’est repris.
+
+
+## Menus des modes et Antre
+
+Sept compositions originales supplémentaires accompagnent les menus, produites par compose-menu-music.cjs ; catalogue dans assets/music/tracks.json. Entrée de grotte, torches et pierres de types : décor CSS original PokéWorld.

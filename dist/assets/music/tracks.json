@@ -70,5 +70,47 @@
     "bpm": 120,
     "duration": 28,
     "src": "assets/music/invocation.wav"
+  },
+  "menu-tower": {
+    "title": "Les marches de braise",
+    "bpm": 108,
+    "duration": 26.666666666666668,
+    "src": "assets/music/menu-tower.wav"
+  },
+  "menu-den": {
+    "title": "Sous la pierre ancienne",
+    "bpm": 80,
+    "duration": 36,
+    "src": "assets/music/menu-den.wav"
+  },
+  "menu-survival": {
+    "title": "Le départ des éclaireurs",
+    "bpm": 116,
+    "duration": 24.827586206896555,
+    "src": "assets/music/menu-survival.wav"
+  },
+  "menu-pvp": {
+    "title": "Face à ton rival",
+    "bpm": 128,
+    "duration": 22.5,
+    "src": "assets/music/menu-pvp.wav"
+  },
+  "menu-gacha": {
+    "title": "Les anneaux de Hoopa",
+    "bpm": 88,
+    "duration": 32.72727272727273,
+    "src": "assets/music/menu-gacha.wav"
+  },
+  "menu-conquest": {
+    "title": "Le conseil des factions",
+    "bpm": 100,
+    "duration": 28.799999999999997,
+    "src": "assets/music/menu-conquest.wav"
+  },
+  "menu-pokeclick": {
+    "title": "Les petits métiers du camp",
+    "bpm": 112,
+    "duration": 25.714285714285715,
+    "src": "assets/music/menu-pokeclick.wav"
   }
 }
