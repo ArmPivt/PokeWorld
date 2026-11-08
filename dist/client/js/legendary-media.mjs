@@ -269,6 +269,46 @@ export const LEGENDARY_MEDIA={
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
     "music": "De l’autre côté"
+  },
+  "485": {
+    "src": "assets/cinematics/485-appearance-v1.mp4",
+    "poster": "assets/cinematics/485-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Souffle du basalte"
+  },
+  "489": {
+    "src": "assets/cinematics/489-appearance-v1.mp4",
+    "poster": "assets/cinematics/489-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "La Bulle des marées"
+  },
+  "490": {
+    "src": "assets/cinematics/490-appearance-v1.mp4",
+    "poster": "assets/cinematics/490-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Cœur de la mer"
+  },
+  "492": {
+    "src": "assets/cinematics/492-appearance-v1.mp4",
+    "poster": "assets/cinematics/492-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "L’Île de la gratitude"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

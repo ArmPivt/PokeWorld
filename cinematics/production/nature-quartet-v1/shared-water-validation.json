@@ -1,0 +1,11 @@
+{
+  "species": [
+    489,
+    490
+  ],
+  "sharedOpeningSeconds": 12,
+  "identicalRawFrames": 288,
+  "identicalOpeningPCM": true,
+  "openingPCM_SHA256": "a919ad4a9bf000034e474ae2661494ba55dc2afde6e4b6a79e425ad501ba162e",
+  "separateReveals": "Phione in a water bubble; Manaphy in a heart of light"
+}

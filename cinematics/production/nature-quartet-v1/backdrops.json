@@ -1,0 +1,11 @@
+{
+  "provider": "built-in imagegen",
+  "images": {
+    "heatran-cave": "exec-f7e1a3c3-e6b6-4d18-ad01-7bced28e1b1e.png",
+    "water-mouth": "exec-7be4751c-79b7-4232-9159-42c8f44a16f1.png",
+    "water-cave": "exec-e52d2f04-6d11-4648-8057-9d363ccae1f9.png",
+    "flower-island": "exec-c9e776bc-e1aa-4f08-94bd-5234190a048b.png",
+    "flower-clearing": "exec-f10e94fa-38e5-49c0-9939-32fe79ac5ff9.png"
+  },
+  "reused": "volcano.png from primal-films; already generated for Pok\u00e9World"
+}

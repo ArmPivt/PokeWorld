@@ -1,0 +1,22 @@
+{
+  "species": 492,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2103327,
+  "sha256": "1b364283a4d3cbb2e19d5b7b00cfbfa07e006701d501c7770a4d35baa6daf9be",
+  "music": "L’Île de la gratitude",
+  "cryAt": 21.7,
+  "cryCorrelation": 0.9886095040454244,
+  "decodedPeak": 0.44789499044418335,
+  "revealAt": 20,
+  "bodyBounds": {
+    "left": 190.8235294117647,
+    "right": 289.1764705882353,
+    "top": 132,
+    "bottom": 220
+  },
+  "sharedWaterIntroSeconds": 0
+}

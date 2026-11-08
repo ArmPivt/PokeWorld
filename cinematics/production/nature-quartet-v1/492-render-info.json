@@ -1,0 +1,27 @@
+{
+  "id": 492,
+  "duration": 28,
+  "config": {
+    "name": "Shaymin",
+    "title": "L’Île de la gratitude",
+    "plate": "flower-clearing.png",
+    "color": "#d2f4a1",
+    "dark": "#345234",
+    "width": 168,
+    "height": 88,
+    "foot": 220
+  },
+  "layout": {
+    "anchor": {
+      "x": 12.5,
+      "y": 21
+    },
+    "scale": 5.176470588235294,
+    "bounds": {
+      "left": 190.8235294117647,
+      "right": 289.1764705882353,
+      "top": 132,
+      "bottom": 220
+    }
+  }
+}

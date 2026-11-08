@@ -1,0 +1,22 @@
+{
+  "species": 490,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2161543,
+  "sha256": "38e3a0e1b217492308da045b1066a76d6dc45ea548750284d87de7b89a7c3bd7",
+  "music": "Le Cœur de la mer",
+  "cryAt": 21.7,
+  "cryCorrelation": 0.9908448406012003,
+  "decodedPeak": 0.4522199034690857,
+  "revealAt": 20,
+  "bodyBounds": {
+    "left": 195.16,
+    "right": 284.84,
+    "top": 93,
+    "bottom": 211
+  },
+  "sharedWaterIntroSeconds": 12
+}

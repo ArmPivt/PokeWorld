@@ -1,0 +1,22 @@
+{
+  "species": 485,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2227498,
+  "sha256": "6f88b5a78301a6861bbf21e66c8b258b1c31dc799c64ec4c3d27e2ad1bc5cf55",
+  "music": "Le Souffle du basalte",
+  "cryAt": 21.7,
+  "cryCorrelation": 0.9968819059249713,
+  "decodedPeak": 0.42805033922195435,
+  "revealAt": 20,
+  "bodyBounds": {
+    "left": 163,
+    "right": 312.33333333333337,
+    "top": 75.99999999999999,
+    "bottom": 202
+  },
+  "sharedWaterIntroSeconds": 0
+}

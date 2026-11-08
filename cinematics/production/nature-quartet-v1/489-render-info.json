@@ -1,0 +1,27 @@
+{
+  "id": 489,
+  "duration": 28,
+  "config": {
+    "name": "Phione",
+    "title": "La Bulle des marées",
+    "plate": "water-cave.png",
+    "color": "#9eeeff",
+    "dark": "#143452",
+    "width": 160,
+    "height": 112,
+    "foot": 211
+  },
+  "layout": {
+    "anchor": {
+      "x": 15.5,
+      "y": 25
+    },
+    "scale": 4.48,
+    "bounds": {
+      "left": 197.44,
+      "right": 282.56,
+      "top": 107.96,
+      "bottom": 219.96
+    }
+  }
+}

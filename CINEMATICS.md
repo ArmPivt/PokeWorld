@@ -47,3 +47,7 @@ Les posters montrent l’ouverture, pour ne pas révéler le Pokémon pendant le
 ### Révision de Dialga et Palkia
 
 Les vidéos v2 remplacent les deux premiers films. Dialga arrête le plan et sa musique, fait apparaître une horloge puis rembobine réellement le début avec son audio inversé avant un flash blanc et sa dimension. Pour Palkia, l’écran se fissure, éclate en 80 éclats sur blanc puis sa dimension se révèle lentement. Les révélations, cris, durées et le film de Giratina restent conservés. Sources et vérifications dans `cinematics/production/creation-trio-v2/`.
+
+## Heatran, Phione, Manaphy et Shaymin — 9 novembre 2026
+
+Quatre nouveaux films MP4 de 28 secondes, cinq plans chacun, musiques originales et cris à 21,7 s. Heatran se révèle dans une grotte volcanique. Phione et Manaphy partagent douze secondes dans une grotte aquatique, puis ont leur propre arrivée : bulle pour Phione, cœur lumineux pour Manaphy. Shaymin apparaît sur une île fleurie après un chemin de pétales et une floraison. Sources, prompts imagegen, partitions et validations dans `cinematics/production/nature-quartet-v1/`. Les posters sont pris avant toute apparition.

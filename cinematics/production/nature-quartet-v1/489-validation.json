@@ -1,0 +1,22 @@
+{
+  "species": 489,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2260378,
+  "sha256": "6c5f2b847314ee9ee124549650ae8c2c9839407106c9487a00200967c594da03",
+  "music": "La Bulle des marées",
+  "cryAt": 21.7,
+  "cryCorrelation": 0.995672720503157,
+  "decodedPeak": 0.4413309693336487,
+  "revealAt": 20,
+  "bodyBounds": {
+    "left": 197.44,
+    "right": 282.56,
+    "top": 107.96,
+    "bottom": 219.96
+  },
+  "sharedWaterIntroSeconds": 12
+}

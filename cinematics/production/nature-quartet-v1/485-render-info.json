@@ -1,0 +1,27 @@
+{
+  "id": 485,
+  "duration": 28,
+  "config": {
+    "name": "Heatran",
+    "title": "Le Souffle du basalte",
+    "plate": "heatran-cave.png",
+    "color": "#ffb157",
+    "dark": "#281820",
+    "width": 195,
+    "height": 126,
+    "foot": 202
+  },
+  "layout": {
+    "anchor": {
+      "x": 20.5,
+      "y": 29
+    },
+    "scale": 4.666666666666667,
+    "bounds": {
+      "left": 163,
+      "right": 312.33333333333337,
+      "top": 75.99999999999999,
+      "bottom": 202
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 490,
+  "duration": 28,
+  "config": {
+    "name": "Manaphy",
+    "title": "Le Cœur de la mer",
+    "plate": "water-cave.png",
+    "color": "#86ebff",
+    "dark": "#143452",
+    "width": 170,
+    "height": 118,
+    "foot": 211
+  },
+  "layout": {
+    "anchor": {
+      "x": 19.5,
+      "y": 26
+    },
+    "scale": 4.72,
+    "bounds": {
+      "left": 195.16,
+      "right": 284.84,
+      "top": 93,
+      "bottom": 211
+    }
+  }
+}
