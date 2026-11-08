@@ -1,0 +1,22 @@
+{
+  "species": 487,
+  "duration": 32,
+  "frames": 768,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2598893,
+  "sha256": "cbaba95db2afb0e900f086920c7f8a05b53df9269482b0274dec84b3dcb8246c",
+  "music": "De l’autre côté",
+  "cryAt": 25.4,
+  "cryCorrelation": 0.9939316000503859,
+  "decodedPeak": 0.4310387372970581,
+  "revealAt": 24,
+  "giratinaSilentPeak": 0.0,
+  "bodyBounds": {
+    "left": 146.14130434782606,
+    "right": 333.85869565217394,
+    "top": 33,
+    "bottom": 190
+  }
+}

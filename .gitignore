@@ -11,3 +11,6 @@ node_modules/
 dist/server/
 dist/.openai/
 .preview-social.sqlite*
+
+# Local NAS delivery package is distributed separately from Sites.
+deployment-nas/

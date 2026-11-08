@@ -1,0 +1,24 @@
+{
+  "id": 484,
+  "duration": 32,
+  "layout": {
+    "anchor": {
+      "x": 35.5,
+      "y": 60
+    },
+    "scale": 2.9622641509433962,
+    "bounds": {
+      "left": 167.4245283018868,
+      "right": 312.57547169811323,
+      "top": 33,
+      "bottom": 190
+    }
+  },
+  "config": {
+    "name": "Palkia",
+    "title": "Au-delà des frontières",
+    "plate": "space.png",
+    "color": "#ffb4ed",
+    "dark": "#372145"
+  }
+}

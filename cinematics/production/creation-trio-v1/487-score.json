@@ -1,0 +1,12 @@
+{
+  "title": "De l’autre côté",
+  "original": true,
+  "notes": 104,
+  "duration": 32,
+  "sharedRedChainSource": "480-soundtrack.wav, 6..11 s",
+  "giratinaSilence": [
+    4,
+    6.5
+  ],
+  "cryAt": 25.4
+}

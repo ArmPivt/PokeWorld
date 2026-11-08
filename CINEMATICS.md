@@ -37,3 +37,9 @@ Après la silhouette d’un nouveau légendaire, la cinématique se joue puis re
 Les scènes sont des adaptations originales pour PokéWorld. Les règles d’accès du site restent inchangées.
 
 La vidéo de référence [Pokémon Emerald — The Rayquaza Cutscene, EleMira](https://www.youtube.com/watch?v=f98GeQIKJBQ) a été consultée dans le navigateur aux plans de confrontation, gros plan et descente. Aucun extrait ni son de cette vidéo n’est intégré. Tests complémentaires : legendary-films-check.cjs et legendary-films-browser-check.cjs (87 films jouables, 522 plans, galerie de douze légendaires, retour d’obtention, shiny, écran mobile).
+
+## Trio de la création — 8 novembre 2026
+
+Trois nouveaux films MP4 originaux de 32 secondes : Dialga (temps figé puis inversé), Palkia (portails et espace) et Giratina (retournement de 180 degrés dans la scène de la Chaîne Rouge, chute de hauteur musicale, silence de 4 à 6,5 secondes, ténèbres et plusieurs cadrages du Monde Distorsion). Ils reprennent les trois gardiens et les 42 maillons de la scène approuvée. La révélation en couleur arrive à 24 secondes et le cri à 25,4 secondes. Musiques originales « Le Premier Battement », « Au-delà des frontières » et « De l’autre côté ».
+
+Les posters montrent l’ouverture, pour ne pas révéler le Pokémon pendant le chargement. Les trois vidéos sont celles des variantes normales ; les chromatiques conservent leur propre chemin sans reprendre les mauvaises couleurs. Sources, décors générés avec imagegen, scripts de rendu, musique, sprites et crédits : `cinematics/production/creation-trio-v1/`. Les anciennes vidéos v1 des gardiens des lacs sont archivées hors du paquet web, les v2 approuvées restent actives.
