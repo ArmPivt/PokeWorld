@@ -311,24 +311,24 @@ export const LEGENDARY_MEDIA={
     "music": "L’Île de la gratitude"
   },
   "491": {
-    "src": "assets/cinematics/491-appearance-v1.mp4",
-    "poster": "assets/cinematics/491-appearance-v1-poster.png",
+    "src": "assets/cinematics/491-appearance-v2.mp4",
+    "poster": "assets/cinematics/491-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
-    "music": "Le Rêve dévoré"
+    "music": "Le Rêve dévoré — cauchemar"
   },
   "488": {
-    "src": "assets/cinematics/488-appearance-v1.mp4",
-    "poster": "assets/cinematics/488-appearance-v1-poster.png",
+    "src": "assets/cinematics/488-appearance-v2.mp4",
+    "poster": "assets/cinematics/488-appearance-v2-poster.png",
     "duration": 30,
     "width": 960,
     "height": 540,
     "provider": "PokéWorld — montage pixel art local",
     "audio": true,
-    "music": "Le Rêve retrouvé"
+    "music": "Le Rêve retrouvé — délivrance"
   }
 };
 export function legendaryMedia(key,{reducedMotion=false}={}){

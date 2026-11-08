@@ -1,0 +1,9 @@
+{
+  "provider": "built-in imagegen",
+  "images": {
+    "bedroom": "exec-ce3c2ebb-f031-42be-b510-8da978539d60.png",
+    "garden": "exec-669502c1-49f1-4f59-b411-84fbe6c3364a.png",
+    "nightmare": "exec-329c7ff1-f062-429f-a472-d9d37fe5ed9e.png"
+  },
+  "edit": "nightmare.png is a matched-composition edit of garden.png"
+}

@@ -1,0 +1,13 @@
+{
+  "darkraiCut": [
+    12.6,
+    13.45
+  ],
+  "pauseInterior": [
+    12.635,
+    12.695
+  ],
+  "decodedPausePeak": 0.0,
+  "singleBlackCut": true,
+  "noRepeatedFlashes": true
+}

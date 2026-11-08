@@ -1,0 +1,30 @@
+{
+  "species": 488,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2916653,
+  "sha256": "5645569b04e9dfd8956061fec0303ffdc12ef85683f6851e565e50a0879c5483",
+  "music": "Le Rêve retrouvé — délivrance",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9940591606277224,
+  "decodedPeak": 0.4386068284511566,
+  "revealAt": 21,
+  "bodyBounds": {
+    "left": 174.3529411764706,
+    "right": 305.6470588235294,
+    "top": 78,
+    "bottom": 222
+  },
+  "pairedCuts": [
+    0,
+    4,
+    9,
+    14,
+    18,
+    21
+  ],
+  "revision": 2
+}

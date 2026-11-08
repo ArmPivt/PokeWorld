@@ -1,0 +1,9 @@
+{
+  "provider": "built-in imagegen edits",
+  "images": {
+    "bedroom-nightmare.png": "exec-78a1bddf-7078-4a47-8e0b-a3639e52c409.png",
+    "nightmare.png": "exec-a093e842-c7bc-4c52-bdfc-807385548700.png",
+    "garden.png": "exec-1875dd7c-ecf6-4c34-9dae-cf1b159b644c.png"
+  },
+  "references": "dream-duet-v1 bedroom.png, nightmare.png and garden.png"
+}

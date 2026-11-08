@@ -1,0 +1,30 @@
+{
+  "species": 491,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2954269,
+  "sha256": "46d66d826455ca817c48ae66c2fd6b559c11b99e4b13cc4e244082b01ec8341f",
+  "music": "Le Rêve dévoré — cauchemar",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9963318021854506,
+  "decodedPeak": 0.4568457007408142,
+  "revealAt": 21,
+  "bodyBounds": {
+    "left": 189.25,
+    "right": 290.75,
+    "top": 68,
+    "bottom": 222
+  },
+  "pairedCuts": [
+    0,
+    4,
+    9,
+    14,
+    18,
+    21
+  ],
+  "revision": 2
+}

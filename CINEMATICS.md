@@ -55,3 +55,7 @@ Quatre nouveaux films MP4 de 28 secondes, cinq plans chacun, musiques originales
 ## Darkrai et Cresselia — 9 novembre 2026
 
 Deux films de 30 secondes conçus en miroir : même chambre, jardin, pont, bassin, plume et six cadrages. Darkrai corrompt le rêve, Cresselia guérit le cauchemar. Les courbes de transformation et les développements majeur/mineur du motif musical sont opposés. Révélation à 21 s, cri à 22,7 s, posters sans Pokémon. Sources, prompts imagegen et validations dans `cinematics/production/dream-duet-v1/`.
+
+### Darkrai et Cresselia — cauchemar renforcé
+
+Les films v2 rendent le cauchemar explicite : présence derrière la fenêtre, mains et ombres qui approchent, arbres aux visages inquiétants et grande silhouette au fond du jardin. Darkrai comporte une coupure et un retour soudain sur la fenêtre avec bruitage. Le beau rêve contient désormais des îlots fleuris en lévitation et des papillons lumineux. La musique opposée est complétée par des pulsations et des souffles oppressants qui se dissipent chez Cresselia. Sources et validations dans `cinematics/production/dream-duet-v2/`.
