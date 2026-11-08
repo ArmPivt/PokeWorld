@@ -1,3 +1,4 @@
+import {applyRaidLimits} from './raid-rules.mjs';
 import {replacementPids,replacementRound} from './replacement.mjs';
 import {moveData,initMon,calcDamage,damageEstimate,speed,clamp,effectiveness} from './combat-rules.mjs';
 import {chooseAction,bestReplacement} from './combat-ai.mjs';
@@ -58,7 +59,7 @@ export function resolveCombat(b,chart,random=Math.random,raid=false){const frien
  for(const side of Object.values(field.sides))for(const key of['reflect','lightScreen','safeguard'])if(side[key]>0)side[key]--;if(field.weatherTurns>0&&!--field.weatherTurns)field.weather='';if(field.trickRoom>0)field.trickRoom--;delete field.chart;
  if(raid){b.boss=opponent.mons[opponent.active];b.enemyIndex=opponent.active;b.enemySwitchTurn=opponent.switchTurn;b.enemyEntered=opponent.entered;const foesAlive=opponent.mons.some(m=>m.hp>0),friendsAlive=friendly.some(t=>t.mons.some(m=>m.hp>0));b.over=!foesAlive||!friendsAlive;b.win=!foesAlive&&friendsAlive}else{b.over=sides.some(t=>!t.mons.some(m=>m.hp>0));b.winner=b.over?sides.find(t=>t.mons.some(m=>m.hp>0))?.pid:null}for(const t of sides){const mon=t.mons[t.active];if(mon.hp>0&&!mon.volatile.charging&&mon.moves.every(m=>m.left<=0))mon.moves=[{...struggle}]}b.actions={};b.turn++;b.pendingReplacements=replacementPids(b);b.phase=b.pendingReplacements.length?'replacement':'turn';b.sequence=(b.sequence||0)+1;return events;
 }
-export const resolveRaidRound=(b,chart,random=Math.random)=>resolveCombat(b,chart,random,true);
+export function resolveRaidRound(b,chart,random=Math.random){const events=resolveCombat(b,chart,random,true);return events&&b.raid?applyRaidLimits(b,events):events}
 export const resolveDuelRound=(b,chart,random=Math.random)=>resolveCombat(b,chart,random,false);
 
 export const arenaResidual=residual;

@@ -324,3 +324,7 @@ Décor actuel de l’Antre : grotte rocheuse aux reflets violets, dessin Canvas 
 ## Carte de dresseur et catalogue
 
 632 sprites de dresseurs canoniques supplémentaires : [dépôt Smogon/sprites](https://github.com/smogon/sprites), conservés sans modification. Provenance, révision et empreintes : assets/trainers/catalog/sources.json. Les crédits et droits des sprites sont précisés dans assets/trainers/CREDITS.md.
+
+## Habillage des raids
+
+« La faille des quatre » : composition originale PokéWorld, synthèse locale sans échantillon musical tiers (compose-raid-music.cjs). Introduction, faille individuelle et capture chromatique : scènes Canvas originales (js/raid-scenes.mjs), avec les sprites crédités ci-dessus.

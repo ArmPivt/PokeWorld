@@ -112,5 +112,12 @@
     "bpm": 112,
     "duration": 25.714285714285715,
     "src": "assets/music/menu-pokeclick.wav"
+  },
+  "raid-battle": {
+    "title": "La faille des quatre",
+    "bpm": 144,
+    "duration": 40,
+    "src": "assets/music/raid-battle.wav",
+    "composer": "Composition originale PokéWorld"
   }
 }

@@ -1,0 +1,45 @@
+import * as Art from './art.mjs';
+import {drawDenCave} from './den-cave.mjs';
+import {raidRarity} from './raid-rules.mjs';
+const clamp=n=>Math.max(0,Math.min(1,n)),ease=n=>1-(1-clamp(n))**3;
+function glow(c,x,y,r,color,alpha){c.save();c.globalAlpha=alpha;const g=c.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,color);g.addColorStop(.3,color+'aa');g.addColorStop(1,color+'00');c.fillStyle=g;c.fillRect(x-r,y-r,r*2,r*2);c.restore()}
+function spark(c,x,y,size,color){c.fillStyle=color;c.fillRect(x-size,y-1,size*2+1,3);c.fillRect(x-1,y-size,3,size*2+1)}
+function ball(c,x,y,r,angle=0){c.save();c.translate(x,y);c.rotate(angle);c.fillStyle='#122031';c.beginPath();c.arc(0,0,r+2,0,7);c.fill();c.fillStyle='#e86e76';c.beginPath();c.arc(0,0,r,Math.PI,0);c.fill();c.fillStyle='#e9f5f7';c.beginPath();c.arc(0,0,r,0,Math.PI);c.fill();c.fillStyle='#122031';c.fillRect(-r,-2,r*2,4);c.fillStyle='#e9f5f7';c.beginPath();c.arc(0,0,3.5,0,7);c.fill();c.restore()}
+function cavern(c,w,h,time){drawDenCave(c,w,h,time);c.fillStyle='#070b1d55';c.fillRect(0,0,w,h)}
+export function drawRaidScene(c,w,h,{kind,key,partner,rarity,progress,time,reduced}){
+ const p=clamp(progress),r=raidRarity(rarity),t=time||0;c.save();c.setTransform(w/640,0,0,h/360,0,0);w=640;h=360;c.imageSmoothingEnabled=false;
+ if(kind==='arrival'){
+  cavern(c,w,h,t);const swell=ease(p/.65)*r.strength;
+  glow(c,320,220,190+70*swell,r.color,swell*(reduced?.32:.85));
+  c.save();c.globalCompositeOperation='screen';for(let i=0;i<7;i++){const a=i*.9-.35;c.globalAlpha=swell*.11;c.fillStyle=r.color;c.beginPath();c.moveTo(320,218);c.lineTo(320+Math.cos(a)*480,218+Math.sin(a)*480);c.lineTo(320+Math.cos(a+.11)*480,218+Math.sin(a+.11)*480);c.fill()}c.restore();
+  for(let i=0;i<Math.round(14+26*r.strength);i++){const phase=(i*.137+t*.07)%1,x=320+Math.sin(i*9.2)*130*(1-phase),y=230-phase*170;spark(c,x,y,1+(i%3===0?1:0),r.color)}
+  const reveal=ease((p-.66)/.22);if(reveal>0){c.save();c.globalAlpha=reveal;Art.drawPortrait(c,key,320,194,145*(.72+.28*reveal),'Idle',0,t);c.restore()}
+  const flash=Math.max(0,1-Math.abs(p-.65)/.075);c.fillStyle=r.color;c.globalAlpha=flash*(reduced?.08:.45*r.strength);c.fillRect(0,0,w,h);c.globalAlpha=1;
+ }else if(kind==='capture'){
+  c.fillStyle='#101827';c.fillRect(0,0,w,h);for(let i=0;i<9;i++){c.fillStyle=i%2?'#27283d':'#1b2437';c.fillRect(i*80-25,0,56,230)}c.fillStyle='#30283e';c.fillRect(0,240,w,120);for(let y=245;y<360;y+=24){c.fillStyle='#494052';c.fillRect(0,y,w,2)}glow(c,445,168,180,'#a788ef',.32);
+  c.fillStyle='#0a0d1c88';for(const [x,y,rx] of [[172,290,70],[448,217,85]]){c.beginPath();c.ellipse(x,y,rx,14,0,0,7);c.fill()}
+  Art.drawPortrait(c,partner,165,256,95,'Idle',4,t);const throwP=clamp((p-.22)/.18),absorb=clamp((p-.4)/.12);
+  if(p<.52){c.save();c.globalAlpha=1-absorb;Art.drawPortrait(c,key,448,163,150*(1-absorb*.9),'Idle',0,t);c.restore()}
+  if(p<.27)for(let i=0;i<8;i++){const a=i*Math.PI/4+t*.6;spark(c,448+Math.cos(a)*90,157+Math.sin(a)*72,3,'#f1df99')}
+  if(p>=.22&&p<.4){const x=190+(448-190)*throwP,y=273+(160-273)*throwP-Math.sin(throwP*Math.PI)*95;ball(c,x,y,9,throwP*7)}
+  if(p>=.4&&p<.55){glow(c,448,170,80,'#ddc9ff',Math.sin(absorb*Math.PI));c.strokeStyle='#dfb7ff';c.lineWidth=3;c.beginPath();c.moveTo(448,175);c.lineTo(448,225);c.stroke()}
+  if(p>=.52){const fall=ease((p-.52)/.08),shake=p>.63&&p<.87&&!reduced?Math.sin((p-.63)*Math.PI*25)*.22:0;ball(c,448,180+45*fall,10,shake);if(p>.87){glow(c,448,222,95,'#f8dfa1',ease((p-.87)/.08)*.35);for(let i=0;i<5;i++){const a=i*1.26-Math.PI/2,d=20+60*ease((p-.87)/.1);spark(c,448+Math.cos(a)*d,219+Math.sin(a)*d,3,'#ffe8a3')}}}
+ }else{
+  cavern(c,w,h,t);const spin=clamp(p/.5);glow(c,320,210,140,'#b28bea',.5*(1-spin));for(let i=0;i<16;i++){const a=i*.4+t*(reduced?.15:1.5),r=80*(1-spin)+10;c.strokeStyle='#c5a0f9';c.lineWidth=2;c.beginPath();c.arc(320,210,r,a,a+.3);c.stroke()}if(p<.55)Art.drawPortrait(c,partner,320,210,100*(1-spin),'Idle',0,t);else Art.drawPortrait(c,partner,310,307,72,'Idle',0,t);c.fillStyle='#070b1d';c.globalAlpha=Math.sin(clamp((p-.35)/.3)*Math.PI)*.8;c.fillRect(0,0,w,h);c.globalAlpha=1;
+ }
+ const shade=c.createLinearGradient(0,0,0,h);shade.addColorStop(0,'#05081533');shade.addColorStop(.65,'#05081500');shade.addColorStop(1,'#050815aa');c.fillStyle=shade;c.fillRect(0,0,w,h);c.restore();
+}
+export function cancelRaidScene(b){b.raidScene?.stop(false)}
+export function playRaidScene(b,kind,{key=b.data.boss.key,partner=b.me().mons[0].key}={}){
+ cancelRaidScene(b);const g=b.g,reduced=g.state.settings.reducedMotion,rarity=g.poke(key).rarity,r=raidRarity(rarity),duration=reduced?1.2:kind==='arrival'?r.duration:kind==='capture'?6.4:3.2;
+ const overlay=document.createElement('section');overlay.className='raid-cinematic';overlay.dataset.raidScene=kind;overlay.dataset.rarity=rarity;overlay.style.setProperty('--raid-light',r.color);overlay.innerHTML=`<canvas width="640" height="360" aria-label="${kind==='arrival'?'L’énergie monte dans la grotte':kind==='capture'?'Capture personnelle du Pokémon chromatique':'La faille expulse ton partenaire'}"></canvas><header><span>${kind==='arrival'?'LE RAID COMMENCE':kind==='capture'?'RENCONTRE CHROMATIQUE · CAPTURE GARANTIE':'EXPULSION INDIVIDUELLE'}</span><button type="button" aria-label="Passer cette animation">Passer →</button></header><div class="raid-cinematic-copy"><small></small><h2></h2><p></p></div>`;
+ g.modeRoot.append(overlay);if(kind!=='expulsion')g.modeRoot.classList.add('raid-scene-active');const canvas=overlay.querySelector('canvas'),ctx=canvas.getContext('2d'),heading=overlay.querySelector('h2'),small=overlay.querySelector('small'),copy=overlay.querySelector('p');Art.preload([key,partner]);const session=b.session;let frame,last=performance.now(),elapsed=0,phase=-1;
+ return new Promise(resolve=>{let stopped=false;const stop=completed=>{if(stopped)return;stopped=true;cancelAnimationFrame(frame);overlay.remove();if(b.raidScene?.overlay===overlay){b.raidScene=null;g.modeRoot.classList.remove('raid-scene-active')}resolve(completed)};b.raidScene={kind,overlay,stop};overlay.querySelector('button').addEventListener('click',()=>stop(true));const draw=now=>{if(!b.active||b.session!==session){stop(false);return}if(!document.hidden)elapsed+=Math.min(.06,(now-last)/1000);last=now;const progress=clamp(elapsed/duration),next=kind==='arrival'?(progress<.68?0:1):kind==='capture'?(progress<.22?0:progress<.52?1:progress<.88?2:3):(progress<.5?0:1);if(next!==phase){phase=next;overlay.dataset.phase=String(phase);if(kind==='arrival'){small.textContent=phase?'LE GARDIEN DE L’ANTRE':'UNE PRÉSENCE SE RÉVEILLE';heading.textContent=phase?g.poke(key).name+' apparaît !':r.label;copy.textContent=phase?'4 partenaires · 20 tours pour le vaincre':'La lumière révèle l’intensité de son énergie.';if(phase)g.audio.tone(phase&&rarity==='legendary'?196:330,.24,'triangle')}else if(kind==='capture'){small.textContent='TON RÉSULTAT · ✧ CHROMATIQUE';heading.textContent=phase===0?g.poke(key).name+' chromatique !':phase===1?'La Poké Ball s’élance !':phase===2?'La capture est en cours…':'Capture réussie !';copy.textContent=phase===3?'Ce compagnon rejoint ta collection.':'Tu fais face au boss chromatique, rien que pour toi.';if(phase===1)g.audio.tone(620,.12);if(phase===3)g.audio.chime('legendary')}else{small.textContent='TON PARTENAIRE EST K.O.';heading.textContent=phase?'Tu es hors de l’Antre':'La faille t’expulse !';copy.textContent='Tes alliés continuent. Tu peux observer, mais tu ne peux plus agir ni capturer sur ce raid.'}}
+ drawRaidScene(ctx,640,360,{kind,key,partner,rarity,progress,time:elapsed,reduced});if(progress>=1){stop(true);return}frame=requestAnimationFrame(draw)};draw(last)})
+}
+export function introRaid(){const g=this.g,session=this.session;this.busy=true;g.audio.music.setScene('raid');this.updateHud();playRaidScene(this,'arrival').then(completed=>{if(!completed||!this.active||this.session!==session)return;this.busy=false;this.updateHud();this.caption(this.data.boss.name+' apparaît ! Vous avez 20 tours pour le vaincre.');if(!g.net.guest)this.resolve()})}
+export function updateRaidHud(b){if(!b.data?.raid)return;const root=b.g.modeRoot,me=b.me(),visual=b.visual.teams.find(t=>t.pid===me.pid);root.querySelector('#battle-turn').textContent=`TOUR ${Math.min(20,b.visual.turn)} / 20`;let banner=root.querySelector('.raid-expelled-banner');const expelled=me.expelled&&visual?.mons[visual.active].hp<=0;
+ if(expelled&&!banner){banner=document.createElement('div');banner.className='raid-expelled-banner';banner.setAttribute('role','status');banner.textContent='La faille t’a expulsé · Tu observes tes alliés · Aucune capture pour ce raid';root.querySelector('.battle-command').prepend(banner)}
+ if(expelled){root.querySelector('#command-label').textContent='Tu es hors de l’Antre. Tes alliés continuent.';if(b.raidExpelledId!==b.data.id&&!b.data.over){b.raidExpelledId=b.data.id;playRaidScene(b,'expulsion')}}
+ root.querySelectorAll('.ally-status').forEach((el,i)=>{if(b.visual.teams[i]?.expelled)el.classList.add('raid-ally-expelled')});
+}

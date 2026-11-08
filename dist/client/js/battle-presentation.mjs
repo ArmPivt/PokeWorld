@@ -1,9 +1,10 @@
+import {introRaid} from './raid-scenes.mjs';
 import {drawBattleScene,drawCondition} from './battle-scene.mjs';
 import * as Art from './art.mjs';
 import {drawAttack,attackStyle,drawRelease} from './attack-fx.mjs';
 import {trainerSrc} from './player-profile.mjs';
 const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n));
-export function introBattle(){
+export function introBattle(){if(this.data.raid)return introRaid.call(this);
  const session=this.session,b=this.data,g=this.g,reduced=g.state.settings.reducedMotion;
  this.busy=true;this.intro={start:performance.now()/1000,duration:reduced?.45:3.4,reduced};g.modeRoot.classList.add('intro-active');
  if(b.kind!=='den'){const div=document.createElement('div');div.className='trainer-intro';div.innerHTML=`<img src="${trainerSrc(g.state.player.avatar)}" alt="Ton dresseur"><div><span class="eyebrow">${b.kind==='duel'?'DUEL EN LIGNE':'TOUR INFERNALE'}</span><h2>${g.escape(b.trainerName||'Le dresseur')} veut se battre !</h2><p>${g.escape(g.state.player.name)}, prépare tes Pokémon.</p></div><img src="${trainerSrc(b.trainerAvatar)}" alt="Dresseur adverse">`;g.modeRoot.append(div)}
