@@ -1,0 +1,26 @@
+{
+  "id": 491,
+  "duration": 30,
+  "layout": {
+    "anchor": {
+      "x": 19.5,
+      "y": 45
+    },
+    "scale": 3.5,
+    "bounds": {
+      "left": 189.25,
+      "right": 290.75,
+      "top": 68,
+      "bottom": 222
+    }
+  },
+  "config": {
+    "name": "Darkrai",
+    "title": "Le Rêve dévoré",
+    "color": "#c85a7b",
+    "dark": "#10101c",
+    "width": 192,
+    "height": 154,
+    "foot": 222
+  }
+}

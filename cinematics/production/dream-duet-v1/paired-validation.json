@@ -1,0 +1,242 @@
+{
+  "species": [
+    491,
+    488
+  ],
+  "cuts": [
+    0,
+    4,
+    9,
+    14,
+    18,
+    21
+  ],
+  "sameCamerasAndLocations": true,
+  "inverseCorruptionCurve": true,
+  "samples": {
+    "488": [
+      {
+        "time": 1,
+        "species": 488,
+        "shot": 1,
+        "nightmareAmount": 1,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "bedroom",
+        "cameraPair": 1
+      },
+      {
+        "time": 4.8,
+        "species": 488,
+        "shot": 2,
+        "nightmareAmount": 1,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 2
+      },
+      {
+        "time": 8,
+        "species": 488,
+        "shot": 2,
+        "nightmareAmount": 0.9330806239976673,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 2
+      },
+      {
+        "time": 10,
+        "species": 488,
+        "shot": 3,
+        "nightmareAmount": 0.8286922291879283,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 3
+      },
+      {
+        "time": 13,
+        "species": 488,
+        "shot": 3,
+        "nightmareAmount": 0.6174369441609564,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 3
+      },
+      {
+        "time": 16,
+        "species": 488,
+        "shot": 4,
+        "nightmareAmount": 0.3825630558390436,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 4
+      },
+      {
+        "time": 19,
+        "species": 488,
+        "shot": 5,
+        "nightmareAmount": 0.17130777081207182,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 5
+      },
+      {
+        "time": 22,
+        "species": 488,
+        "shot": 6,
+        "nightmareAmount": 0.030908295669922703,
+        "heroVisible": true,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 6
+      },
+      {
+        "time": 26,
+        "species": 488,
+        "shot": 6,
+        "nightmareAmount": 0,
+        "heroVisible": true,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 6
+      },
+      {
+        "time": 28,
+        "species": 488,
+        "shot": 6,
+        "nightmareAmount": 0,
+        "heroVisible": true,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 6
+      }
+    ],
+    "491": [
+      {
+        "time": 1,
+        "species": 491,
+        "shot": 1,
+        "nightmareAmount": 0,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "bedroom",
+        "cameraPair": 1
+      },
+      {
+        "time": 4.8,
+        "species": 491,
+        "shot": 2,
+        "nightmareAmount": 0,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 2
+      },
+      {
+        "time": 8,
+        "species": 491,
+        "shot": 2,
+        "nightmareAmount": 0.06691937600233269,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 2
+      },
+      {
+        "time": 10,
+        "species": 491,
+        "shot": 3,
+        "nightmareAmount": 0.1713077708120717,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 3
+      },
+      {
+        "time": 13,
+        "species": 491,
+        "shot": 3,
+        "nightmareAmount": 0.38256305583904354,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 3
+      },
+      {
+        "time": 16,
+        "species": 491,
+        "shot": 4,
+        "nightmareAmount": 0.6174369441609564,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 4
+      },
+      {
+        "time": 19,
+        "species": 491,
+        "shot": 5,
+        "nightmareAmount": 0.8286922291879282,
+        "heroVisible": false,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 5
+      },
+      {
+        "time": 22,
+        "species": 491,
+        "shot": 6,
+        "nightmareAmount": 0.9690917043300773,
+        "heroVisible": true,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 6
+      },
+      {
+        "time": 26,
+        "species": 491,
+        "shot": 6,
+        "nightmareAmount": 1,
+        "heroVisible": true,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 6
+      },
+      {
+        "time": 28,
+        "species": 491,
+        "shot": 6,
+        "nightmareAmount": 1,
+        "heroVisible": true,
+        "revealAt": 21,
+        "cryAt": 22.7,
+        "location": "matched-garden",
+        "cameraPair": 6
+      }
+    ]
+  }
+}

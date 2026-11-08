@@ -1,0 +1,26 @@
+{
+  "id": 488,
+  "duration": 30,
+  "layout": {
+    "anchor": {
+      "x": 23.5,
+      "y": 34
+    },
+    "scale": 4.235294117647059,
+    "bounds": {
+      "left": 174.3529411764706,
+      "right": 305.6470588235294,
+      "top": 78,
+      "bottom": 222
+    }
+  },
+  "config": {
+    "name": "Cresselia",
+    "title": "Le Rêve retrouvé",
+    "color": "#fff0bd",
+    "dark": "#96aac6",
+    "width": 218,
+    "height": 144,
+    "foot": 222
+  }
+}

@@ -1,0 +1,7 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const root=__dirname,mime={'.html':'text/html','.mjs':'text/javascript','.js':'text/javascript','.json':'application/json','.png':'image/png','.wav':'audio/wav','.mp4':'video/mp4'};
+http.createServer((req,res)=>{let name;try{name=decodeURIComponent(req.url.split('?')[0])}catch{res.writeHead(400);return res.end()}const file=path.resolve(root,'.'+(name==='/'?'/index.html':name));if(!file.startsWith(root+path.sep)){res.writeHead(403);return res.end()}fs.stat(file,(e,s)=>{if(e||!s.isFile()){res.writeHead(404);return res.end('missing')}res.setHeader('Content-Type',mime[path.extname(file)]||'application/octet-stream');res.setHeader('Cache-Control','no-store');res.setHeader('Accept-Ranges','bytes');const match=/^bytes=(\d+)-(\d*)$/.exec(req.headers.range||'');if(match){const start=Number(match[1]),end=match[2]?Math.min(Number(match[2]),s.size-1):s.size-1;if(start>end){res.writeHead(416);return res.end()}res.writeHead(206,{'Content-Range':`bytes ${start}-${end}/${s.size}`,'Content-Length':end-start+1});fs.createReadStream(file,{start,end}).pipe(res)}else{res.setHeader('Content-Length',s.size);fs.createReadStream(file).pipe(res)}})}).listen(4206,'127.0.0.1',()=>console.log('Dream duet preview: http://127.0.0.1:4206'));
+
+
+
+

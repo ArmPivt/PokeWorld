@@ -51,3 +51,7 @@ Les vidéos v2 remplacent les deux premiers films. Dialga arrête le plan et sa 
 ## Heatran, Phione, Manaphy et Shaymin — 9 novembre 2026
 
 Quatre nouveaux films MP4 de 28 secondes, cinq plans chacun, musiques originales et cris à 21,7 s. Heatran se révèle dans une grotte volcanique. Phione et Manaphy partagent douze secondes dans une grotte aquatique, puis ont leur propre arrivée : bulle pour Phione, cœur lumineux pour Manaphy. Shaymin apparaît sur une île fleurie après un chemin de pétales et une floraison. Sources, prompts imagegen, partitions et validations dans `cinematics/production/nature-quartet-v1/`. Les posters sont pris avant toute apparition.
+
+## Darkrai et Cresselia — 9 novembre 2026
+
+Deux films de 30 secondes conçus en miroir : même chambre, jardin, pont, bassin, plume et six cadrages. Darkrai corrompt le rêve, Cresselia guérit le cauchemar. Les courbes de transformation et les développements majeur/mineur du motif musical sont opposés. Révélation à 21 s, cri à 22,7 s, posters sans Pokémon. Sources, prompts imagegen et validations dans `cinematics/production/dream-duet-v1/`.

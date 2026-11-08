@@ -12,10 +12,10 @@
   "retriesIncluded": false,
   "speciesCount": 87,
   "variantCount": 172,
-  "reviewed": 31,
-  "planned": 141,
+  "reviewed": 33,
+  "planned": 139,
   "blockedImages": 0,
-  "estimatedRemainingCredits": 4230,
+  "estimatedRemainingCredits": 4170,
   "species": [
     {
       "id": 144,
@@ -1081,8 +1081,8 @@
       "id": 488,
       "name": "Cresselia",
       "generation": 4,
-      "title": "La plume du croissant",
-      "location": "Île Pleine Lune",
+      "title": "Le Rêve retrouvé",
+      "location": "Jardin du rêve",
       "setting": "A calm crescent-shaped island beneath a large pale moon",
       "action": "Cresselia gently lifts its head and sways its crescent wings a little",
       "environment": "A pink lunar feather drifts past and one bright ring crosses the water",
@@ -1090,13 +1090,13 @@
         {
           "key": "488",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/client/assets/pmd/488/icon.png",
           "sourceImage": "cinematics/production/species/488/488-frame-v1.png",
           "destination": "assets/cinematics/488-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Cresselia summoning appearance titled La plume du croissant. Setting: A calm crescent-shaped island beneath a large pale moon. Starting pose is calm and held, ready for this modest action: Cresselia gently lifts its head and sways its crescent wings a little. Environmental action to prepare: A pink lunar feather drifts past and one bright ring crosses the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Cresselia summoning appearance titled Le Rêve retrouvé. Setting: A calm crescent-shaped island beneath a large pale moon. Starting pose is calm and held, ready for this modest action: Cresselia gently lifts its head and sways its crescent wings a little. Environmental action to prepare: A pink lunar feather drifts past and one bright ring crosses the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Cresselia gently lifts its head and sways its crescent wings a little. A pink lunar feather drifts past and one bright ring crosses the water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -1108,7 +1108,7 @@
           "identityReference": "dist/client/assets/pmd/488/icon-shiny.png",
           "sourceImage": "cinematics/production/species/488/488s-frame-v1.png",
           "destination": "assets/cinematics/488s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Cresselia summoning appearance titled La plume du croissant. Setting: A calm crescent-shaped island beneath a large pale moon. Starting pose is calm and held, ready for this modest action: Cresselia gently lifts its head and sways its crescent wings a little. Environmental action to prepare: A pink lunar feather drifts past and one bright ring crosses the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Cresselia summoning appearance titled Le Rêve retrouvé. Setting: A calm crescent-shaped island beneath a large pale moon. Starting pose is calm and held, ready for this modest action: Cresselia gently lifts its head and sways its crescent wings a little. Environmental action to prepare: A pink lunar feather drifts past and one bright ring crosses the water. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Cresselia gently lifts its head and sways its crescent wings a little. A pink lunar feather drifts past and one bright ring crosses the water. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]
@@ -1189,8 +1189,8 @@
       "id": 491,
       "name": "Darkrai",
       "generation": 4,
-      "title": "L’ombre des rêves",
-      "location": "Île Nouvelle Lune",
+      "title": "Le Rêve dévoré",
+      "location": "Jardin du cauchemar",
       "setting": "A black feather on a dark shore beneath a dim crescent moon",
       "action": "Darkrai rises a small distance and slightly opens its existing arms",
       "environment": "A low band of black mist parts and a thin violet glow gathers beneath it",
@@ -1198,13 +1198,13 @@
         {
           "key": "491",
           "shiny": false,
-          "status": "planned",
+          "status": "reviewed-media",
           "generationIssue": null,
           "sourceImageReady": false,
           "identityReference": "dist/client/assets/pmd/491/icon.png",
           "sourceImage": "cinematics/production/species/491/491-frame-v1.png",
           "destination": "assets/cinematics/491-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Darkrai summoning appearance titled L’ombre des rêves. Setting: A black feather on a dark shore beneath a dim crescent moon. Starting pose is calm and held, ready for this modest action: Darkrai rises a small distance and slightly opens its existing arms. Environmental action to prepare: A low band of black mist parts and a thin violet glow gathers beneath it. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Darkrai summoning appearance titled Le Rêve dévoré. Setting: A black feather on a dark shore beneath a dim crescent moon. Starting pose is calm and held, ready for this modest action: Darkrai rises a small distance and slightly opens its existing arms. Environmental action to prepare: A low band of black mist parts and a thin violet glow gathers beneath it. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Regular variant: match the regular icon colors exactly. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Darkrai rises a small distance and slightly opens its existing arms. A low band of black mist parts and a thin violet glow gathers beneath it. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         },
         {
@@ -1216,7 +1216,7 @@
           "identityReference": "dist/client/assets/pmd/491/icon-shiny.png",
           "sourceImage": "cinematics/production/species/491/491s-frame-v1.png",
           "destination": "assets/cinematics/491s-appearance-v1.mp4",
-          "imagePrompt": "Create the first frame of an original Darkrai summoning appearance titled L’ombre des rêves. Setting: A black feather on a dark shore beneath a dim crescent moon. Starting pose is calm and held, ready for this modest action: Darkrai rises a small distance and slightly opens its existing arms. Environmental action to prepare: A low band of black mist parts and a thin violet glow gathers beneath it. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
+          "imagePrompt": "Create the first frame of an original Darkrai summoning appearance titled Le Rêve dévoré. Setting: A black feather on a dark shore beneath a dim crescent moon. Starting pose is calm and held, ready for this modest action: Darkrai rises a small distance and slightly opens its existing arms. Environmental action to prepare: A low band of black mist parts and a thin violet glow gathers beneath it. Use the supplied Pokémon icon only as identity reference, never as the whole scene; use the approved Rayquaza image only as pixel style reference. Chromatic variant: match the shiny icon colors exactly; do not use the regular palette. SIMPLE Game Boy Advance-style pixel art, logical 320x180 canvas enlarged with nearest-neighbor, large crisp square pixel clusters, stepped outlines, 32-color palette, only 2 or 3 shades per material, simple broad background shapes, no gradients, no tiny textures, no 3D, no blur, no text, no UI, wide 16:9. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges.",
           "animationPrompt": "Simple retro 2D pixel art. Darkrai rises a small distance and slightly opens its existing arms. A low band of black mist parts and a thin violet glow gathers beneath it. One Pokémon only, the exact form and colors shown in the identity reference. Keep the entire silhouette comfortably inside the frame. Fixed camera and one continuous five-second shot, restrained movement only. No body rotation, stretching, growing limbs, changing proportions, zoom or scene cuts. Preserve the flat palette and crisp pixel edges."
         }
       ]

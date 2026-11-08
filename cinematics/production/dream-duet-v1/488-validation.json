@@ -1,0 +1,29 @@
+{
+  "species": 488,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2719714,
+  "sha256": "f8ff34703bb26ae3ea830c2b8ef87db732db25e5de4f5c8b5df5aac06860c7f8",
+  "music": "Le Rêve retrouvé",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9940524278703501,
+  "decodedPeak": 0.44028785824775696,
+  "revealAt": 21,
+  "bodyBounds": {
+    "left": 174.3529411764706,
+    "right": 305.6470588235294,
+    "top": 78,
+    "bottom": 222
+  },
+  "pairedCuts": [
+    0,
+    4,
+    9,
+    14,
+    18,
+    21
+  ]
+}

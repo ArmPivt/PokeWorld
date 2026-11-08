@@ -1,0 +1,29 @@
+{
+  "species": 491,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2943830,
+  "sha256": "6c55c5692a859e4a105e44d9f250ab5ceb8a071b9a835292f406be82ded9aa53",
+  "music": "Le Rêve dévoré",
+  "cryAt": 22.7,
+  "cryCorrelation": 0.9966419910705286,
+  "decodedPeak": 0.43466922640800476,
+  "revealAt": 21,
+  "bodyBounds": {
+    "left": 189.25,
+    "right": 290.75,
+    "top": 68,
+    "bottom": 222
+  },
+  "pairedCuts": [
+    0,
+    4,
+    9,
+    14,
+    18,
+    21
+  ]
+}
