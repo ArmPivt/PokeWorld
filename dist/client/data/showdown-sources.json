@@ -1,0 +1,16 @@
+{
+  "package": "@pkmn/sim",
+  "version": "0.10.15",
+  "rules": "Gen 9 / PokéWorld National Dex",
+  "species": 1025,
+  "levelEntries": 15432,
+  "tmEntries": 59265,
+  "tutorEntries": 17354,
+  "unknownSpecies": [],
+  "moves": 848,
+  "upstream": "https://github.com/smogon/pokemon-showdown",
+  "distribution": "https://github.com/pkmn/ps/tree/main/sim",
+  "learning": "Dernière génération disponible pour les niveaux ; CT et tuteurs National Dex ; reproduction/événements non débloqués comme niveaux.",
+  "engineSha256": "b859076c32f47151fcebd15eee1c8e043515b66d86831ef5115055c570fa0bdb",
+  "frenchSha256": "35b41b77d0c8cc9b08a693c887cd9d315975f398fdb057b57cab805f0ce4f004"
+}

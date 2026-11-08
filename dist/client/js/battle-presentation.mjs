@@ -1,3 +1,4 @@
+import {persistCombatLearning} from './combat-learning.mjs';
 import {introRaid} from './raid-scenes.mjs';
 import {drawBattleScene,drawCondition} from './battle-scene.mjs';
 import * as Art from './art.mjs';
@@ -25,7 +26,7 @@ export async function playBattle(before,events,final,serial){
   const duration=attackStyle(event).duration;await this.sleep(duration*(reduced?.22:1)*.67*1000);if(!this.active||session!==this.session)return;
   const target=event.target==='boss'?this.visual.boss:this.visual.teams.find(t=>t.pid===event.target)?.mons.find(m=>m.key===event.targetKey);if(target)target.hp=event.hp;if(event.text)this.caption(event.text);this.updateHud();await this.sleep(duration*(reduced?.22:1)*.33*1000+(reduced?35:100));
  }
- if(!this.active||session!==this.session)return;this.fx=null;final.teams=final.teams.filter(t=>!this.departed.has(t.pid));const queued=this.data.kind==='duel'?{}:this.data.actions;this.data=structuredClone(final);Object.assign(this.data.actions,queued);this.visual=structuredClone(final);this.busy=false;this.updateHud();if(final.over)this.finishResult();else this.caption(this.data.pendingReplacements?.length?'Choisis ton prochain Pokémon.':this.data.raid?'À toi de jouer. Choisis une capacité.':'À toi de jouer. Choisis une capacité ou un Pokémon.');if(!final.over){if(this.afterPlayback)this.afterPlayback();else if(this.data.kind==='den'&&Object.keys(this.data.actions).length)this.resolve()}
+ if(!this.active||session!==this.session)return;this.fx=null;final.teams=final.teams.filter(t=>!this.departed.has(t.pid));const queued=this.data.kind==='duel'?{}:this.data.actions;this.data=structuredClone(final);Object.assign(this.data.actions,queued);this.visual=structuredClone(final);persistCombatLearning(this.g,this.data,this.me().pid);this.busy=false;this.updateHud();if(final.over)this.finishResult();else this.caption(this.data.pendingReplacements?.length?'Choisis ton prochain Pokémon.':this.data.raid?'À toi de jouer. Choisis une capacité.':'À toi de jouer. Choisis une capacité ou un Pokémon.');if(!final.over){if(this.afterPlayback)this.afterPlayback();else if(this.data.kind==='den'&&Object.keys(this.data.actions).length)this.resolve()}
 }
 export function drawBattle(time){
  const c=this.ctx,w=this.canvas.width,h=this.canvas.height,p=this.positions(),reduced=this.g.state.settings.reducedMotion;
@@ -38,7 +39,7 @@ export function drawBattle(time){
   if(fx?.kind==='release'&&fx.pid===pid){release=elapsed/fx.duration;factor=clamp((release-.48)/.32)}
   if(release!==null&&release>=0&&release<=1)drawRelease(c,fromFor(pid),point,release,{reducedMotion:reduced});
   if(fx?.kind==='attack'){const duration=attackStyle(fx).duration;if(fx.source===pid&&elapsed<duration*.65){kind='Attack';if(!reduced){const target=p[fx.target];if(target){point.x+=(target.x-point.x)*Math.sin(clamp(elapsed/(duration*.65))*Math.PI)*.04;point.y+=(target.y-point.y)*Math.sin(clamp(elapsed/(duration*.65))*Math.PI)*.04}}}if(fx.target===pid&&elapsed>duration*.67&&elapsed<duration){kind='Hurt';c.globalAlpha=reduced?1:Math.floor(elapsed*18)%2?.55:1}}
-  if(factor>0&&mon.hp>0){const bob=reduced?0:Math.sin(time*2+pid.length)*1.1;Art.drawMon(c,mon.key,point.x,point.y+bob,size*factor,kind,dir,time,{progress:kind==='Attack'?clamp(elapsed/(attackStyle(fx).duration*.65)):kind==='Hurt'?clamp((elapsed/attackStyle(fx).duration-.67)/.33):undefined});drawCondition(c,mon,point.x,point.y,size,time,reduced)}c.globalAlpha=1;
+  if(factor>0&&mon.hp>0){const bob=reduced?0:Math.sin(time*2+pid.length)*1.1;Art.drawMon(c,mon.appearanceKey||mon.key,point.x,point.y+bob,size*factor,kind,dir,time,{progress:kind==='Attack'?clamp(elapsed/(attackStyle(fx).duration*.65)):kind==='Hurt'?clamp((elapsed/attackStyle(fx).duration-.67)/.33):undefined});drawCondition(c,mon,point.x,point.y,size,time,reduced)}c.globalAlpha=1;
  };
  actor('boss',this.visual.boss,p.bossSize,0);for(const t of this.visual.teams)actor(t.pid,t.mons[t.active],p.allySize,4);
  if(fx?.kind==='attack'&&p[fx.source]&&p[fx.target]){drawAttack(c,fx,p[fx.source],p[fx.target],elapsed,{reducedMotion:reduced});const duration=attackStyle(fx).duration;if(elapsed>duration*.67&&elapsed<duration+.1)Art.hitEffect(c,{x:p[fx.target].x,y:p[fx.target].y,life:Math.max(.01,duration+.1-elapsed),max:duration*.43,type:fx.type,n:fx.amount,text:fx.amount?'−'+fx.amount:fx.text},0,0)}

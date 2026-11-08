@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"@pkmn/sim": "0.10.15",
+		"esbuild": "0.28.2"
+	}
+}

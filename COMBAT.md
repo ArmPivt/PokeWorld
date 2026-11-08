@@ -4,7 +4,7 @@ Deux modes dans **Combats de dresseurs** : Classique et Arène 2D. La Tour et l�
 
 ## Règles classiques
 
-Le moteur partagé `combat-core.mjs` résout les duels, les équipes IA de la Tour et les raids. Les données de capacités viennent des CSV officiels PokéAPI. Les capacités apprenables comprennent désormais les offensives et les soutiens implémentés, avec leur niveau d’apprentissage. Les choix enregistrés restent soumis à ces niveaux et aux écailles cœur.
+Le point d’entrée partagé `combat-core.mjs` délègue les duels, la Tour et les raids à `showdown-engine.mjs`. Les capacités standard et les règles au tour par tour proviennent de Pokémon Showdown, via @pkmn/sim 0.10.15 embarqué localement. Les noms et descriptions françaises sont issus de PokéAPI. Les capacités apprenables comprennent désormais les offensives et les soutiens implémentés, avec leur niveau d’apprentissage. Les choix enregistrés restent soumis à ces niveaux et aux écailles cœur.
 
 | Famille | Comportement |
 | --- | --- |
@@ -22,7 +22,11 @@ Le boss de l’Antre choisit une seule cible par action, y compris lorsque l’a
 
 Le bouton **État du combat** montre les paliers, le statut, le talent et les effets des quatre capacités. Les badges PV montrent les statuts majeurs ; les conditions de terrain sont visibles près des commandes. Les effets de soin/boost/affliction ont leurs propres messages et animations.
 
-Il s’agit d’un moteur compact propre à PokéWorld, pas d’un simulateur complet d’une génération officielle : il n’inclut notamment pas toutes les interactions exceptionnelles de talents, les Méga-Évolutions, Dynamax, Téracristal ou les attaques de transformation/copie. Les effets génériques sont partagés ; certaines capacités à puissance variable utilisent une estimation adaptée. Les cas non implémentés ne sont pas proposés dans les nouveaux apprentissages. Trois objets de types différents peuvent être équipés par Pokémon. Les bonus se cumulent, un exemplaire appartient à un seul Pokémon, et les offres réseau transmettent les trois types. Les anciennes sauvegardes à un objet sont migrées ; les exemplaires excédentaires restent dans le sac.
+Les règles natives de génération 9 gèrent les effets, probabilités, immunités, boosts, afflictions, terrain, météo, charge/recharge, capacités conditionnelles, copies et transformations. L’adaptateur conserve les statistiques du joueur et ses trois équipements personnalisés ; ces équipements ne constituent pas trois objets officiels Showdown. Le raid asymétrique reste une règle PokéWorld : quatre partenaires, une cible par attaque du boss, vingt tours et expulsion individuelle après K.O. Les Méga-Évolutions, Dynamax, Téracristal, capacités Z et Max ne sont pas ajoutés aux commandes du jeu.
+
+Les niveaux sont ceux de la génération la plus récente disponible par espèce, avec héritage des pré-évolutions, selon les sources de learnsets Showdown. Les CT et tuteurs National Dex constituent des routes distinctes. Les capacités de reproduction ou d’événement ne deviennent pas des capacités de niveau 1. Une capacité déjà apprise et encore légale peut être rééquipée avec une écaille cœur ; les CT consomment une CT au premier apprentissage, les tuteurs une écaille cœur. Les emplacements vides ne contiennent plus de Lutte : elle n’apparaît en combat que si les PP sont épuisés. Les capacités invalides d’anciennes sauvegardes sont retirées avec un avis dans la fiche, sans effacer les caractéristiques du Pokémon.
+
+L’Arène 2D et la Survie conservent leur mécanique de jeu en temps réel et une adaptation des effets. Les capacités dont l’effet ne possède pas d’adaptation sont identifiées comme réservées au tour par tour et ne peuvent pas être lancées dans ces deux modes. Les effets secondaires pris en charge distinguent le lanceur de la cible et leur probabilité. Voir [la référence des données et de l’adaptateur](docs/showdown.md).
 
 ## IA et référence Hope
 

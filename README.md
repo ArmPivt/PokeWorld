@@ -24,7 +24,7 @@ Tests : `node conquest-controls-check.cjs`, `node conquest-check.cjs`, `node con
 
 - Conquête : place ton QG, développe ta team et contrôle 80 % de la région. Cartes de Kanto à Paldea, économie, commerce, navigation, diplomatie et légendaires.
 - Tour Infernale : dresseurs IA, équipes de plusieurs Pokémon, changements après K.O., étages croissants. L’IA choisit ses attaques en fonction des types.
-- L’Antre : boss géants, solo ou coopération à quatre. Chaque joueur apporte jusqu’à six Pokémon. Une seule cible du boss par attaque.
+- L’Antre : boss géants, solo ou coopération à quatre. Chaque joueur apporte un Pokémon ; les places libres sont complétées par des bots. Une cible par attaque du boss, 20 tours, expulsion individuelle après K.O. et capture personnelle à 5 % après victoire si le dresseur est encore en combat.
 - Survie : un Pokémon, quatre attaques sélectionnables, exploration, coffres et équipements. Les récompenses donnent de l’XP et des bonbons.
 - Pokéclick : Poké Ball à cliquer, installations, boutique, succès, prestige. La production est strictement limitée à ce mini-jeu visible : aucune production dans les autres modes, dans un onglet masqué ou après fermeture. Aucun rattrapage hors ligne. Le minuteur est arrêté à la sortie.
 - Combats Pokémon : duels amicaux six contre six, niveau normalisé à 50, natures et entraînement conservés. Création/rejoindre par code ou file mondiale entre vrais joueurs.
@@ -104,3 +104,9 @@ Chaque légendaire a un film de six plans dirigés séparément (94 définis, 87
 En Arène 2D, cliquer une capacité ou presser 1–4 lance automatiquement l’attaque vers l’ennemi vivant le plus proche. L’hôte choisit la cible au moment de traiter la commande, pour les deux joueurs. Le projectile garde sa trajectoire et sa portée : il est esquivable et les obstacles continuent de le bloquer. La souris n’est plus nécessaire pour viser.
 
 Tests ciblés : npm run test:legendary-films, npm run test:legendary-films-browser, npm run test:cinema-browser, npm run test:animation-network.
+
+## Capacités et apprentissages Showdown
+
+Le moteur au tour par tour embarque @pkmn/sim 0.10.15 (Pokémon Showdown). Les 848 capacités standard et les learnsets des 1 025 espèces sont audités. Les niveaux, CT et maîtres des capacités sont séparés ; les sources de reproduction et d’événement ne sont pas débloquées automatiquement. Les variantes en temps réel sont identifiées dans les fiches. Voir docs/showdown.md.
+
+Validation actuelle : `node showdown-review-check.cjs`, `node showdown-browser-check.cjs`, `node pokeworld-check.cjs`, `node progression-check.cjs`, `node pvp-network-check.cjs`, `node raid-check.cjs`, `node raid-presentation-check.cjs`, `node raid-expulsion-network-check.cjs`.

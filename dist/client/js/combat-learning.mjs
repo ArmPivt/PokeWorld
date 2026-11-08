@@ -1,0 +1,3 @@
+import {profile} from './training.mjs';
+import {legalMove} from './move-learning.mjs';
+export function persistCombatLearning(g,b,pid){let changed=false;for(const mon of b.teams.find(t=>t.pid===pid)?.mons||[]){const learned=mon.sketchLearned;if(!learned||!g.state.roster.includes(mon.key)||!legalMove(g.dex[parseInt(mon.key)],learned.id))continue;const p=profile(g.state,mon.key);if(p.moves[learned.slot]===learned.id&&p.taughtMoves.includes(learned.id))continue;p.taughtMoves=[...new Set([...p.taughtMoves,learned.id])];p.moves[learned.slot]=learned.id;changed=true}if(changed)g.save();return changed}

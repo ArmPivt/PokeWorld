@@ -1,3 +1,4 @@
+import {enrichSpecies} from './move-learning.mjs';
 import {normalizeRaids} from './raid-state.mjs';
 import {normalizeTower} from './tower-data.mjs';
 import {normalizeTheme} from './themes.mjs';
@@ -45,4 +46,4 @@ export function summonRoll(dex,gen,random=Math.random){const rarity=selectRarity
 export const {normalizeEquipment,heldItems,combineItems,held,equip,equipSlot,unequip}=equipmentAPI(ITEMS);
 export function lootRoll(random=Math.random){let r=random()*100;const rarity=r<55?'common':r<83?'rare':r<97?'epic':'legendary';const pool=ITEMS.filter(d=>d.rarity===rarity);return pool[Math.min(pool.length-1,Math.floor(random()*pool.length))]}
 export {calcDamage,resolveRaidRound as resolveRound} from './combat-core.mjs';
-export function fighter(dex,key,item={}){const p=dex[idOf(key)];const max=Math.round((70+p.stats[0])*(1+(item.hp||0)));return{key,id:p.id,name:p.name,types:p.types,max,hp:max,atk:Math.round(p.stats[1]*(1+(item.atk||0))),def:Math.round(p.stats[2]*(1+(item.def||0))),spa:Math.round(p.stats[3]*(1+(item.atk||0))),spd:Math.round(p.stats[4]*(1+(item.def||0))),speed:Math.round(p.stats[5]*(1+(item.speed||0))),regen:item.regen||0,moves:p.moves.map(m=>({...m,left:m.pp}))}}
+export function fighter(dex,key,item={}){const p=enrichSpecies(dex[idOf(key)]);const max=Math.round((70+p.stats[0])*(1+(item.hp||0)));return{key,id:p.id,name:p.name,types:p.types,max,hp:max,atk:Math.round(p.stats[1]*(1+(item.atk||0))),def:Math.round(p.stats[2]*(1+(item.def||0))),spa:Math.round(p.stats[3]*(1+(item.atk||0))),spd:Math.round(p.stats[4]*(1+(item.def||0))),speed:Math.round(p.stats[5]*(1+(item.speed||0))),regen:item.regen||0,moves:p.moves.map(m=>({...m,left:m.pp}))}}

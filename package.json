@@ -17,7 +17,7 @@
     "test:conquest-controls": "node conquest-controls-check.cjs",
     "test:conquest-waves": "node conquest-wave-check.cjs",
     "test:conquest-waves-browser": "node conquest-wave-browser-check.cjs",
-    "test:combat": "node combat-strategy-check.cjs",
+    "test:combat": "node showdown-review-check.cjs",
     "test:arena": "node arena-check.cjs",
     "test:combat-browser": "node combat-browser-check.cjs",
     "test:arena-network": "node arena-network-check.cjs",
@@ -49,7 +49,9 @@
     "build": "node build-social.cjs",
     "test:social-profile": "node social-profile-check.cjs",
     "test:social-api": "node social-api-check.cjs",
-    "test:favorite-picker": "node favorite-picker-check.cjs"
+    "test:favorite-picker": "node favorite-picker-check.cjs",
+    "test:showdown": "node showdown-review-check.cjs",
+    "test:showdown-browser": "node showdown-browser-check.cjs"
   },
   "engines": {
     "node": ">=22"

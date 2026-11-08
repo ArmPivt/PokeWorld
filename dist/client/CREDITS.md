@@ -328,3 +328,7 @@ Décor actuel de l’Antre : grotte rocheuse aux reflets violets, dessin Canvas 
 ## Habillage des raids
 
 « La faille des quatre » : composition originale PokéWorld, synthèse locale sans échantillon musical tiers (compose-raid-music.cjs). Introduction, faille individuelle et capture chromatique : scènes Canvas originales (js/raid-scenes.mjs), avec les sprites crédités ci-dessus.
+
+## Pokémon Showdown — capacités, apprentissages et combats
+
+Moteur et données : [Pokémon Showdown](https://github.com/smogon/pokemon-showdown), distribution navigateur [@pkmn/sim 0.10.15](https://github.com/pkmn/ps/tree/main/sim), sous licence MIT. Copies des licences de @pkmn/sim, @pkmn/sets, @pkmn/streams et ts-chacha20 dans licenses/showdown. Le raid asymétrique et les équipements sont des adaptations PokéWorld. Noms et descriptions françaises : [données PokéAPI](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv), instantané dans tools/showdown/fr-moves.json. Provenance et empreinte du moteur : data/showdown-sources.json.
