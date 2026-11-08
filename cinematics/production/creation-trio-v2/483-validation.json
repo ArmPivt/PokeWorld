@@ -1,0 +1,24 @@
+{
+  "species": 483,
+  "duration": 32,
+  "frames": 768,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2315683,
+  "sha256": "3e8fefd2d5ac7d0cbddf2a0c25b1a9c30ee2dc3c192b58f411e5194c244dc165",
+  "music": "Le Premier Battement",
+  "cryAt": 25.4,
+  "cryCorrelation": 0.9963973198704462,
+  "decodedPeak": 0.4412623643875122,
+  "revealAt": 24,
+  "freezeSilentPeak": 0.0,
+  "reverseSourceCorrelation": 1.0,
+  "revision": 2,
+  "bodyBounds": {
+    "left": 172.51754385964912,
+    "right": 307.4824561403509,
+    "top": 33,
+    "bottom": 190
+  }
+}

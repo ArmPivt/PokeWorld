@@ -1,0 +1,22 @@
+{
+  "title": "Le Premier Battement",
+  "original": true,
+  "duration": 32,
+  "revision": 2,
+  "cryAt": 25.4,
+  "freeze": [
+    4.25,
+    5.25
+  ],
+  "reverseAudio": [
+    6.25,
+    10.5
+  ],
+  "reverseSource": [
+    0,
+    4.25
+  ],
+  "reverseCorrelation": 1.0,
+  "freezePeak": 0.0,
+  "unchangedPCMFrom": 11.2
+}

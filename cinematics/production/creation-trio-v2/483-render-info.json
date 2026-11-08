@@ -1,0 +1,24 @@
+{
+  "id": 483,
+  "duration": 32,
+  "layout": {
+    "anchor": {
+      "x": 35.5,
+      "y": 68
+    },
+    "scale": 2.754385964912281,
+    "bounds": {
+      "left": 172.51754385964912,
+      "right": 307.4824561403509,
+      "top": 33,
+      "bottom": 190
+    }
+  },
+  "config": {
+    "name": "Dialga",
+    "title": "Le Premier Battement",
+    "plate": "time.png",
+    "color": "#87e7ff",
+    "dark": "#082a42"
+  }
+}

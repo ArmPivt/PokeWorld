@@ -1,0 +1,24 @@
+{
+  "species": 484,
+  "duration": 32,
+  "frames": 768,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "bytes": 2635181,
+  "sha256": "239ecdcb5f613b57ebe94591f2aaf82f030f7b9b5806bc823aa0bd3e615235d3",
+  "music": "Au-delà des frontières",
+  "cryAt": 25.4,
+  "cryCorrelation": 0.996309046869902,
+  "decodedPeak": 0.4416675567626953,
+  "revealAt": 24,
+  "freezeSilentPeak": null,
+  "reverseSourceCorrelation": null,
+  "revision": 2,
+  "bodyBounds": {
+    "left": 167.4245283018868,
+    "right": 312.57547169811323,
+    "top": 33,
+    "bottom": 190
+  }
+}

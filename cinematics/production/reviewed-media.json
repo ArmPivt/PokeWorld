@@ -458,8 +458,8 @@
   "483": {
     "id": 483,
     "shiny": false,
-    "src": "assets/cinematics/483-appearance-v1.mp4",
-    "poster": "assets/cinematics/483-appearance-v1-poster.png",
+    "src": "assets/cinematics/483-appearance-v2.mp4",
+    "poster": "assets/cinematics/483-appearance-v2-poster.png",
     "duration": 32,
     "width": 960,
     "height": 540,
@@ -468,17 +468,17 @@
     "music": "Le Premier Battement",
     "fps": 24,
     "frameCount": 768,
-    "sha256": "794a5bd19af8def60ead79431a907bfe87215f13b4fcbfad907d9782c08f1b1b",
-    "sourceFile": "cinematics/production/creation-trio-v1/483-appearance-v1.mp4",
+    "sha256": "3e8fefd2d5ac7d0cbddf2a0c25b1a9c30ee2dc3c192b58f411e5194c244dc165",
+    "sourceFile": "cinematics/production/creation-trio-v2/483-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-08",
-    "reviewNote": "Chaîne Rouge avec les trois Crés, faille bleue, temps figé, débris et aiguilles remontant le temps, apparition de Dialga. Musique originale et cri à 25,4 s, révélation à 24 s, 768 images décodées et absence de saturation vérifiées. Poster pris dans l’ouverture sans révéler le légendaire."
+    "reviewNote": "Correction demandée : arrêt réel de l’image et de la musique, horloge, parcours du plan initial à rebours de 4,25 s à 0 avec les échantillons de musique inversés à la même vitesse, flash blanc puis dimension temporelle sans retour au rituel. Tests de transition, 768 images décodées, audio stéréo sans saturation, cri natif et poster sans révélation vérifiés."
   },
   "484": {
     "id": 484,
     "shiny": false,
-    "src": "assets/cinematics/484-appearance-v1.mp4",
-    "poster": "assets/cinematics/484-appearance-v1-poster.png",
+    "src": "assets/cinematics/484-appearance-v2.mp4",
+    "poster": "assets/cinematics/484-appearance-v2-poster.png",
     "duration": 32,
     "width": 960,
     "height": 540,
@@ -487,11 +487,11 @@
     "music": "Au-delà des frontières",
     "fps": 24,
     "frameCount": 768,
-    "sha256": "bf2461bc72349e5b0412ef386ac4a41a44e2701acf7820a9eacd6c714d9dc908",
-    "sourceFile": "cinematics/production/creation-trio-v1/484-appearance-v1.mp4",
+    "sha256": "239ecdcb5f613b57ebe94591f2aaf82f030f7b9b5806bc823aa0bd3e615235d3",
+    "sourceFile": "cinematics/production/creation-trio-v2/484-appearance-v2.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-08",
-    "reviewNote": "Chaîne Rouge avec les trois Crés, failles roses, traversée de portails, profondeur cosmique et planètes, apparition de Palkia. Musique originale et cri à 25,4 s, révélation à 24 s, 768 images décodées et absence de saturation vérifiées. Poster pris dans l’ouverture sans révéler le légendaire."
+    "reviewNote": "Correction demandée : fissures ramifiées de l’écran, éclatement du plan en 80 éclats triangulaires animés sur blanc pur, puis apparition progressive de la dimension spatiale. Tests de transition, 768 images décodées, audio stéréo sans saturation, cri natif et poster sans révélation vérifiés."
   },
   "487": {
     "id": 487,

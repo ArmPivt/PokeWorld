@@ -1,0 +1,9 @@
+{
+  "provider": "built-in imagegen",
+  "images": {
+    "time.png": "exec-9143323a-fb9d-48fa-b23e-2a6b7fb48288.png",
+    "space.png": "exec-82d4ae8b-2e5e-4e87-8331-c8937f9d9654.png",
+    "distortion.png": "exec-6c980dc0-3cbd-47db-9dc5-8e17d35b2a66.png"
+  },
+  "sharedOpening": "lake-guardians-v2/pillar.png; original Red Chain scene"
+}

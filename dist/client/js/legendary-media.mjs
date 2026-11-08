@@ -241,8 +241,8 @@ export const LEGENDARY_MEDIA={
     "music": "La Force de la volonté"
   },
   "483": {
-    "src": "assets/cinematics/483-appearance-v1.mp4",
-    "poster": "assets/cinematics/483-appearance-v1-poster.png",
+    "src": "assets/cinematics/483-appearance-v2.mp4",
+    "poster": "assets/cinematics/483-appearance-v2-poster.png",
     "duration": 32,
     "width": 960,
     "height": 540,
@@ -251,8 +251,8 @@ export const LEGENDARY_MEDIA={
     "music": "Le Premier Battement"
   },
   "484": {
-    "src": "assets/cinematics/484-appearance-v1.mp4",
-    "poster": "assets/cinematics/484-appearance-v1-poster.png",
+    "src": "assets/cinematics/484-appearance-v2.mp4",
+    "poster": "assets/cinematics/484-appearance-v2-poster.png",
     "duration": 32,
     "width": 960,
     "height": 540,
