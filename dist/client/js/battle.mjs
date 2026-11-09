@@ -2,7 +2,7 @@ import {saveStorageKey} from './save-transfer.mjs';
 import {updateRaidHud,cancelRaidScene} from './raid-scenes.mjs';
 import {startRaid,prepareRaidTurn,finishRaid} from './raid-battle.mjs';
 import {canEnterDen,awardDenVictory} from './den.mjs';
-import {canEnterTower,towerFrontier,towerTrainer,TOWER_FLOORS,towerDifficulty,towerDifficultyInfo,towerTraining} from './tower-data.mjs';
+import {canEnterTower,towerFrontier,towerTrainer,TOWER_FLOORS,TOWER_DIFFICULTIES,isTowerDifficultyUnlocked,towerDifficulty,towerDifficultyInfo,towerTraining} from './tower-data.mjs';
 import {awardTowerVictory} from './tower-progression.mjs';
 import {migrate} from './model.mjs';
 import {replacementMarkup} from './replacement.mjs';
@@ -42,6 +42,7 @@ export class TowerBattle {
   if(!this.active||session!==this.session)return;
   const end=g.modeRoot.querySelector('.battle-end');end.hidden=false;g.modeRoot.querySelector('#battle-end-label').textContent=b.win?(b.kind==='den'?'LE BOSS EST VAINCU':b.floor===TOWER_FLOORS?'LE SOMMET EST CONQUIS':'DRESSEUR VAINCU'):'TON ÉQUIPE A TOUT DONNÉ';g.modeRoot.querySelector('#battle-end-title').textContent=b.win?'Victoire !':'Ton équipe est K.O.';g.modeRoot.querySelector('#battle-end-reward').textContent=b.win?(reward?`+${reward.tickets} tickets · +${reward.candies} bonbons · +${reward.coins} poussières d’étoiles · Expérience gagnée`:'Combat rejoué : récompenses déjà obtenues. Aucun gain supplémentaire.'):'Tes Pokémon seront soignés au camp. Change de stratégie et réessaie.';
   if(b.kind==='den')g.denSelected=g.state.denFloor;
+  if(b.win&&reward&&b.kind==='tower'&&b.floor===TOWER_FLOORS){const index=TOWER_DIFFICULTIES.findIndex(d=>d.id===b.towerDifficulty),next=TOWER_DIFFICULTIES[index+1];if(next&&isTowerDifficultyUnlocked(g.state,next.id))g.modeRoot.querySelector('#battle-end-reward').textContent+=' · '+next.name+' débloqué !';}
   if(b.kind==='tower')g.towerSelected=Math.min(TOWER_FLOORS,towerFrontier(g.state));
  }
 

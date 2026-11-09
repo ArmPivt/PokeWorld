@@ -10,12 +10,15 @@ export const towerDifficulty=state=>TOWER_DIFFICULTIES.find(d=>d.id===state?.tow
 export const towerDifficultyInfo=id=>TOWER_DIFFICULTIES.find(d=>d.id===id)||TOWER_DIFFICULTIES[0];
 const track=raw=>{const floor=Math.max(1,Math.min(51,integer(raw?.floor)||1)),done=Array.from({length:floor-1},(_,i)=>i+1);return{floor,cleared:[...done],claimed:[...done]}};
 export function normalizeTower(raw,frontier=1){
- const difficulty=towerDifficulty({tower:raw}),tracks=Object.fromEntries(TOWER_DIFFICULTIES.map(d=>[d.id,track(raw?.tracks?.[d.id]||{floor:d.id==='trainer'?frontier:1})]));
+ let difficulty=towerDifficulty({tower:raw});const tracks=Object.fromEntries(TOWER_DIFFICULTIES.map(d=>[d.id,track(raw?.tracks?.[d.id]||{floor:d.id==='trainer'?frontier:1})]));
+ const candidate={tower:{tracks}};if(!isTowerDifficultyUnlocked(candidate,difficulty))difficulty=isTowerDifficultyUnlocked(candidate,'gym')?'gym':'trainer';
  return{difficulty,tracks,cleared:tracks[difficulty].cleared,claimed:tracks[difficulty].claimed};
 }
 export function towerFrontier(state,difficulty=towerDifficulty(state)){return Math.max(1,Math.min(51,integer(state.tower?.tracks?.[difficulty]?.floor)||(difficulty==='trainer'?integer(state.floor):1)||1))}
-export function setTowerDifficulty(state,id){if(!TOWER_DIFFICULTIES.some(d=>d.id===id))return false;state.tower=normalizeTower(state.tower,state.floor);state.tower.difficulty=id;state.floor=state.tower.tracks[id].floor;state.tower.cleared=state.tower.tracks[id].cleared;state.tower.claimed=state.tower.tracks[id].claimed;return true}
-export function canEnterTower(state,floor,difficulty=towerDifficulty(state)){return TOWER_DIFFICULTIES.some(d=>d.id===difficulty)&&Number.isInteger(floor)&&floor>0&&floor<=50&&floor<=towerFrontier(state,difficulty)}
+export function isTowerDifficultyUnlocked(state,id){if(id==='trainer')return true;if(id==='gym')return towerFrontier(state,'trainer')>TOWER_FLOORS;if(id==='master')return towerFrontier(state,'trainer')>TOWER_FLOORS&&towerFrontier(state,'gym')>TOWER_FLOORS;return false}
+export function towerUnlockHint(state,id){if(isTowerDifficultyUnlocked(state,id))return 'Disponible';const previous=id==='gym'?'trainer':'gym';return 'Termine '+towerDifficultyInfo(previous).name+' · '+Math.min(50,towerFrontier(state,previous)-1)+'/50 étages'}
+export function setTowerDifficulty(state,id){if(!isTowerDifficultyUnlocked(state,id))return false;state.tower=normalizeTower(state.tower,state.floor);state.tower.difficulty=id;state.floor=state.tower.tracks[id].floor;state.tower.cleared=state.tower.tracks[id].cleared;state.tower.claimed=state.tower.tracks[id].claimed;return true}
+export function canEnterTower(state,floor,difficulty=towerDifficulty(state)){return isTowerDifficultyUnlocked(state,difficulty)&&Number.isInteger(floor)&&floor>0&&floor<=50&&floor<=towerFrontier(state,difficulty)}
 export function towerRewards(floor,difficulty='trainer'){const base=floor===50?{tickets:20,candies:20,coins:1000,xp:1000}:floor%10===0?{tickets:5,candies:5,coins:200,xp:30+floor*10}:{tickets:2,candies:2,coins:50,xp:30+floor*10},mult=difficulty==='master'?3:difficulty==='gym'?2:1;return Object.fromEntries(Object.entries(base).map(([k,v])=>[k,v*mult]))}
 const portrait=(name,fallback='red-gen3')=>TRAINER_CATALOG.find(([,label])=>label.split(' · ')[0].toLowerCase()===name.toLowerCase())?.[0]||fallback;
 const gyms=[
