@@ -1,0 +1,44 @@
+[
+  {
+    "key": "146",
+    "file": "146-appearance-v1.mp4",
+    "originalBytes": 13838179,
+    "encodedBytes": 10186762,
+    "frames": 768,
+    "meanBlockSSIM": 0.9907202702015638,
+    "minimumBlockSSIM": 0.9823569059371948,
+    "meanPSNR": 47.93869893326683,
+    "audioBitstreamIdentical": true,
+    "originalSHA256": "dee402dc343d3c84b3a54ed5e56d1faa33bb84a081e6527ff233837b0221dcc3",
+    "encodedSHA256": "2721a82f77d71463d60be7fdf2195f3742cce92c7aa074b987cb4e8e3d647eed",
+    "accepted": true
+  },
+  {
+    "key": "150",
+    "file": "150-appearance-v1.mp4",
+    "originalBytes": 10834671,
+    "encodedBytes": 8841066,
+    "frames": 960,
+    "meanBlockSSIM": 0.9947325378656388,
+    "minimumBlockSSIM": 0.9861235022544861,
+    "meanPSNR": 59.59313547965636,
+    "audioBitstreamIdentical": true,
+    "originalSHA256": "4c2312200f4064aab29de1dcd8581595051fb8b549c28cfa6502c3597f4077bb",
+    "encodedSHA256": "6f540c405eac887527134024a6b34950604984fe433290d65e281d4764a1f4ce",
+    "accepted": true
+  },
+  {
+    "key": "151",
+    "file": "151-appearance-v1.mp4",
+    "originalBytes": 20582233,
+    "encodedBytes": 14676925,
+    "frames": 768,
+    "meanBlockSSIM": 0.9905784521251917,
+    "minimumBlockSSIM": 0.9827531576156616,
+    "meanPSNR": 48.01590201406326,
+    "audioBitstreamIdentical": true,
+    "originalSHA256": "8f8348bd387724d62e9cdf7707b24ae68e40e92e762193c30eb4a566cc00217f",
+    "encodedSHA256": "e655e7592ef10e1b8408fd7508869cc0873d25d99db94b4a0015de95e2504bf7",
+    "accepted": true
+  }
+]

@@ -202,11 +202,27 @@
     "music": "Le Projet Origine",
     "fps": 24,
     "frameCount": 960,
-    "sha256": "4c2312200f4064aab29de1dcd8581595051fb8b549c28cfa6502c3597f4077bb",
+    "sha256": "6f540c405eac887527134024a6b34950604984fe433290d65e281d4764a1f4ce",
     "sourceFile": "cinematics/production/mewtwo-v1/150-appearance-v1.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-06",
-    "reviewNote": "Île et fresque de Mew avec trois scientifiques ; rencontre et prélèvement lumineux d’ADN ; quatre scientifiques et masse violette difforme animée dans l’incubateur ; cinq Métamorph normaux et un véritable sprite chromatique bleu sur fond noir ; explosion sonore à 25,3 s avant le retour dans le laboratoire détruit ; clignotements noirs, flash violet à 34 s, révélation et cri de Mewtwo à 35 s. Musique électronique originale dans l’ambiance du thème fourni ; 960 images et audio décodés, cri et explosion vérifiés."
+    "reviewNote": "Île et fresque de Mew avec trois scientifiques ; rencontre et prélèvement lumineux d’ADN ; quatre scientifiques et masse violette difforme animée dans l’incubateur ; cinq Métamorph normaux et un véritable sprite chromatique bleu sur fond noir ; explosion sonore à 25,3 s avant le retour dans le laboratoire détruit ; clignotements noirs, flash violet à 34 s, révélation et cri de Mewtwo à 35 s. Musique électronique originale dans l’ambiance du thème fourni ; 960 images et audio décodés, cri et explosion vérifiés. Livraison H.264 optimisée le 9 novembre 2026 : durée, résolution et cadence conservées ; audio copié sans réencodage ; comparaison image et son documentée dans delivery-optimization-20261109.json. Original de production conservé.",
+    "deliveryEncoding": {
+      "key": "150",
+      "file": "150-appearance-v1.mp4",
+      "originalBytes": 10834671,
+      "encodedBytes": 8841066,
+      "frames": 960,
+      "meanBlockSSIM": 0.9947325378656388,
+      "minimumBlockSSIM": 0.9861235022544861,
+      "meanPSNR": 59.59313547965636,
+      "audioBitstreamIdentical": true,
+      "originalSHA256": "4c2312200f4064aab29de1dcd8581595051fb8b549c28cfa6502c3597f4077bb",
+      "encodedSHA256": "6f540c405eac887527134024a6b34950604984fe433290d65e281d4764a1f4ce",
+      "accepted": true,
+      "preset": "slow",
+      "crf": 19
+    }
   },
   "151": {
     "id": 151,
@@ -221,11 +237,27 @@
     "music": "L’Ombre de la jungle",
     "fps": 24,
     "frameCount": 768,
-    "sha256": "8f8348bd387724d62e9cdf7707b24ae68e40e92e762193c30eb4a566cc00217f",
+    "sha256": "e655e7592ef10e1b8408fd7508869cc0873d25d99db94b4a0015de95e2504bf7",
     "sourceFile": "cinematics/production/mew-v1/151-appearance-v1.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-06",
-    "reviewNote": "Les six premières secondes de Mewtwo sont conservées, image par image et audio source identique : île, scientifiques et fresque de Mew. Aucun prélèvement d’ADN. Une silhouette noire animée traverse le sol de la jungle, bondit dans la canopée et rejoint une clairière ; Mew rose ne se révèle qu’à la fin. Feuillage au premier plan, trajectoires continues, nouvelle musique originale et véritable cri de Mew à 25,3 s. 768 images décodées, audio sans saturation et corrélation du cri vérifiés."
+    "reviewNote": "Les six premières secondes de Mewtwo sont conservées, image par image et audio source identique : île, scientifiques et fresque de Mew. Aucun prélèvement d’ADN. Une silhouette noire animée traverse le sol de la jungle, bondit dans la canopée et rejoint une clairière ; Mew rose ne se révèle qu’à la fin. Feuillage au premier plan, trajectoires continues, nouvelle musique originale et véritable cri de Mew à 25,3 s. 768 images décodées, audio sans saturation et corrélation du cri vérifiés. Livraison H.264 optimisée le 9 novembre 2026 : durée, résolution et cadence conservées ; audio copié sans réencodage ; comparaison image et son documentée dans delivery-optimization-20261109.json. Original de production conservé.",
+    "deliveryEncoding": {
+      "key": "151",
+      "file": "151-appearance-v1.mp4",
+      "originalBytes": 20582233,
+      "encodedBytes": 14676925,
+      "frames": 768,
+      "meanBlockSSIM": 0.9905784521251917,
+      "minimumBlockSSIM": 0.9827531576156616,
+      "meanPSNR": 48.01590201406326,
+      "audioBitstreamIdentical": true,
+      "originalSHA256": "8f8348bd387724d62e9cdf7707b24ae68e40e92e762193c30eb4a566cc00217f",
+      "encodedSHA256": "e655e7592ef10e1b8408fd7508869cc0873d25d99db94b4a0015de95e2504bf7",
+      "accepted": true,
+      "preset": "veryslow",
+      "crf": 18
+    }
   },
   "144": {
     "id": 144,
@@ -278,11 +310,27 @@
     "music": "Les Ailes de l’aube",
     "fps": 24,
     "frameCount": 768,
-    "sha256": "dee402dc343d3c84b3a54ed5e56d1faa33bb84a081e6527ff233837b0221dcc3",
+    "sha256": "2721a82f77d71463d60be7fdf2195f3742cce92c7aa074b987cb4e8e3d647eed",
     "sourceFile": "cinematics/production/birds-v1/146-appearance-v1.mp4",
     "reviewed": true,
     "reviewedOn": "2026-11-06",
-    "reviewNote": "Une braise rejoint le Mont Braise avant l’aube. Descente dans les rivières de lave, pression du magma puis colonne de flammes dans le cratère. Sulfura s’élève au-dessus du volcan au lever du soleil. Cri à 25,1 s, musique orchestrale originale. Cinq plans, décodage intégral vidéo/audio, cadrage complet des ailes et corrélation du véritable cri vérifiés. Ancrage corporel stable dans toutes les poses."
+    "reviewNote": "Une braise rejoint le Mont Braise avant l’aube. Descente dans les rivières de lave, pression du magma puis colonne de flammes dans le cratère. Sulfura s’élève au-dessus du volcan au lever du soleil. Cri à 25,1 s, musique orchestrale originale. Cinq plans, décodage intégral vidéo/audio, cadrage complet des ailes et corrélation du véritable cri vérifiés. Ancrage corporel stable dans toutes les poses. Livraison H.264 optimisée le 9 novembre 2026 : durée, résolution et cadence conservées ; audio copié sans réencodage ; comparaison image et son documentée dans delivery-optimization-20261109.json. Original de production conservé.",
+    "deliveryEncoding": {
+      "key": "146",
+      "file": "146-appearance-v1.mp4",
+      "originalBytes": 13838179,
+      "encodedBytes": 10186762,
+      "frames": 768,
+      "meanBlockSSIM": 0.9907202702015638,
+      "minimumBlockSSIM": 0.9823569059371948,
+      "meanPSNR": 47.93869893326683,
+      "audioBitstreamIdentical": true,
+      "originalSHA256": "dee402dc343d3c84b3a54ed5e56d1faa33bb84a081e6527ff233837b0221dcc3",
+      "encodedSHA256": "2721a82f77d71463d60be7fdf2195f3742cce92c7aa074b987cb4e8e3d647eed",
+      "accepted": true,
+      "preset": "slow",
+      "crf": 19
+    }
   },
   "250": {
     "id": 250,
