@@ -110,3 +110,6 @@ Tests ciblés : npm run test:legendary-films, npm run test:legendary-films-brows
 Le moteur au tour par tour embarque @pkmn/sim 0.10.15 (Pokémon Showdown). Les 848 capacités standard et les learnsets des 1 025 espèces sont audités. Les niveaux, CT et maîtres des capacités sont séparés ; les sources de reproduction et d’événement ne sont pas débloquées automatiquement. Les variantes en temps réel sont identifiées dans les fiches. Voir docs/showdown.md.
 
 Validation actuelle : `node showdown-review-check.cjs`, `node showdown-browser-check.cjs`, `node pokeworld-check.cjs`, `node progression-check.cjs`, `node pvp-network-check.cjs`, `node raid-check.cjs`, `node raid-presentation-check.cjs`, `node raid-expulsion-network-check.cjs`.
+
+### Importer une partie
+Dans les réglages, choisissez **Importer une sauvegarde**, puis un fichier JSON exporté depuis le jeu. Le résumé permet de vérifier la collection avant confirmation. Une copie locale de la partie remplacée est conservée, restaurable et exportable dans les réglages. Le bouton est aussi disponible avant le choix du starter. Chaque compte NAS utilise son propre espace de sauvegarde. Aucun fichier de partie n’est envoyé au serveur.
