@@ -1,0 +1,28 @@
+{
+  "duration": 32,
+  "cuts": [
+    0,
+    5,
+    9,
+    12,
+    14.2,
+    16.4,
+    18.6,
+    20.8,
+    22,
+    25.2
+  ],
+  "cryAt": 26.3,
+  "revealAt": 25.2,
+  "inscriptions": [
+    "AVANT LE TEMPS",
+    "AVANT L ESPACE",
+    "LA LUMIERE"
+  ],
+  "unownCount": 26,
+  "species": 493,
+  "fps": 24,
+  "frames": 768,
+  "width": 960,
+  "height": 540
+}

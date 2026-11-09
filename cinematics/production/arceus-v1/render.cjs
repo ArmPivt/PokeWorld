@@ -1,0 +1,9 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),{chromium}=require('C:/Users/arman/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const all=process.argv.includes('all'),browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});try{
+ const p=await browser.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:4199');await p.waitForFunction(()=>window.arceusFilm);await p.evaluate(()=>arceusFilm.ready);
+ const info=await p.evaluate(()=>({duration:arceusFilm.duration,cuts:arceusFilm.cuts,cryAt:arceusFilm.cryAt,revealAt:arceusFilm.revealAt,inscriptions:arceusFilm.inscriptions,unownCount:arceusFilm.unownCount}));assert.equal(info.unownCount,26);assert.equal(info.duration,32);Object.assign(info,{species:493,fps:24,frames:768,width:960,height:540});
+ const folder=path.join(__dirname,'493',all?'frames':'previews');fs.mkdirSync(folder,{recursive:true});
+ const times=all?Array.from({length:768},(_,i)=>i/24):[1,4.4,5.8,7.8,10.8,12.8,14.8,17.5,19.6,21.5,23.5,25.5,26.8,28.8,30.8];
+ for(let i=0;i<times.length;i++){const result=await p.evaluate(t=>({state:arceusFilm.render(t),png:document.querySelector('canvas').toDataURL('image/png').split(',')[1]}),times[i]);fs.writeFileSync(path.join(folder,all?String(i).padStart(5,'0')+'.png':times[i].toFixed(2)+'.png'),Buffer.from(result.png,'base64'));if(all&&i%192===0)console.log(JSON.stringify({frame:i,shot:result.state.shot}))}
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(__dirname,'493/render-info.json'),JSON.stringify(info,null,2));console.log('RENDERED Arceus: '+times.length+' frames; 26 Unown letters; no page errors');
+ }finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

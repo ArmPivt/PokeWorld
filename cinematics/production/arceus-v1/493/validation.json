@@ -1,0 +1,20 @@
+{
+  "species": 493,
+  "shiny": false,
+  "duration": 32,
+  "frames": 768,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "384019d1e4a75555b8bf15979ef2706400d0d6ab2da2f33fc320af7c5cc9902b",
+  "bytes": 1799597,
+  "audio": "AAC stereo 48 kHz 96 kb/s",
+  "music": "Avant le premier matin — Le Chant des Origines",
+  "cryAt": 26.3,
+  "cryDuration": 1.6895625,
+  "cryCorrelation": 0.9906483989381508,
+  "decodedPeak": 0.7647477984428406,
+  "unownForms": 26,
+  "revealAt": 25.2,
+  "checks": "768 monotonic video frames and full audio decoded; no clipping; real Arceus cry correlation; all 26 Unown forms loaded; ten cinematic shots."
+}

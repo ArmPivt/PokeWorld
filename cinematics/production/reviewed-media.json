@@ -644,5 +644,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-09",
     "reviewNote": "Temple de Frimapic, exploration subjective à la lampe, inscription puis réunion de Regirock, Regice et Registeel sur trois autels. Sceaux convergents, porte animée et entrée dans le noir. Points lumineux alignés sur la première pose Idle de Regigigas, éclairage du temple et animation Charge avec cri à 22,2 s. 672 images et totalité du son décodées ; absence de saturation et cri vérifiés."
+  },
+  "493": {
+    "id": 493,
+    "shiny": false,
+    "src": "assets/cinematics/493-appearance-v1.mp4",
+    "poster": "assets/cinematics/493-appearance-v1-poster.png",
+    "duration": 32,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Avant le premier matin â€” Le Chant des Origines",
+    "fps": 24,
+    "frameCount": 768,
+    "sha256": "384019d1e4a75555b8bf15979ef2706400d0d6ab2da2f33fc320af7c5cc9902b",
+    "sourceFile": "cinematics/production/arceus-v1/493-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-09",
+    "reviewNote": "Inscriptions utilisant les 26 formes Zarbi officielles : les lettres quittent le mur puis orbitent autour d’un sceau original. Référence Sinjoh visionnée par plans : cercles lumineux et montage cosmique adaptés en pixel art original (galaxie, planète, forêt et vie microscopique). Salle Originelle originale, silhouette de lumière puis Arceus animé et cri à 26,3 s. 768 images et son intégral décodés, absence de saturation et corrélation du cri vérifiées. Aucun extrait visuel ou musical de la référence redistribué."
   }
 }
