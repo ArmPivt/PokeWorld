@@ -1,5 +1,15 @@
 // Only real encoded movies reviewed for the exact Pokémon variant are registered.
 export const LEGENDARY_MEDIA={
+  "494": {
+  "src": "assets/cinematics/494-appearance-v1.mp4",
+  "poster": "assets/cinematics/494-appearance-v1-poster.png",
+  "duration": 30,
+  "width": 960,
+  "height": 540,
+  "provider": "PokéWorld — montage pixel art local",
+  "audio": true,
+  "music": "Le Souffle de la Victoire"
+},
   "493": {
   "src": "assets/cinematics/493-appearance-v1.mp4",
   "poster": "assets/cinematics/493-appearance-v1-poster.png",

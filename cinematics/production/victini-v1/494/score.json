@@ -1,0 +1,20 @@
+{
+  "title": "Le Souffle de la Victoire",
+  "species": 494,
+  "duration": 30,
+  "notes": 177,
+  "music": "Original composition. No sample, transcription or melody from the reference.",
+  "cues": {
+    "castle": 0,
+    "tournament": 4,
+    "victoryEnergy": 6.5,
+    "dragonForce": 9.5,
+    "barrier": 12,
+    "fieryV": 16,
+    "freedom": 19,
+    "appearance": 24.2,
+    "cry": 24.9
+  },
+  "soundfont": "GeneralUser GS 2.0.3",
+  "soundfontSHA256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+}

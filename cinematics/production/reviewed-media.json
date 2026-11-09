@@ -663,5 +663,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-09",
     "reviewNote": "Inscriptions utilisant les 26 formes Zarbi officielles : les lettres quittent le mur puis orbitent autour d’un sceau original. Référence Sinjoh visionnée par plans : cercles lumineux et montage cosmique adaptés en pixel art original (galaxie, planète, forêt et vie microscopique). Salle Originelle originale, silhouette de lumière puis Arceus animé et cri à 26,3 s. 768 images et son intégral décodés, absence de saturation et corrélation du cri vérifiées. Aucun extrait visuel ou musical de la référence redistribué."
+  },
+  "494": {
+    "id": 494,
+    "shiny": false,
+    "src": "assets/cinematics/494-appearance-v1.mp4",
+    "poster": "assets/cinematics/494-appearance-v1-poster.png",
+    "duration": 30,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Souffle de la Victoire",
+    "fps": 24,
+    "frameCount": 720,
+    "sha256": "9c73a06873db33fc1daafc3da1e706c8be39cca535b8a985fa8a28ac3576f9c7",
+    "sourceFile": "cinematics/production/victini-v1/494-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-09",
+    "reviewNote": "Thème de la victoire et inspiration des synopsis du film : Épée du Val, tournoi et énergie du château. Combat original Pikachu/Grolem avec victoire par Queue de Fer physique ; aide dorée invisible, barrière du château et V lumineux. Retour au festival, Victini normal animé, petits sauts, confettis et cri à 24,9 s. 720 images décodées, son intégral sans saturation, corrélation du cri vérifiée. Images et musique originales, aucun extrait du film."
   }
 }

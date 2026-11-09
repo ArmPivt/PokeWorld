@@ -1,0 +1,19 @@
+{
+  "species": 494,
+  "shiny": false,
+  "duration": 30,
+  "frames": 720,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "9c73a06873db33fc1daafc3da1e706c8be39cca535b8a985fa8a28ac3576f9c7",
+  "bytes": 1673163,
+  "audio": "AAC stereo 48 kHz 96 kb/s",
+  "music": "Le Souffle de la Victoire",
+  "cryAt": 24.9,
+  "cryDuration": 0.7822083333333333,
+  "cryCorrelation": 0.9770672213072787,
+  "decodedPeak": 0.7734342813491821,
+  "revealAt": 24.2,
+  "checks": "720 monotonic video frames and full audio decoded; no clipping; real Victini cry correlation; nine cinematic shots; physical Iron Tail finish."
+}
