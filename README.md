@@ -113,3 +113,6 @@ Validation actuelle : `node showdown-review-check.cjs`, `node showdown-browser-c
 
 ### Importer une partie
 Dans les réglages, choisissez **Importer une sauvegarde**, puis un fichier JSON exporté depuis le jeu. Le résumé permet de vérifier la collection avant confirmation. Une copie locale de la partie remplacée est conservée, restaurable et exportable dans les réglages. Le bouton est aussi disponible avant le choix du starter. Chaque compte NAS utilise son propre espace de sauvegarde. Aucun fichier de partie n’est envoyé au serveur.
+
+### Générations et difficultés de la Tour
+Le profil permet de filtrer les sprites de dresseurs par génération parmi les styles 2D disponibles (générations 1 à 5), en combinaison avec la recherche. La Tour propose Dresseur (débutant), Champions d’arènes (intermédiaire) et Maître de ligue (impossible). Chaque difficulté possède 50 étages et ses propres premières récompenses, multipliées par 1, 2 ou 3. Les anciennes parties conservent leur progression dans Dresseur. Les combats capturent leur difficulté au lancement pour attribuer les gains à la bonne campagne. Le niveau, les équipes, les IV, les EV et les natures adverses dépendent du niveau de difficulté. Les futurs étages restent scellés et les anciens combats restent rejouables sans gains supplémentaires.
