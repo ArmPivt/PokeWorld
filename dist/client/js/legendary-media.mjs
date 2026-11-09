@@ -1,5 +1,15 @@
 // Only real encoded movies reviewed for the exact Pokémon variant are registered.
 export const LEGENDARY_MEDIA={
+  "486": {
+  "src": "assets/cinematics/486-appearance-v1.mp4",
+  "poster": "assets/cinematics/486-appearance-v1-poster.png",
+  "duration": 28,
+  "width": 960,
+  "height": 540,
+  "provider": "PokéWorld — montage pixel art local",
+  "audio": true,
+  "music": "Le Serment des Trois Sceaux"
+},
   "384": {
     "src": "assets/cinematics/384-appearance-v2.mp4",
     "poster": "assets/cinematics/384-appearance-v2-poster.png",

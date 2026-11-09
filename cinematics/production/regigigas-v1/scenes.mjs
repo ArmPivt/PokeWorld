@@ -1,0 +1,32 @@
+const selected=486,REVEAL=21.5,CRY=22.2,CUTS=[0,5,7,11.2,13,16,18,21.5];
+const FACE=[[32,17],[30,19],[34,19],[32,22],[32,25]],SCALE=4,FOOT=232;
+const colors=['#f8b268','#a8ebff','#dce6eb'];
+function fade(a,color='#000'){px(0,0,W,H,color,clamp(a))}
+function polygon(points,color,alpha=1){c.save();c.globalAlpha=alpha;c.fillStyle=color;c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();c.fill();c.restore()}
+function caption(text,alpha=1){c.save();c.globalAlpha=clamp(alpha);c.font='8px monospace';c.textAlign='center';c.fillStyle='#070b13';c.fillRect(12,241,456,18);c.fillStyle='#ece5c9';c.fillText(text,240,253);c.restore()}
+function lampMask(x,y,r=125){for(let yy=0;yy<H;yy+=4)for(let xx=0;xx<W;xx+=4){const dist=Math.hypot((xx-x)/1.2,yy-y),p=clamp((dist-r*.26)/(r*.85));px(xx,yy,4,4,'#010307',.2+Math.round(p*7)/7*.78)}}
+function torch(t,alpha=1){c.save();c.translate(Math.sin(t*2.4)*2,Math.cos(t*2));polygon([[405,270],[384,244],[399,231],[432,270]],'#694c3b',alpha);polygon([[392,256],[378,238],[389,229],[408,250]],'#bb946c',alpha);polygon([[382,242],[354,218],[362,207],[393,229]],'#1a2630',alpha);polygon([[354,218],[351,209],[360,201],[370,204],[363,216]],'#667584',alpha);polygon([[354,209],[359,204],[365,206],[360,212]],'#f7dfaa',alpha);c.restore()}
+const BRAILLE={a:'1',b:'12',c:'14',d:'145',e:'15',f:'124',g:'1245',h:'125',i:'24',j:'245',k:'13',l:'123',m:'134',n:'1345',o:'135',p:'1234',q:'12345',r:'1235',s:'234',t:'2345',u:'136',v:'1236',w:'2456',x:'1346',y:'13456',z:'1356'};
+function runes(){['roche glace acier','reunis le colosse'].forEach((line,row)=>{const x=240-line.length*3;[...line].forEach((a,i)=>{for(const d of BRAILLE[a]||''){const n=+d-1;px(x+i*6+Math.floor(n/3)*2,113+row*9+n%3*2,1,1,'#d4d8ce')}})})}
+function arch(){c.beginPath();c.moveTo(169,174);c.lineTo(169,102);c.bezierCurveTo(169,34,309,34,309,102);c.lineTo(309,174);c.closePath()}
+function gate(p,t){c.save();arch();c.clip();px(168,46,142,130,'#000');for(let side=0;side<2;side++){c.save();c.translate((side?1:-1)*ease(p)*78,0);const x=169+side*70;px(x,47,70,127,'#434d67');for(let y=50;y<174;y+=17){for(let xx=x-10+(Math.floor(y/17)%2)*20;xx<x+70;xx+=35){px(xx,y,33,15,'#515d79');px(xx,y,33,1,'#7a88a3');px(xx,y+14,33,1,'#27384e')}}px(side?240:237,49,3,125,'#263245');c.save();c.beginPath();c.rect(x,47,70,127);c.clip();runes();c.restore();c.restore()}c.restore();
+ if(t>=11.2&&p<.95){const power=ease((t-11.2)/1.4)*(1-p);glow(240,94,24,'#fff0ac',power);ellipse(240,94,7,7,'#faf1c2',power);for(let i=0;i<12;i++){const a=i*Math.PI/6+t*.5;px(240+Math.cos(a)*20,94+Math.sin(a)*20,2,2,'#fff1bc',power)}}}
+function sigil(x,y,i,p,t){const color=colors[i];glow(x,y,22,color,p*.5);c.save();c.globalAlpha=p*.8;c.strokeStyle=color;c.lineWidth=1;c.beginPath();c.ellipse(x,y,26,6,0,0,Math.PI*2);c.stroke();c.restore();for(let n=0;n<8;n++){const a=n*Math.PI/4+t*.5;px(x+Math.cos(a)*22,y+Math.sin(a)*5,2,1,color,p)}}
+function seals(t){const ids=[377,378,379],xs=[120,240,360],ys=[207,220,207];ids.forEach((id,i)=>{const born=7+i*1.2,p=ease((t-born)/.65);if(!p)return;const y=ys[i];sigil(xs[i],y,i,p,t);const phase=t-born;mon(id,'Idle',0,xs[i],y,1.45,phase*.7,{alpha:p});if(phase<.8){glow(xs[i],y-22,29,colors[i],Math.sin(clamp(phase/.8)*Math.PI));for(let j=0;j<11;j++)px(xs[i]-18+j*3,y-(phase*65+j*7)%56,1,4,colors[i],1-phase/.8)}if(t>=11.2){const q=ease((t-11.2)/1.2),end=[mix(xs[i],240,q),mix(y-25,94,q)];c.save();c.globalAlpha=.6;c.strokeStyle=colors[i];c.lineWidth=2;c.beginPath();c.moveTo(xs[i],y-25);c.lineTo(...end);c.stroke();c.restore();glow(...end,6,colors[i],.5)}})}
+function hall(t){const walk=clamp(t/5),zoom=mix(.94,1,ease(walk));c.save();camera(zoom,240,135,t<5?.45:t>12.9&&t<16?.7:0,t);background('486-temple.png');gate(clamp((t-13)/2.5),t);seals(t);c.restore();
+ const lx=t<3?170+Math.sin(t*1.5)*105:t<7?240:t<11.2?mix(120,360,clamp((t-7)/3.2)):240,ly=t<5?110+Math.cos(t*1.8)*26:t<7?117:t<11.2?169:100;
+ lampMask(lx,ly,t<7?125:180);torch(t);
+ if(t>=5&&t<7)caption('Reunis la roche, la glace et l’acier.',Math.sin((t-5)/2*Math.PI));
+ if(t>=7&&t<10.8){const i=Math.min(2,Math.floor((t-7)/1.2));caption(['Regirock…','Regice…','Registeel…'][i],Math.sin(clamp((t-(7+i*1.2))/1.2)*Math.PI))}
+ if(t>=11.5&&t<13)caption('Les trois sceaux repondent.',Math.sin((t-11.5)/1.5*Math.PI));
+ if(t<.5)fade(1-t/.5);
+}
+function enter(t){c.save();camera(1+ease(t/2)*4,240,108);background('486-temple.png');gate(1,16+t);c.restore();if(t<1.5){lampMask(240,110,110);torch(t+16,1-ease(t/1.5))}fade(ease((t-.65)/1.1))}
+function faceLights(t,alpha=1){const f=frameInfo(486,'Idle',0,0,true),xx=240-f.cx*SCALE,yy=FOOT-f.bottom*SCALE,n=Math.floor(clamp(t/1.8)*FACE.length);FACE.forEach(([x,y],i)=>{if(i>=n)return;const wx=xx+(x+.5)*SCALE,wy=yy+(y+.5)*SCALE;glow(wx,wy,4,'#ffed95',alpha*.25);px(xx+x*SCALE,yy+y*SCALE,SCALE,SCALE,'#fff0b4',alpha*(.7+.3*Math.sin(t*3+i)**2))})}
+function reveal(t){c.save();if(t>.7&&t<1.4)c.translate(Math.sin(t*75)*(1.4-t),Math.cos(t*62)*.35);background('486-temple.png',1.18,0,3);fade(.22,'#0a1019');ellipse(240,234,72,9,'#000',.6);const kind=t>.7&&t<2.2?'Charge':'Idle',ft=kind==='Charge'?(t-.7)*.18:t<.7?0:t-2.2;mon(486,kind,0,240,FOOT,SCALE,ft,{oneShot:kind==='Charge'||t<.7});c.restore();
+ for(let i=0;i<24;i++){const x=hash(i,2)*480,y=(hash(i,3)*270+t*7)%270;px(x,y,1,1,'#c4d9e6',.25)}
+ fade(1-ease(t/.35));if(t<.65)faceLights(3,1-ease((t-.25)/.4));if(t>.35&&t<1.05){const p=Math.sin((t-.35)/.7*Math.PI);glow(240,176,80,'#f6e3a5',p*.3)}
+}
+function render(time){const t=clamp(time,0,DURATION-.0001);c.setTransform(1,0,0,1,0,0);c.globalAlpha=1;c.imageSmoothingEnabled=false;c.clearRect(0,0,W,H);let shot;if(t<16){shot=t<5?1:t<7?2:t<13?3:4;hall(t)}else if(t<18){shot=5;enter(t-16)}else if(t<REVEAL){shot=6;fade(1);faceLights(t-18)}else{shot=7;reveal(t-REVEAL)}if(t>27.4)fade(ease((t-27.4)/.6));out.imageSmoothingEnabled=false;out.clearRect(0,0,output.width,output.height);out.drawImage(stage,0,0,output.width,output.height);return{time:t,shot,species:486,onlyFaceLights:t>=18&&t<REVEAL}}
+const ready=(async()=>{sprites=await(await fetch('sprites.json')).json();await Promise.all([...new Set(Object.values(sprites).flatMap(m=>Object.values(m).map(a=>a.src)))].map(load));await load('486-temple.png');document.querySelector('#status').hidden=true;render(0)})();
+window.regisFilm={ready,duration:DURATION,render,cuts:CUTS,cryAt:CRY,revealAt:REVEAL,species:selected,eyePoints:()=>FACE};await ready;

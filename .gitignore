@@ -14,3 +14,5 @@ dist/.openai/
 
 # Local NAS delivery package is distributed separately from Sites.
 deployment-nas/
+
+cinematics/production/regigigas-v1/486/frames/

@@ -1,0 +1,21 @@
+{
+  "species": 486,
+  "shiny": false,
+  "duration": 28,
+  "frames": 672,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "sha256": "2f5710bc11a4c921049b1ee7bbdbb7099e9108ea9e3cee07cc73b96e2e67fd5b",
+  "bytes": 1359218,
+  "audio": "AAC stereo 48 kHz 96 kb/s",
+  "music": "Le Serment des Trois Sceaux",
+  "cryAt": 22.2,
+  "cryDuration": 2.0024583333333332,
+  "cryCorrelation": 0.9680553007019487,
+  "decodedPeak": 0.7747033834457397,
+  "facePoints": 5,
+  "darkLitPixelFraction": 0.001851851851851852,
+  "revealAt": 21.5,
+  "checks": "672 monotonic video frames and full audio decoded; no clipping; real species cry correlation; source-aligned face points; dark room contains only face-light pixels."
+}

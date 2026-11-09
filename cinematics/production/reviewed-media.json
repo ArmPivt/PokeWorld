@@ -625,5 +625,24 @@
     "reviewed": true,
     "reviewedOn": "2026-11-09",
     "reviewNote": "Révision du cauchemar : présence et mains à la fenêtre, arbres aux visages menaçants, grande silhouette et ombres mobiles. Beau rêve surréaliste avec îlots flottants et papillons. Le cauchemar initial et son bruitage se retirent vers un rêve lumineux. Son original renforcé, cri conservé, 720 images décodées et absence de saturation vérifiés."
+  },
+  "486": {
+    "id": 486,
+    "shiny": false,
+    "src": "assets/cinematics/486-appearance-v1.mp4",
+    "poster": "assets/cinematics/486-appearance-v1-poster.png",
+    "duration": 28,
+    "width": 960,
+    "height": 540,
+    "provider": "PokéWorld — montage pixel art local",
+    "audio": true,
+    "music": "Le Serment des Trois Sceaux",
+    "fps": 24,
+    "frameCount": 672,
+    "sha256": "2f5710bc11a4c921049b1ee7bbdbb7099e9108ea9e3cee07cc73b96e2e67fd5b",
+    "sourceFile": "cinematics/production/regigigas-v1/486-appearance-v1.mp4",
+    "reviewed": true,
+    "reviewedOn": "2026-11-09",
+    "reviewNote": "Temple de Frimapic, exploration subjective à la lampe, inscription puis réunion de Regirock, Regice et Registeel sur trois autels. Sceaux convergents, porte animée et entrée dans le noir. Points lumineux alignés sur la première pose Idle de Regigigas, éclairage du temple et animation Charge avec cri à 22,2 s. 672 images et totalité du son décodées ; absence de saturation et cri vérifiés."
   }
 }
